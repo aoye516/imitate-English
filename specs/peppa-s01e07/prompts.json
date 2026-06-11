@@ -1,0 +1,86 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e07",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "computer",
+      "subject": "a simple desktop computer with keyboard and mouse on a desk, no readable text on screen"
+    },
+    {
+      "lemma": "work",
+      "subject": "an adult pig sitting at a desk working seriously on a computer, focused pose"
+    },
+    {
+      "lemma": "chicken",
+      "subject": "a small yellow chick standing on the ground, cute round body, tiny beak"
+    },
+    {
+      "lemma": "touch",
+      "subject": "a small hand reaching toward a computer button, warning-like careful gesture"
+    },
+    {
+      "lemma": "mend",
+      "subject": "a friendly adult fixing a broken computer with a small screwdriver, repair scene"
+    },
+    {
+      "lemma": "important",
+      "subject": "a red exclamation mark symbol inside a glowing badge, serious important feeling, no text"
+    },
+    {
+      "lemma": "lunch",
+      "subject": "a lunch plate with sandwich, fruit, and cup on a small table, cheerful meal"
+    },
+    {
+      "lemma": "disturb",
+      "subject": "a child animal interrupting an adult at a desk, adult looks mildly distracted"
+    },
+    {
+      "lemma": "finish",
+      "subject": "a completed checklist with a big green checkmark, no readable words"
+    },
+    {
+      "lemma": "ask",
+      "subject": "a child animal raising one hand with a question bubble containing no text"
+    },
+    {
+      "lemma": "later",
+      "subject": "a small clock and a child animal waiting calmly, later feeling, no text"
+    },
+    {
+      "lemma": "long",
+      "subject": "a long winding path stretching across the scene, length contrast, no text"
+    },
+    {
+      "lemma": "thank",
+      "subject": "a child animal offering a small heart with grateful smile, no text"
+    },
+    {
+      "lemma": "either",
+      "subject": "two choices side by side with a child animal shrugging between them, no text"
+    },
+    {
+      "lemma": "disc",
+      "subject": "a shiny round computer disc on a desk, no text"
+    },
+    {
+      "lemma": "said",
+      "subject": "a speech bubble with no letters near a character who has just spoken, no text"
+    },
+    {
+      "lemma": "switch",
+      "subject": "a simple light switch being pressed by a small hand, no text"
+    },
+    {
+      "lemma": "quietly",
+      "subject": "a child animal tiptoeing quietly with finger to lips, no text"
+    },
+    {
+      "lemma": "expert",
+      "subject": "a confident adult animal wearing glasses pointing to a tool or chart, expert feeling, no text"
+    }
+  ]
+}

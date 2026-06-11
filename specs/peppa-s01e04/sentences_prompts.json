@@ -1,0 +1,160 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Peppa and George are visiting Granny Pig and Grandpa Pig.",
+      "meaning_zh": "Peppa和George去看猪奶奶和猪爷爷。",
+      "subject": "a warm children's cartoon story scene showing: Peppa和George去看猪奶奶和猪爷爷。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:39.040",
+      "time_end": "00:00:43.540",
+      "chunks": [
+        "granny_pig",
+        "grandpa_pig"
+      ],
+      "key_words": [
+        "granny",
+        "grandpa"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "Granny Pig has a pet parrot.",
+      "meaning_zh": "猪奶奶有一只宠物鹦鹉。",
+      "subject": "a warm children's cartoon story scene showing: 猪奶奶有一只宠物鹦鹉。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:04.960",
+      "time_end": "00:01:09.460",
+      "chunks": [
+        "a_pet_parrot"
+      ],
+      "key_words": [
+        "granny",
+        "pet",
+        "parrot"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "Polly Parrot is very pretty.",
+      "meaning_zh": "鹦鹉Polly很漂亮。",
+      "subject": "a warm children's cartoon story scene showing: 鹦鹉Polly很漂亮。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:12.240",
+      "time_end": "00:01:16.740",
+      "chunks": [
+        "polly_parrot"
+      ],
+      "key_words": [
+        "polly",
+        "parrot",
+        "pretty"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "Polly is a clever parrot.",
+      "meaning_zh": "Polly是一只聪明的鹦鹉。",
+      "subject": "a warm children's cartoon story scene showing: Polly是一只聪明的鹦鹉。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:19.440",
+      "time_end": "00:02:23.940",
+      "chunks": [
+        "clever_parrot"
+      ],
+      "key_words": [
+        "polly",
+        "clever",
+        "parrot"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "Polly can copy what you say.",
+      "meaning_zh": "Polly会模仿你说的话。",
+      "subject": "a warm children's cartoon story scene showing: Polly会模仿你说的话。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:30.040",
+      "time_end": "00:01:34.540",
+      "chunks": [
+        "copy_what_you_say"
+      ],
+      "key_words": [
+        "copy",
+        "say"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "Peppa says hello to Polly.",
+      "meaning_zh": "Peppa跟Polly打招呼。",
+      "subject": "a warm children's cartoon story scene showing: Peppa跟Polly打招呼。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:32.799",
+      "time_end": "00:01:37.299",
+      "chunks": [
+        "polly_parrot"
+      ],
+      "key_words": [
+        "say",
+        "polly"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "Polly is very noisy.",
+      "meaning_zh": "Polly非常吵。",
+      "subject": "a warm children's cartoon story scene showing: Polly非常吵。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:39.319",
+      "time_end": "00:03:43.819",
+      "chunks": [
+        "very_noisy"
+      ],
+      "key_words": [
+        "polly",
+        "noisy"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "Granny Pig gives everyone cake.",
+      "meaning_zh": "猪奶奶给大家蛋糕。",
+      "subject": "a warm children's cartoon story scene showing: 猪奶奶给大家蛋糕。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:00.680",
+      "time_end": "00:02:05.180",
+      "chunks": [
+        "have_some_cake"
+      ],
+      "key_words": [
+        "granny",
+        "cake"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "Polly wants some cake too.",
+      "meaning_zh": "Polly也想吃蛋糕。",
+      "subject": "a warm children's cartoon story scene showing: Polly也想吃蛋糕。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:03.159",
+      "time_end": "00:02:07.659",
+      "chunks": [
+        "have_some_cake"
+      ],
+      "key_words": [
+        "polly",
+        "cake",
+        "want"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Peppa thinks Polly is sweet.",
+      "meaning_zh": "Peppa觉得Polly很可爱。",
+      "subject": "a warm children's cartoon story scene showing: Peppa觉得Polly很可爱。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:37.280",
+      "time_end": "00:01:41.780",
+      "chunks": [
+        "polly_parrot"
+      ],
+      "key_words": [
+        "polly",
+        "sweet"
+      ]
+    }
+  ]
+}

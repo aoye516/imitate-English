@@ -1,0 +1,94 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e10",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "grow",
+      "subject": "a small green sprout growing upward from soil with motion lines and sunlight"
+    },
+    {
+      "lemma": "seed",
+      "subject": "several tiny brown seeds in an open palm, close-up, simple natural object"
+    },
+    {
+      "lemma": "plant",
+      "subject": "a small green plant with two leaves growing in a pot of soil"
+    },
+    {
+      "lemma": "strawberry",
+      "subject": "a bright red strawberry with green leaves, juicy and centered"
+    },
+    {
+      "lemma": "apple",
+      "subject": "a shiny red apple with one green leaf, centered on white background"
+    },
+    {
+      "lemma": "carrot",
+      "subject": "an orange carrot with leafy green top, centered"
+    },
+    {
+      "lemma": "choose",
+      "subject": "a child animal pointing between two baskets of fruit, choosing gesture"
+    },
+    {
+      "lemma": "tiny",
+      "subject": "a tiny sprout next to a much larger plant for size contrast, tiny one highlighted"
+    },
+    {
+      "lemma": "water",
+      "subject": "a watering can pouring water onto a small plant, gentle blue droplets"
+    },
+    {
+      "lemma": "bigger",
+      "subject": "a small sprout beside a larger plant with upward growth arrow, no text"
+    },
+    {
+      "lemma": "earth",
+      "subject": "a small mound of brown garden soil with crumbly texture, centered"
+    },
+    {
+      "lemma": "hole",
+      "subject": "a small round hole dug in garden soil, viewed from above"
+    },
+    {
+      "lemma": "wait",
+      "subject": "a child animal sitting patiently beside a flower pot, watching it quietly"
+    },
+    {
+      "lemma": "day",
+      "subject": "a bright sun rising over a small hill, daytime feeling, no text"
+    },
+    {
+      "lemma": "cover",
+      "subject": "two hands covering planted seeds with brown soil, no text"
+    },
+    {
+      "lemma": "house",
+      "subject": "a small cozy house with door, windows, and garden path, centered, no text"
+    },
+    {
+      "lemma": "even",
+      "subject": "a surprised child animal pointing at an extra unexpected object, even more feeling, no text"
+    },
+    {
+      "lemma": "exactly",
+      "subject": "a puzzle piece fitting perfectly into place, exact match feeling, no text"
+    },
+    {
+      "lemma": "grown",
+      "subject": "a plant shown grown tall from a tiny seed, before-after growth feeling, no text"
+    },
+    {
+      "lemma": "special",
+      "subject": "one shiny special object highlighted among plain objects with sparkles, no text"
+    },
+    {
+      "lemma": "bye",
+      "subject": "a child animal waving goodbye while walking away, no text"
+    }
+  ]
+}

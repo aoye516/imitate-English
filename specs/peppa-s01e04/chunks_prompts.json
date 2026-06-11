@@ -1,0 +1,148 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "polly_parrot",
+      "text": "Polly Parrot",
+      "subject": "a clear child-friendly illustration of the phrase 'Polly Parrot' meaning 鹦鹉Polly, no written words, one simple action, expressive characters",
+      "meaning_zh": "鹦鹉Polly",
+      "covers_words": [
+        "polly",
+        "parrot"
+      ]
+    },
+    {
+      "id": "granny_pig",
+      "text": "Granny Pig",
+      "subject": "a clear child-friendly illustration of the phrase 'Granny Pig' meaning 猪奶奶, no written words, one simple action, expressive characters",
+      "meaning_zh": "猪奶奶",
+      "covers_words": [
+        "granny"
+      ]
+    },
+    {
+      "id": "grandpa_pig",
+      "text": "Grandpa Pig",
+      "subject": "a clear child-friendly illustration of the phrase 'Grandpa Pig' meaning 猪爷爷, no written words, one simple action, expressive characters",
+      "meaning_zh": "猪爷爷",
+      "covers_words": [
+        "grandpa"
+      ]
+    },
+    {
+      "id": "a_pet_parrot",
+      "text": "a pet parrot",
+      "subject": "a clear child-friendly illustration of the phrase 'a pet parrot' meaning 宠物鹦鹉, no written words, one simple action, expressive characters",
+      "meaning_zh": "宠物鹦鹉",
+      "covers_words": [
+        "pet",
+        "parrot"
+      ]
+    },
+    {
+      "id": "very_noisy",
+      "text": "very noisy",
+      "subject": "a clear child-friendly illustration of the phrase 'very noisy' meaning 非常吵, no written words, one simple action, expressive characters",
+      "meaning_zh": "非常吵",
+      "covers_words": [
+        "noisy"
+      ]
+    },
+    {
+      "id": "clever_parrot",
+      "text": "clever parrot",
+      "subject": "a clear child-friendly illustration of the phrase 'clever parrot' meaning 聪明的鹦鹉, no written words, one simple action, expressive characters",
+      "meaning_zh": "聪明的鹦鹉",
+      "covers_words": [
+        "clever",
+        "parrot"
+      ]
+    },
+    {
+      "id": "have_some_cake",
+      "text": "have some cake",
+      "subject": "a clear child-friendly illustration of the phrase 'have some cake' meaning 吃点蛋糕, no written words, one simple action, expressive characters",
+      "meaning_zh": "吃点蛋糕",
+      "covers_words": [
+        "cake"
+      ]
+    },
+    {
+      "id": "copy_what_you_say",
+      "text": "copy what you say",
+      "subject": "a clear child-friendly illustration of the phrase 'copy what you say' meaning 模仿你说的话, no written words, one simple action, expressive characters",
+      "meaning_zh": "模仿你说的话",
+      "covers_words": [
+        "copy",
+        "say"
+      ]
+    },
+    {
+      "id": "something_else",
+      "text": "something else",
+      "meaning_zh": "别的东西",
+      "subject": "a clear child-friendly illustration of the phrase 'something else' meaning 别的东西, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "something",
+        "else"
+      ]
+    },
+    {
+      "id": "come_inside",
+      "text": "come inside",
+      "meaning_zh": "进到里面来",
+      "subject": "a clear child-friendly illustration of the phrase 'come inside' meaning 进到里面来, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "inside",
+        "come"
+      ]
+    },
+    {
+      "id": "leave_home",
+      "text": "leave home",
+      "meaning_zh": "离开家",
+      "subject": "a clear child-friendly illustration of the phrase 'leave home' meaning 离开家, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "leave"
+      ]
+    },
+    {
+      "id": "family_visit",
+      "text": "family visit",
+      "meaning_zh": "家人拜访",
+      "subject": "a clear child-friendly illustration of the phrase 'family visit' meaning 家人拜访, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "family",
+        "visit"
+      ]
+    },
+    {
+      "id": "have_tea",
+      "text": "have tea",
+      "meaning_zh": "喝茶",
+      "subject": "a clear child-friendly illustration of the phrase 'have tea' meaning 喝茶, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "tea"
+      ]
+    },
+    {
+      "id": "a_nice_surprise",
+      "text": "a nice surprise",
+      "meaning_zh": "一个惊喜",
+      "subject": "a clear child-friendly illustration of the phrase 'a nice surprise' meaning 一个惊喜, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "surprise"
+      ]
+    },
+    {
+      "id": "new_pet",
+      "text": "new pet",
+      "meaning_zh": "新宠物",
+      "subject": "a clear child-friendly illustration of the phrase 'new pet' meaning 新宠物, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "new",
+        "pet"
+      ]
+    }
+  ]
+}

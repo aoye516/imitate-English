@@ -1,0 +1,31 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated/intermediate production workspace
+out/
+sources/
+.archive/
+v1.0-snapshot/
+
+# Large original image/video sources; runtime uses webp/mp3/mp4 assets.
+assets/**/*.png
+assets/**/*.webm
+assets/**/*.f*.mp4
+
+# Legacy scripts contain historical local-only implementation details.
+scripts/legacy/
+
+# Local notes/logs
+*.log
+
+# Local agent handoff / deployment notes. Keep private; README is public docs.
+CLAUDE.md
+
+# Private product/deployment docs
+PRD_*.md

@@ -1,0 +1,150 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Peppa and George are playing hide and seek.",
+      "meaning_zh": "Peppa和George在玩捉迷藏。",
+      "subject": "a warm children's cartoon story scene showing: Peppa和George在玩捉迷藏。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:32.040",
+      "time_end": "00:00:36.540",
+      "chunks": [
+        "hide_and_seek"
+      ],
+      "key_words": [
+        "hide",
+        "seek"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "It is George's turn to hide.",
+      "meaning_zh": "轮到George藏了。",
+      "subject": "a warm children's cartoon story scene showing: 轮到George藏了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:32.040",
+      "time_end": "00:00:36.540",
+      "chunks": [
+        "your_turn"
+      ],
+      "key_words": [
+        "turn",
+        "hide"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "Peppa must count to ten.",
+      "meaning_zh": "Peppa必须数到十。",
+      "subject": "a warm children's cartoon story scene showing: Peppa必须数到十。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:59.200",
+      "time_end": "00:03:03.700",
+      "chunks": [
+        "count_to_ten"
+      ],
+      "key_words": [
+        "count"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "Peppa closes her eyes.",
+      "meaning_zh": "Peppa闭上眼睛。",
+      "subject": "a warm children's cartoon story scene showing: Peppa闭上眼睛。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:46.000",
+      "time_end": "00:01:50.500",
+      "chunks": [
+        "close_your_eyes"
+      ],
+      "key_words": [
+        "eye"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "George is hiding somewhere.",
+      "meaning_zh": "George藏在某个地方。",
+      "subject": "a warm children's cartoon story scene showing: George藏在某个地方。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:35.840",
+      "time_end": "00:00:40.340",
+      "chunks": [
+        "hide_and_seek"
+      ],
+      "key_words": [
+        "hide",
+        "somewhere"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "Is he behind the table?",
+      "meaning_zh": "他在桌子后面吗？",
+      "subject": "a warm children's cartoon story scene showing: 他在桌子后面吗？, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:04:32.639",
+      "time_end": "00:04:37.139",
+      "chunks": [
+        "behind_the_table"
+      ],
+      "key_words": [
+        "behind",
+        "table"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "Is he in the basket?",
+      "meaning_zh": "他在篮子里吗？",
+      "subject": "a warm children's cartoon story scene showing: 他在篮子里吗？, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:50.280",
+      "time_end": "00:03:54.780",
+      "chunks": [
+        "in_the_basket"
+      ],
+      "key_words": [
+        "basket"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "Daddy Pig is behind the newspaper.",
+      "meaning_zh": "猪爸爸躲在报纸后面。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸躲在报纸后面。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:04:35.199",
+      "time_end": "00:04:39.699",
+      "chunks": [
+        "behind_the_newspaper"
+      ],
+      "key_words": [
+        "behind",
+        "newspaper"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "George is ready to be found.",
+      "meaning_zh": "George准备好被找到了。",
+      "subject": "a warm children's cartoon story scene showing: George准备好被找到了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:51.960",
+      "time_end": "00:00:56.460",
+      "chunks": [
+        "are_you_ready"
+      ],
+      "key_words": [
+        "ready"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Peppa has found George.",
+      "meaning_zh": "Peppa找到George了。",
+      "subject": "a warm children's cartoon story scene showing: Peppa找到George了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:35.840",
+      "time_end": "00:00:40.340",
+      "chunks": [
+        "hide_and_seek"
+      ],
+      "key_words": [
+        "find"
+      ]
+    }
+  ]
+}

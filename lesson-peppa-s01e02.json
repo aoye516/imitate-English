@@ -1,0 +1,1471 @@
+{
+  "id": "peppa-s01e02",
+  "title": "Mr. Dinosaur is Lost",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "dinosaur",
+      "freq": 81,
+      "audio": "assets/audio/dinosaur.mp3",
+      "audio_slow": "assets/audio/dinosaur_slow.mp3",
+      "image": "assets/images/dinosaur.webp",
+      "skip_image": false,
+      "meaning_zh": "恐龙",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "detective",
+      "freq": 23,
+      "audio": "assets/audio/detective.mp3",
+      "audio_slow": "assets/audio/detective_slow.mp3",
+      "image": "assets/images/detective.webp",
+      "skip_image": false,
+      "meaning_zh": "侦探",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "toy",
+      "freq": 2,
+      "audio": "assets/audio/toy.mp3",
+      "audio_slow": "assets/audio/toy_slow.mp3",
+      "image": "assets/images/toy.webp",
+      "skip_image": false,
+      "meaning_zh": "玩具",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bed",
+      "freq": 9,
+      "audio": "assets/audio/bed.mp3",
+      "audio_slow": "assets/audio/bed_slow.mp3",
+      "image": "assets/images/bed.webp",
+      "skip_image": false,
+      "meaning_zh": "床",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "night",
+      "freq": 13,
+      "audio": "assets/audio/night.mp3",
+      "audio_slow": "assets/audio/night_slow.mp3",
+      "image": "assets/images/night.webp",
+      "skip_image": false,
+      "meaning_zh": "夜晚",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "tree",
+      "freq": 1,
+      "audio": "assets/audio/tree.mp3",
+      "audio_slow": "assets/audio/tree_slow.mp3",
+      "image": "assets/images/tree.webp",
+      "skip_image": false,
+      "meaning_zh": "树",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "throw",
+      "freq": 5,
+      "audio": "assets/audio/throw.mp3",
+      "audio_slow": "assets/audio/throw_slow.mp3",
+      "image": "assets/images/throw.webp",
+      "skip_image": false,
+      "meaning_zh": "扔",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "catch",
+      "freq": 3,
+      "audio": "assets/audio/catch.mp3",
+      "audio_slow": "assets/audio/catch_slow.mp3",
+      "image": "assets/images/catch.webp",
+      "skip_image": false,
+      "meaning_zh": "接住",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "fall",
+      "freq": 3,
+      "audio": "assets/audio/fall.mp3",
+      "audio_slow": "assets/audio/fall_slow.mp3",
+      "image": "assets/images/fall.webp",
+      "skip_image": false,
+      "meaning_zh": "掉下",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "high",
+      "freq": 3,
+      "audio": "assets/audio/high.mp3",
+      "audio_slow": "assets/audio/high_slow.mp3",
+      "image": "assets/images/high.webp",
+      "skip_image": false,
+      "meaning_zh": "高",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "scare",
+      "freq": 2,
+      "audio": "assets/audio/scare.mp3",
+      "audio_slow": "assets/audio/scare_slow.mp3",
+      "image": "assets/images/scare.webp",
+      "skip_image": false,
+      "meaning_zh": "吓",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "supper",
+      "freq": 3,
+      "audio": "assets/audio/supper.mp3",
+      "audio_slow": "assets/audio/supper_slow.mp3",
+      "image": "assets/images/supper.webp",
+      "skip_image": false,
+      "meaning_zh": "晚饭",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "happy",
+      "freq": 3,
+      "audio": "assets/audio/happy.mp3",
+      "audio_slow": "assets/audio/happy_slow.mp3",
+      "image": "assets/images/happy.webp",
+      "skip_image": false,
+      "meaning_zh": "开心",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "lost",
+      "freq": 8,
+      "audio": "assets/audio/lost.mp3",
+      "audio_slow": "assets/audio/lost_slow.mp3",
+      "image": "assets/images/lost.webp",
+      "skip_image": false,
+      "meaning_zh": "丢了",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "game",
+      "freq": 2,
+      "audio": "assets/audio/game.mp3",
+      "audio_slow": "assets/audio/game_slow.mp3",
+      "image": "assets/images/game.webp",
+      "skip_image": false,
+      "meaning_zh": "游戏",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "win",
+      "freq": 2,
+      "audio": "assets/audio/win.mp3",
+      "audio_slow": "assets/audio/win_slow.mp3",
+      "image": "assets/images/win.webp",
+      "skip_image": false,
+      "meaning_zh": "赢",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "george",
+      "freq": 53,
+      "audio": "assets/audio/george.mp3",
+      "audio_slow": "assets/audio/george_slow.mp3",
+      "image": "assets/images/george.webp",
+      "skip_image": false,
+      "meaning_zh": "乔治[人名]",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "daddy",
+      "freq": 9,
+      "audio": "assets/audio/daddy.mp3",
+      "audio_slow": "assets/audio/daddy_slow.mp3",
+      "image": "assets/images/daddy.webp",
+      "skip_image": false,
+      "meaning_zh": "爸爸",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "pig",
+      "freq": 11,
+      "audio": "assets/audio/pig.mp3",
+      "audio_slow": "assets/audio/pig_slow.mp3",
+      "image": "assets/images/pig.webp",
+      "skip_image": false,
+      "meaning_zh": "猪",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "peppa",
+      "freq": 14,
+      "audio": "assets/audio/peppa.mp3",
+      "audio_slow": "assets/audio/peppa_slow.mp3",
+      "image": "assets/images/peppa.webp",
+      "skip_image": false,
+      "meaning_zh": "佩奇[人名]",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "bath",
+      "freq": 10,
+      "audio": "assets/audio/bath.mp3",
+      "audio_slow": "assets/audio/bath_slow.mp3",
+      "image": "assets/images/bath.webp",
+      "skip_image": false,
+      "meaning_zh": "洗澡",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "garden",
+      "freq": 6,
+      "audio": "assets/audio/garden.mp3",
+      "audio_slow": "assets/audio/garden_slow.mp3",
+      "image": "assets/images/garden.webp",
+      "skip_image": false,
+      "meaning_zh": "花园",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "find",
+      "freq": 15,
+      "audio": "assets/audio/find.mp3",
+      "audio_slow": "assets/audio/find_slow.mp3",
+      "image": "assets/images/find.webp",
+      "skip_image": false,
+      "meaning_zh": "找",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "know",
+      "freq": 12,
+      "audio": "assets/audio/know.mp3",
+      "audio_slow": "assets/audio/know_slow.mp3",
+      "image": "assets/images/know.webp",
+      "skip_image": false,
+      "meaning_zh": "知道",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "good",
+      "freq": 19,
+      "audio": "assets/audio/good.mp3",
+      "audio_slow": "assets/audio/good_slow.mp3",
+      "image": "assets/images/good.webp",
+      "skip_image": false,
+      "meaning_zh": "好",
+      "spelling_visible": true,
+      "reused_from_prior": true
+    },
+    {
+      "lemma": "air",
+      "freq": 6,
+      "audio": "assets/audio/air.mp3",
+      "audio_slow": "assets/audio/air_slow.mp3",
+      "image": "assets/images/air.webp",
+      "skip_image": false,
+      "meaning_zh": "空气/空中",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "favorite",
+      "freq": 4,
+      "audio": "assets/audio/favorite.mp3",
+      "audio_slow": "assets/audio/favorite_slow.mp3",
+      "image": "assets/images/favorite.webp",
+      "skip_image": false,
+      "meaning_zh": "最喜欢的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hard",
+      "freq": 3,
+      "audio": "assets/audio/hard.mp3",
+      "audio_slow": "assets/audio/hard_slow.mp3",
+      "image": "assets/images/hard.webp",
+      "skip_image": false,
+      "meaning_zh": "困难",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "job",
+      "freq": 3,
+      "audio": "assets/audio/job.mp3",
+      "audio_slow": "assets/audio/job_slow.mp3",
+      "image": "assets/images/job.webp",
+      "skip_image": false,
+      "meaning_zh": "工作/任务",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "question",
+      "freq": 3,
+      "audio": "assets/audio/question.mp3",
+      "audio_slow": "assets/audio/question_slow.mp3",
+      "image": "assets/images/question.webp",
+      "skip_image": false,
+      "meaning_zh": "问题",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "maybe",
+      "freq": 8,
+      "audio": "assets/audio/maybe.mp3",
+      "audio_slow": "assets/audio/maybe_slow.mp3",
+      "image": "assets/images/maybe.webp",
+      "skip_image": false,
+      "meaning_zh": "也许",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "thing",
+      "freq": 6,
+      "audio": "assets/audio/thing.mp3",
+      "audio_slow": "assets/audio/thing_slow.mp3",
+      "image": "assets/images/thing.webp",
+      "skip_image": false,
+      "meaning_zh": "东西",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sit",
+      "freq": 3,
+      "audio": "assets/audio/sit.mp3",
+      "audio_slow": "assets/audio/sit_slow.mp3",
+      "image": "assets/images/sit.webp",
+      "skip_image": false,
+      "meaning_zh": "坐",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "worry",
+      "freq": 3,
+      "audio": "assets/audio/worry.mp3",
+      "audio_slow": "assets/audio/worry_slow.mp3",
+      "image": "assets/images/worry.webp",
+      "skip_image": false,
+      "meaning_zh": "担心",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "scary",
+      "freq": 3,
+      "audio": "assets/audio/scary.mp3",
+      "audio_slow": "assets/audio/scary_slow.mp3",
+      "image": "assets/images/scary.webp",
+      "skip_image": false,
+      "meaning_zh": "吓人的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "idea",
+      "freq": 2,
+      "audio": "assets/audio/idea.mp3",
+      "audio_slow": "assets/audio/idea_slow.mp3",
+      "image": "assets/images/idea.webp",
+      "skip_image": false,
+      "meaning_zh": "主意",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sometimes",
+      "freq": 0,
+      "audio": "assets/audio/sometimes.mp3",
+      "audio_slow": "assets/audio/sometimes_slow.mp3",
+      "image": "assets/images/sometimes.webp",
+      "skip_image": false,
+      "meaning_zh": "有时",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pardon",
+      "freq": 3,
+      "audio": "assets/audio/pardon.mp3",
+      "audio_slow": "assets/audio/pardon_slow.mp3",
+      "image": "assets/images/pardon.webp",
+      "skip_image": false,
+      "meaning_zh": "请再说一遍",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "simple",
+      "freq": 3,
+      "audio": "assets/audio/simple.mp3",
+      "audio_slow": "assets/audio/simple_slow.mp3",
+      "image": "assets/images/simple.webp",
+      "skip_image": false,
+      "meaning_zh": "简单",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "share",
+      "freq": 2,
+      "audio": "assets/audio/share.mp3",
+      "audio_slow": "assets/audio/share_slow.mp3",
+      "image": "assets/images/share.webp",
+      "skip_image": false,
+      "meaning_zh": "分享",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "air",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "空气/空中"
+    },
+    {
+      "lemma": "bath",
+      "freq": 10,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "洗澡"
+    },
+    {
+      "lemma": "bed",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "床"
+    },
+    {
+      "lemma": "catch",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "接住"
+    },
+    {
+      "lemma": "daddy",
+      "freq": 9,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "爸爸"
+    },
+    {
+      "lemma": "detective",
+      "freq": 23,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "侦探"
+    },
+    {
+      "lemma": "dinosaur",
+      "freq": 81,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "恐龙"
+    },
+    {
+      "lemma": "fall",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "掉下"
+    },
+    {
+      "lemma": "favorite",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "最喜欢的"
+    },
+    {
+      "lemma": "find",
+      "freq": 15,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "找"
+    },
+    {
+      "lemma": "game",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "游戏"
+    },
+    {
+      "lemma": "garden",
+      "freq": 6,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "花园"
+    },
+    {
+      "lemma": "george",
+      "freq": 53,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "乔治[人名]"
+    },
+    {
+      "lemma": "good",
+      "freq": 19,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "好"
+    },
+    {
+      "lemma": "happy",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "开心"
+    },
+    {
+      "lemma": "hard",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "困难"
+    },
+    {
+      "lemma": "high",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "高"
+    },
+    {
+      "lemma": "idea",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "主意"
+    },
+    {
+      "lemma": "job",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "工作/任务"
+    },
+    {
+      "lemma": "know",
+      "freq": 12,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "知道"
+    },
+    {
+      "lemma": "lost",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "丢了"
+    },
+    {
+      "lemma": "maybe",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "也许"
+    },
+    {
+      "lemma": "night",
+      "freq": 13,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "夜晚"
+    },
+    {
+      "lemma": "pardon",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "请再说一遍"
+    },
+    {
+      "lemma": "peppa",
+      "freq": 14,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "佩奇[人名]"
+    },
+    {
+      "lemma": "pig",
+      "freq": 11,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "猪"
+    },
+    {
+      "lemma": "question",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "问题"
+    },
+    {
+      "lemma": "scare",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "吓"
+    },
+    {
+      "lemma": "scary",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "吓人的"
+    },
+    {
+      "lemma": "share",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "分享"
+    },
+    {
+      "lemma": "simple",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "简单"
+    },
+    {
+      "lemma": "sit",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "坐"
+    },
+    {
+      "lemma": "sometimes",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "有时"
+    },
+    {
+      "lemma": "supper",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "晚饭"
+    },
+    {
+      "lemma": "thing",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "东西"
+    },
+    {
+      "lemma": "throw",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "扔"
+    },
+    {
+      "lemma": "toy",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "玩具"
+    },
+    {
+      "lemma": "tree",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "树"
+    },
+    {
+      "lemma": "win",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "赢"
+    },
+    {
+      "lemma": "worry",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "担心"
+    }
+  ],
+  "new_words": [
+    "air",
+    "bed",
+    "catch",
+    "detective",
+    "dinosaur",
+    "fall",
+    "favorite",
+    "game",
+    "happy",
+    "hard",
+    "high",
+    "idea",
+    "job",
+    "lost",
+    "maybe",
+    "night",
+    "pardon",
+    "question",
+    "scare",
+    "scary",
+    "share",
+    "simple",
+    "sit",
+    "sometimes",
+    "supper",
+    "thing",
+    "throw",
+    "toy",
+    "tree",
+    "win",
+    "worry"
+  ],
+  "reused_words": [
+    "bath",
+    "daddy",
+    "find",
+    "garden",
+    "george",
+    "good",
+    "know",
+    "peppa",
+    "pig"
+  ],
+  "chunks": [
+    {
+      "id": "mr_dinosaur",
+      "text": "Mr Dinosaur",
+      "meaning_zh": "恐龙先生（乔治的玩具）",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/mr_dinosaur.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/mr_dinosaur_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/mr_dinosaur.webp",
+      "covers_words": [
+        "dinosaur"
+      ]
+    },
+    {
+      "id": "favorite_toy",
+      "text": "favorite toy",
+      "meaning_zh": "最爱的玩具",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/favorite_toy.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/favorite_toy_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/favorite_toy.webp",
+      "covers_words": [
+        "toy"
+      ]
+    },
+    {
+      "id": "scare_peppa",
+      "text": "scare Peppa",
+      "meaning_zh": "吓唬Peppa",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/scare_peppa.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/scare_peppa_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/scare_peppa.webp",
+      "covers_words": [
+        "scare",
+        "peppa"
+      ]
+    },
+    {
+      "id": "good_night",
+      "text": "good night",
+      "meaning_zh": "晚安",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/good_night.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/good_night_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/good_night.webp",
+      "covers_words": [
+        "good",
+        "night"
+      ]
+    },
+    {
+      "id": "up_in_the_air",
+      "text": "up in the air",
+      "meaning_zh": "在空中（抛起）",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/up_in_the_air.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/up_in_the_air_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/up_in_the_air.webp",
+      "covers_words": [
+        "throw",
+        "high"
+      ]
+    },
+    {
+      "id": "falls_back_down",
+      "text": "falls back down",
+      "meaning_zh": "落回下来",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/falls_back_down.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/falls_back_down_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/falls_back_down.webp",
+      "covers_words": [
+        "fall",
+        "catch"
+      ]
+    },
+    {
+      "id": "george_has_lost",
+      "text": "George has lost Mr Dinosaur",
+      "meaning_zh": "乔治把恐龙弄丢了",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/george_has_lost.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/george_has_lost_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/george_has_lost.webp",
+      "covers_words": [
+        "george",
+        "lost",
+        "dinosaur"
+      ]
+    },
+    {
+      "id": "dont_worry",
+      "text": "don't worry",
+      "meaning_zh": "别担心",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/dont_worry.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/dont_worry_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/dont_worry.webp",
+      "covers_words": []
+    },
+    {
+      "id": "well_find_it",
+      "text": "we'll find Mr Dinosaur",
+      "meaning_zh": "我们会把恐龙找到",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/well_find_it.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/well_find_it_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/well_find_it.webp",
+      "covers_words": [
+        "find",
+        "dinosaur"
+      ]
+    },
+    {
+      "id": "job_for_detective",
+      "text": "a job for a detective",
+      "meaning_zh": "这是侦探的活儿",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/job_for_detective.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/job_for_detective_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/job_for_detective.webp",
+      "covers_words": [
+        "detective"
+      ]
+    },
+    {
+      "id": "good_at_finding",
+      "text": "good at finding things",
+      "meaning_zh": "擅长找东西",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/good_at_finding.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/good_at_finding_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/good_at_finding.webp",
+      "covers_words": [
+        "good",
+        "find"
+      ]
+    },
+    {
+      "id": "i_know_where",
+      "text": "I know where he is",
+      "meaning_zh": "我知道他在哪",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/i_know_where.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/i_know_where_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/i_know_where.webp",
+      "covers_words": [
+        "know"
+      ]
+    },
+    {
+      "id": "in_the_bath",
+      "text": "in the bath",
+      "meaning_zh": "在浴缸里",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/in_the_bath.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/in_the_bath_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/in_the_bath.webp",
+      "covers_words": [
+        "bath"
+      ]
+    },
+    {
+      "id": "in_his_bed",
+      "text": "in his bed",
+      "meaning_zh": "在他床上",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/in_his_bed.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/in_his_bed_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/in_his_bed.webp",
+      "covers_words": [
+        "bed"
+      ]
+    },
+    {
+      "id": "try_the_garden",
+      "text": "try the garden",
+      "meaning_zh": "去花园找找看",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/try_the_garden.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/try_the_garden_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/try_the_garden.webp",
+      "covers_words": [
+        "garden"
+      ]
+    },
+    {
+      "id": "there_he_is",
+      "text": "there he is",
+      "meaning_zh": "他在那儿呢",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/there_he_is.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/there_he_is_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/there_he_is.webp",
+      "covers_words": [
+        "tree"
+      ]
+    },
+    {
+      "id": "well_done",
+      "text": "well done Peppa",
+      "meaning_zh": "干得好",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/well_done.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/well_done_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/well_done.webp",
+      "covers_words": [
+        "peppa"
+      ]
+    },
+    {
+      "id": "so_happy",
+      "text": "so happy to have him back",
+      "meaning_zh": "失而复得好开心",
+      "audio_tts": "assets/peppa-s01e02/chunks_audio_tts/so_happy.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/chunks_audio_tts/so_happy_slow.mp3",
+      "image": "assets/peppa-s01e02/chunks_images/so_happy.webp",
+      "covers_words": [
+        "happy"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Mr Dinosaur is George's favorite toy.",
+      "meaning_zh": "恐龙先生是George最爱的玩具。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s01.webp",
+      "chunks": [
+        "mr_dinosaur",
+        "favorite_toy"
+      ],
+      "key_words": [
+        "dinosaur",
+        "toy",
+        "george"
+      ],
+      "time_start": "00:00:28.000",
+      "time_end": "00:00:34.200"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Sometimes George likes to scare Peppa with Mr Dinosaur.",
+      "meaning_zh": "George有时喜欢用恐龙吓Peppa。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s02.webp",
+      "chunks": [
+        "scare_peppa",
+        "mr_dinosaur"
+      ],
+      "key_words": [
+        "george",
+        "scare",
+        "peppa",
+        "dinosaur"
+      ],
+      "time_start": "00:00:38.900",
+      "time_end": "00:00:45.800"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "Good night George, and good night Mr Dinosaur.",
+      "meaning_zh": "晚安George，晚安恐龙先生。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s03.webp",
+      "chunks": [
+        "good_night",
+        "mr_dinosaur"
+      ],
+      "key_words": [
+        "good",
+        "night",
+        "george",
+        "dinosaur"
+      ],
+      "time_start": "00:01:19.800",
+      "time_end": "00:01:24.500"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "George's favorite game is throwing Mr Dinosaur up in the air.",
+      "meaning_zh": "George最爱的游戏是把恐龙抛向空中。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s04.webp",
+      "chunks": [
+        "up_in_the_air",
+        "mr_dinosaur"
+      ],
+      "key_words": [
+        "george",
+        "game",
+        "throw",
+        "high",
+        "dinosaur"
+      ],
+      "time_start": "00:01:33.500",
+      "time_end": "00:01:39.200"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "And catching him when he falls back down.",
+      "meaning_zh": "等它掉下来的时候再接住。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s05.webp",
+      "chunks": [
+        "falls_back_down"
+      ],
+      "key_words": [
+        "catch",
+        "fall"
+      ],
+      "time_start": "00:01:39.000",
+      "time_end": "00:01:42.200"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "George has lost Mr Dinosaur.",
+      "meaning_zh": "George把恐龙弄丢了。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s06.webp",
+      "chunks": [
+        "george_has_lost"
+      ],
+      "key_words": [
+        "george",
+        "lost",
+        "dinosaur"
+      ],
+      "time_start": "00:02:13.400",
+      "time_end": "00:02:17.000"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Don't worry George, we'll find Mr Dinosaur.",
+      "meaning_zh": "别担心George，我们会找到恐龙的。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s07.webp",
+      "chunks": [
+        "dont_worry",
+        "well_find_it"
+      ],
+      "key_words": [
+        "find",
+        "dinosaur"
+      ],
+      "time_start": "00:02:16.400",
+      "time_end": "00:02:20.400"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "It's a job for a detective.",
+      "meaning_zh": "这是侦探的活儿。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s08.webp",
+      "chunks": [
+        "job_for_detective"
+      ],
+      "key_words": [
+        "detective"
+      ],
+      "time_start": "00:02:20.200",
+      "time_end": "00:02:23.600"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "A detective is a person who is good at finding things.",
+      "meaning_zh": "侦探就是擅长找东西的人。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s09.webp",
+      "chunks": [
+        "good_at_finding",
+        "job_for_detective"
+      ],
+      "key_words": [
+        "detective",
+        "good",
+        "find"
+      ],
+      "time_start": "00:02:24.000",
+      "time_end": "00:02:31.000"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "I know where he is.",
+      "meaning_zh": "我知道他在哪。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s10.webp",
+      "chunks": [
+        "i_know_where"
+      ],
+      "key_words": [
+        "know"
+      ],
+      "time_start": "00:03:04.800",
+      "time_end": "00:03:08.500"
+    },
+    {
+      "id": "s11",
+      "text_admin_only": "Mr Dinosaur is not in the bath.",
+      "meaning_zh": "恐龙不在浴缸里。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s11.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s11_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s11.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s11.webp",
+      "chunks": [
+        "in_the_bath",
+        "mr_dinosaur"
+      ],
+      "key_words": [
+        "dinosaur",
+        "bath"
+      ],
+      "time_start": "00:03:17.300",
+      "time_end": "00:03:21.000"
+    },
+    {
+      "id": "s12",
+      "text_admin_only": "Maybe we should try the garden.",
+      "meaning_zh": "也许我们该去花园找找。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s12.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s12_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s12.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s12.webp",
+      "chunks": [
+        "try_the_garden"
+      ],
+      "key_words": [
+        "garden"
+      ],
+      "time_start": "00:03:34.800",
+      "time_end": "00:03:40.000"
+    },
+    {
+      "id": "s13",
+      "text_admin_only": "There he is! I saw him first.",
+      "meaning_zh": "他在那儿！我先看到的。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s13.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s13_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s13.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s13.webp",
+      "chunks": [
+        "there_he_is"
+      ],
+      "key_words": [
+        "tree"
+      ],
+      "time_start": "00:04:08.300",
+      "time_end": "00:04:13.500"
+    },
+    {
+      "id": "s14",
+      "text_admin_only": "Well done Peppa, you really are a very good detective.",
+      "meaning_zh": "干得好Peppa，你真是个好侦探。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s14.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s14_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s14.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s14.webp",
+      "chunks": [
+        "well_done",
+        "good_at_finding"
+      ],
+      "key_words": [
+        "peppa",
+        "good",
+        "detective"
+      ],
+      "time_start": "00:04:13.800",
+      "time_end": "00:04:22.800"
+    },
+    {
+      "id": "s15",
+      "text_admin_only": "George is so happy to have Mr Dinosaur back again.",
+      "meaning_zh": "George失而复得，开心极了。",
+      "audio_tts": "assets/peppa-s01e02/sentences_audio_tts/s15.mp3",
+      "audio_tts_slow": "assets/peppa-s01e02/sentences_audio_tts/s15_slow.mp3",
+      "audio_clip": "assets/peppa-s01e02/sentences_audio_clip/s15.mp3",
+      "image": "assets/peppa-s01e02/sentences_images/s15.webp",
+      "chunks": [
+        "so_happy",
+        "mr_dinosaur"
+      ],
+      "key_words": [
+        "george",
+        "happy",
+        "dinosaur"
+      ],
+      "time_start": "00:04:26.800",
+      "time_end": "00:04:34.000"
+    }
+  ],
+  "distractors": {
+    "dinosaur": [
+      "job",
+      "favorite",
+      "know"
+    ],
+    "detective": [
+      "maybe",
+      "peppa",
+      "game"
+    ],
+    "toy": [
+      "bed",
+      "garden",
+      "thing"
+    ],
+    "bed": [
+      "fall",
+      "happy",
+      "question"
+    ],
+    "night": [
+      "thing",
+      "happy",
+      "detective"
+    ],
+    "tree": [
+      "pardon",
+      "detective",
+      "pig"
+    ],
+    "throw": [
+      "fall",
+      "bed",
+      "hard"
+    ],
+    "catch": [
+      "question",
+      "simple",
+      "toy"
+    ],
+    "fall": [
+      "high",
+      "peppa",
+      "pig"
+    ],
+    "high": [
+      "maybe",
+      "garden",
+      "tree"
+    ],
+    "scare": [
+      "scary",
+      "bed",
+      "air"
+    ],
+    "supper": [
+      "bed",
+      "sometimes",
+      "night"
+    ],
+    "happy": [
+      "know",
+      "scare",
+      "dinosaur"
+    ],
+    "lost": [
+      "job",
+      "good",
+      "sit"
+    ],
+    "game": [
+      "thing",
+      "george",
+      "daddy"
+    ],
+    "win": [
+      "know",
+      "game",
+      "good"
+    ],
+    "george": [
+      "bath",
+      "tree",
+      "night"
+    ],
+    "daddy": [
+      "high",
+      "idea",
+      "maybe"
+    ],
+    "pig": [
+      "high",
+      "sometimes",
+      "bed"
+    ],
+    "peppa": [
+      "tree",
+      "happy",
+      "detective"
+    ],
+    "bath": [
+      "night",
+      "peppa",
+      "scare"
+    ],
+    "garden": [
+      "dinosaur",
+      "tree",
+      "happy"
+    ],
+    "find": [
+      "garden",
+      "pardon",
+      "maybe"
+    ],
+    "know": [
+      "bed",
+      "toy",
+      "lost"
+    ],
+    "good": [
+      "job",
+      "favorite",
+      "bath"
+    ],
+    "air": [
+      "toy",
+      "pardon",
+      "favorite"
+    ],
+    "favorite": [
+      "george",
+      "daddy",
+      "thing"
+    ],
+    "hard": [
+      "job",
+      "bed",
+      "find"
+    ],
+    "job": [
+      "scary",
+      "pardon",
+      "supper"
+    ],
+    "question": [
+      "win",
+      "peppa",
+      "bed"
+    ],
+    "maybe": [
+      "lost",
+      "bed",
+      "peppa"
+    ],
+    "thing": [
+      "scary",
+      "win",
+      "scare"
+    ],
+    "sit": [
+      "maybe",
+      "toy",
+      "simple"
+    ],
+    "worry": [
+      "scary",
+      "good",
+      "share"
+    ],
+    "scary": [
+      "bath",
+      "lost",
+      "sit"
+    ],
+    "idea": [
+      "garden",
+      "game",
+      "dinosaur"
+    ],
+    "sometimes": [
+      "lost",
+      "win",
+      "idea"
+    ],
+    "pardon": [
+      "garden",
+      "peppa",
+      "question"
+    ],
+    "simple": [
+      "maybe",
+      "bed",
+      "favorite"
+    ],
+    "share": [
+      "air",
+      "question",
+      "scare"
+    ]
+  }
+}

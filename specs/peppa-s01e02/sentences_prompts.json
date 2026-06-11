@@ -1,0 +1,156 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "_note": "time_start/time_end 取自 e02_auto.en-orig.vtt 词级时间戳，对齐 source_e02.mp4，供 cut_clips 切原片。",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Mr Dinosaur is George's favorite toy.",
+      "meaning_zh": "恐龙先生是George最爱的玩具。",
+      "subject": "a baby boy piglet cuddling a small green toy dinosaur lovingly in a cozy living room, the dinosaur is the focus, warm family home background",
+      "time_start": "00:00:28.000",
+      "time_end": "00:00:34.200",
+      "chunks": ["mr_dinosaur", "favorite_toy"],
+      "key_words": ["dinosaur", "toy", "george"]
+    },
+    {
+      "id": "s02",
+      "text": "Sometimes George likes to scare Peppa with Mr Dinosaur.",
+      "meaning_zh": "George有时喜欢用恐龙吓Peppa。",
+      "subject": "a baby boy piglet thrusting a green toy dinosaur toward a girl piglet who jumps back startled with wide eyes, playful living room scene, a small shock burst between them",
+      "time_start": "00:00:38.900",
+      "time_end": "00:00:45.800",
+      "chunks": ["scare_peppa", "mr_dinosaur"],
+      "key_words": ["george", "scare", "peppa", "dinosaur"]
+    },
+    {
+      "id": "s03",
+      "text": "Good night George, and good night Mr Dinosaur.",
+      "meaning_zh": "晚安George，晚安恐龙先生。",
+      "subject": "a baby piglet asleep in a small bed hugging a green dinosaur toy under a blanket, a window showing a crescent moon and stars, soft warm bedside lamp glow",
+      "time_start": "00:01:19.800",
+      "time_end": "00:01:24.500",
+      "chunks": ["good_night", "mr_dinosaur"],
+      "key_words": ["good", "night", "george", "dinosaur"]
+    },
+    {
+      "id": "s04",
+      "text": "George's favorite game is throwing Mr Dinosaur up in the air.",
+      "meaning_zh": "George最爱的游戏是把恐龙抛向空中。",
+      "subject": "a baby boy piglet in a garden tossing a small green dinosaur toy high up into the blue sky with both arms, the toy near the top of the frame, upward motion arc",
+      "time_start": "00:01:33.500",
+      "time_end": "00:01:39.200",
+      "chunks": ["up_in_the_air", "mr_dinosaur"],
+      "key_words": ["george", "game", "throw", "high", "dinosaur"]
+    },
+    {
+      "id": "s05",
+      "text": "And catching him when he falls back down.",
+      "meaning_zh": "等它掉下来的时候再接住。",
+      "subject": "a baby boy piglet in a garden reaching both arms up to catch a small green dinosaur toy dropping from the sky, downward motion lines, the catch about to happen",
+      "time_start": "00:01:39.000",
+      "time_end": "00:01:42.200",
+      "chunks": ["falls_back_down"],
+      "key_words": ["catch", "fall"]
+    },
+    {
+      "id": "s06",
+      "text": "George has lost Mr Dinosaur.",
+      "meaning_zh": "George把恐龙弄丢了。",
+      "subject": "a crying baby boy piglet with empty open hands and big tears, a girl piglet and father pig looking concerned beside him, a faint missing-dinosaur outline with a question mark",
+      "time_start": "00:02:13.400",
+      "time_end": "00:02:17.000",
+      "chunks": ["george_has_lost"],
+      "key_words": ["george", "lost", "dinosaur"]
+    },
+    {
+      "id": "s07",
+      "text": "Don't worry George, we'll find Mr Dinosaur.",
+      "meaning_zh": "别担心George，我们会找到恐龙的。",
+      "subject": "a kind father pig kneeling with a reassuring hand on a small crying piglet's shoulder, a girl piglet holding a magnifying glass ready to help, comforting warm mood",
+      "time_start": "00:02:16.400",
+      "time_end": "00:02:20.400",
+      "chunks": ["dont_worry", "well_find_it"],
+      "key_words": ["find", "dinosaur"]
+    },
+    {
+      "id": "s08",
+      "text": "It's a job for a detective.",
+      "meaning_zh": "这是侦探的活儿。",
+      "subject": "a girl piglet putting on a brown deerstalker detective hat and holding up a magnifying glass with a confident clever smile, a spotlight on her",
+      "time_start": "00:02:20.200",
+      "time_end": "00:02:23.600",
+      "chunks": ["job_for_detective"],
+      "key_words": ["detective"]
+    },
+    {
+      "id": "s09",
+      "text": "A detective is a person who is good at finding things.",
+      "meaning_zh": "侦探就是擅长找东西的人。",
+      "subject": "a girl piglet detective with a magnifying glass happily discovering hidden objects scattered on the ground, sparkles of discovery, clever proud expression",
+      "time_start": "00:02:24.000",
+      "time_end": "00:02:31.000",
+      "chunks": ["good_at_finding", "job_for_detective"],
+      "key_words": ["detective", "good", "find"]
+    },
+    {
+      "id": "s10",
+      "text": "I know where he is.",
+      "meaning_zh": "我知道他在哪。",
+      "subject": "a girl piglet with one finger pointing up and a bright glowing lightbulb above her head, sudden confident idea, knowing smile",
+      "time_start": "00:03:04.800",
+      "time_end": "00:03:08.500",
+      "chunks": ["i_know_where"],
+      "key_words": ["know"]
+    },
+    {
+      "id": "s11",
+      "text": "Mr Dinosaur is not in the bath.",
+      "meaning_zh": "恐龙不在浴缸里。",
+      "subject": "a white bathtub full of bubbles with a rubber duck but clearly no dinosaur, a girl piglet detective peering in with a magnifying glass looking puzzled",
+      "time_start": "00:03:17.300",
+      "time_end": "00:03:21.000",
+      "chunks": ["in_the_bath", "mr_dinosaur"],
+      "key_words": ["dinosaur", "bath"]
+    },
+    {
+      "id": "s12",
+      "text": "Maybe we should try the garden.",
+      "meaning_zh": "也许我们该去花园找找。",
+      "subject": "a father pig pointing toward a sunny green garden with flowers and a tree while a girl piglet detective looks that way with interest, hopeful searching mood",
+      "time_start": "00:03:34.800",
+      "time_end": "00:03:40.000",
+      "chunks": ["try_the_garden"],
+      "key_words": ["garden"]
+    },
+    {
+      "id": "s13",
+      "text": "There he is! I saw him first.",
+      "meaning_zh": "他在那儿！我先看到的。",
+      "subject": "a girl piglet pointing up excitedly at a small green dinosaur toy caught high in the leafy branches of a tree, bright sky, triumphant discovery",
+      "time_start": "00:04:08.300",
+      "time_end": "00:04:13.500",
+      "chunks": ["there_he_is"],
+      "key_words": ["tree"]
+    },
+    {
+      "id": "s14",
+      "text": "Well done Peppa, you really are a very good detective.",
+      "meaning_zh": "干得好Peppa，你真是个好侦探。",
+      "subject": "a father pig giving a proud thumbs up to a beaming girl piglet wearing a detective hat and holding a magnifying glass, sparkles of praise around them",
+      "time_start": "00:04:13.800",
+      "time_end": "00:04:22.800",
+      "chunks": ["well_done", "good_at_finding"],
+      "key_words": ["peppa", "good", "detective"]
+    },
+    {
+      "id": "s15",
+      "text": "George is so happy to have Mr Dinosaur back again.",
+      "meaning_zh": "George失而复得，开心极了。",
+      "subject": "a baby boy piglet beaming with pure joy hugging a small green dinosaur toy tightly to his chest, hearts and sparkles bursting around, sunny garden background",
+      "time_start": "00:04:26.800",
+      "time_end": "00:04:34.000",
+      "chunks": ["so_happy", "mr_dinosaur"],
+      "key_words": ["george", "happy", "dinosaur"]
+    }
+  ]
+}

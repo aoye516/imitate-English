@@ -1,0 +1,156 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "This is Peppa's best friend, Susie Sheep.",
+      "meaning_zh": "这是Peppa最好的朋友Susie羊。",
+      "subject": "a warm children's cartoon story scene showing: 这是Peppa最好的朋友Susie羊。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:59.399",
+      "time_end": "00:01:03.899",
+      "chunks": [
+        "best_friend",
+        "this_is_susie"
+      ],
+      "key_words": [
+        "best",
+        "friend",
+        "susie",
+        "sheep"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "Peppa and Susie are best friends.",
+      "meaning_zh": "Peppa和Susie是最好的朋友。",
+      "subject": "a warm children's cartoon story scene showing: Peppa和Susie是最好的朋友。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:29.279",
+      "time_end": "00:00:33.779",
+      "chunks": [
+        "best_friend"
+      ],
+      "key_words": [
+        "best",
+        "friend"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "They like to play together.",
+      "meaning_zh": "她们喜欢一起玩。",
+      "subject": "a warm children's cartoon story scene showing: 她们喜欢一起玩。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:25.880",
+      "time_end": "00:01:30.380",
+      "chunks": [],
+      "key_words": [
+        "play"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "Peppa wants to play doctors and nurses.",
+      "meaning_zh": "Peppa想玩医生护士游戏。",
+      "subject": "a warm children's cartoon story scene showing: Peppa想玩医生护士游戏。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:41.720",
+      "time_end": "00:02:46.220",
+      "chunks": [
+        "play_doctor"
+      ],
+      "key_words": [
+        "doctor",
+        "nurse"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "Susie is the nurse and Peppa is the doctor.",
+      "meaning_zh": "Susie当护士,Peppa当医生。",
+      "subject": "a warm children's cartoon story scene showing: Susie当护士,Peppa当医生。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:41.720",
+      "time_end": "00:02:46.220",
+      "chunks": [
+        "play_doctor"
+      ],
+      "key_words": [
+        "susie",
+        "nurse",
+        "doctor"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "George needs some help.",
+      "meaning_zh": "George需要帮助。",
+      "subject": "a warm children's cartoon story scene showing: George需要帮助。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:17.440",
+      "time_end": "00:02:21.940",
+      "chunks": [
+        "need_help"
+      ],
+      "key_words": [
+        "need",
+        "help"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "The patient is feeling much better.",
+      "meaning_zh": "病人感觉好多了。",
+      "subject": "a warm children's cartoon story scene showing: 病人感觉好多了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:43.480",
+      "time_end": "00:03:47.980",
+      "chunks": [
+        "feel_better"
+      ],
+      "key_words": [
+        "patient",
+        "better"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "Mummy Pig is making cookies.",
+      "meaning_zh": "猪妈妈正在做饼干。",
+      "subject": "a warm children's cartoon story scene showing: 猪妈妈正在做饼干。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:31.000",
+      "time_end": "00:02:35.500",
+      "chunks": [
+        "make_cookies"
+      ],
+      "key_words": [
+        "cookie"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "Peppa and Susie love cookies.",
+      "meaning_zh": "Peppa和Susie喜欢饼干。",
+      "subject": "a warm children's cartoon story scene showing: Peppa和Susie喜欢饼干。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:49.680",
+      "time_end": "00:00:54.180",
+      "chunks": [
+        "make_cookies"
+      ],
+      "key_words": [
+        "cookie",
+        "love"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Best friends can play nicely together.",
+      "meaning_zh": "好朋友可以一起开心地玩。",
+      "subject": "a warm children's cartoon story scene showing: 好朋友可以一起开心地玩。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:59.399",
+      "time_end": "00:01:03.899",
+      "chunks": [
+        "best_friend"
+      ],
+      "key_words": [
+        "best",
+        "friend",
+        "play"
+      ]
+    }
+  ]
+}

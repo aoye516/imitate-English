@@ -1,0 +1,89 @@
+{
+  "_note": "Generated L1 meanings for S01E03-E10 starter pass. Supplemented after reviewing omitted real content words.",
+  "words": {
+    "grow": {
+      "meaning_zh": "生长",
+      "spelling_visible": true
+    },
+    "seed": {
+      "meaning_zh": "种子",
+      "spelling_visible": true
+    },
+    "plant": {
+      "meaning_zh": "种/植物",
+      "spelling_visible": true
+    },
+    "strawberry": {
+      "meaning_zh": "草莓",
+      "spelling_visible": true
+    },
+    "apple": {
+      "meaning_zh": "苹果",
+      "spelling_visible": true
+    },
+    "carrot": {
+      "meaning_zh": "胡萝卜",
+      "spelling_visible": true
+    },
+    "choose": {
+      "meaning_zh": "选择",
+      "spelling_visible": true
+    },
+    "tiny": {
+      "meaning_zh": "很小",
+      "spelling_visible": true
+    },
+    "water": {
+      "meaning_zh": "浇水",
+      "spelling_visible": true
+    },
+    "bigger": {
+      "meaning_zh": "更大",
+      "spelling_visible": true
+    },
+    "earth": {
+      "meaning_zh": "泥土",
+      "spelling_visible": true
+    },
+    "hole": {
+      "meaning_zh": "洞",
+      "spelling_visible": true
+    },
+    "wait": {
+      "meaning_zh": "等待",
+      "spelling_visible": true
+    },
+    "day": {
+      "meaning_zh": "一天",
+      "spelling_visible": true
+    },
+    "cover": {
+      "meaning_zh": "盖住",
+      "spelling_visible": true
+    },
+    "house": {
+      "meaning_zh": "房子",
+      "spelling_visible": true
+    },
+    "even": {
+      "meaning_zh": "甚至",
+      "spelling_visible": true
+    },
+    "exactly": {
+      "meaning_zh": "正好",
+      "spelling_visible": true
+    },
+    "grown": {
+      "meaning_zh": "长成",
+      "spelling_visible": true
+    },
+    "special": {
+      "meaning_zh": "特别的",
+      "spelling_visible": true
+    },
+    "bye": {
+      "meaning_zh": "再见",
+      "spelling_visible": true
+    }
+  }
+}

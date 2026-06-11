@@ -1,0 +1,922 @@
+{
+  "id": "peppa-s01e05",
+  "title": "Hide and Seek",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "hide",
+      "freq": 24,
+      "audio": "assets/audio/hide.mp3",
+      "audio_slow": "assets/audio/hide_slow.mp3",
+      "image": "assets/images/hide.webp",
+      "skip_image": false,
+      "meaning_zh": "藏",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "seek",
+      "freq": 4,
+      "audio": "assets/audio/seek.mp3",
+      "audio_slow": "assets/audio/seek_slow.mp3",
+      "image": "assets/images/seek.webp",
+      "skip_image": false,
+      "meaning_zh": "找",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "count",
+      "freq": 9,
+      "audio": "assets/audio/count.mp3",
+      "audio_slow": "assets/audio/count_slow.mp3",
+      "image": "assets/images/count.webp",
+      "skip_image": false,
+      "meaning_zh": "数数",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "turn",
+      "freq": 12,
+      "audio": "assets/audio/turn.mp3",
+      "audio_slow": "assets/audio/turn_slow.mp3",
+      "image": "assets/images/turn.webp",
+      "skip_image": false,
+      "meaning_zh": "轮到",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "table",
+      "freq": 8,
+      "audio": "assets/audio/table.mp3",
+      "audio_slow": "assets/audio/table_slow.mp3",
+      "image": "assets/images/table.webp",
+      "skip_image": false,
+      "meaning_zh": "桌子",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "basket",
+      "freq": 6,
+      "audio": "assets/audio/basket.mp3",
+      "audio_slow": "assets/audio/basket_slow.mp3",
+      "image": "assets/images/basket.webp",
+      "skip_image": false,
+      "meaning_zh": "篮子",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "eye",
+      "freq": 6,
+      "audio": "assets/audio/eye.mp3",
+      "audio_slow": "assets/audio/eye_slow.mp3",
+      "image": "assets/images/eye.webp",
+      "skip_image": false,
+      "meaning_zh": "眼睛",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "newspaper",
+      "freq": 5,
+      "audio": "assets/audio/newspaper.mp3",
+      "audio_slow": "assets/audio/newspaper_slow.mp3",
+      "image": "assets/images/newspaper.webp",
+      "skip_image": false,
+      "meaning_zh": "报纸",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "behind",
+      "freq": 4,
+      "audio": "assets/audio/behind.mp3",
+      "audio_slow": "assets/audio/behind_slow.mp3",
+      "image": "assets/images/behind.webp",
+      "skip_image": false,
+      "meaning_zh": "在后面",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "ready",
+      "freq": 4,
+      "audio": "assets/audio/ready.mp3",
+      "audio_slow": "assets/audio/ready_slow.mp3",
+      "image": "assets/images/ready.webp",
+      "skip_image": false,
+      "meaning_zh": "准备好",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "somewhere",
+      "freq": 6,
+      "audio": "assets/audio/somewhere.mp3",
+      "audio_slow": "assets/audio/somewhere_slow.mp3",
+      "image": "assets/images/somewhere.webp",
+      "skip_image": false,
+      "meaning_zh": "某处",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "anywhere",
+      "freq": 4,
+      "audio": "assets/audio/anywhere.mp3",
+      "audio_slow": "assets/audio/anywhere_slow.mp3",
+      "image": "assets/images/anywhere.webp",
+      "skip_image": false,
+      "meaning_zh": "任何地方",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "thought",
+      "freq": 6,
+      "audio": "assets/audio/thought.mp3",
+      "audio_slow": "assets/audio/thought_slow.mp3",
+      "image": "assets/images/thought.webp",
+      "skip_image": false,
+      "meaning_zh": "想过",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "dear",
+      "freq": 4,
+      "audio": "assets/audio/dear.mp3",
+      "audio_slow": "assets/audio/dear_slow.mp3",
+      "image": "assets/images/dear.webp",
+      "skip_image": false,
+      "meaning_zh": "哎呀/亲爱的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "place",
+      "freq": 3,
+      "audio": "assets/audio/place.mp3",
+      "audio_slow": "assets/audio/place_slow.mp3",
+      "image": "assets/images/place.webp",
+      "skip_image": false,
+      "meaning_zh": "地方",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "close",
+      "freq": 3,
+      "audio": "assets/audio/close.mp3",
+      "audio_slow": "assets/audio/close_slow.mp3",
+      "image": "assets/images/close.webp",
+      "skip_image": false,
+      "meaning_zh": "闭上",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "always",
+      "freq": 0,
+      "audio": "assets/audio/always.mp3",
+      "audio_slow": "assets/audio/always_slow.mp3",
+      "image": "assets/images/always.webp",
+      "skip_image": false,
+      "meaning_zh": "总是",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "upstairs",
+      "freq": 0,
+      "audio": "assets/audio/upstairs.mp3",
+      "audio_slow": "assets/audio/upstairs_slow.mp3",
+      "image": "assets/images/upstairs.webp",
+      "skip_image": false,
+      "meaning_zh": "楼上",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "easily",
+      "freq": 6,
+      "audio": "assets/audio/easily.mp3",
+      "audio_slow": "assets/audio/easily_slow.mp3",
+      "image": "assets/images/easily.webp",
+      "skip_image": false,
+      "meaning_zh": "容易地",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "start",
+      "freq": 3,
+      "audio": "assets/audio/start.mp3",
+      "audio_slow": "assets/audio/start_slow.mp3",
+      "image": "assets/images/start.webp",
+      "skip_image": false,
+      "meaning_zh": "开始",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "strange",
+      "freq": 3,
+      "audio": "assets/audio/strange.mp3",
+      "audio_slow": "assets/audio/strange_slow.mp3",
+      "image": "assets/images/strange.webp",
+      "skip_image": false,
+      "meaning_zh": "奇怪",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "three",
+      "freq": 3,
+      "audio": "assets/audio/three.mp3",
+      "audio_slow": "assets/audio/three_slow.mp3",
+      "image": "assets/images/three.webp",
+      "skip_image": false,
+      "meaning_zh": "三个",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "always",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "总是"
+    },
+    {
+      "lemma": "anywhere",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "任何地方"
+    },
+    {
+      "lemma": "basket",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "篮子"
+    },
+    {
+      "lemma": "behind",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "在后面"
+    },
+    {
+      "lemma": "close",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "闭上"
+    },
+    {
+      "lemma": "count",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "数数"
+    },
+    {
+      "lemma": "dear",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "哎呀/亲爱的"
+    },
+    {
+      "lemma": "easily",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "容易地"
+    },
+    {
+      "lemma": "eye",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "眼睛"
+    },
+    {
+      "lemma": "find",
+      "freq": 18,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "go",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "hide",
+      "freq": 24,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "藏"
+    },
+    {
+      "lemma": "look",
+      "freq": 6,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "newspaper",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "报纸"
+    },
+    {
+      "lemma": "place",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "地方"
+    },
+    {
+      "lemma": "ready",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "准备好"
+    },
+    {
+      "lemma": "seek",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "找"
+    },
+    {
+      "lemma": "somewhere",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "某处"
+    },
+    {
+      "lemma": "start",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "开始"
+    },
+    {
+      "lemma": "strange",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "奇怪"
+    },
+    {
+      "lemma": "table",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "桌子"
+    },
+    {
+      "lemma": "thought",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "想过"
+    },
+    {
+      "lemma": "three",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "三个"
+    },
+    {
+      "lemma": "turn",
+      "freq": 12,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "轮到"
+    },
+    {
+      "lemma": "upstairs",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "楼上"
+    }
+  ],
+  "new_words": [
+    "always",
+    "anywhere",
+    "basket",
+    "behind",
+    "close",
+    "count",
+    "dear",
+    "easily",
+    "eye",
+    "hide",
+    "newspaper",
+    "place",
+    "ready",
+    "seek",
+    "somewhere",
+    "start",
+    "strange",
+    "table",
+    "thought",
+    "three",
+    "turn",
+    "upstairs"
+  ],
+  "reused_words": [
+    "find",
+    "go",
+    "look"
+  ],
+  "chunks": [
+    {
+      "id": "hide_and_seek",
+      "text": "hide and seek",
+      "meaning_zh": "捉迷藏",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/hide_and_seek.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/hide_and_seek_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/hide_and_seek.webp",
+      "covers_words": [
+        "hide",
+        "seek"
+      ]
+    },
+    {
+      "id": "your_turn",
+      "text": "your turn",
+      "meaning_zh": "轮到你了",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/your_turn.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/your_turn_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/your_turn.webp",
+      "covers_words": [
+        "turn"
+      ]
+    },
+    {
+      "id": "count_to_ten",
+      "text": "count to ten",
+      "meaning_zh": "数到十",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/count_to_ten.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/count_to_ten_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/count_to_ten.webp",
+      "covers_words": [
+        "count"
+      ]
+    },
+    {
+      "id": "close_your_eyes",
+      "text": "close your eyes",
+      "meaning_zh": "闭上眼睛",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/close_your_eyes.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/close_your_eyes_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/close_your_eyes.webp",
+      "covers_words": [
+        "eye"
+      ]
+    },
+    {
+      "id": "are_you_ready",
+      "text": "Are you ready?",
+      "meaning_zh": "你准备好了吗",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/are_you_ready.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/are_you_ready_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/are_you_ready.webp",
+      "covers_words": [
+        "ready"
+      ]
+    },
+    {
+      "id": "behind_the_table",
+      "text": "behind the table",
+      "meaning_zh": "在桌子后面",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/behind_the_table.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/behind_the_table_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/behind_the_table.webp",
+      "covers_words": [
+        "behind",
+        "table"
+      ]
+    },
+    {
+      "id": "in_the_basket",
+      "text": "in the basket",
+      "meaning_zh": "在篮子里",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/in_the_basket.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/in_the_basket_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/in_the_basket.webp",
+      "covers_words": [
+        "basket"
+      ]
+    },
+    {
+      "id": "behind_the_newspaper",
+      "text": "behind the newspaper",
+      "meaning_zh": "在报纸后面",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/behind_the_newspaper.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/behind_the_newspaper_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/behind_the_newspaper.webp",
+      "covers_words": [
+        "behind",
+        "newspaper"
+      ]
+    },
+    {
+      "id": "hide_somewhere",
+      "text": "hide somewhere",
+      "meaning_zh": "藏在某个地方",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/hide_somewhere.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/hide_somewhere_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/hide_somewhere.webp",
+      "covers_words": [
+        "hide",
+        "somewhere"
+      ]
+    },
+    {
+      "id": "look_anywhere",
+      "text": "look anywhere",
+      "meaning_zh": "到处找",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/look_anywhere.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/look_anywhere_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/look_anywhere.webp",
+      "covers_words": [
+        "look",
+        "anywhere"
+      ]
+    },
+    {
+      "id": "close_eyes",
+      "text": "close your eyes",
+      "meaning_zh": "闭上眼睛",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/close_eyes.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/close_eyes_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/close_eyes.webp",
+      "covers_words": [
+        "close",
+        "eye"
+      ]
+    },
+    {
+      "id": "start_counting",
+      "text": "start counting",
+      "meaning_zh": "开始数数",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/start_counting.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/start_counting_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/start_counting.webp",
+      "covers_words": [
+        "start",
+        "count"
+      ]
+    },
+    {
+      "id": "go_upstairs",
+      "text": "go upstairs",
+      "meaning_zh": "去楼上",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/go_upstairs.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/go_upstairs_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/go_upstairs.webp",
+      "covers_words": [
+        "upstairs",
+        "go"
+      ]
+    },
+    {
+      "id": "strange_place",
+      "text": "strange place",
+      "meaning_zh": "奇怪的地方",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/strange_place.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/strange_place_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/strange_place.webp",
+      "covers_words": [
+        "strange",
+        "place"
+      ]
+    },
+    {
+      "id": "always_ready",
+      "text": "always ready",
+      "meaning_zh": "总是准备好了",
+      "audio_tts": "assets/peppa-s01e05/chunks_audio_tts/always_ready.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/chunks_audio_tts/always_ready_slow.mp3",
+      "image": "assets/peppa-s01e05/chunks_images/always_ready.webp",
+      "covers_words": [
+        "always",
+        "ready"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Peppa and George are playing hide and seek.",
+      "meaning_zh": "Peppa和George在玩捉迷藏。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s01.webp",
+      "chunks": [
+        "hide_and_seek"
+      ],
+      "key_words": [
+        "hide",
+        "seek"
+      ],
+      "time_start": "00:00:32.040",
+      "time_end": "00:00:36.540"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "It is George's turn to hide.",
+      "meaning_zh": "轮到George藏了。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s02.webp",
+      "chunks": [
+        "your_turn"
+      ],
+      "key_words": [
+        "turn",
+        "hide"
+      ],
+      "time_start": "00:00:32.040",
+      "time_end": "00:00:36.540"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "Peppa must count to ten.",
+      "meaning_zh": "Peppa必须数到十。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s03.webp",
+      "chunks": [
+        "count_to_ten"
+      ],
+      "key_words": [
+        "count"
+      ],
+      "time_start": "00:02:59.200",
+      "time_end": "00:03:03.700"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "Peppa closes her eyes.",
+      "meaning_zh": "Peppa闭上眼睛。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s04.webp",
+      "chunks": [
+        "close_your_eyes"
+      ],
+      "key_words": [
+        "eye"
+      ],
+      "time_start": "00:01:46.000",
+      "time_end": "00:01:50.500"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "George is hiding somewhere.",
+      "meaning_zh": "George藏在某个地方。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s05.webp",
+      "chunks": [
+        "hide_and_seek"
+      ],
+      "key_words": [
+        "hide",
+        "somewhere"
+      ],
+      "time_start": "00:00:35.840",
+      "time_end": "00:00:40.340"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "Is he behind the table?",
+      "meaning_zh": "他在桌子后面吗？",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s06.webp",
+      "chunks": [
+        "behind_the_table"
+      ],
+      "key_words": [
+        "behind",
+        "table"
+      ],
+      "time_start": "00:04:32.639",
+      "time_end": "00:04:37.139"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Is he in the basket?",
+      "meaning_zh": "他在篮子里吗？",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s07.webp",
+      "chunks": [
+        "in_the_basket"
+      ],
+      "key_words": [
+        "basket"
+      ],
+      "time_start": "00:03:50.280",
+      "time_end": "00:03:54.780"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "Daddy Pig is behind the newspaper.",
+      "meaning_zh": "猪爸爸躲在报纸后面。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s08.webp",
+      "chunks": [
+        "behind_the_newspaper"
+      ],
+      "key_words": [
+        "behind",
+        "newspaper"
+      ],
+      "time_start": "00:04:35.199",
+      "time_end": "00:04:39.699"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "George is ready to be found.",
+      "meaning_zh": "George准备好被找到了。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s09.webp",
+      "chunks": [
+        "are_you_ready"
+      ],
+      "key_words": [
+        "ready"
+      ],
+      "time_start": "00:00:51.960",
+      "time_end": "00:00:56.460"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "Peppa has found George.",
+      "meaning_zh": "Peppa找到George了。",
+      "audio_tts": "assets/peppa-s01e05/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e05/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e05/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e05/sentences_images/s10.webp",
+      "chunks": [
+        "hide_and_seek"
+      ],
+      "key_words": [
+        "find"
+      ],
+      "time_start": "00:00:35.840",
+      "time_end": "00:00:40.340"
+    }
+  ],
+  "distractors": {
+    "hide": [
+      "seek",
+      "thought",
+      "ready"
+    ],
+    "seek": [
+      "dear",
+      "table",
+      "place"
+    ],
+    "count": [
+      "hide",
+      "somewhere",
+      "anywhere"
+    ],
+    "turn": [
+      "always",
+      "upstairs",
+      "ready"
+    ],
+    "table": [
+      "always",
+      "place",
+      "eye"
+    ],
+    "basket": [
+      "hide",
+      "three",
+      "turn"
+    ],
+    "eye": [
+      "table",
+      "hide",
+      "strange"
+    ],
+    "newspaper": [
+      "seek",
+      "ready",
+      "upstairs"
+    ],
+    "behind": [
+      "eye",
+      "count",
+      "easily"
+    ],
+    "ready": [
+      "somewhere",
+      "strange",
+      "always"
+    ],
+    "somewhere": [
+      "always",
+      "hide",
+      "thought"
+    ],
+    "anywhere": [
+      "somewhere",
+      "three",
+      "upstairs"
+    ],
+    "thought": [
+      "upstairs",
+      "turn",
+      "basket"
+    ],
+    "dear": [
+      "thought",
+      "somewhere",
+      "newspaper"
+    ],
+    "place": [
+      "turn",
+      "anywhere",
+      "ready"
+    ],
+    "close": [
+      "seek",
+      "basket",
+      "turn"
+    ],
+    "always": [
+      "three",
+      "anywhere",
+      "upstairs"
+    ],
+    "upstairs": [
+      "place",
+      "thought",
+      "ready"
+    ],
+    "easily": [
+      "eye",
+      "somewhere",
+      "count"
+    ],
+    "start": [
+      "place",
+      "always",
+      "eye"
+    ],
+    "strange": [
+      "easily",
+      "behind",
+      "count"
+    ],
+    "three": [
+      "place",
+      "easily",
+      "eye"
+    ]
+  }
+}

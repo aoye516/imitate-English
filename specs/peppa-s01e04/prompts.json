@@ -1,0 +1,118 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e04",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "parrot",
+      "subject": "a colorful green parrot perched on a simple wooden stand, bright feathers, friendly expression"
+    },
+    {
+      "lemma": "polly",
+      "subject": "a colorful pet parrot on a perch, slightly theatrical and clever, friendly bird character"
+    },
+    {
+      "lemma": "granny",
+      "subject": "a kind elderly mother pig with glasses and a warm dress, smiling grandmother portrait"
+    },
+    {
+      "lemma": "grandpa",
+      "subject": "a friendly elderly father pig with a cap and gardening clothes, smiling grandfather portrait"
+    },
+    {
+      "lemma": "pet",
+      "subject": "a beloved small pet animal sitting happily beside a food bowl and toy, cared-for feeling"
+    },
+    {
+      "lemma": "noisy",
+      "subject": "a colorful parrot squawking loudly with sound waves around its beak, no text"
+    },
+    {
+      "lemma": "clever",
+      "subject": "a cute animal with a lightbulb above its head and a proud clever smile"
+    },
+    {
+      "lemma": "sweet",
+      "subject": "a cute child animal offering a small cake with a gentle sweet smile and hearts"
+    },
+    {
+      "lemma": "cake",
+      "subject": "a small round cake with pink icing and one cherry on top, no candles, no text"
+    },
+    {
+      "lemma": "copy",
+      "subject": "two parrots side by side, one copying the other's pose exactly, mirror-like action"
+    },
+    {
+      "lemma": "say",
+      "subject": "a cute animal speaking with a simple speech bubble containing no letters, mouth open"
+    },
+    {
+      "lemma": "pretty",
+      "subject": "a colorful parrot with shiny feathers and sparkles around it, elegant pose"
+    },
+    {
+      "lemma": "get",
+      "subject": "a child animal receiving a small gift or object with both hands, happy receiving gesture, no text"
+    },
+    {
+      "lemma": "inside",
+      "subject": "a small toy clearly placed inside an open box, inside position, no text"
+    },
+    {
+      "lemma": "leave",
+      "subject": "a child animal walking away through an open door, leaving scene, no text"
+    },
+    {
+      "lemma": "family",
+      "subject": "a warm family of animal characters standing together smiling, no text"
+    },
+    {
+      "lemma": "egg",
+      "subject": "a single white egg in a small nest, centered, no text"
+    },
+    {
+      "lemma": "enjoy",
+      "subject": "a child animal happily enjoying a slice of cake, eyes closed with delight, no text"
+    },
+    {
+      "lemma": "new",
+      "subject": "a shiny new toy with sparkle marks, fresh and unused, no text"
+    },
+    {
+      "lemma": "hurry",
+      "subject": "a child animal running quickly with motion lines, urgent hurry feeling, no text"
+    },
+    {
+      "lemma": "something",
+      "subject": "a mystery object under a cloth with a question bubble, no text"
+    },
+    {
+      "lemma": "sure",
+      "subject": "a confident child animal giving a thumbs up with sure expression, no text"
+    },
+    {
+      "lemma": "else",
+      "subject": "a child animal choosing another object from a few alternatives, no text"
+    },
+    {
+      "lemma": "off",
+      "subject": "a lamp switch being turned off with the light going dark, no text"
+    },
+    {
+      "lemma": "tea",
+      "subject": "a warm cup of tea with steam on a saucer, no text"
+    },
+    {
+      "lemma": "surprise",
+      "subject": "a child animal opening a small gift box with sparkles, surprised happy face, no text"
+    },
+    {
+      "lemma": "visit",
+      "subject": "two animal families greeting at a front door, visiting scene, no text"
+    }
+  ]
+}

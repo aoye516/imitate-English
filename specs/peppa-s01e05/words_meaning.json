@@ -1,0 +1,93 @@
+{
+  "_note": "Generated L1 meanings for S01E03-E10 starter pass. Supplemented after reviewing omitted real content words.",
+  "words": {
+    "hide": {
+      "meaning_zh": "藏",
+      "spelling_visible": true
+    },
+    "seek": {
+      "meaning_zh": "找",
+      "spelling_visible": true
+    },
+    "count": {
+      "meaning_zh": "数数",
+      "spelling_visible": true
+    },
+    "turn": {
+      "meaning_zh": "轮到",
+      "spelling_visible": true
+    },
+    "table": {
+      "meaning_zh": "桌子",
+      "spelling_visible": true
+    },
+    "basket": {
+      "meaning_zh": "篮子",
+      "spelling_visible": true
+    },
+    "eye": {
+      "meaning_zh": "眼睛",
+      "spelling_visible": true
+    },
+    "newspaper": {
+      "meaning_zh": "报纸",
+      "spelling_visible": true
+    },
+    "behind": {
+      "meaning_zh": "在后面",
+      "spelling_visible": true
+    },
+    "ready": {
+      "meaning_zh": "准备好",
+      "spelling_visible": true
+    },
+    "somewhere": {
+      "meaning_zh": "某处",
+      "spelling_visible": true
+    },
+    "anywhere": {
+      "meaning_zh": "任何地方",
+      "spelling_visible": true
+    },
+    "thought": {
+      "meaning_zh": "想过",
+      "spelling_visible": true
+    },
+    "dear": {
+      "meaning_zh": "哎呀/亲爱的",
+      "spelling_visible": true
+    },
+    "place": {
+      "meaning_zh": "地方",
+      "spelling_visible": true
+    },
+    "close": {
+      "meaning_zh": "闭上",
+      "spelling_visible": true
+    },
+    "always": {
+      "meaning_zh": "总是",
+      "spelling_visible": true
+    },
+    "upstairs": {
+      "meaning_zh": "楼上",
+      "spelling_visible": true
+    },
+    "easily": {
+      "meaning_zh": "容易地",
+      "spelling_visible": true
+    },
+    "start": {
+      "meaning_zh": "开始",
+      "spelling_visible": true
+    },
+    "strange": {
+      "meaning_zh": "奇怪",
+      "spelling_visible": true
+    },
+    "three": {
+      "meaning_zh": "三个",
+      "spelling_visible": true
+    }
+  }
+}

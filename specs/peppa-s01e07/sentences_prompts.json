@@ -1,0 +1,151 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Mummy Pig is working on her computer.",
+      "meaning_zh": "猪妈妈正在电脑上工作。",
+      "subject": "a warm children's cartoon story scene showing: 猪妈妈正在电脑上工作。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:31.159",
+      "time_end": "00:01:35.659",
+      "chunks": [
+        "at_work",
+        "on_the_computer"
+      ],
+      "key_words": [
+        "mummy",
+        "work",
+        "computer"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "Peppa and George must not touch the computer.",
+      "meaning_zh": "Peppa和George不能碰电脑。",
+      "subject": "a warm children's cartoon story scene showing: Peppa和George不能碰电脑。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:34.399",
+      "time_end": "00:01:38.899",
+      "chunks": [
+        "dont_touch"
+      ],
+      "key_words": [
+        "touch",
+        "computer"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "Mummy Pig has some very important work to do.",
+      "meaning_zh": "猪妈妈有很重要的工作要做。",
+      "subject": "an adult mother pig working seriously at a simple desktop computer on a desk, important focused work mood, no text",
+      "time_start": "00:00:50.680",
+      "time_end": "00:00:55.180",
+      "chunks": [
+        "very_important"
+      ],
+      "key_words": [
+        "important",
+        "work"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "Peppa wants to play a computer game.",
+      "meaning_zh": "Peppa想玩电脑游戏。",
+      "subject": "a warm children's cartoon story scene showing: Peppa想玩电脑游戏。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:58.519",
+      "time_end": "00:03:03.019",
+      "chunks": [
+        "on_the_computer"
+      ],
+      "key_words": [
+        "computer",
+        "game"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "The computer is not working.",
+      "meaning_zh": "电脑坏了。",
+      "subject": "a warm children's cartoon story scene showing: 电脑坏了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:31.159",
+      "time_end": "00:01:35.659",
+      "chunks": [],
+      "key_words": [
+        "computer",
+        "work"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "Daddy Pig can mend the computer.",
+      "meaning_zh": "猪爸爸会修电脑。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸会修电脑。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:10.520",
+      "time_end": "00:02:15.020",
+      "chunks": [
+        "mend_the_computer"
+      ],
+      "key_words": [
+        "mend",
+        "computer"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "Mummy Pig is making lunch.",
+      "meaning_zh": "猪妈妈在做午餐。",
+      "subject": "a warm children's cartoon story scene showing: 猪妈妈在做午餐。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:07.360",
+      "time_end": "00:02:11.860",
+      "chunks": [
+        "make_lunch"
+      ],
+      "key_words": [
+        "lunch"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "Please do not disturb Mummy Pig.",
+      "meaning_zh": "请不要打扰猪妈妈。",
+      "subject": "a warm children's cartoon story scene showing: 请不要打扰猪妈妈。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:48.239",
+      "time_end": "00:00:52.739",
+      "chunks": [
+        "dont_disturb"
+      ],
+      "key_words": [
+        "disturb"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "Mummy Pig has finished her work.",
+      "meaning_zh": "猪妈妈完成了工作。",
+      "subject": "a warm children's cartoon story scene showing: 猪妈妈完成了工作。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:06.240",
+      "time_end": "00:01:10.740",
+      "chunks": [
+        "finish_work"
+      ],
+      "key_words": [
+        "finish",
+        "work"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "George likes the happy chicken game.",
+      "meaning_zh": "George喜欢开心小鸡游戏。",
+      "subject": "a warm children's cartoon story scene showing: George喜欢开心小鸡游戏。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:58.519",
+      "time_end": "00:03:03.019",
+      "chunks": [],
+      "key_words": [
+        "chicken",
+        "happy"
+      ]
+    }
+  ]
+}

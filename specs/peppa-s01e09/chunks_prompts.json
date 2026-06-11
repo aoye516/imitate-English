@@ -1,0 +1,170 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "daddy_glasses",
+      "text": "Daddy's glasses",
+      "subject": "a clear child-friendly illustration of the phrase 'Daddy's glasses' meaning 爸爸的眼镜, no written words, one simple action, expressive characters",
+      "meaning_zh": "爸爸的眼镜",
+      "covers_words": [
+        "glasses"
+      ]
+    },
+    {
+      "id": "lost_glasses",
+      "text": "lost his glasses",
+      "subject": "a clear child-friendly illustration of the phrase 'lost his glasses' meaning 弄丢了眼镜, no written words, one simple action, expressive characters",
+      "meaning_zh": "弄丢了眼镜",
+      "covers_words": [
+        "lose",
+        "glasses"
+      ]
+    },
+    {
+      "id": "without_glasses",
+      "text": "without his glasses",
+      "subject": "a clear child-friendly illustration of the phrase 'without his glasses' meaning 没戴眼镜, no written words, one simple action, expressive characters",
+      "meaning_zh": "没戴眼镜",
+      "covers_words": [
+        "without",
+        "glasses"
+      ]
+    },
+    {
+      "id": "look_clearly",
+      "text": "see clearly",
+      "subject": "a clear child-friendly illustration of the phrase 'see clearly' meaning 看清楚, no written words, one simple action, expressive characters",
+      "meaning_zh": "看清楚",
+      "covers_words": [
+        "clearly"
+      ]
+    },
+    {
+      "id": "in_bathroom",
+      "text": "in the bathroom",
+      "subject": "a clear child-friendly illustration of the phrase 'in the bathroom' meaning 在浴室里, no written words, one simple action, expressive characters",
+      "meaning_zh": "在浴室里",
+      "covers_words": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "in_bedroom",
+      "text": "in the bedroom",
+      "subject": "a clear child-friendly illustration of the phrase 'in the bedroom' meaning 在卧室里, no written words, one simple action, expressive characters",
+      "meaning_zh": "在卧室里",
+      "covers_words": [
+        "bedroom"
+      ]
+    },
+    {
+      "id": "be_careful",
+      "text": "be careful",
+      "subject": "a clear child-friendly illustration of the phrase 'be careful' meaning 小心点, no written words, one simple action, expressive characters",
+      "meaning_zh": "小心点",
+      "covers_words": [
+        "careful"
+      ]
+    },
+    {
+      "id": "feels_grumpy",
+      "text": "feels grumpy",
+      "subject": "a clear child-friendly illustration of the phrase 'feels grumpy' meaning 有点烦躁, no written words, one simple action, expressive characters",
+      "meaning_zh": "有点烦躁",
+      "covers_words": [
+        "grumpy"
+      ]
+    },
+    {
+      "id": "everything_everywhere",
+      "text": "everything everywhere",
+      "meaning_zh": "东西到处都是",
+      "subject": "a clear child-friendly illustration of the phrase 'everything everywhere' meaning 东西到处都是, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "everything",
+        "everywhere"
+      ]
+    },
+    {
+      "id": "fuzzy_without_glasses",
+      "text": "fuzzy without glasses",
+      "meaning_zh": "没眼镜看不清",
+      "subject": "a clear child-friendly illustration of the phrase 'fuzzy without glasses' meaning 没眼镜看不清, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "fuzzy",
+        "without",
+        "glasses"
+      ]
+    },
+    {
+      "id": "put_in_pocket",
+      "text": "put in pocket",
+      "meaning_zh": "放进口袋",
+      "subject": "a clear child-friendly illustration of the phrase 'put in pocket' meaning 放进口袋, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "put",
+        "pocket"
+      ]
+    },
+    {
+      "id": "soft_pillow",
+      "text": "soft pillow",
+      "meaning_zh": "柔软枕头",
+      "subject": "a clear child-friendly illustration of the phrase 'soft pillow' meaning 柔软枕头, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "soft",
+        "pillow"
+      ]
+    },
+    {
+      "id": "read_and_remember",
+      "text": "read and remember",
+      "meaning_zh": "读并记住",
+      "subject": "a clear child-friendly illustration of the phrase 'read and remember' meaning 读并记住, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "read",
+        "remember"
+      ]
+    },
+    {
+      "id": "ridiculous_thing",
+      "text": "ridiculous thing",
+      "meaning_zh": "荒唐的事",
+      "subject": "a clear child-friendly illustration of the phrase 'ridiculous thing' meaning 荒唐的事, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "ridiculous",
+        "thing"
+      ]
+    },
+    {
+      "id": "knock_on_toilet",
+      "text": "knock near the toilet",
+      "meaning_zh": "在厕所边敲/碰",
+      "subject": "a clear child-friendly illustration of the phrase 'knock near the toilet' meaning 在厕所边敲/碰, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "knock",
+        "toilet"
+      ]
+    },
+    {
+      "id": "top_slipper",
+      "text": "top of the slipper",
+      "meaning_zh": "拖鞋上面",
+      "subject": "a clear child-friendly illustration of the phrase 'top of the slipper' meaning 拖鞋上面, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "top",
+        "slipper"
+      ]
+    },
+    {
+      "id": "somebody_move_it",
+      "text": "somebody moved it",
+      "meaning_zh": "有人移动了它",
+      "subject": "a clear child-friendly illustration of the phrase 'somebody moved it' meaning 有人移动了它, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "somebody",
+        "move"
+      ]
+    }
+  ]
+}

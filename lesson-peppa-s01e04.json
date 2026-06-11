@@ -1,0 +1,1042 @@
+{
+  "id": "peppa-s01e04",
+  "title": "Polly Parrot",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "parrot",
+      "freq": 37,
+      "audio": "assets/audio/parrot.mp3",
+      "audio_slow": "assets/audio/parrot_slow.mp3",
+      "image": "assets/images/parrot.webp",
+      "skip_image": false,
+      "meaning_zh": "鹦鹉",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "polly",
+      "freq": 26,
+      "audio": "assets/audio/polly.mp3",
+      "audio_slow": "assets/audio/polly_slow.mp3",
+      "image": "assets/images/polly.webp",
+      "skip_image": false,
+      "meaning_zh": "波莉",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "granny",
+      "freq": 20,
+      "audio": "assets/audio/granny.mp3",
+      "audio_slow": "assets/audio/granny_slow.mp3",
+      "image": "assets/images/granny.webp",
+      "skip_image": false,
+      "meaning_zh": "奶奶",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "grandpa",
+      "freq": 8,
+      "audio": "assets/audio/grandpa.mp3",
+      "audio_slow": "assets/audio/grandpa_slow.mp3",
+      "image": "assets/images/grandpa.webp",
+      "skip_image": false,
+      "meaning_zh": "爷爷",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pet",
+      "freq": 8,
+      "audio": "assets/audio/pet.mp3",
+      "audio_slow": "assets/audio/pet_slow.mp3",
+      "image": "assets/images/pet.webp",
+      "skip_image": false,
+      "meaning_zh": "宠物",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "noisy",
+      "freq": 8,
+      "audio": "assets/audio/noisy.mp3",
+      "audio_slow": "assets/audio/noisy_slow.mp3",
+      "image": "assets/images/noisy.webp",
+      "skip_image": false,
+      "meaning_zh": "吵闹",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "clever",
+      "freq": 7,
+      "audio": "assets/audio/clever.mp3",
+      "audio_slow": "assets/audio/clever_slow.mp3",
+      "image": "assets/images/clever.webp",
+      "skip_image": false,
+      "meaning_zh": "聪明",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sweet",
+      "freq": 7,
+      "audio": "assets/audio/sweet.mp3",
+      "audio_slow": "assets/audio/sweet_slow.mp3",
+      "image": "assets/images/sweet.webp",
+      "skip_image": false,
+      "meaning_zh": "可爱/亲切",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "cake",
+      "freq": 6,
+      "audio": "assets/audio/cake.mp3",
+      "audio_slow": "assets/audio/cake_slow.mp3",
+      "image": "assets/images/cake.webp",
+      "skip_image": false,
+      "meaning_zh": "蛋糕",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "copy",
+      "freq": 3,
+      "audio": "assets/audio/copy.mp3",
+      "audio_slow": "assets/audio/copy_slow.mp3",
+      "image": "assets/images/copy.webp",
+      "skip_image": false,
+      "meaning_zh": "模仿",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "say",
+      "freq": 10,
+      "audio": "assets/audio/say.mp3",
+      "audio_slow": "assets/audio/say_slow.mp3",
+      "image": "assets/images/say.webp",
+      "skip_image": false,
+      "meaning_zh": "说",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pretty",
+      "freq": 6,
+      "audio": "assets/audio/pretty.mp3",
+      "audio_slow": "assets/audio/pretty_slow.mp3",
+      "image": "assets/images/pretty.webp",
+      "skip_image": false,
+      "meaning_zh": "漂亮",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "get",
+      "freq": 3,
+      "audio": "assets/audio/get.mp3",
+      "audio_slow": "assets/audio/get_slow.mp3",
+      "image": "assets/images/get.webp",
+      "skip_image": false,
+      "meaning_zh": "得到/拿到",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "inside",
+      "freq": 3,
+      "audio": "assets/audio/inside.mp3",
+      "audio_slow": "assets/audio/inside_slow.mp3",
+      "image": "assets/images/inside.webp",
+      "skip_image": false,
+      "meaning_zh": "里面",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "leave",
+      "freq": 3,
+      "audio": "assets/audio/leave.mp3",
+      "audio_slow": "assets/audio/leave_slow.mp3",
+      "image": "assets/images/leave.webp",
+      "skip_image": false,
+      "meaning_zh": "离开",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "family",
+      "freq": 3,
+      "audio": "assets/audio/family.mp3",
+      "audio_slow": "assets/audio/family_slow.mp3",
+      "image": "assets/images/family.webp",
+      "skip_image": false,
+      "meaning_zh": "家人",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "egg",
+      "freq": 3,
+      "audio": "assets/audio/egg.mp3",
+      "audio_slow": "assets/audio/egg_slow.mp3",
+      "image": "assets/images/egg.webp",
+      "skip_image": false,
+      "meaning_zh": "鸡蛋",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "enjoy",
+      "freq": 3,
+      "audio": "assets/audio/enjoy.mp3",
+      "audio_slow": "assets/audio/enjoy_slow.mp3",
+      "image": "assets/images/enjoy.webp",
+      "skip_image": false,
+      "meaning_zh": "享受",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "new",
+      "freq": 3,
+      "audio": "assets/audio/new.mp3",
+      "audio_slow": "assets/audio/new_slow.mp3",
+      "image": "assets/images/new.webp",
+      "skip_image": false,
+      "meaning_zh": "新的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hurry",
+      "freq": 3,
+      "audio": "assets/audio/hurry.mp3",
+      "audio_slow": "assets/audio/hurry_slow.mp3",
+      "image": "assets/images/hurry.webp",
+      "skip_image": false,
+      "meaning_zh": "赶快",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "something",
+      "freq": 0,
+      "audio": "assets/audio/something.mp3",
+      "audio_slow": "assets/audio/something_slow.mp3",
+      "image": "assets/images/something.webp",
+      "skip_image": false,
+      "meaning_zh": "某个东西",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sure",
+      "freq": 3,
+      "audio": "assets/audio/sure.mp3",
+      "audio_slow": "assets/audio/sure_slow.mp3",
+      "image": "assets/images/sure.webp",
+      "skip_image": false,
+      "meaning_zh": "当然/确定",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "else",
+      "freq": 2,
+      "audio": "assets/audio/else.mp3",
+      "audio_slow": "assets/audio/else_slow.mp3",
+      "image": "assets/images/else.webp",
+      "skip_image": false,
+      "meaning_zh": "别的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "off",
+      "freq": 2,
+      "audio": "assets/audio/off.mp3",
+      "audio_slow": "assets/audio/off_slow.mp3",
+      "image": "assets/images/off.webp",
+      "skip_image": false,
+      "meaning_zh": "离开/关掉",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "tea",
+      "freq": 3,
+      "audio": "assets/audio/tea.mp3",
+      "audio_slow": "assets/audio/tea_slow.mp3",
+      "image": "assets/images/tea.webp",
+      "skip_image": false,
+      "meaning_zh": "茶",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "surprise",
+      "freq": 3,
+      "audio": "assets/audio/surprise.mp3",
+      "audio_slow": "assets/audio/surprise_slow.mp3",
+      "image": "assets/images/surprise.webp",
+      "skip_image": false,
+      "meaning_zh": "惊喜",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "visit",
+      "freq": 3,
+      "audio": "assets/audio/visit.mp3",
+      "audio_slow": "assets/audio/visit_slow.mp3",
+      "image": "assets/images/visit.webp",
+      "skip_image": false,
+      "meaning_zh": "拜访",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "cake",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "蛋糕"
+    },
+    {
+      "lemma": "clever",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "聪明"
+    },
+    {
+      "lemma": "come",
+      "freq": 11,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "copy",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "模仿"
+    },
+    {
+      "lemma": "egg",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "鸡蛋"
+    },
+    {
+      "lemma": "else",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "别的"
+    },
+    {
+      "lemma": "enjoy",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "享受"
+    },
+    {
+      "lemma": "family",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "家人"
+    },
+    {
+      "lemma": "get",
+      "freq": 3,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "得到/拿到"
+    },
+    {
+      "lemma": "grandpa",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "爷爷"
+    },
+    {
+      "lemma": "granny",
+      "freq": 20,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "奶奶"
+    },
+    {
+      "lemma": "hurry",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "赶快"
+    },
+    {
+      "lemma": "inside",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "里面"
+    },
+    {
+      "lemma": "leave",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "离开"
+    },
+    {
+      "lemma": "new",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "新的"
+    },
+    {
+      "lemma": "noisy",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "吵闹"
+    },
+    {
+      "lemma": "off",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "离开/关掉"
+    },
+    {
+      "lemma": "parrot",
+      "freq": 37,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "鹦鹉"
+    },
+    {
+      "lemma": "pet",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "宠物"
+    },
+    {
+      "lemma": "polly",
+      "freq": 26,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "波莉"
+    },
+    {
+      "lemma": "pretty",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "漂亮"
+    },
+    {
+      "lemma": "say",
+      "freq": 10,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "说"
+    },
+    {
+      "lemma": "something",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "某个东西"
+    },
+    {
+      "lemma": "sure",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "当然/确定"
+    },
+    {
+      "lemma": "surprise",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "惊喜"
+    },
+    {
+      "lemma": "sweet",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "可爱/亲切"
+    },
+    {
+      "lemma": "tea",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "茶"
+    },
+    {
+      "lemma": "visit",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "拜访"
+    },
+    {
+      "lemma": "want",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    }
+  ],
+  "new_words": [
+    "cake",
+    "clever",
+    "copy",
+    "egg",
+    "else",
+    "enjoy",
+    "family",
+    "grandpa",
+    "granny",
+    "hurry",
+    "inside",
+    "leave",
+    "new",
+    "noisy",
+    "off",
+    "parrot",
+    "pet",
+    "polly",
+    "pretty",
+    "say",
+    "something",
+    "sure",
+    "surprise",
+    "sweet",
+    "tea",
+    "visit"
+  ],
+  "reused_words": [
+    "come",
+    "get",
+    "want"
+  ],
+  "chunks": [
+    {
+      "id": "polly_parrot",
+      "text": "Polly Parrot",
+      "meaning_zh": "鹦鹉Polly",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/polly_parrot.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/polly_parrot_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/polly_parrot.webp",
+      "covers_words": [
+        "polly",
+        "parrot"
+      ]
+    },
+    {
+      "id": "granny_pig",
+      "text": "Granny Pig",
+      "meaning_zh": "猪奶奶",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/granny_pig.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/granny_pig_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/granny_pig.webp",
+      "covers_words": [
+        "granny"
+      ]
+    },
+    {
+      "id": "grandpa_pig",
+      "text": "Grandpa Pig",
+      "meaning_zh": "猪爷爷",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/grandpa_pig.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/grandpa_pig_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/grandpa_pig.webp",
+      "covers_words": [
+        "grandpa"
+      ]
+    },
+    {
+      "id": "a_pet_parrot",
+      "text": "a pet parrot",
+      "meaning_zh": "宠物鹦鹉",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/a_pet_parrot.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/a_pet_parrot_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/a_pet_parrot.webp",
+      "covers_words": [
+        "pet",
+        "parrot"
+      ]
+    },
+    {
+      "id": "very_noisy",
+      "text": "very noisy",
+      "meaning_zh": "非常吵",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/very_noisy.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/very_noisy_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/very_noisy.webp",
+      "covers_words": [
+        "noisy"
+      ]
+    },
+    {
+      "id": "clever_parrot",
+      "text": "clever parrot",
+      "meaning_zh": "聪明的鹦鹉",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/clever_parrot.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/clever_parrot_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/clever_parrot.webp",
+      "covers_words": [
+        "clever",
+        "parrot"
+      ]
+    },
+    {
+      "id": "have_some_cake",
+      "text": "have some cake",
+      "meaning_zh": "吃点蛋糕",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/have_some_cake.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/have_some_cake_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/have_some_cake.webp",
+      "covers_words": [
+        "cake"
+      ]
+    },
+    {
+      "id": "copy_what_you_say",
+      "text": "copy what you say",
+      "meaning_zh": "模仿你说的话",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/copy_what_you_say.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/copy_what_you_say_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/copy_what_you_say.webp",
+      "covers_words": [
+        "copy",
+        "say"
+      ]
+    },
+    {
+      "id": "something_else",
+      "text": "something else",
+      "meaning_zh": "别的东西",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/something_else.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/something_else_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/something_else.webp",
+      "covers_words": [
+        "something",
+        "else"
+      ]
+    },
+    {
+      "id": "come_inside",
+      "text": "come inside",
+      "meaning_zh": "进到里面来",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/come_inside.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/come_inside_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/come_inside.webp",
+      "covers_words": [
+        "inside",
+        "come"
+      ]
+    },
+    {
+      "id": "leave_home",
+      "text": "leave home",
+      "meaning_zh": "离开家",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/leave_home.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/leave_home_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/leave_home.webp",
+      "covers_words": [
+        "leave"
+      ]
+    },
+    {
+      "id": "family_visit",
+      "text": "family visit",
+      "meaning_zh": "家人拜访",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/family_visit.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/family_visit_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/family_visit.webp",
+      "covers_words": [
+        "family",
+        "visit"
+      ]
+    },
+    {
+      "id": "have_tea",
+      "text": "have tea",
+      "meaning_zh": "喝茶",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/have_tea.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/have_tea_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/have_tea.webp",
+      "covers_words": [
+        "tea"
+      ]
+    },
+    {
+      "id": "a_nice_surprise",
+      "text": "a nice surprise",
+      "meaning_zh": "一个惊喜",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/a_nice_surprise.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/a_nice_surprise_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/a_nice_surprise.webp",
+      "covers_words": [
+        "surprise"
+      ]
+    },
+    {
+      "id": "new_pet",
+      "text": "new pet",
+      "meaning_zh": "新宠物",
+      "audio_tts": "assets/peppa-s01e04/chunks_audio_tts/new_pet.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/chunks_audio_tts/new_pet_slow.mp3",
+      "image": "assets/peppa-s01e04/chunks_images/new_pet.webp",
+      "covers_words": [
+        "new",
+        "pet"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Peppa and George are visiting Granny Pig and Grandpa Pig.",
+      "meaning_zh": "Peppa和George去看猪奶奶和猪爷爷。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s01.webp",
+      "chunks": [
+        "granny_pig",
+        "grandpa_pig"
+      ],
+      "key_words": [
+        "granny",
+        "grandpa"
+      ],
+      "time_start": "00:00:39.040",
+      "time_end": "00:00:43.540"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Granny Pig has a pet parrot.",
+      "meaning_zh": "猪奶奶有一只宠物鹦鹉。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s02.webp",
+      "chunks": [
+        "a_pet_parrot"
+      ],
+      "key_words": [
+        "granny",
+        "pet",
+        "parrot"
+      ],
+      "time_start": "00:01:04.960",
+      "time_end": "00:01:09.460"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "Polly Parrot is very pretty.",
+      "meaning_zh": "鹦鹉Polly很漂亮。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s03.webp",
+      "chunks": [
+        "polly_parrot"
+      ],
+      "key_words": [
+        "polly",
+        "parrot",
+        "pretty"
+      ],
+      "time_start": "00:01:12.240",
+      "time_end": "00:01:16.740"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "Polly is a clever parrot.",
+      "meaning_zh": "Polly是一只聪明的鹦鹉。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s04.webp",
+      "chunks": [
+        "clever_parrot"
+      ],
+      "key_words": [
+        "polly",
+        "clever",
+        "parrot"
+      ],
+      "time_start": "00:02:19.440",
+      "time_end": "00:02:23.940"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Polly can copy what you say.",
+      "meaning_zh": "Polly会模仿你说的话。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s05.webp",
+      "chunks": [
+        "copy_what_you_say"
+      ],
+      "key_words": [
+        "copy",
+        "say"
+      ],
+      "time_start": "00:01:30.040",
+      "time_end": "00:01:34.540"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "Peppa says hello to Polly.",
+      "meaning_zh": "Peppa跟Polly打招呼。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s06.webp",
+      "chunks": [
+        "polly_parrot"
+      ],
+      "key_words": [
+        "say",
+        "polly"
+      ],
+      "time_start": "00:01:32.799",
+      "time_end": "00:01:37.299"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Polly is very noisy.",
+      "meaning_zh": "Polly非常吵。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s07.webp",
+      "chunks": [
+        "very_noisy"
+      ],
+      "key_words": [
+        "polly",
+        "noisy"
+      ],
+      "time_start": "00:03:39.319",
+      "time_end": "00:03:43.819"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "Granny Pig gives everyone cake.",
+      "meaning_zh": "猪奶奶给大家蛋糕。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s08.webp",
+      "chunks": [
+        "have_some_cake"
+      ],
+      "key_words": [
+        "granny",
+        "cake"
+      ],
+      "time_start": "00:02:00.680",
+      "time_end": "00:02:05.180"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Polly wants some cake too.",
+      "meaning_zh": "Polly也想吃蛋糕。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s09.webp",
+      "chunks": [
+        "have_some_cake"
+      ],
+      "key_words": [
+        "polly",
+        "cake",
+        "want"
+      ],
+      "time_start": "00:02:03.159",
+      "time_end": "00:02:07.659"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "Peppa thinks Polly is sweet.",
+      "meaning_zh": "Peppa觉得Polly很可爱。",
+      "audio_tts": "assets/peppa-s01e04/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e04/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e04/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e04/sentences_images/s10.webp",
+      "chunks": [
+        "polly_parrot"
+      ],
+      "key_words": [
+        "polly",
+        "sweet"
+      ],
+      "time_start": "00:01:37.280",
+      "time_end": "00:01:41.780"
+    }
+  ],
+  "distractors": {
+    "parrot": [
+      "new",
+      "noisy",
+      "enjoy"
+    ],
+    "polly": [
+      "something",
+      "grandpa",
+      "off"
+    ],
+    "granny": [
+      "sweet",
+      "sure",
+      "surprise"
+    ],
+    "grandpa": [
+      "sure",
+      "polly",
+      "noisy"
+    ],
+    "pet": [
+      "get",
+      "egg",
+      "sure"
+    ],
+    "noisy": [
+      "family",
+      "enjoy",
+      "else"
+    ],
+    "clever": [
+      "sweet",
+      "granny",
+      "parrot"
+    ],
+    "sweet": [
+      "cake",
+      "leave",
+      "sure"
+    ],
+    "cake": [
+      "new",
+      "copy",
+      "visit"
+    ],
+    "copy": [
+      "family",
+      "grandpa",
+      "pet"
+    ],
+    "say": [
+      "off",
+      "cake",
+      "noisy"
+    ],
+    "pretty": [
+      "off",
+      "new",
+      "copy"
+    ],
+    "get": [
+      "surprise",
+      "pet",
+      "enjoy"
+    ],
+    "inside": [
+      "cake",
+      "hurry",
+      "pet"
+    ],
+    "leave": [
+      "grandpa",
+      "else",
+      "hurry"
+    ],
+    "family": [
+      "polly",
+      "surprise",
+      "something"
+    ],
+    "egg": [
+      "tea",
+      "hurry",
+      "copy"
+    ],
+    "enjoy": [
+      "egg",
+      "granny",
+      "something"
+    ],
+    "new": [
+      "polly",
+      "egg",
+      "noisy"
+    ],
+    "hurry": [
+      "say",
+      "grandpa",
+      "pet"
+    ],
+    "something": [
+      "sweet",
+      "sure",
+      "polly"
+    ],
+    "sure": [
+      "egg",
+      "noisy",
+      "surprise"
+    ],
+    "else": [
+      "leave",
+      "sure",
+      "inside"
+    ],
+    "off": [
+      "family",
+      "say",
+      "new"
+    ],
+    "tea": [
+      "hurry",
+      "granny",
+      "sweet"
+    ],
+    "surprise": [
+      "say",
+      "new",
+      "pretty"
+    ],
+    "visit": [
+      "granny",
+      "egg",
+      "get"
+    ]
+  }
+}

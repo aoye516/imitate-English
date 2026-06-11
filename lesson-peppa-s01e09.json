@@ -1,0 +1,1163 @@
+{
+  "id": "peppa-s01e09",
+  "title": "Daddy Loses His Glasses",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "glasses",
+      "freq": 0,
+      "audio": "assets/audio/glasses.mp3",
+      "audio_slow": "assets/audio/glasses_slow.mp3",
+      "image": "assets/images/glasses.webp",
+      "skip_image": false,
+      "meaning_zh": "眼镜",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "grumpy",
+      "freq": 9,
+      "audio": "assets/audio/grumpy.mp3",
+      "audio_slow": "assets/audio/grumpy_slow.mp3",
+      "image": "assets/images/grumpy.webp",
+      "skip_image": false,
+      "meaning_zh": "烦躁",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "put",
+      "freq": 9,
+      "audio": "assets/audio/put.mp3",
+      "audio_slow": "assets/audio/put_slow.mp3",
+      "image": "assets/images/put.webp",
+      "skip_image": false,
+      "meaning_zh": "放",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "without",
+      "freq": 8,
+      "audio": "assets/audio/without.mp3",
+      "audio_slow": "assets/audio/without_slow.mp3",
+      "image": "assets/images/without.webp",
+      "skip_image": false,
+      "meaning_zh": "没有",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "clearly",
+      "freq": 6,
+      "audio": "assets/audio/clearly.mp3",
+      "audio_slow": "assets/audio/clearly_slow.mp3",
+      "image": "assets/images/clearly.webp",
+      "skip_image": false,
+      "meaning_zh": "清楚地",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bathroom",
+      "freq": 5,
+      "audio": "assets/audio/bathroom.mp3",
+      "audio_slow": "assets/audio/bathroom_slow.mp3",
+      "image": "assets/images/bathroom.webp",
+      "skip_image": false,
+      "meaning_zh": "浴室",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bedroom",
+      "freq": 5,
+      "audio": "assets/audio/bedroom.mp3",
+      "audio_slow": "assets/audio/bedroom_slow.mp3",
+      "image": "assets/images/bedroom.webp",
+      "skip_image": false,
+      "meaning_zh": "卧室",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "lose",
+      "freq": 4,
+      "audio": "assets/audio/lose.mp3",
+      "audio_slow": "assets/audio/lose_slow.mp3",
+      "image": "assets/images/lose.webp",
+      "skip_image": false,
+      "meaning_zh": "弄丢",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "silly",
+      "freq": 4,
+      "audio": "assets/audio/silly.mp3",
+      "audio_slow": "assets/audio/silly_slow.mp3",
+      "image": "assets/images/silly.webp",
+      "skip_image": false,
+      "meaning_zh": "傻乎乎",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bump",
+      "freq": 3,
+      "audio": "assets/audio/bump.mp3",
+      "audio_slow": "assets/audio/bump_slow.mp3",
+      "image": "assets/images/bump.webp",
+      "skip_image": false,
+      "meaning_zh": "撞到",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "careful",
+      "freq": 3,
+      "audio": "assets/audio/careful.mp3",
+      "audio_slow": "assets/audio/careful_slow.mp3",
+      "image": "assets/images/careful.webp",
+      "skip_image": false,
+      "meaning_zh": "小心",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "thing",
+      "freq": 9,
+      "audio": "assets/audio/thing.mp3",
+      "audio_slow": "assets/audio/thing_slow.mp3",
+      "image": "assets/images/thing.webp",
+      "skip_image": false,
+      "meaning_zh": "东西",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "fuzzy",
+      "freq": 3,
+      "audio": "assets/audio/fuzzy.mp3",
+      "audio_slow": "assets/audio/fuzzy_slow.mp3",
+      "image": "assets/images/fuzzy.webp",
+      "skip_image": false,
+      "meaning_zh": "模糊",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "knock",
+      "freq": 3,
+      "audio": "assets/audio/knock.mp3",
+      "audio_slow": "assets/audio/knock_slow.mp3",
+      "image": "assets/images/knock.webp",
+      "skip_image": false,
+      "meaning_zh": "敲/碰",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "last",
+      "freq": 3,
+      "audio": "assets/audio/last.mp3",
+      "audio_slow": "assets/audio/last_slow.mp3",
+      "image": "assets/images/last.webp",
+      "skip_image": false,
+      "meaning_zh": "最后",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "learn",
+      "freq": 3,
+      "audio": "assets/audio/learn.mp3",
+      "audio_slow": "assets/audio/learn_slow.mp3",
+      "image": "assets/images/learn.webp",
+      "skip_image": false,
+      "meaning_zh": "学习",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "move",
+      "freq": 3,
+      "audio": "assets/audio/move.mp3",
+      "audio_slow": "assets/audio/move_slow.mp3",
+      "image": "assets/images/move.webp",
+      "skip_image": false,
+      "meaning_zh": "移动",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pillow",
+      "freq": 3,
+      "audio": "assets/audio/pillow.mp3",
+      "audio_slow": "assets/audio/pillow_slow.mp3",
+      "image": "assets/images/pillow.webp",
+      "skip_image": false,
+      "meaning_zh": "枕头",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pocket",
+      "freq": 3,
+      "audio": "assets/audio/pocket.mp3",
+      "audio_slow": "assets/audio/pocket_slow.mp3",
+      "image": "assets/images/pocket.webp",
+      "skip_image": false,
+      "meaning_zh": "口袋",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "read",
+      "freq": 3,
+      "audio": "assets/audio/read.mp3",
+      "audio_slow": "assets/audio/read_slow.mp3",
+      "image": "assets/images/read.webp",
+      "skip_image": false,
+      "meaning_zh": "读",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "remember",
+      "freq": 3,
+      "audio": "assets/audio/remember.mp3",
+      "audio_slow": "assets/audio/remember_slow.mp3",
+      "image": "assets/images/remember.webp",
+      "skip_image": false,
+      "meaning_zh": "记得",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "everything",
+      "freq": 0,
+      "audio": "assets/audio/everything.mp3",
+      "audio_slow": "assets/audio/everything_slow.mp3",
+      "image": "assets/images/everything.webp",
+      "skip_image": false,
+      "meaning_zh": "所有东西",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "ridiculous",
+      "freq": 0,
+      "audio": "assets/audio/ridiculous.mp3",
+      "audio_slow": "assets/audio/ridiculous_slow.mp3",
+      "image": "assets/images/ridiculous.webp",
+      "skip_image": false,
+      "meaning_zh": "荒唐",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "anymore",
+      "freq": 3,
+      "audio": "assets/audio/anymore.mp3",
+      "audio_slow": "assets/audio/anymore_slow.mp3",
+      "image": "assets/images/anymore.webp",
+      "skip_image": false,
+      "meaning_zh": "不再",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "everywhere",
+      "freq": 3,
+      "audio": "assets/audio/everywhere.mp3",
+      "audio_slow": "assets/audio/everywhere_slow.mp3",
+      "image": "assets/images/everywhere.webp",
+      "skip_image": false,
+      "meaning_zh": "到处",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "somebody",
+      "freq": 3,
+      "audio": "assets/audio/somebody.mp3",
+      "audio_slow": "assets/audio/somebody_slow.mp3",
+      "image": "assets/images/somebody.webp",
+      "skip_image": false,
+      "meaning_zh": "某人",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "soft",
+      "freq": 3,
+      "audio": "assets/audio/soft.mp3",
+      "audio_slow": "assets/audio/soft_slow.mp3",
+      "image": "assets/images/soft.webp",
+      "skip_image": false,
+      "meaning_zh": "柔软",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "slipper",
+      "freq": 3,
+      "audio": "assets/audio/slipper.mp3",
+      "audio_slow": "assets/audio/slipper_slow.mp3",
+      "image": "assets/images/slipper.webp",
+      "skip_image": false,
+      "meaning_zh": "拖鞋",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "slowly",
+      "freq": 3,
+      "audio": "assets/audio/slowly.mp3",
+      "audio_slow": "assets/audio/slowly_slow.mp3",
+      "image": "assets/images/slowly.webp",
+      "skip_image": false,
+      "meaning_zh": "慢慢地",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "toilet",
+      "freq": 3,
+      "audio": "assets/audio/toilet.mp3",
+      "audio_slow": "assets/audio/toilet_slow.mp3",
+      "image": "assets/images/toilet.webp",
+      "skip_image": false,
+      "meaning_zh": "厕所",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "top",
+      "freq": 3,
+      "audio": "assets/audio/top.mp3",
+      "audio_slow": "assets/audio/top_slow.mp3",
+      "image": "assets/images/top.webp",
+      "skip_image": false,
+      "meaning_zh": "顶部",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "anymore",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "不再"
+    },
+    {
+      "lemma": "bathroom",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "浴室"
+    },
+    {
+      "lemma": "bedroom",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "卧室"
+    },
+    {
+      "lemma": "bump",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "撞到"
+    },
+    {
+      "lemma": "careful",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "小心"
+    },
+    {
+      "lemma": "clearly",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "清楚地"
+    },
+    {
+      "lemma": "daddy",
+      "freq": 58,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "everything",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "所有东西"
+    },
+    {
+      "lemma": "everywhere",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "到处"
+    },
+    {
+      "lemma": "fuzzy",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "模糊"
+    },
+    {
+      "lemma": "glasses",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "眼镜"
+    },
+    {
+      "lemma": "grumpy",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "烦躁"
+    },
+    {
+      "lemma": "help",
+      "freq": 3,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "knock",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "敲/碰"
+    },
+    {
+      "lemma": "last",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "最后"
+    },
+    {
+      "lemma": "learn",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "学习"
+    },
+    {
+      "lemma": "look",
+      "freq": 31,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "lose",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "弄丢"
+    },
+    {
+      "lemma": "move",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "移动"
+    },
+    {
+      "lemma": "pillow",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "枕头"
+    },
+    {
+      "lemma": "pocket",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "口袋"
+    },
+    {
+      "lemma": "put",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "放"
+    },
+    {
+      "lemma": "read",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "读"
+    },
+    {
+      "lemma": "remember",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "记得"
+    },
+    {
+      "lemma": "ridiculous",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "荒唐"
+    },
+    {
+      "lemma": "silly",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "傻乎乎"
+    },
+    {
+      "lemma": "slipper",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "拖鞋"
+    },
+    {
+      "lemma": "slowly",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "慢慢地"
+    },
+    {
+      "lemma": "soft",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "柔软"
+    },
+    {
+      "lemma": "somebody",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "某人"
+    },
+    {
+      "lemma": "thing",
+      "freq": 9,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "东西"
+    },
+    {
+      "lemma": "toilet",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "厕所"
+    },
+    {
+      "lemma": "top",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "顶部"
+    },
+    {
+      "lemma": "without",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "没有"
+    }
+  ],
+  "new_words": [
+    "anymore",
+    "bathroom",
+    "bedroom",
+    "bump",
+    "careful",
+    "clearly",
+    "everything",
+    "everywhere",
+    "fuzzy",
+    "glasses",
+    "grumpy",
+    "knock",
+    "last",
+    "learn",
+    "lose",
+    "move",
+    "pillow",
+    "pocket",
+    "put",
+    "read",
+    "remember",
+    "ridiculous",
+    "silly",
+    "slipper",
+    "slowly",
+    "soft",
+    "somebody",
+    "toilet",
+    "top",
+    "without"
+  ],
+  "reused_words": [
+    "daddy",
+    "help",
+    "look",
+    "thing"
+  ],
+  "chunks": [
+    {
+      "id": "daddy_glasses",
+      "text": "Daddy's glasses",
+      "meaning_zh": "爸爸的眼镜",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/daddy_glasses.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/daddy_glasses_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/daddy_glasses.webp",
+      "covers_words": [
+        "glasses"
+      ]
+    },
+    {
+      "id": "lost_glasses",
+      "text": "lost his glasses",
+      "meaning_zh": "弄丢了眼镜",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/lost_glasses.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/lost_glasses_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/lost_glasses.webp",
+      "covers_words": [
+        "lose",
+        "glasses"
+      ]
+    },
+    {
+      "id": "without_glasses",
+      "text": "without his glasses",
+      "meaning_zh": "没戴眼镜",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/without_glasses.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/without_glasses_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/without_glasses.webp",
+      "covers_words": [
+        "without",
+        "glasses"
+      ]
+    },
+    {
+      "id": "look_clearly",
+      "text": "see clearly",
+      "meaning_zh": "看清楚",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/look_clearly.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/look_clearly_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/look_clearly.webp",
+      "covers_words": [
+        "clearly"
+      ]
+    },
+    {
+      "id": "in_bathroom",
+      "text": "in the bathroom",
+      "meaning_zh": "在浴室里",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/in_bathroom.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/in_bathroom_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/in_bathroom.webp",
+      "covers_words": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "in_bedroom",
+      "text": "in the bedroom",
+      "meaning_zh": "在卧室里",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/in_bedroom.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/in_bedroom_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/in_bedroom.webp",
+      "covers_words": [
+        "bedroom"
+      ]
+    },
+    {
+      "id": "be_careful",
+      "text": "be careful",
+      "meaning_zh": "小心点",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/be_careful.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/be_careful_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/be_careful.webp",
+      "covers_words": [
+        "careful"
+      ]
+    },
+    {
+      "id": "feels_grumpy",
+      "text": "feels grumpy",
+      "meaning_zh": "有点烦躁",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/feels_grumpy.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/feels_grumpy_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/feels_grumpy.webp",
+      "covers_words": [
+        "grumpy"
+      ]
+    },
+    {
+      "id": "everything_everywhere",
+      "text": "everything everywhere",
+      "meaning_zh": "东西到处都是",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/everything_everywhere.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/everything_everywhere_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/everything_everywhere.webp",
+      "covers_words": [
+        "everything",
+        "everywhere"
+      ]
+    },
+    {
+      "id": "fuzzy_without_glasses",
+      "text": "fuzzy without glasses",
+      "meaning_zh": "没眼镜看不清",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/fuzzy_without_glasses.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/fuzzy_without_glasses_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/fuzzy_without_glasses.webp",
+      "covers_words": [
+        "fuzzy",
+        "without",
+        "glasses"
+      ]
+    },
+    {
+      "id": "put_in_pocket",
+      "text": "put in pocket",
+      "meaning_zh": "放进口袋",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/put_in_pocket.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/put_in_pocket_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/put_in_pocket.webp",
+      "covers_words": [
+        "put",
+        "pocket"
+      ]
+    },
+    {
+      "id": "soft_pillow",
+      "text": "soft pillow",
+      "meaning_zh": "柔软枕头",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/soft_pillow.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/soft_pillow_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/soft_pillow.webp",
+      "covers_words": [
+        "soft",
+        "pillow"
+      ]
+    },
+    {
+      "id": "read_and_remember",
+      "text": "read and remember",
+      "meaning_zh": "读并记住",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/read_and_remember.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/read_and_remember_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/read_and_remember.webp",
+      "covers_words": [
+        "read",
+        "remember"
+      ]
+    },
+    {
+      "id": "ridiculous_thing",
+      "text": "ridiculous thing",
+      "meaning_zh": "荒唐的事",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/ridiculous_thing.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/ridiculous_thing_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/ridiculous_thing.webp",
+      "covers_words": [
+        "ridiculous",
+        "thing"
+      ]
+    },
+    {
+      "id": "knock_on_toilet",
+      "text": "knock near the toilet",
+      "meaning_zh": "在厕所边敲/碰",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/knock_on_toilet.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/knock_on_toilet_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/knock_on_toilet.webp",
+      "covers_words": [
+        "knock",
+        "toilet"
+      ]
+    },
+    {
+      "id": "top_slipper",
+      "text": "top of the slipper",
+      "meaning_zh": "拖鞋上面",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/top_slipper.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/top_slipper_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/top_slipper.webp",
+      "covers_words": [
+        "top",
+        "slipper"
+      ]
+    },
+    {
+      "id": "somebody_move_it",
+      "text": "somebody moved it",
+      "meaning_zh": "有人移动了它",
+      "audio_tts": "assets/peppa-s01e09/chunks_audio_tts/somebody_move_it.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/chunks_audio_tts/somebody_move_it_slow.mp3",
+      "image": "assets/peppa-s01e09/chunks_images/somebody_move_it.webp",
+      "covers_words": [
+        "somebody",
+        "move"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Daddy Pig wears glasses.",
+      "meaning_zh": "猪爸爸戴眼镜。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s01.webp",
+      "chunks": [
+        "daddy_glasses"
+      ],
+      "key_words": [
+        "daddy",
+        "glasses"
+      ],
+      "time_start": "00:00:42.719",
+      "time_end": "00:00:47.219"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Daddy Pig cannot see clearly without his glasses.",
+      "meaning_zh": "猪爸爸没有眼镜就看不清楚。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s02.webp",
+      "chunks": [
+        "without_glasses",
+        "look_clearly"
+      ],
+      "key_words": [
+        "clearly",
+        "without",
+        "glasses"
+      ],
+      "time_start": "00:00:42.719",
+      "time_end": "00:00:47.219"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "Daddy Pig has lost his glasses.",
+      "meaning_zh": "猪爸爸把眼镜弄丢了。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s03.webp",
+      "chunks": [
+        "lost_glasses"
+      ],
+      "key_words": [
+        "lose",
+        "glasses"
+      ],
+      "time_start": "00:01:18.040",
+      "time_end": "00:01:22.540"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "Peppa and George help Daddy Pig look for them.",
+      "meaning_zh": "Peppa和George帮爸爸找眼镜。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s04.webp",
+      "chunks": [],
+      "key_words": [
+        "help",
+        "look"
+      ],
+      "time_start": "00:00:58.600",
+      "time_end": "00:01:03.100"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Are they in the bathroom?",
+      "meaning_zh": "眼镜在浴室里吗？",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s05.webp",
+      "chunks": [
+        "in_bathroom"
+      ],
+      "key_words": [
+        "bathroom"
+      ],
+      "time_start": "00:03:25.599",
+      "time_end": "00:03:30.099"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "Are they in the bedroom?",
+      "meaning_zh": "眼镜在卧室里吗？",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s06.webp",
+      "chunks": [
+        "in_bedroom"
+      ],
+      "key_words": [
+        "bedroom"
+      ],
+      "time_start": "00:02:44.599",
+      "time_end": "00:02:49.099"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Daddy Pig is getting grumpy.",
+      "meaning_zh": "猪爸爸有点烦躁了。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s07.webp",
+      "chunks": [
+        "feels_grumpy"
+      ],
+      "key_words": [
+        "grumpy"
+      ],
+      "time_start": "00:02:07.880",
+      "time_end": "00:02:12.380"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "Daddy Pig bumps into things without his glasses.",
+      "meaning_zh": "猪爸爸没戴眼镜会撞到东西。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s08.webp",
+      "chunks": [
+        "without_glasses"
+      ],
+      "key_words": [
+        "bump",
+        "without",
+        "glasses"
+      ],
+      "time_start": "00:01:33.360",
+      "time_end": "00:01:37.860"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Be careful Daddy Pig.",
+      "meaning_zh": "小心点,猪爸爸。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s09.webp",
+      "chunks": [
+        "be_careful"
+      ],
+      "key_words": [
+        "careful"
+      ],
+      "time_start": "00:02:46.480",
+      "time_end": "00:02:50.980"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "Peppa has found Daddy's glasses.",
+      "meaning_zh": "Peppa找到了爸爸的眼镜。",
+      "audio_tts": "assets/peppa-s01e09/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e09/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e09/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e09/sentences_images/s10.webp",
+      "chunks": [
+        "daddy_glasses"
+      ],
+      "key_words": [
+        "glasses"
+      ],
+      "time_start": "00:00:42.719",
+      "time_end": "00:00:47.219"
+    }
+  ],
+  "distractors": {
+    "glasses": [
+      "silly",
+      "move",
+      "put"
+    ],
+    "grumpy": [
+      "read",
+      "lose",
+      "glasses"
+    ],
+    "put": [
+      "grumpy",
+      "read",
+      "anymore"
+    ],
+    "without": [
+      "grumpy",
+      "pillow",
+      "toilet"
+    ],
+    "clearly": [
+      "slowly",
+      "bedroom",
+      "bump"
+    ],
+    "bathroom": [
+      "move",
+      "put",
+      "without"
+    ],
+    "bedroom": [
+      "top",
+      "fuzzy",
+      "silly"
+    ],
+    "lose": [
+      "pocket",
+      "bedroom",
+      "fuzzy"
+    ],
+    "silly": [
+      "thing",
+      "grumpy",
+      "somebody"
+    ],
+    "bump": [
+      "pillow",
+      "silly",
+      "anymore"
+    ],
+    "careful": [
+      "bump",
+      "somebody",
+      "bedroom"
+    ],
+    "thing": [
+      "soft",
+      "read",
+      "glasses"
+    ],
+    "fuzzy": [
+      "top",
+      "toilet",
+      "pillow"
+    ],
+    "knock": [
+      "toilet",
+      "pillow",
+      "grumpy"
+    ],
+    "last": [
+      "top",
+      "without",
+      "fuzzy"
+    ],
+    "learn": [
+      "top",
+      "slowly",
+      "read"
+    ],
+    "move": [
+      "toilet",
+      "read",
+      "ridiculous"
+    ],
+    "pillow": [
+      "lose",
+      "read",
+      "toilet"
+    ],
+    "pocket": [
+      "put",
+      "pillow",
+      "bedroom"
+    ],
+    "read": [
+      "clearly",
+      "everything",
+      "top"
+    ],
+    "remember": [
+      "bedroom",
+      "slowly",
+      "soft"
+    ],
+    "everything": [
+      "last",
+      "bathroom",
+      "careful"
+    ],
+    "ridiculous": [
+      "bump",
+      "bathroom",
+      "remember"
+    ],
+    "anymore": [
+      "glasses",
+      "slipper",
+      "put"
+    ],
+    "everywhere": [
+      "slipper",
+      "silly",
+      "toilet"
+    ],
+    "somebody": [
+      "put",
+      "silly",
+      "remember"
+    ],
+    "soft": [
+      "fuzzy",
+      "toilet",
+      "bathroom"
+    ],
+    "slipper": [
+      "toilet",
+      "move",
+      "remember"
+    ],
+    "slowly": [
+      "everything",
+      "thing",
+      "bathroom"
+    ],
+    "toilet": [
+      "everywhere",
+      "bedroom",
+      "without"
+    ],
+    "top": [
+      "somebody",
+      "everywhere",
+      "glasses"
+    ]
+  }
+}

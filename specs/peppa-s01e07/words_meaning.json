@@ -1,0 +1,81 @@
+{
+  "_note": "Generated L1 meanings for S01E03-E10 starter pass. Supplemented after reviewing omitted real content words.",
+  "words": {
+    "computer": {
+      "meaning_zh": "电脑",
+      "spelling_visible": true
+    },
+    "work": {
+      "meaning_zh": "工作",
+      "spelling_visible": true
+    },
+    "chicken": {
+      "meaning_zh": "小鸡",
+      "spelling_visible": true
+    },
+    "touch": {
+      "meaning_zh": "触碰",
+      "spelling_visible": true
+    },
+    "mend": {
+      "meaning_zh": "修理",
+      "spelling_visible": true
+    },
+    "important": {
+      "meaning_zh": "重要",
+      "spelling_visible": true
+    },
+    "lunch": {
+      "meaning_zh": "午餐",
+      "spelling_visible": true
+    },
+    "disturb": {
+      "meaning_zh": "打扰",
+      "spelling_visible": true
+    },
+    "finish": {
+      "meaning_zh": "完成",
+      "spelling_visible": true
+    },
+    "ask": {
+      "meaning_zh": "问",
+      "spelling_visible": true
+    },
+    "later": {
+      "meaning_zh": "稍后",
+      "spelling_visible": true
+    },
+    "long": {
+      "meaning_zh": "长的",
+      "spelling_visible": true
+    },
+    "thank": {
+      "meaning_zh": "谢谢",
+      "spelling_visible": true
+    },
+    "either": {
+      "meaning_zh": "也不/任一",
+      "spelling_visible": true
+    },
+    "disc": {
+      "meaning_zh": "光盘",
+      "spelling_visible": true
+    },
+    "said": {
+      "meaning_zh": "说过",
+      "spelling_visible": true
+    },
+    "switch": {
+      "meaning_zh": "开关",
+      "spelling_visible": true
+    },
+    "quietly": {
+      "meaning_zh": "安静地",
+      "spelling_visible": true
+    },
+    "expert": {
+      "meaning_zh": "专家",
+      "spelling_visible": true
+    }
+  }
+}

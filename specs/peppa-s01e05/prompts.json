@@ -1,0 +1,98 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e05",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "hide",
+      "subject": "a small child animal hiding behind a curtain with only eyes peeking out, playful secret"
+    },
+    {
+      "lemma": "seek",
+      "subject": "a child animal looking around with a magnifying glass, searching game mood"
+    },
+    {
+      "lemma": "count",
+      "subject": "a child animal covering eyes and counting on fingers, hide-and-seek start, no numbers"
+    },
+    {
+      "lemma": "turn",
+      "subject": "two child animals passing a small turn marker between them, taking turns in a game"
+    },
+    {
+      "lemma": "table",
+      "subject": "a simple wooden table in a cozy room, centered object, no characters"
+    },
+    {
+      "lemma": "basket",
+      "subject": "a woven basket sitting on the floor with a cloth inside, warm home object"
+    },
+    {
+      "lemma": "eye",
+      "subject": "a large friendly cartoon eye looking sideways, simple iconic close-up"
+    },
+    {
+      "lemma": "newspaper",
+      "subject": "a folded newspaper on a table, simple grey pages with no readable text"
+    },
+    {
+      "lemma": "behind",
+      "subject": "a small child animal partly hidden behind a big chair, back-position clearly shown"
+    },
+    {
+      "lemma": "ready",
+      "subject": "a child animal standing in a ready pose before a game, knees bent, excited smile"
+    },
+    {
+      "lemma": "somewhere",
+      "subject": "a room with several possible hiding places highlighted by question marks, no text"
+    },
+    {
+      "lemma": "anywhere",
+      "subject": "a child animal searching in many places around a room, no text"
+    },
+    {
+      "lemma": "thought",
+      "subject": "a child animal with a thought bubble and a small idea image inside, no text"
+    },
+    {
+      "lemma": "dear",
+      "subject": "a caring adult animal with gentle concerned expression, warm address feeling, no text"
+    },
+    {
+      "lemma": "place",
+      "subject": "a simple map pin standing on a small patch of ground, place symbol, no text"
+    },
+    {
+      "lemma": "close",
+      "subject": "a child animal covering both eyes with hands, eyes closed, no text"
+    },
+    {
+      "lemma": "always",
+      "subject": "a child animal doing the same routine again and again shown in three small repeated poses, no text"
+    },
+    {
+      "lemma": "upstairs",
+      "subject": "a staircase leading upward with an arrow-like upward motion, no text"
+    },
+    {
+      "lemma": "easily",
+      "subject": "a child animal solving a simple puzzle effortlessly with a happy smile, no text"
+    },
+    {
+      "lemma": "start",
+      "subject": "a child animal at a starting line ready to begin a game, no text"
+    },
+    {
+      "lemma": "strange",
+      "subject": "a child animal looking puzzled at a strange unexpected object, no text"
+    },
+    {
+      "lemma": "three",
+      "subject": "three identical toy blocks grouped together, no text"
+    }
+  ]
+}

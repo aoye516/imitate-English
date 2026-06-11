@@ -1,0 +1,141 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "piggy_middle",
+      "text": "piggy in the middle",
+      "subject": "a clear child-friendly illustration of the phrase 'piggy in the middle' meaning 中间的小猪, no written words, one simple action, expressive characters",
+      "meaning_zh": "中间的小猪",
+      "covers_words": [
+        "piggy",
+        "middle"
+      ]
+    },
+    {
+      "id": "throw_the_ball",
+      "text": "throw the ball",
+      "subject": "a clear child-friendly illustration of the phrase 'throw the ball' meaning 扔球, no written words, one simple action, expressive characters",
+      "meaning_zh": "扔球",
+      "covers_words": [
+        "ball"
+      ]
+    },
+    {
+      "id": "catch_the_ball",
+      "text": "catch the ball",
+      "subject": "a clear child-friendly illustration of the phrase 'catch the ball' meaning 接球, no written words, one simple action, expressive characters",
+      "meaning_zh": "接球",
+      "covers_words": [
+        "ball",
+        "caught"
+      ]
+    },
+    {
+      "id": "stand_in_middle",
+      "text": "stand in the middle",
+      "subject": "a clear child-friendly illustration of the phrase 'stand in the middle' meaning 站在中间, no written words, one simple action, expressive characters",
+      "meaning_zh": "站在中间",
+      "covers_words": [
+        "stand",
+        "middle"
+      ]
+    },
+    {
+      "id": "try_again",
+      "text": "try again",
+      "subject": "a clear child-friendly illustration of the phrase 'try again' meaning 再试一次, no written words, one simple action, expressive characters",
+      "meaning_zh": "再试一次",
+      "covers_words": [
+        "try"
+      ]
+    },
+    {
+      "id": "teach_george",
+      "text": "teach George",
+      "subject": "a clear child-friendly illustration of the phrase 'teach George' meaning 教George, no written words, one simple action, expressive characters",
+      "meaning_zh": "教George",
+      "covers_words": [
+        "teach"
+      ]
+    },
+    {
+      "id": "hands_ready",
+      "text": "hands ready",
+      "subject": "a clear child-friendly illustration of the phrase 'hands ready' meaning 手准备好, no written words, one simple action, expressive characters",
+      "meaning_zh": "手准备好",
+      "covers_words": [
+        "hand",
+        "ready"
+      ]
+    },
+    {
+      "id": "thats_enough",
+      "text": "that's enough",
+      "subject": "a clear child-friendly illustration of the phrase 'that's enough' meaning 够了, no written words, one simple action, expressive characters",
+      "meaning_zh": "够了",
+      "covers_words": [
+        "enough"
+      ]
+    },
+    {
+      "id": "anything_fair",
+      "text": "anything fair",
+      "meaning_zh": "任何公平的事",
+      "subject": "a clear child-friendly illustration of the phrase 'anything fair' meaning 任何公平的事, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "anything",
+        "fair"
+      ]
+    },
+    {
+      "id": "ball_goes_back",
+      "text": "ball goes back",
+      "meaning_zh": "球回来了",
+      "subject": "a clear child-friendly illustration of the phrase 'ball goes back' meaning 球回来了, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "ball",
+        "back"
+      ]
+    },
+    {
+      "id": "make_noise",
+      "text": "make noise",
+      "meaning_zh": "发出声音",
+      "subject": "a clear child-friendly illustration of the phrase 'make noise' meaning 发出声音, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "noise",
+        "make"
+      ]
+    },
+    {
+      "id": "cheeky_piggy",
+      "text": "cheeky piggy",
+      "meaning_zh": "调皮小猪",
+      "subject": "a clear child-friendly illustration of the phrase 'cheeky piggy' meaning 调皮小猪, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "cheeky",
+        "piggy"
+      ]
+    },
+    {
+      "id": "stuck_in_middle",
+      "text": "stuck in the middle",
+      "meaning_zh": "卡在中间",
+      "subject": "a clear child-friendly illustration of the phrase 'stuck in the middle' meaning 卡在中间, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "stuck",
+        "middle"
+      ]
+    },
+    {
+      "id": "throw_past",
+      "text": "throw past",
+      "meaning_zh": "扔过去",
+      "subject": "a clear child-friendly illustration of the phrase 'throw past' meaning 扔过去, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "throw",
+        "past"
+      ]
+    }
+  ]
+}

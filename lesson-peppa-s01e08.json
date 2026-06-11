@@ -1,0 +1,794 @@
+{
+  "id": "peppa-s01e08",
+  "title": "Piggy in the Middle",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "ball",
+      "freq": 28,
+      "audio": "assets/audio/ball.mp3",
+      "audio_slow": "assets/audio/ball_slow.mp3",
+      "image": "assets/images/ball.webp",
+      "skip_image": false,
+      "meaning_zh": "球",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "piggy",
+      "freq": 20,
+      "audio": "assets/audio/piggy.mp3",
+      "audio_slow": "assets/audio/piggy_slow.mp3",
+      "image": "assets/images/piggy.webp",
+      "skip_image": false,
+      "meaning_zh": "小猪",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "middle",
+      "freq": 11,
+      "audio": "assets/audio/middle.mp3",
+      "audio_slow": "assets/audio/middle_slow.mp3",
+      "image": "assets/images/middle.webp",
+      "skip_image": false,
+      "meaning_zh": "中间",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hooray",
+      "freq": 8,
+      "audio": "assets/audio/hooray.mp3",
+      "audio_slow": "assets/audio/hooray_slow.mp3",
+      "image": "assets/images/hooray.webp",
+      "skip_image": false,
+      "meaning_zh": "好耶",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "try",
+      "freq": 7,
+      "audio": "assets/audio/try.mp3",
+      "audio_slow": "assets/audio/try_slow.mp3",
+      "image": "assets/images/try.webp",
+      "skip_image": false,
+      "meaning_zh": "试试",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "stand",
+      "freq": 6,
+      "audio": "assets/audio/stand.mp3",
+      "audio_slow": "assets/audio/stand_slow.mp3",
+      "image": "assets/images/stand.webp",
+      "skip_image": false,
+      "meaning_zh": "站",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "teach",
+      "freq": 6,
+      "audio": "assets/audio/teach.mp3",
+      "audio_slow": "assets/audio/teach_slow.mp3",
+      "image": "assets/images/teach.webp",
+      "skip_image": false,
+      "meaning_zh": "教",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hand",
+      "freq": 4,
+      "audio": "assets/audio/hand.mp3",
+      "audio_slow": "assets/audio/hand_slow.mp3",
+      "image": "assets/images/hand.webp",
+      "skip_image": false,
+      "meaning_zh": "手",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "enough",
+      "freq": 3,
+      "audio": "assets/audio/enough.mp3",
+      "audio_slow": "assets/audio/enough_slow.mp3",
+      "image": "assets/images/enough.webp",
+      "skip_image": false,
+      "meaning_zh": "足够",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "caught",
+      "freq": 3,
+      "audio": "assets/audio/caught.mp3",
+      "audio_slow": "assets/audio/caught_slow.mp3",
+      "image": "assets/images/caught.webp",
+      "skip_image": false,
+      "meaning_zh": "接住了",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "back",
+      "freq": 3,
+      "audio": "assets/audio/back.mp3",
+      "audio_slow": "assets/audio/back_slow.mp3",
+      "image": "assets/images/back.webp",
+      "skip_image": false,
+      "meaning_zh": "回来/后面",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "noise",
+      "freq": 3,
+      "audio": "assets/audio/noise.mp3",
+      "audio_slow": "assets/audio/noise_slow.mp3",
+      "image": "assets/images/noise.webp",
+      "skip_image": false,
+      "meaning_zh": "声音/噪音",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "cheeky",
+      "freq": 3,
+      "audio": "assets/audio/cheeky.mp3",
+      "audio_slow": "assets/audio/cheeky_slow.mp3",
+      "image": "assets/images/cheeky.webp",
+      "skip_image": false,
+      "meaning_zh": "调皮",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "anything",
+      "freq": 0,
+      "audio": "assets/audio/anything.mp3",
+      "audio_slow": "assets/audio/anything_slow.mp3",
+      "image": "assets/images/anything.webp",
+      "skip_image": false,
+      "meaning_zh": "任何东西",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "stuck",
+      "freq": 3,
+      "audio": "assets/audio/stuck.mp3",
+      "audio_slow": "assets/audio/stuck_slow.mp3",
+      "image": "assets/images/stuck.webp",
+      "skip_image": false,
+      "meaning_zh": "卡住",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "fair",
+      "freq": 2,
+      "audio": "assets/audio/fair.mp3",
+      "audio_slow": "assets/audio/fair_slow.mp3",
+      "image": "assets/images/fair.webp",
+      "skip_image": false,
+      "meaning_zh": "公平",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "past",
+      "freq": 2,
+      "audio": "assets/audio/past.mp3",
+      "audio_slow": "assets/audio/past_slow.mp3",
+      "image": "assets/images/past.webp",
+      "skip_image": false,
+      "meaning_zh": "经过",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "anything",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "任何东西"
+    },
+    {
+      "lemma": "back",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "回来/后面"
+    },
+    {
+      "lemma": "ball",
+      "freq": 28,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "球"
+    },
+    {
+      "lemma": "caught",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "接住了"
+    },
+    {
+      "lemma": "cheeky",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "调皮"
+    },
+    {
+      "lemma": "enough",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "足够"
+    },
+    {
+      "lemma": "fair",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "公平"
+    },
+    {
+      "lemma": "hand",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "手"
+    },
+    {
+      "lemma": "hooray",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "好耶"
+    },
+    {
+      "lemma": "make",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "middle",
+      "freq": 11,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "中间"
+    },
+    {
+      "lemma": "noise",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "声音/噪音"
+    },
+    {
+      "lemma": "past",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "经过"
+    },
+    {
+      "lemma": "piggy",
+      "freq": 20,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "小猪"
+    },
+    {
+      "lemma": "ready",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "stand",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "站"
+    },
+    {
+      "lemma": "stuck",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "卡住"
+    },
+    {
+      "lemma": "teach",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "教"
+    },
+    {
+      "lemma": "throw",
+      "freq": 8,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "try",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "试试"
+    }
+  ],
+  "new_words": [
+    "anything",
+    "back",
+    "ball",
+    "caught",
+    "cheeky",
+    "enough",
+    "fair",
+    "hand",
+    "hooray",
+    "middle",
+    "noise",
+    "past",
+    "piggy",
+    "stand",
+    "stuck",
+    "teach",
+    "try"
+  ],
+  "reused_words": [
+    "make",
+    "ready",
+    "throw"
+  ],
+  "chunks": [
+    {
+      "id": "piggy_middle",
+      "text": "piggy in the middle",
+      "meaning_zh": "中间的小猪",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/piggy_middle.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/piggy_middle_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/piggy_middle.webp",
+      "covers_words": [
+        "piggy",
+        "middle"
+      ]
+    },
+    {
+      "id": "throw_the_ball",
+      "text": "throw the ball",
+      "meaning_zh": "扔球",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/throw_the_ball.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/throw_the_ball_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/throw_the_ball.webp",
+      "covers_words": [
+        "ball"
+      ]
+    },
+    {
+      "id": "catch_the_ball",
+      "text": "catch the ball",
+      "meaning_zh": "接球",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/catch_the_ball.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/catch_the_ball_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/catch_the_ball.webp",
+      "covers_words": [
+        "ball",
+        "caught"
+      ]
+    },
+    {
+      "id": "stand_in_middle",
+      "text": "stand in the middle",
+      "meaning_zh": "站在中间",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/stand_in_middle.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/stand_in_middle_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/stand_in_middle.webp",
+      "covers_words": [
+        "stand",
+        "middle"
+      ]
+    },
+    {
+      "id": "try_again",
+      "text": "try again",
+      "meaning_zh": "再试一次",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/try_again.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/try_again_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/try_again.webp",
+      "covers_words": [
+        "try"
+      ]
+    },
+    {
+      "id": "teach_george",
+      "text": "teach George",
+      "meaning_zh": "教George",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/teach_george.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/teach_george_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/teach_george.webp",
+      "covers_words": [
+        "teach"
+      ]
+    },
+    {
+      "id": "hands_ready",
+      "text": "hands ready",
+      "meaning_zh": "手准备好",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/hands_ready.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/hands_ready_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/hands_ready.webp",
+      "covers_words": [
+        "hand",
+        "ready"
+      ]
+    },
+    {
+      "id": "thats_enough",
+      "text": "that's enough",
+      "meaning_zh": "够了",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/thats_enough.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/thats_enough_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/thats_enough.webp",
+      "covers_words": [
+        "enough"
+      ]
+    },
+    {
+      "id": "anything_fair",
+      "text": "anything fair",
+      "meaning_zh": "任何公平的事",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/anything_fair.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/anything_fair_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/anything_fair.webp",
+      "covers_words": [
+        "anything",
+        "fair"
+      ]
+    },
+    {
+      "id": "ball_goes_back",
+      "text": "ball goes back",
+      "meaning_zh": "球回来了",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/ball_goes_back.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/ball_goes_back_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/ball_goes_back.webp",
+      "covers_words": [
+        "ball",
+        "back"
+      ]
+    },
+    {
+      "id": "make_noise",
+      "text": "make noise",
+      "meaning_zh": "发出声音",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/make_noise.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/make_noise_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/make_noise.webp",
+      "covers_words": [
+        "noise",
+        "make"
+      ]
+    },
+    {
+      "id": "cheeky_piggy",
+      "text": "cheeky piggy",
+      "meaning_zh": "调皮小猪",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/cheeky_piggy.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/cheeky_piggy_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/cheeky_piggy.webp",
+      "covers_words": [
+        "cheeky",
+        "piggy"
+      ]
+    },
+    {
+      "id": "stuck_in_middle",
+      "text": "stuck in the middle",
+      "meaning_zh": "卡在中间",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/stuck_in_middle.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/stuck_in_middle_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/stuck_in_middle.webp",
+      "covers_words": [
+        "stuck",
+        "middle"
+      ]
+    },
+    {
+      "id": "throw_past",
+      "text": "throw past",
+      "meaning_zh": "扔过去",
+      "audio_tts": "assets/peppa-s01e08/chunks_audio_tts/throw_past.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/chunks_audio_tts/throw_past_slow.mp3",
+      "image": "assets/peppa-s01e08/chunks_images/throw_past.webp",
+      "covers_words": [
+        "throw",
+        "past"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Peppa and George are playing with a ball.",
+      "meaning_zh": "Peppa和George在玩球。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s01.webp",
+      "chunks": [
+        "throw_the_ball"
+      ],
+      "key_words": [
+        "ball"
+      ],
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Peppa throws the ball to George.",
+      "meaning_zh": "Peppa把球扔给George。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s02.webp",
+      "chunks": [
+        "throw_the_ball"
+      ],
+      "key_words": [
+        "ball",
+        "throw"
+      ],
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "George tries to catch the ball.",
+      "meaning_zh": "George试着接球。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s03.webp",
+      "chunks": [
+        "catch_the_ball",
+        "try_again"
+      ],
+      "key_words": [
+        "try",
+        "ball",
+        "caught"
+      ],
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "George cannot catch the ball.",
+      "meaning_zh": "George接不到球。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s04.webp",
+      "chunks": [
+        "catch_the_ball"
+      ],
+      "key_words": [
+        "ball",
+        "caught"
+      ],
+      "time_start": "00:02:18.200",
+      "time_end": "00:02:22.700"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Mummy Pig teaches George how to catch.",
+      "meaning_zh": "猪妈妈教George怎么接球。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s05.webp",
+      "chunks": [
+        "teach_george"
+      ],
+      "key_words": [
+        "teach",
+        "caught"
+      ],
+      "time_start": "00:01:40.119",
+      "time_end": "00:01:44.619"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "George must stand in the middle.",
+      "meaning_zh": "George必须站在中间。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s06.webp",
+      "chunks": [
+        "stand_in_middle"
+      ],
+      "key_words": [
+        "stand",
+        "middle"
+      ],
+      "time_start": "00:01:53.880",
+      "time_end": "00:01:58.380"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Peppa and Daddy Pig throw the ball.",
+      "meaning_zh": "Peppa和猪爸爸扔球。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s07.webp",
+      "chunks": [
+        "throw_the_ball"
+      ],
+      "key_words": [
+        "ball",
+        "throw"
+      ],
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "George catches the ball.",
+      "meaning_zh": "George接住球了。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s08.webp",
+      "chunks": [
+        "catch_the_ball"
+      ],
+      "key_words": [
+        "caught",
+        "ball"
+      ],
+      "time_start": "00:02:18.200",
+      "time_end": "00:02:22.700"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Hooray for George!",
+      "meaning_zh": "George好耶！",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s09.webp",
+      "chunks": [],
+      "key_words": [
+        "hooray"
+      ],
+      "time_start": "00:02:18.200",
+      "time_end": "00:02:22.700"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "Now George is piggy in the middle.",
+      "meaning_zh": "现在George是中间的小猪。",
+      "audio_tts": "assets/peppa-s01e08/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e08/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e08/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e08/sentences_images/s10.webp",
+      "chunks": [
+        "piggy_middle"
+      ],
+      "key_words": [
+        "piggy",
+        "middle"
+      ],
+      "time_start": "00:03:54.640",
+      "time_end": "00:03:59.140"
+    }
+  ],
+  "distractors": {
+    "ball": [
+      "teach",
+      "cheeky",
+      "stand"
+    ],
+    "piggy": [
+      "fair",
+      "anything",
+      "back"
+    ],
+    "middle": [
+      "back",
+      "noise",
+      "teach"
+    ],
+    "hooray": [
+      "anything",
+      "noise",
+      "back"
+    ],
+    "try": [
+      "hand",
+      "piggy",
+      "hooray"
+    ],
+    "stand": [
+      "anything",
+      "enough",
+      "caught"
+    ],
+    "teach": [
+      "noise",
+      "cheeky",
+      "middle"
+    ],
+    "hand": [
+      "stuck",
+      "noise",
+      "ball"
+    ],
+    "enough": [
+      "stuck",
+      "ball",
+      "past"
+    ],
+    "caught": [
+      "fair",
+      "past",
+      "middle"
+    ],
+    "back": [
+      "middle",
+      "stand",
+      "noise"
+    ],
+    "noise": [
+      "enough",
+      "anything",
+      "caught"
+    ],
+    "cheeky": [
+      "anything",
+      "stand",
+      "enough"
+    ],
+    "anything": [
+      "noise",
+      "fair",
+      "ball"
+    ],
+    "stuck": [
+      "fair",
+      "anything",
+      "back"
+    ],
+    "fair": [
+      "caught",
+      "enough",
+      "middle"
+    ],
+    "past": [
+      "teach",
+      "cheeky",
+      "ball"
+    ]
+  }
+}

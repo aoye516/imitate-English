@@ -1,0 +1,165 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "I'm Peppa Pig.",
+      "meaning_zh": "我是Peppa猪。",
+      "subject": "a cheerful girl piglet character standing alone center frame pointing to herself with one hand on chest, smiling at viewer, simple introduction pose",
+      "time_start": "00:00:02.720",
+      "time_end": "00:00:04.700",
+      "chunks": ["im_peppa"],
+      "key_words": ["peppa", "pig"]
+    },
+    {
+      "id": "s02",
+      "text": "This is my little brother George.",
+      "meaning_zh": "这是我的小弟弟George。",
+      "subject": "a girl piglet on the left gesturing toward a smaller boy piglet on the right who holds a green dinosaur toy, family introduction pose",
+      "time_start": "00:00:04.799",
+      "time_end": "00:00:07.500",
+      "chunks": ["this_is"],
+      "key_words": ["little", "brother", "george"]
+    },
+    {
+      "id": "s03",
+      "text": "It is raining today.",
+      "meaning_zh": "今天在下雨。",
+      "subject": "a wide view of a hill with a small house, grey clouds above with blue raindrops falling everywhere, two small piglets visible inside through the window",
+      "time_start": "00:00:26.880",
+      "time_end": "00:00:29.000",
+      "chunks": [],
+      "key_words": ["rain"]
+    },
+    {
+      "id": "s04",
+      "text": "Peppa and George cannot play outside.",
+      "meaning_zh": "Peppa和George不能出去玩。",
+      "subject": "two piglets standing inside a house looking out a window at heavy rain, sad expressions, a red prohibition sign in upper corner",
+      "time_start": "00:00:29.000",
+      "time_end": "00:00:32.000",
+      "chunks": ["cannot_play"],
+      "key_words": ["cannot", "play", "outside"]
+    },
+    {
+      "id": "s05",
+      "text": "Daddy, it stopped raining, can we go out to play?",
+      "meaning_zh": "爸爸，雨停了，我们能出去玩吗？",
+      "subject": "a girl piglet with hopeful pleading eyes looking up at a father pig, behind them a window showing the rain has stopped and sunlight breaking through clouds",
+      "time_start": "00:00:33.600",
+      "time_end": "00:00:38.000",
+      "chunks": [],
+      "key_words": ["daddy", "stop", "rain", "go", "play"]
+    },
+    {
+      "id": "s06",
+      "text": "All right, run along you two.",
+      "meaning_zh": "好吧，你俩去玩吧。",
+      "subject": "a smiling father pig giving a thumbs up while two small piglets are already running off into a sunny garden, motion lines behind the piglets",
+      "time_start": "00:00:38.500",
+      "time_end": "00:00:42.500",
+      "chunks": ["all_right", "run_along"],
+      "key_words": ["right", "run", "two"]
+    },
+    {
+      "id": "s07",
+      "text": "Peppa loves jumping in muddy puddles.",
+      "meaning_zh": "Peppa最爱在泥水洼里跳。",
+      "subject": "a girl piglet mid-jump above a big brown muddy puddle with a huge red heart floating above her head, brown water splashes flying outward, pure joy on her face",
+      "time_start": "00:00:51.120",
+      "time_end": "00:00:54.000",
+      "chunks": ["jump_in_puddles"],
+      "key_words": ["love", "jump", "muddy", "puddle"]
+    },
+    {
+      "id": "s08",
+      "text": "If you jump in muddy puddles, you must wear your boots.",
+      "meaning_zh": "如果你要在泥水洼里跳，你必须穿上雨靴。",
+      "subject": "a mother pig with index finger raised in instructional pose pointing to a pair of yellow rain boots on the floor, a girl piglet listening attentively, a small puddle nearby",
+      "time_start": "00:01:00.000",
+      "time_end": "00:01:08.000",
+      "chunks": ["jump_in_puddles", "wear_boots"],
+      "key_words": ["jump", "muddy", "puddle", "wear", "boot"]
+    },
+    {
+      "id": "s09",
+      "text": "Peppa likes to look after her little brother George.",
+      "meaning_zh": "Peppa喜欢照顾她的小弟弟George。",
+      "subject": "a girl piglet holding the hand of a smaller boy piglet protectively as they walk together through grass, the older sister looking down at the younger with care, a small heart between them",
+      "time_start": "00:01:30.000",
+      "time_end": "00:01:35.000",
+      "chunks": ["look_after"],
+      "key_words": ["like", "look", "little", "brother", "george"]
+    },
+    {
+      "id": "s10",
+      "text": "Stop George, I must check if it's safe.",
+      "meaning_zh": "停下George，我得先检查安不安全。",
+      "subject": "a girl piglet with one palm raised in a stop gesture holding back a smaller boy piglet, in front of them a large brown puddle, the girl piglet holding a magnifying glass examining the puddle carefully",
+      "time_start": "00:02:21.000",
+      "time_end": "00:02:26.000",
+      "chunks": ["must_check"],
+      "key_words": ["stop", "george", "check", "safe"]
+    },
+    {
+      "id": "s11",
+      "text": "Sorry George, it's only mud.",
+      "meaning_zh": "抱歉George，只不过是泥而已。",
+      "subject": "a girl piglet with apologetic expression and one hand reaching out to a sad smaller boy piglet who is sitting in a small brown mud puddle, a thought bubble with mud (no danger)",
+      "time_start": "00:02:35.000",
+      "time_end": "00:02:39.000",
+      "chunks": ["its_only"],
+      "key_words": ["sorry", "george", "mud"]
+    },
+    {
+      "id": "s12",
+      "text": "Come on George, let's go show daddy.",
+      "meaning_zh": "走吧George，咱们去给爸爸看看。",
+      "subject": "a girl piglet beckoning a boy piglet to follow her, both completely covered in brown mud splatters, walking toward a house in the distance, excitement in their poses",
+      "time_start": "00:02:57.000",
+      "time_end": "00:03:01.000",
+      "chunks": ["come_on", "lets"],
+      "key_words": ["come", "george", "go", "show", "daddy"]
+    },
+    {
+      "id": "s13",
+      "text": "Daddy daddy, guess what we've been doing!",
+      "meaning_zh": "爸爸爸爸，你猜我们刚才在干嘛！",
+      "subject": "two muddy piglets bouncing excitedly in front of a startled father pig, hands raised gleefully, a giant question mark floating between them",
+      "time_start": "00:03:07.000",
+      "time_end": "00:03:14.000",
+      "chunks": ["daddy_daddy", "guess_what"],
+      "key_words": ["daddy", "guess"]
+    },
+    {
+      "id": "s14",
+      "text": "Have you been watching television?",
+      "meaning_zh": "你们刚才在看电视吗？",
+      "subject": "a father pig with one hand on chin in thinking pose, looking at two muddy piglets, a thought bubble showing a vintage television set above his head",
+      "time_start": "00:03:14.000",
+      "time_end": "00:03:18.000",
+      "chunks": ["watch_tv", "let_me_think"],
+      "key_words": ["watch", "television"]
+    },
+    {
+      "id": "s15",
+      "text": "Oh, look at the mess you're in!",
+      "meaning_zh": "哎呀，看看你们身上多脏！",
+      "subject": "a mother pig with hands on cheeks in shock, eyes wide, looking at three muddy figures (two piglets and a daddy pig) all dripping with brown mud, exclamation marks around her head",
+      "time_start": "00:03:34.000",
+      "time_end": "00:03:38.000",
+      "chunks": ["look_at_mess", "oh_goodness"],
+      "key_words": ["look", "mess"]
+    },
+    {
+      "id": "s16",
+      "text": "Let's clean up quickly before mommy sees the mess.",
+      "meaning_zh": "趁妈妈还没看见，咱们赶紧打扫干净。",
+      "subject": "a father pig and two piglets frantically mopping a muddy floor together with yellow mops and buckets, sparkle effects of cleaning, an hourglass in the corner indicating time pressure, a closed door in background",
+      "time_start": "00:03:43.000",
+      "time_end": "00:03:48.000",
+      "chunks": ["lets", "before_sees"],
+      "key_words": ["clean", "quickly", "mess", "see"]
+    }
+  ]
+}

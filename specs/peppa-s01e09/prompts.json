@@ -1,0 +1,134 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e09",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "glasses",
+      "subject": "a pair of round black glasses on a white surface, centered, no face"
+    },
+    {
+      "lemma": "grumpy",
+      "subject": "a father pig with crossed arms and a frowning grumpy face, comic annoyance"
+    },
+    {
+      "lemma": "put",
+      "subject": "a hand placing a pair of glasses carefully onto a table, clear placing action"
+    },
+    {
+      "lemma": "without",
+      "subject": "a father pig squinting with empty face and no glasses, looking confused"
+    },
+    {
+      "lemma": "clearly",
+      "subject": "a pair of glasses making a blurry scene become sharp and clear, before-after feeling"
+    },
+    {
+      "lemma": "bathroom",
+      "subject": "a clean bathroom with sink, mirror, and bathtub, no people"
+    },
+    {
+      "lemma": "bedroom",
+      "subject": "a cozy bedroom with bed, lamp, and small rug, no people"
+    },
+    {
+      "lemma": "lose",
+      "subject": "a sad father pig searching pockets with a missing glasses outline and question mark"
+    },
+    {
+      "lemma": "silly",
+      "subject": "a goofy father pig smiling sheepishly with glasses crooked, harmless funny mood"
+    },
+    {
+      "lemma": "bump",
+      "subject": "a father pig gently bumping into a chair with surprise lines, comic safe accident"
+    },
+    {
+      "lemma": "careful",
+      "subject": "a child animal holding up one cautious hand near an obstacle, careful warning pose"
+    },
+    {
+      "lemma": "thing",
+      "subject": "a small collection of everyday objects on a table, generic things, no text"
+    },
+    {
+      "lemma": "fuzzy",
+      "subject": "a blurry pair of glasses beside a sharp pair, fuzzy vision feeling, no text"
+    },
+    {
+      "lemma": "knock",
+      "subject": "a child animal gently knocking on a door with one hand, no text"
+    },
+    {
+      "lemma": "last",
+      "subject": "the final object in a row highlighted with a small star, no text"
+    },
+    {
+      "lemma": "learn",
+      "subject": "a child animal looking at picture cards and listening, learning mood, no text"
+    },
+    {
+      "lemma": "move",
+      "subject": "a chair being moved from one spot to another with motion arrows, no text"
+    },
+    {
+      "lemma": "pillow",
+      "subject": "a soft white pillow on a cozy bed, centered, no text"
+    },
+    {
+      "lemma": "pocket",
+      "subject": "a close-up of a coat pocket with a small object peeking out, no text"
+    },
+    {
+      "lemma": "read",
+      "subject": "a child animal looking at an open picture book, reading mood, no text"
+    },
+    {
+      "lemma": "remember",
+      "subject": "a child animal tapping head with a lightbulb memory bubble, no text"
+    },
+    {
+      "lemma": "everything",
+      "subject": "many everyday objects spread neatly across a room, everything visible, no text"
+    },
+    {
+      "lemma": "ridiculous",
+      "subject": "a father animal wearing glasses in a very silly crooked way with a funny embarrassed face, no text"
+    },
+    {
+      "lemma": "anymore",
+      "subject": "an empty place where an object used to be, child looking puzzled, no text"
+    },
+    {
+      "lemma": "everywhere",
+      "subject": "small objects scattered all around a room, everywhere feeling, no text"
+    },
+    {
+      "lemma": "somebody",
+      "subject": "a mystery person silhouette behind a door with a question bubble, no text"
+    },
+    {
+      "lemma": "soft",
+      "subject": "a soft pillow being gently squeezed by a hand, no text"
+    },
+    {
+      "lemma": "slipper",
+      "subject": "a pair of soft house slippers on the floor, no text"
+    },
+    {
+      "lemma": "slowly",
+      "subject": "a turtle moving slowly with gentle motion marks, no text"
+    },
+    {
+      "lemma": "toilet",
+      "subject": "a clean simple bathroom toilet in a bathroom, no characters, no text"
+    },
+    {
+      "lemma": "top",
+      "subject": "a toy placed at the very top of a shelf, top position clear, no text"
+    }
+  ]
+}

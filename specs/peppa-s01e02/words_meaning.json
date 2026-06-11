@@ -1,0 +1,165 @@
+{
+  "_note": "L1 单词卡 i 浮层里展示的拼写+中文。spelling_visible=false 表示连拼写也不展示。短中文优先，1-3 字。复用词释义与 E01 保持一致。 Supplemented after reviewing omitted real content words.",
+  "words": {
+    "dinosaur": {
+      "meaning_zh": "恐龙",
+      "spelling_visible": true
+    },
+    "detective": {
+      "meaning_zh": "侦探",
+      "spelling_visible": true
+    },
+    "toy": {
+      "meaning_zh": "玩具",
+      "spelling_visible": true
+    },
+    "bed": {
+      "meaning_zh": "床",
+      "spelling_visible": true
+    },
+    "night": {
+      "meaning_zh": "夜晚",
+      "spelling_visible": true
+    },
+    "tree": {
+      "meaning_zh": "树",
+      "spelling_visible": true
+    },
+    "throw": {
+      "meaning_zh": "扔",
+      "spelling_visible": true
+    },
+    "catch": {
+      "meaning_zh": "接住",
+      "spelling_visible": true
+    },
+    "fall": {
+      "meaning_zh": "掉下",
+      "spelling_visible": true
+    },
+    "high": {
+      "meaning_zh": "高",
+      "spelling_visible": true
+    },
+    "scare": {
+      "meaning_zh": "吓",
+      "spelling_visible": true
+    },
+    "supper": {
+      "meaning_zh": "晚饭",
+      "spelling_visible": true
+    },
+    "happy": {
+      "meaning_zh": "开心",
+      "spelling_visible": true
+    },
+    "lost": {
+      "meaning_zh": "丢了",
+      "spelling_visible": true
+    },
+    "game": {
+      "meaning_zh": "游戏",
+      "spelling_visible": true
+    },
+    "win": {
+      "meaning_zh": "赢",
+      "spelling_visible": true
+    },
+    "george": {
+      "meaning_zh": "乔治[人名]",
+      "spelling_visible": true
+    },
+    "daddy": {
+      "meaning_zh": "爸爸",
+      "spelling_visible": true
+    },
+    "pig": {
+      "meaning_zh": "猪",
+      "spelling_visible": true
+    },
+    "peppa": {
+      "meaning_zh": "佩奇[人名]",
+      "spelling_visible": true
+    },
+    "bath": {
+      "meaning_zh": "洗澡",
+      "spelling_visible": true
+    },
+    "garden": {
+      "meaning_zh": "花园",
+      "spelling_visible": true
+    },
+    "find": {
+      "meaning_zh": "找",
+      "spelling_visible": true
+    },
+    "know": {
+      "meaning_zh": "知道",
+      "spelling_visible": true
+    },
+    "good": {
+      "meaning_zh": "好",
+      "spelling_visible": true
+    },
+    "air": {
+      "meaning_zh": "空气/空中",
+      "spelling_visible": true
+    },
+    "favorite": {
+      "meaning_zh": "最喜欢的",
+      "spelling_visible": true
+    },
+    "hard": {
+      "meaning_zh": "困难",
+      "spelling_visible": true
+    },
+    "job": {
+      "meaning_zh": "工作/任务",
+      "spelling_visible": true
+    },
+    "question": {
+      "meaning_zh": "问题",
+      "spelling_visible": true
+    },
+    "maybe": {
+      "meaning_zh": "也许",
+      "spelling_visible": true
+    },
+    "thing": {
+      "meaning_zh": "东西",
+      "spelling_visible": true
+    },
+    "sit": {
+      "meaning_zh": "坐",
+      "spelling_visible": true
+    },
+    "worry": {
+      "meaning_zh": "担心",
+      "spelling_visible": true
+    },
+    "scary": {
+      "meaning_zh": "吓人的",
+      "spelling_visible": true
+    },
+    "idea": {
+      "meaning_zh": "主意",
+      "spelling_visible": true
+    },
+    "sometimes": {
+      "meaning_zh": "有时",
+      "spelling_visible": true
+    },
+    "pardon": {
+      "meaning_zh": "请再说一遍",
+      "spelling_visible": true
+    },
+    "simple": {
+      "meaning_zh": "简单",
+      "spelling_visible": true
+    },
+    "share": {
+      "meaning_zh": "分享",
+      "spelling_visible": true
+    }
+  }
+}

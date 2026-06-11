@@ -1,0 +1,1910 @@
+{
+  "id": "peppa-s01e01",
+  "title": "Muddy Puddles",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "puddle",
+      "freq": 28,
+      "audio": "assets/audio/puddle.mp3",
+      "audio_slow": "assets/audio/puddle_slow.mp3",
+      "image": "assets/images/puddle.webp",
+      "skip_image": false,
+      "meaning_zh": "水洼",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "jump",
+      "freq": 24,
+      "audio": "assets/audio/jump.mp3",
+      "audio_slow": "assets/audio/jump_slow.mp3",
+      "image": "assets/images/jump.webp",
+      "skip_image": false,
+      "meaning_zh": "跳",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "muddy",
+      "freq": 21,
+      "audio": "assets/audio/muddy.mp3",
+      "audio_slow": "assets/audio/muddy_slow.mp3",
+      "image": "assets/images/muddy.webp",
+      "skip_image": false,
+      "meaning_zh": "泥泞的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "daddy",
+      "freq": 21,
+      "audio": "assets/audio/daddy.mp3",
+      "audio_slow": "assets/audio/daddy_slow.mp3",
+      "image": "assets/images/daddy.webp",
+      "skip_image": false,
+      "meaning_zh": "爸爸",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "love",
+      "freq": 12,
+      "audio": "assets/audio/love.mp3",
+      "audio_slow": "assets/audio/love_slow.mp3",
+      "image": "assets/images/love.webp",
+      "skip_image": false,
+      "meaning_zh": "爱",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "mummy",
+      "freq": 12,
+      "audio": "assets/audio/mummy.mp3",
+      "audio_slow": "assets/audio/mummy_slow.mp3",
+      "image": "assets/images/mummy.webp",
+      "skip_image": false,
+      "meaning_zh": "妈妈",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pig",
+      "freq": 10,
+      "audio": "assets/audio/pig.mp3",
+      "audio_slow": "assets/audio/pig_slow.mp3",
+      "image": "assets/images/pig.webp",
+      "skip_image": false,
+      "meaning_zh": "猪",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "play",
+      "freq": 10,
+      "audio": "assets/audio/play.mp3",
+      "audio_slow": "assets/audio/play_slow.mp3",
+      "image": "assets/images/play.webp",
+      "skip_image": false,
+      "meaning_zh": "玩",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "boot",
+      "freq": 9,
+      "audio": "assets/audio/boot.mp3",
+      "audio_slow": "assets/audio/boot_slow.mp3",
+      "image": "assets/images/boot.webp",
+      "skip_image": false,
+      "meaning_zh": "雨靴",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "wear",
+      "freq": 9,
+      "audio": "assets/audio/wear.mp3",
+      "audio_slow": "assets/audio/wear_slow.mp3",
+      "image": "assets/images/wear.webp",
+      "skip_image": false,
+      "meaning_zh": "穿",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "little",
+      "freq": 8,
+      "audio": "assets/audio/little.mp3",
+      "audio_slow": "assets/audio/little_slow.mp3",
+      "image": "assets/images/little.webp",
+      "skip_image": false,
+      "meaning_zh": "小的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "look",
+      "freq": 8,
+      "audio": "assets/audio/look.mp3",
+      "audio_slow": "assets/audio/look_slow.mp3",
+      "image": "assets/images/look.webp",
+      "skip_image": false,
+      "meaning_zh": "看",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "brother",
+      "freq": 6,
+      "audio": "assets/audio/brother.mp3",
+      "audio_slow": "assets/audio/brother_slow.mp3",
+      "image": "assets/images/brother.webp",
+      "skip_image": false,
+      "meaning_zh": "兄弟",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "mess",
+      "freq": 6,
+      "audio": "assets/audio/mess.mp3",
+      "audio_slow": "assets/audio/mess_slow.mp3",
+      "image": "assets/images/mess.webp",
+      "skip_image": false,
+      "meaning_zh": "脏乱",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "clean",
+      "freq": 5,
+      "audio": "assets/audio/clean.mp3",
+      "audio_slow": "assets/audio/clean_slow.mp3",
+      "image": "assets/images/clean.webp",
+      "skip_image": false,
+      "meaning_zh": "干净/打扫",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "rain",
+      "freq": 5,
+      "audio": "assets/audio/rain.mp3",
+      "audio_slow": "assets/audio/rain_slow.mp3",
+      "image": "assets/images/rain.webp",
+      "skip_image": false,
+      "meaning_zh": "雨",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sorry",
+      "freq": 5,
+      "audio": "assets/audio/sorry.mp3",
+      "audio_slow": "assets/audio/sorry_slow.mp3",
+      "image": "assets/images/sorry.webp",
+      "skip_image": false,
+      "meaning_zh": "抱歉",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "stop",
+      "freq": 5,
+      "audio": "assets/audio/stop.mp3",
+      "audio_slow": "assets/audio/stop_slow.mp3",
+      "image": "assets/images/stop.webp",
+      "skip_image": false,
+      "meaning_zh": "停",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "george",
+      "freq": 32,
+      "audio": "assets/audio/george.mp3",
+      "audio_slow": "assets/audio/george_slow.mp3",
+      "image": "assets/images/george.webp",
+      "skip_image": false,
+      "meaning_zh": "乔治[人名]",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "peppa",
+      "freq": 26,
+      "audio": "assets/audio/peppa.mp3",
+      "audio_slow": "assets/audio/peppa_slow.mp3",
+      "image": "assets/images/peppa.webp",
+      "skip_image": false,
+      "meaning_zh": "佩奇[人名]",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "big",
+      "freq": 4,
+      "audio": "assets/audio/big.mp3",
+      "audio_slow": "assets/audio/big_slow.mp3",
+      "image": "assets/images/big.webp",
+      "skip_image": false,
+      "meaning_zh": "大的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "come",
+      "freq": 4,
+      "audio": "assets/audio/come.mp3",
+      "audio_slow": "assets/audio/come_slow.mp3",
+      "image": "assets/images/come.webp",
+      "skip_image": false,
+      "meaning_zh": "来",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "found",
+      "freq": 4,
+      "audio": "assets/audio/found.mp3",
+      "audio_slow": "assets/audio/found_slow.mp3",
+      "image": "assets/images/found.webp",
+      "skip_image": false,
+      "meaning_zh": "找到了",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "like",
+      "freq": 4,
+      "audio": "assets/audio/like.mp3",
+      "audio_slow": "assets/audio/like_slow.mp3",
+      "image": "assets/images/like.webp",
+      "skip_image": false,
+      "meaning_zh": "喜欢",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "mud",
+      "freq": 4,
+      "audio": "assets/audio/mud.mp3",
+      "audio_slow": "assets/audio/mud_slow.mp3",
+      "image": "assets/images/mud.webp",
+      "skip_image": false,
+      "meaning_zh": "泥",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "safe",
+      "freq": 4,
+      "audio": "assets/audio/safe.mp3",
+      "audio_slow": "assets/audio/safe_slow.mp3",
+      "image": "assets/images/safe.webp",
+      "skip_image": false,
+      "meaning_zh": "安全",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bath",
+      "freq": 3,
+      "audio": "assets/audio/bath.mp3",
+      "audio_slow": "assets/audio/bath_slow.mp3",
+      "image": "assets/images/bath.webp",
+      "skip_image": false,
+      "meaning_zh": "洗澡",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "cannot",
+      "freq": 3,
+      "audio": "assets/audio/cannot.mp3",
+      "audio_slow": "assets/audio/cannot_slow.mp3",
+      "image": "assets/images/cannot.webp",
+      "skip_image": false,
+      "meaning_zh": "不能",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "check",
+      "freq": 3,
+      "audio": "assets/audio/check.mp3",
+      "audio_slow": "assets/audio/check_slow.mp3",
+      "image": "assets/images/check.webp",
+      "skip_image": false,
+      "meaning_zh": "检查",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "everyone",
+      "freq": 3,
+      "audio": "assets/audio/everyone.mp3",
+      "audio_slow": "assets/audio/everyone_slow.mp3",
+      "image": "assets/images/everyone.webp",
+      "skip_image": false,
+      "meaning_zh": "所有人",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "first",
+      "freq": 3,
+      "audio": "assets/audio/first.mp3",
+      "audio_slow": "assets/audio/first_slow.mp3",
+      "image": "assets/images/first.webp",
+      "skip_image": false,
+      "meaning_zh": "先/第一",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "go",
+      "freq": 3,
+      "audio": "assets/audio/go.mp3",
+      "audio_slow": "assets/audio/go_slow.mp3",
+      "image": "assets/images/go.webp",
+      "skip_image": false,
+      "meaning_zh": "去",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "guess",
+      "freq": 3,
+      "audio": "assets/audio/guess.mp3",
+      "audio_slow": "assets/audio/guess_slow.mp3",
+      "image": "assets/images/guess.webp",
+      "skip_image": false,
+      "meaning_zh": "猜",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "quickly",
+      "freq": 3,
+      "audio": "assets/audio/quickly.mp3",
+      "audio_slow": "assets/audio/quickly_slow.mp3",
+      "image": "assets/images/quickly.webp",
+      "skip_image": false,
+      "meaning_zh": "快快地",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "see",
+      "freq": 3,
+      "audio": "assets/audio/see.mp3",
+      "audio_slow": "assets/audio/see_slow.mp3",
+      "image": "assets/images/see.webp",
+      "skip_image": false,
+      "meaning_zh": "看见",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "television",
+      "freq": 3,
+      "audio": "assets/audio/television.mp3",
+      "audio_slow": "assets/audio/television_slow.mp3",
+      "image": "assets/images/television.webp",
+      "skip_image": false,
+      "meaning_zh": "电视",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "think",
+      "freq": 3,
+      "audio": "assets/audio/think.mp3",
+      "audio_slow": "assets/audio/think_slow.mp3",
+      "image": "assets/images/think.webp",
+      "skip_image": false,
+      "meaning_zh": "想",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "watch",
+      "freq": 3,
+      "audio": "assets/audio/watch.mp3",
+      "audio_slow": "assets/audio/watch_slow.mp3",
+      "image": "assets/images/watch.webp",
+      "skip_image": false,
+      "meaning_zh": "观看",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bad",
+      "freq": 2,
+      "audio": "assets/audio/bad.mp3",
+      "audio_slow": "assets/audio/bad_slow.mp3",
+      "image": "assets/images/bad.webp",
+      "skip_image": false,
+      "meaning_zh": "糟糕",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "fun",
+      "freq": 2,
+      "audio": "assets/audio/fun.mp3",
+      "audio_slow": "assets/audio/fun_slow.mp3",
+      "image": "assets/images/fun.webp",
+      "skip_image": false,
+      "meaning_zh": "好玩",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "goodness",
+      "freq": 2,
+      "audio": "assets/audio/goodness.mp3",
+      "audio_slow": "assets/audio/goodness_slow.mp3",
+      "image": "assets/images/goodness.webp",
+      "skip_image": false,
+      "meaning_zh": "[感叹词，类似'天哪']",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "know",
+      "freq": 2,
+      "audio": "assets/audio/know.mp3",
+      "audio_slow": "assets/audio/know_slow.mp3",
+      "image": "assets/images/know.webp",
+      "skip_image": false,
+      "meaning_zh": "知道",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "lot",
+      "freq": 2,
+      "audio": "assets/audio/lot.mp3",
+      "audio_slow": "assets/audio/lot_slow.mp3",
+      "image": "assets/images/lot.webp",
+      "skip_image": false,
+      "meaning_zh": "很多",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "want",
+      "freq": 2,
+      "audio": "assets/audio/want.mp3",
+      "audio_slow": "assets/audio/want_slow.mp3",
+      "image": "assets/images/want.webp",
+      "skip_image": false,
+      "meaning_zh": "想要",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "find",
+      "freq": 1,
+      "audio": "assets/audio/find.mp3",
+      "audio_slow": "assets/audio/find_slow.mp3",
+      "image": "assets/images/find.webp",
+      "skip_image": false,
+      "meaning_zh": "找",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "garden",
+      "freq": 1,
+      "audio": "assets/audio/garden.mp3",
+      "audio_slow": "assets/audio/garden_slow.mp3",
+      "image": "assets/images/garden.webp",
+      "skip_image": false,
+      "meaning_zh": "花园",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "good",
+      "freq": 1,
+      "audio": "assets/audio/good.mp3",
+      "audio_slow": "assets/audio/good_slow.mp3",
+      "image": "assets/images/good.webp",
+      "skip_image": false,
+      "meaning_zh": "好",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "more",
+      "freq": 1,
+      "audio": "assets/audio/more.mp3",
+      "audio_slow": "assets/audio/more_slow.mp3",
+      "image": "assets/images/more.webp",
+      "skip_image": false,
+      "meaning_zh": "更多",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "outside",
+      "freq": 1,
+      "audio": "assets/audio/outside.mp3",
+      "audio_slow": "assets/audio/outside_slow.mp3",
+      "image": "assets/images/outside.webp",
+      "skip_image": false,
+      "meaning_zh": "外面",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "right",
+      "freq": 1,
+      "audio": "assets/audio/right.mp3",
+      "audio_slow": "assets/audio/right_slow.mp3",
+      "image": "assets/images/right.webp",
+      "skip_image": false,
+      "meaning_zh": "[本集是'all right'，好吧]",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "run",
+      "freq": 1,
+      "audio": "assets/audio/run.mp3",
+      "audio_slow": "assets/audio/run_slow.mp3",
+      "image": "assets/images/run.webp",
+      "skip_image": false,
+      "meaning_zh": "跑",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "show",
+      "freq": 1,
+      "audio": "assets/audio/show.mp3",
+      "audio_slow": "assets/audio/show_slow.mp3",
+      "image": "assets/images/show.webp",
+      "skip_image": false,
+      "meaning_zh": "展示",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "two",
+      "freq": 1,
+      "audio": "assets/audio/two.mp3",
+      "audio_slow": "assets/audio/two_slow.mp3",
+      "image": "assets/images/two.webp",
+      "skip_image": false,
+      "meaning_zh": "两个",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "bad",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "糟糕"
+    },
+    {
+      "lemma": "bath",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "洗澡"
+    },
+    {
+      "lemma": "big",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "大的"
+    },
+    {
+      "lemma": "boot",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "雨靴"
+    },
+    {
+      "lemma": "brother",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "兄弟"
+    },
+    {
+      "lemma": "cannot",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "不能"
+    },
+    {
+      "lemma": "check",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "检查"
+    },
+    {
+      "lemma": "clean",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "干净/打扫"
+    },
+    {
+      "lemma": "come",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "来"
+    },
+    {
+      "lemma": "daddy",
+      "freq": 21,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "爸爸"
+    },
+    {
+      "lemma": "everyone",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "所有人"
+    },
+    {
+      "lemma": "find",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "找"
+    },
+    {
+      "lemma": "first",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "先/第一"
+    },
+    {
+      "lemma": "found",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "找到了"
+    },
+    {
+      "lemma": "fun",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "好玩"
+    },
+    {
+      "lemma": "garden",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "花园"
+    },
+    {
+      "lemma": "george",
+      "freq": 32,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "乔治[人名]"
+    },
+    {
+      "lemma": "go",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "去"
+    },
+    {
+      "lemma": "good",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "好"
+    },
+    {
+      "lemma": "goodness",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "[感叹词，类似'天哪']"
+    },
+    {
+      "lemma": "guess",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "猜"
+    },
+    {
+      "lemma": "jump",
+      "freq": 24,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "跳"
+    },
+    {
+      "lemma": "know",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "知道"
+    },
+    {
+      "lemma": "like",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "喜欢"
+    },
+    {
+      "lemma": "little",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "小的"
+    },
+    {
+      "lemma": "look",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "看"
+    },
+    {
+      "lemma": "lot",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "很多"
+    },
+    {
+      "lemma": "love",
+      "freq": 12,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "爱"
+    },
+    {
+      "lemma": "mess",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "脏乱"
+    },
+    {
+      "lemma": "more",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "更多"
+    },
+    {
+      "lemma": "mud",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "泥"
+    },
+    {
+      "lemma": "muddy",
+      "freq": 21,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "泥泞的"
+    },
+    {
+      "lemma": "mummy",
+      "freq": 12,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "妈妈"
+    },
+    {
+      "lemma": "outside",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "外面"
+    },
+    {
+      "lemma": "peppa",
+      "freq": 26,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "佩奇[人名]"
+    },
+    {
+      "lemma": "pig",
+      "freq": 10,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "猪"
+    },
+    {
+      "lemma": "play",
+      "freq": 10,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "玩"
+    },
+    {
+      "lemma": "puddle",
+      "freq": 28,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "水洼"
+    },
+    {
+      "lemma": "quickly",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "快快地"
+    },
+    {
+      "lemma": "rain",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "雨"
+    },
+    {
+      "lemma": "right",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "[本集是'all right'，好吧]"
+    },
+    {
+      "lemma": "run",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "跑"
+    },
+    {
+      "lemma": "safe",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "安全"
+    },
+    {
+      "lemma": "see",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "看见"
+    },
+    {
+      "lemma": "show",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "展示"
+    },
+    {
+      "lemma": "sorry",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "抱歉"
+    },
+    {
+      "lemma": "stop",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "停"
+    },
+    {
+      "lemma": "television",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "电视"
+    },
+    {
+      "lemma": "think",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "想"
+    },
+    {
+      "lemma": "two",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "两个"
+    },
+    {
+      "lemma": "want",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "想要"
+    },
+    {
+      "lemma": "watch",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "观看"
+    },
+    {
+      "lemma": "wear",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "穿"
+    }
+  ],
+  "new_words": [
+    "bad",
+    "bath",
+    "big",
+    "boot",
+    "brother",
+    "cannot",
+    "check",
+    "clean",
+    "come",
+    "daddy",
+    "everyone",
+    "find",
+    "first",
+    "found",
+    "fun",
+    "garden",
+    "george",
+    "go",
+    "good",
+    "goodness",
+    "guess",
+    "jump",
+    "know",
+    "like",
+    "little",
+    "look",
+    "lot",
+    "love",
+    "mess",
+    "more",
+    "mud",
+    "muddy",
+    "mummy",
+    "outside",
+    "peppa",
+    "pig",
+    "play",
+    "puddle",
+    "quickly",
+    "rain",
+    "right",
+    "run",
+    "safe",
+    "see",
+    "show",
+    "sorry",
+    "stop",
+    "television",
+    "think",
+    "two",
+    "want",
+    "watch",
+    "wear"
+  ],
+  "reused_words": [],
+  "chunks": [
+    {
+      "id": "im_peppa",
+      "text": "I'm Peppa Pig",
+      "meaning_zh": "我是Peppa（自我介绍）",
+      "audio_tts": "assets/chunks_audio_tts/im_peppa.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/im_peppa_slow.mp3",
+      "image": "assets/chunks_images/im_peppa.webp",
+      "covers_words": [
+        "peppa",
+        "pig"
+      ]
+    },
+    {
+      "id": "this_is",
+      "text": "this is X",
+      "meaning_zh": "这是…（介绍他人）",
+      "audio_tts": "assets/chunks_audio_tts/this_is.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/this_is_slow.mp3",
+      "image": "assets/chunks_images/this_is.webp",
+      "covers_words": []
+    },
+    {
+      "id": "sorry_mommy",
+      "text": "sorry mommy",
+      "meaning_zh": "对不起妈妈",
+      "audio_tts": "assets/chunks_audio_tts/sorry_mommy.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/sorry_mommy_slow.mp3",
+      "image": "assets/chunks_images/sorry_mommy.webp",
+      "covers_words": [
+        "sorry",
+        "mummy"
+      ]
+    },
+    {
+      "id": "daddy_daddy",
+      "text": "daddy daddy",
+      "meaning_zh": "爸爸爸爸（兴奋呼喊）",
+      "audio_tts": "assets/chunks_audio_tts/daddy_daddy.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/daddy_daddy_slow.mp3",
+      "image": "assets/chunks_images/daddy_daddy.webp",
+      "covers_words": [
+        "daddy"
+      ]
+    },
+    {
+      "id": "muddy_puddles",
+      "text": "muddy puddles",
+      "meaning_zh": "泥水洼",
+      "audio_tts": "assets/chunks_audio_tts/muddy_puddles.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/muddy_puddles_slow.mp3",
+      "image": "assets/chunks_images/muddy_puddles.webp",
+      "covers_words": [
+        "muddy",
+        "puddle"
+      ]
+    },
+    {
+      "id": "jump_in_puddles",
+      "text": "jump in muddy puddles",
+      "meaning_zh": "在泥水洼里跳",
+      "audio_tts": "assets/chunks_audio_tts/jump_in_puddles.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/jump_in_puddles_slow.mp3",
+      "image": "assets/chunks_images/jump_in_puddles.webp",
+      "covers_words": [
+        "jump",
+        "muddy",
+        "puddle"
+      ]
+    },
+    {
+      "id": "jump_up_down",
+      "text": "jump up and down",
+      "meaning_zh": "上下跳",
+      "audio_tts": "assets/chunks_audio_tts/jump_up_down.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/jump_up_down_slow.mp3",
+      "image": "assets/chunks_images/jump_up_down.webp",
+      "covers_words": [
+        "jump"
+      ]
+    },
+    {
+      "id": "jump_into",
+      "text": "jump into",
+      "meaning_zh": "跳进…里",
+      "audio_tts": "assets/chunks_audio_tts/jump_into.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/jump_into_slow.mp3",
+      "image": "assets/chunks_images/jump_into.webp",
+      "covers_words": [
+        "jump"
+      ]
+    },
+    {
+      "id": "wear_boots",
+      "text": "wear your boots",
+      "meaning_zh": "穿上你的雨靴",
+      "audio_tts": "assets/chunks_audio_tts/wear_boots.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/wear_boots_slow.mp3",
+      "image": "assets/chunks_images/wear_boots.webp",
+      "covers_words": [
+        "wear",
+        "boot"
+      ]
+    },
+    {
+      "id": "look_after",
+      "text": "look after george",
+      "meaning_zh": "照顾弟弟",
+      "audio_tts": "assets/chunks_audio_tts/look_after.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/look_after_slow.mp3",
+      "image": "assets/chunks_images/look_after.webp",
+      "covers_words": [
+        "look",
+        "george"
+      ]
+    },
+    {
+      "id": "look_at_mess",
+      "text": "look at the mess",
+      "meaning_zh": "看看这一团糟",
+      "audio_tts": "assets/chunks_audio_tts/look_at_mess.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/look_at_mess_slow.mp3",
+      "image": "assets/chunks_images/look_at_mess.webp",
+      "covers_words": [
+        "look",
+        "mess"
+      ]
+    },
+    {
+      "id": "all_right",
+      "text": "all right",
+      "meaning_zh": "好吧/好的",
+      "audio_tts": "assets/chunks_audio_tts/all_right.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/all_right_slow.mp3",
+      "image": "assets/chunks_images/all_right.webp",
+      "covers_words": [
+        "right"
+      ]
+    },
+    {
+      "id": "come_on",
+      "text": "come on george",
+      "meaning_zh": "来吧/快来",
+      "audio_tts": "assets/chunks_audio_tts/come_on.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/come_on_slow.mp3",
+      "image": "assets/chunks_images/come_on.webp",
+      "covers_words": [
+        "come",
+        "george"
+      ]
+    },
+    {
+      "id": "run_along",
+      "text": "run along you two",
+      "meaning_zh": "你们俩去玩吧",
+      "audio_tts": "assets/chunks_audio_tts/run_along.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/run_along_slow.mp3",
+      "image": "assets/chunks_images/run_along.webp",
+      "covers_words": [
+        "run",
+        "two"
+      ]
+    },
+    {
+      "id": "let_me_think",
+      "text": "let me think",
+      "meaning_zh": "让我想想",
+      "audio_tts": "assets/chunks_audio_tts/let_me_think.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/let_me_think_slow.mp3",
+      "image": "assets/chunks_images/let_me_think.webp",
+      "covers_words": [
+        "think"
+      ]
+    },
+    {
+      "id": "guess_what",
+      "text": "guess what",
+      "meaning_zh": "你猜怎么着",
+      "audio_tts": "assets/chunks_audio_tts/guess_what.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/guess_what_slow.mp3",
+      "image": "assets/chunks_images/guess_what.webp",
+      "covers_words": [
+        "guess"
+      ]
+    },
+    {
+      "id": "i_know",
+      "text": "I know",
+      "meaning_zh": "我知道",
+      "audio_tts": "assets/chunks_audio_tts/i_know.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/i_know_slow.mp3",
+      "image": "assets/chunks_images/i_know.webp",
+      "covers_words": [
+        "know"
+      ]
+    },
+    {
+      "id": "oh_goodness",
+      "text": "oh goodness me",
+      "meaning_zh": "我的天啊",
+      "audio_tts": "assets/chunks_audio_tts/oh_goodness.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/oh_goodness_slow.mp3",
+      "image": "assets/chunks_images/oh_goodness.webp",
+      "covers_words": [
+        "goodness"
+      ]
+    },
+    {
+      "id": "lets",
+      "text": "let's go / let's play",
+      "meaning_zh": "让我们…（提议）",
+      "audio_tts": "assets/chunks_audio_tts/lets.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/lets_slow.mp3",
+      "image": "assets/chunks_images/lets.webp",
+      "covers_words": []
+    },
+    {
+      "id": "its_only",
+      "text": "it's only X",
+      "meaning_zh": "不过是…而已",
+      "audio_tts": "assets/chunks_audio_tts/its_only.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/its_only_slow.mp3",
+      "image": "assets/chunks_images/its_only.webp",
+      "covers_words": []
+    },
+    {
+      "id": "must_check",
+      "text": "must check",
+      "meaning_zh": "必须检查",
+      "audio_tts": "assets/chunks_audio_tts/must_check.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/must_check_slow.mp3",
+      "image": "assets/chunks_images/must_check.webp",
+      "covers_words": [
+        "check"
+      ]
+    },
+    {
+      "id": "cannot_play",
+      "text": "cannot play outside",
+      "meaning_zh": "不能出去玩",
+      "audio_tts": "assets/chunks_audio_tts/cannot_play.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/cannot_play_slow.mp3",
+      "image": "assets/chunks_images/cannot_play.webp",
+      "covers_words": [
+        "cannot",
+        "play",
+        "outside"
+      ]
+    },
+    {
+      "id": "before_sees",
+      "text": "before mommy sees",
+      "meaning_zh": "在妈妈看见之前",
+      "audio_tts": "assets/chunks_audio_tts/before_sees.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/before_sees_slow.mp3",
+      "image": "assets/chunks_images/before_sees.webp",
+      "covers_words": [
+        "see"
+      ]
+    },
+    {
+      "id": "watch_tv",
+      "text": "watching television",
+      "meaning_zh": "看电视",
+      "audio_tts": "assets/chunks_audio_tts/watch_tv.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/watch_tv_slow.mp3",
+      "image": "assets/chunks_images/watch_tv.webp",
+      "covers_words": [
+        "watch",
+        "television"
+      ]
+    },
+    {
+      "id": "weve_been_doing",
+      "text": "we've been doing",
+      "meaning_zh": "我们一直在干（…）",
+      "audio_tts": "assets/chunks_audio_tts/weve_been_doing.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/weve_been_doing_slow.mp3",
+      "image": "assets/chunks_images/weve_been_doing.webp",
+      "covers_words": []
+    },
+    {
+      "id": "youve_just_had",
+      "text": "you've just had",
+      "meaning_zh": "你刚刚（做了…）",
+      "audio_tts": "assets/chunks_audio_tts/youve_just_had.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/youve_just_had_slow.mp3",
+      "image": "assets/chunks_images/youve_just_had.webp",
+      "covers_words": []
+    },
+    {
+      "id": "youre_in",
+      "text": "you're in",
+      "meaning_zh": "你（搞成）这副样子",
+      "audio_tts": "assets/chunks_audio_tts/youre_in.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/youre_in_slow.mp3",
+      "image": "assets/chunks_images/youre_in.webp",
+      "covers_words": []
+    },
+    {
+      "id": "have_you_been",
+      "text": "have you been",
+      "meaning_zh": "你（一直）在…吗",
+      "audio_tts": "assets/chunks_audio_tts/have_you_been.mp3",
+      "audio_tts_slow": "assets/chunks_audio_tts/have_you_been_slow.mp3",
+      "image": "assets/chunks_images/have_you_been.webp",
+      "covers_words": []
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "I'm Peppa Pig.",
+      "meaning_zh": "我是Peppa猪。",
+      "audio_tts": "assets/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s01.mp3",
+      "image": "assets/sentences_images/s01.webp",
+      "chunks": [
+        "im_peppa"
+      ],
+      "key_words": [
+        "peppa",
+        "pig"
+      ],
+      "time_start": "00:00:02.720",
+      "time_end": "00:00:04.700"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "This is my little brother George.",
+      "meaning_zh": "这是我的小弟弟George。",
+      "audio_tts": "assets/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s02.mp3",
+      "image": "assets/sentences_images/s02.webp",
+      "chunks": [
+        "this_is"
+      ],
+      "key_words": [
+        "little",
+        "brother",
+        "george"
+      ],
+      "time_start": "00:00:04.799",
+      "time_end": "00:00:07.500"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "It is raining today.",
+      "meaning_zh": "今天在下雨。",
+      "audio_tts": "assets/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s03.mp3",
+      "image": "assets/sentences_images/s03.webp",
+      "chunks": [],
+      "key_words": [
+        "rain"
+      ],
+      "time_start": "00:00:26.880",
+      "time_end": "00:00:29.000"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "Peppa and George cannot play outside.",
+      "meaning_zh": "Peppa和George不能出去玩。",
+      "audio_tts": "assets/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s04.mp3",
+      "image": "assets/sentences_images/s04.webp",
+      "chunks": [
+        "cannot_play"
+      ],
+      "key_words": [
+        "cannot",
+        "play",
+        "outside"
+      ],
+      "time_start": "00:00:29.000",
+      "time_end": "00:00:32.000"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Daddy, it stopped raining, can we go out to play?",
+      "meaning_zh": "爸爸，雨停了，我们能出去玩吗？",
+      "audio_tts": "assets/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s05.mp3",
+      "image": "assets/sentences_images/s05.webp",
+      "chunks": [],
+      "key_words": [
+        "daddy",
+        "stop",
+        "rain",
+        "go",
+        "play"
+      ],
+      "time_start": "00:00:33.600",
+      "time_end": "00:00:38.000"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "All right, run along you two.",
+      "meaning_zh": "好吧，你俩去玩吧。",
+      "audio_tts": "assets/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s06.mp3",
+      "image": "assets/sentences_images/s06.webp",
+      "chunks": [
+        "all_right",
+        "run_along"
+      ],
+      "key_words": [
+        "right",
+        "run",
+        "two"
+      ],
+      "time_start": "00:00:38.500",
+      "time_end": "00:00:42.500"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Peppa loves jumping in muddy puddles.",
+      "meaning_zh": "Peppa最爱在泥水洼里跳。",
+      "audio_tts": "assets/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s07.mp3",
+      "image": "assets/sentences_images/s07.webp",
+      "chunks": [
+        "jump_in_puddles"
+      ],
+      "key_words": [
+        "love",
+        "jump",
+        "muddy",
+        "puddle"
+      ],
+      "time_start": "00:00:51.120",
+      "time_end": "00:00:54.000"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "If you jump in muddy puddles, you must wear your boots.",
+      "meaning_zh": "如果你要在泥水洼里跳，你必须穿上雨靴。",
+      "audio_tts": "assets/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s08.mp3",
+      "image": "assets/sentences_images/s08.webp",
+      "chunks": [
+        "jump_in_puddles",
+        "wear_boots"
+      ],
+      "key_words": [
+        "jump",
+        "muddy",
+        "puddle",
+        "wear",
+        "boot"
+      ],
+      "time_start": "00:01:00.000",
+      "time_end": "00:01:08.000"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Peppa likes to look after her little brother George.",
+      "meaning_zh": "Peppa喜欢照顾她的小弟弟George。",
+      "audio_tts": "assets/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s09.mp3",
+      "image": "assets/sentences_images/s09.webp",
+      "chunks": [
+        "look_after"
+      ],
+      "key_words": [
+        "like",
+        "look",
+        "little",
+        "brother",
+        "george"
+      ],
+      "time_start": "00:01:30.000",
+      "time_end": "00:01:35.000"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "Stop George, I must check if it's safe.",
+      "meaning_zh": "停下George，我得先检查安不安全。",
+      "audio_tts": "assets/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s10.mp3",
+      "image": "assets/sentences_images/s10.webp",
+      "chunks": [
+        "must_check"
+      ],
+      "key_words": [
+        "stop",
+        "george",
+        "check",
+        "safe"
+      ],
+      "time_start": "00:02:21.000",
+      "time_end": "00:02:26.000"
+    },
+    {
+      "id": "s11",
+      "text_admin_only": "Sorry George, it's only mud.",
+      "meaning_zh": "抱歉George，只不过是泥而已。",
+      "audio_tts": "assets/sentences_audio_tts/s11.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s11_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s11.mp3",
+      "image": "assets/sentences_images/s11.webp",
+      "chunks": [
+        "its_only"
+      ],
+      "key_words": [
+        "sorry",
+        "george",
+        "mud"
+      ],
+      "time_start": "00:02:35.000",
+      "time_end": "00:02:39.000"
+    },
+    {
+      "id": "s12",
+      "text_admin_only": "Come on George, let's go show daddy.",
+      "meaning_zh": "走吧George，咱们去给爸爸看看。",
+      "audio_tts": "assets/sentences_audio_tts/s12.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s12_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s12.mp3",
+      "image": "assets/sentences_images/s12.webp",
+      "chunks": [
+        "come_on",
+        "lets"
+      ],
+      "key_words": [
+        "come",
+        "george",
+        "go",
+        "show",
+        "daddy"
+      ],
+      "time_start": "00:02:57.000",
+      "time_end": "00:03:01.000"
+    },
+    {
+      "id": "s13",
+      "text_admin_only": "Daddy daddy, guess what we've been doing!",
+      "meaning_zh": "爸爸爸爸，你猜我们刚才在干嘛！",
+      "audio_tts": "assets/sentences_audio_tts/s13.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s13_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s13.mp3",
+      "image": "assets/sentences_images/s13.webp",
+      "chunks": [
+        "daddy_daddy",
+        "guess_what"
+      ],
+      "key_words": [
+        "daddy",
+        "guess"
+      ],
+      "time_start": "00:03:07.000",
+      "time_end": "00:03:14.000"
+    },
+    {
+      "id": "s14",
+      "text_admin_only": "Have you been watching television?",
+      "meaning_zh": "你们刚才在看电视吗？",
+      "audio_tts": "assets/sentences_audio_tts/s14.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s14_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s14.mp3",
+      "image": "assets/sentences_images/s14.webp",
+      "chunks": [
+        "watch_tv",
+        "let_me_think"
+      ],
+      "key_words": [
+        "watch",
+        "television"
+      ],
+      "time_start": "00:03:14.000",
+      "time_end": "00:03:18.000"
+    },
+    {
+      "id": "s15",
+      "text_admin_only": "Oh, look at the mess you're in!",
+      "meaning_zh": "哎呀，看看你们身上多脏！",
+      "audio_tts": "assets/sentences_audio_tts/s15.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s15_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s15.mp3",
+      "image": "assets/sentences_images/s15.webp",
+      "chunks": [
+        "look_at_mess",
+        "oh_goodness"
+      ],
+      "key_words": [
+        "look",
+        "mess"
+      ],
+      "time_start": "00:03:34.000",
+      "time_end": "00:03:38.000"
+    },
+    {
+      "id": "s16",
+      "text_admin_only": "Let's clean up quickly before mommy sees the mess.",
+      "meaning_zh": "趁妈妈还没看见，咱们赶紧打扫干净。",
+      "audio_tts": "assets/sentences_audio_tts/s16.mp3",
+      "audio_tts_slow": "assets/sentences_audio_tts/s16_slow.mp3",
+      "audio_clip": "assets/sentences_audio_clip/s16.mp3",
+      "image": "assets/sentences_images/s16.webp",
+      "chunks": [
+        "lets",
+        "before_sees"
+      ],
+      "key_words": [
+        "clean",
+        "quickly",
+        "mess",
+        "see"
+      ],
+      "time_start": "00:03:43.000",
+      "time_end": "00:03:48.000"
+    }
+  ],
+  "distractors": {
+    "puddle": [
+      "rain",
+      "muddy",
+      "quickly"
+    ],
+    "jump": [
+      "safe",
+      "george",
+      "more"
+    ],
+    "muddy": [
+      "come",
+      "goodness",
+      "quickly"
+    ],
+    "daddy": [
+      "mess",
+      "big",
+      "bad"
+    ],
+    "love": [
+      "first",
+      "jump",
+      "peppa"
+    ],
+    "mummy": [
+      "come",
+      "peppa",
+      "brother"
+    ],
+    "pig": [
+      "bad",
+      "little",
+      "quickly"
+    ],
+    "play": [
+      "rain",
+      "muddy",
+      "mummy"
+    ],
+    "boot": [
+      "run",
+      "two",
+      "first"
+    ],
+    "wear": [
+      "love",
+      "daddy",
+      "mess"
+    ],
+    "little": [
+      "mud",
+      "love",
+      "first"
+    ],
+    "look": [
+      "sorry",
+      "outside",
+      "bad"
+    ],
+    "brother": [
+      "wear",
+      "like",
+      "run"
+    ],
+    "mess": [
+      "garden",
+      "television",
+      "check"
+    ],
+    "clean": [
+      "safe",
+      "play",
+      "think"
+    ],
+    "rain": [
+      "lot",
+      "little",
+      "guess"
+    ],
+    "sorry": [
+      "stop",
+      "outside",
+      "bad"
+    ],
+    "stop": [
+      "clean",
+      "pig",
+      "want"
+    ],
+    "george": [
+      "want",
+      "like",
+      "run"
+    ],
+    "peppa": [
+      "know",
+      "come",
+      "look"
+    ],
+    "big": [
+      "everyone",
+      "see",
+      "garden"
+    ],
+    "come": [
+      "mummy",
+      "see",
+      "want"
+    ],
+    "found": [
+      "jump",
+      "sorry",
+      "pig"
+    ],
+    "like": [
+      "think",
+      "found",
+      "show"
+    ],
+    "mud": [
+      "garden",
+      "two",
+      "mess"
+    ],
+    "safe": [
+      "quickly",
+      "stop",
+      "big"
+    ],
+    "bath": [
+      "george",
+      "little",
+      "wear"
+    ],
+    "cannot": [
+      "bath",
+      "two",
+      "clean"
+    ],
+    "check": [
+      "brother",
+      "come",
+      "find"
+    ],
+    "everyone": [
+      "love",
+      "muddy",
+      "television"
+    ],
+    "first": [
+      "safe",
+      "two",
+      "cannot"
+    ],
+    "go": [
+      "know",
+      "garden",
+      "first"
+    ],
+    "guess": [
+      "sorry",
+      "found",
+      "look"
+    ],
+    "quickly": [
+      "know",
+      "stop",
+      "like"
+    ],
+    "see": [
+      "daddy",
+      "first",
+      "garden"
+    ],
+    "television": [
+      "go",
+      "outside",
+      "show"
+    ],
+    "think": [
+      "more",
+      "big",
+      "daddy"
+    ],
+    "watch": [
+      "pig",
+      "mud",
+      "two"
+    ],
+    "bad": [
+      "peppa",
+      "mummy",
+      "guess"
+    ],
+    "fun": [
+      "george",
+      "play",
+      "jump"
+    ],
+    "goodness": [
+      "daddy",
+      "come",
+      "bad"
+    ],
+    "know": [
+      "watch",
+      "daddy",
+      "go"
+    ],
+    "lot": [
+      "want",
+      "outside",
+      "think"
+    ],
+    "want": [
+      "watch",
+      "like",
+      "puddle"
+    ],
+    "find": [
+      "run",
+      "want",
+      "safe"
+    ],
+    "garden": [
+      "rain",
+      "see",
+      "know"
+    ],
+    "good": [
+      "go",
+      "george",
+      "guess"
+    ],
+    "more": [
+      "television",
+      "think",
+      "fun"
+    ],
+    "outside": [
+      "little",
+      "first",
+      "love"
+    ],
+    "right": [
+      "cannot",
+      "come",
+      "stop"
+    ],
+    "run": [
+      "love",
+      "lot",
+      "daddy"
+    ],
+    "show": [
+      "go",
+      "love",
+      "george"
+    ],
+    "two": [
+      "right",
+      "lot",
+      "cannot"
+    ]
+  }
+}

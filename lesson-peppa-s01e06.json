@@ -1,0 +1,936 @@
+{
+  "id": "peppa-s01e06",
+  "title": "The Playgroup",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "paint",
+      "freq": 32,
+      "audio": "assets/audio/paint.mp3",
+      "audio_slow": "assets/audio/paint_slow.mp3",
+      "image": "assets/images/paint.webp",
+      "skip_image": false,
+      "meaning_zh": "画画",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "brilliant",
+      "freq": 13,
+      "audio": "assets/audio/brilliant.mp3",
+      "audio_slow": "assets/audio/brilliant_slow.mp3",
+      "image": "assets/images/brilliant.webp",
+      "skip_image": false,
+      "meaning_zh": "太棒了",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "flower",
+      "freq": 12,
+      "audio": "assets/audio/flower.mp3",
+      "audio_slow": "assets/audio/flower_slow.mp3",
+      "image": "assets/images/flower.webp",
+      "skip_image": false,
+      "meaning_zh": "花",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "picture",
+      "freq": 12,
+      "audio": "assets/audio/picture.mp3",
+      "audio_slow": "assets/audio/picture_slow.mp3",
+      "image": "assets/images/picture.webp",
+      "skip_image": false,
+      "meaning_zh": "图画",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "wrong",
+      "freq": 8,
+      "audio": "assets/audio/wrong.mp3",
+      "audio_slow": "assets/audio/wrong_slow.mp3",
+      "image": "assets/images/wrong.webp",
+      "skip_image": false,
+      "meaning_zh": "错了",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "group",
+      "freq": 7,
+      "audio": "assets/audio/group.mp3",
+      "audio_slow": "assets/audio/group_slow.mp3",
+      "image": "assets/images/group.webp",
+      "skip_image": false,
+      "meaning_zh": "小组",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "playgroup",
+      "freq": 7,
+      "audio": "assets/audio/playgroup.mp3",
+      "audio_slow": "assets/audio/playgroup_slow.mp3",
+      "image": "assets/images/playgroup.webp",
+      "skip_image": false,
+      "meaning_zh": "幼儿园",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "children",
+      "freq": 6,
+      "audio": "assets/audio/children.mp3",
+      "audio_slow": "assets/audio/children_slow.mp3",
+      "image": "assets/images/children.webp",
+      "skip_image": false,
+      "meaning_zh": "孩子们",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "proud",
+      "freq": 5,
+      "audio": "assets/audio/proud.mp3",
+      "audio_slow": "assets/audio/proud_slow.mp3",
+      "image": "assets/images/proud.webp",
+      "skip_image": false,
+      "meaning_zh": "骄傲",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "circle",
+      "freq": 3,
+      "audio": "assets/audio/circle.mp3",
+      "audio_slow": "assets/audio/circle_slow.mp3",
+      "image": "assets/images/circle.webp",
+      "skip_image": false,
+      "meaning_zh": "圆圈",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "color",
+      "freq": 3,
+      "audio": "assets/audio/color.mp3",
+      "audio_slow": "assets/audio/color_slow.mp3",
+      "image": "assets/images/color.webp",
+      "skip_image": false,
+      "meaning_zh": "颜色",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "time",
+      "freq": 8,
+      "audio": "assets/audio/time.mp3",
+      "audio_slow": "assets/audio/time_slow.mp3",
+      "image": "assets/images/time.webp",
+      "skip_image": false,
+      "meaning_zh": "时间",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "maybe",
+      "freq": 9,
+      "audio": "assets/audio/maybe.mp3",
+      "audio_slow": "assets/audio/maybe_slow.mp3",
+      "image": "assets/images/maybe.webp",
+      "skip_image": false,
+      "meaning_zh": "也许",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "next",
+      "freq": 6,
+      "audio": "assets/audio/next.mp3",
+      "audio_slow": "assets/audio/next_slow.mp3",
+      "image": "assets/images/next.webp",
+      "skip_image": false,
+      "meaning_zh": "下一个",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "lovely",
+      "freq": 3,
+      "audio": "assets/audio/lovely.mp3",
+      "audio_slow": "assets/audio/lovely_slow.mp3",
+      "image": "assets/images/lovely.webp",
+      "skip_image": false,
+      "meaning_zh": "可爱的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "home",
+      "freq": 2,
+      "audio": "assets/audio/home.mp3",
+      "audio_slow": "assets/audio/home_slow.mp3",
+      "image": "assets/images/home.webp",
+      "skip_image": false,
+      "meaning_zh": "家",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "keep",
+      "freq": 3,
+      "audio": "assets/audio/keep.mp3",
+      "audio_slow": "assets/audio/keep_slow.mp3",
+      "image": "assets/images/keep.webp",
+      "skip_image": false,
+      "meaning_zh": "保持/留着",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "pick",
+      "freq": 3,
+      "audio": "assets/audio/pick.mp3",
+      "audio_slow": "assets/audio/pick_slow.mp3",
+      "image": "assets/images/pick.webp",
+      "skip_image": false,
+      "meaning_zh": "采/挑选",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "petal",
+      "freq": 3,
+      "audio": "assets/audio/petal.mp3",
+      "audio_slow": "assets/audio/petal_slow.mp3",
+      "image": "assets/images/petal.webp",
+      "skip_image": false,
+      "meaning_zh": "花瓣",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "shape",
+      "freq": 3,
+      "audio": "assets/audio/shape.mp3",
+      "audio_slow": "assets/audio/shape_slow.mp3",
+      "image": "assets/images/shape.webp",
+      "skip_image": false,
+      "meaning_zh": "形状",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "small",
+      "freq": 3,
+      "audio": "assets/audio/small.mp3",
+      "audio_slow": "assets/audio/small_slow.mp3",
+      "image": "assets/images/small.webp",
+      "skip_image": false,
+      "meaning_zh": "小的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "forward",
+      "freq": 3,
+      "audio": "assets/audio/forward.mp3",
+      "audio_slow": "assets/audio/forward_slow.mp3",
+      "image": "assets/images/forward.webp",
+      "skip_image": false,
+      "meaning_zh": "向前",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "parent",
+      "freq": 3,
+      "audio": "assets/audio/parent.mp3",
+      "audio_slow": "assets/audio/parent_slow.mp3",
+      "image": "assets/images/parent.webp",
+      "skip_image": false,
+      "meaning_zh": "父母",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "brilliant",
+      "freq": 13,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "太棒了"
+    },
+    {
+      "lemma": "children",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "孩子们"
+    },
+    {
+      "lemma": "circle",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "圆圈"
+    },
+    {
+      "lemma": "color",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "颜色"
+    },
+    {
+      "lemma": "flower",
+      "freq": 12,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "花"
+    },
+    {
+      "lemma": "forward",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "向前"
+    },
+    {
+      "lemma": "go",
+      "freq": 7,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "group",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "小组"
+    },
+    {
+      "lemma": "home",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "家"
+    },
+    {
+      "lemma": "keep",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "保持/留着"
+    },
+    {
+      "lemma": "lovely",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "可爱的"
+    },
+    {
+      "lemma": "maybe",
+      "freq": 9,
+      "is_new": false,
+      "has_card": true,
+      "meaning_zh": "也许"
+    },
+    {
+      "lemma": "next",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "下一个"
+    },
+    {
+      "lemma": "paint",
+      "freq": 32,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "画画"
+    },
+    {
+      "lemma": "parent",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "父母"
+    },
+    {
+      "lemma": "petal",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "花瓣"
+    },
+    {
+      "lemma": "pick",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "采/挑选"
+    },
+    {
+      "lemma": "picture",
+      "freq": 12,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "图画"
+    },
+    {
+      "lemma": "playgroup",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "幼儿园"
+    },
+    {
+      "lemma": "proud",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "骄傲"
+    },
+    {
+      "lemma": "shape",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "形状"
+    },
+    {
+      "lemma": "show",
+      "freq": 8,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "small",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "小的"
+    },
+    {
+      "lemma": "time",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "时间"
+    },
+    {
+      "lemma": "wrong",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "错了"
+    }
+  ],
+  "new_words": [
+    "brilliant",
+    "children",
+    "circle",
+    "color",
+    "flower",
+    "forward",
+    "group",
+    "home",
+    "keep",
+    "lovely",
+    "next",
+    "paint",
+    "parent",
+    "petal",
+    "pick",
+    "picture",
+    "playgroup",
+    "proud",
+    "shape",
+    "small",
+    "time",
+    "wrong"
+  ],
+  "reused_words": [
+    "go",
+    "maybe",
+    "show"
+  ],
+  "chunks": [
+    {
+      "id": "the_playgroup",
+      "text": "the playgroup",
+      "meaning_zh": "幼儿园/游戏班",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/the_playgroup.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/the_playgroup_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/the_playgroup.webp",
+      "covers_words": [
+        "playgroup"
+      ]
+    },
+    {
+      "id": "paint_a_picture",
+      "text": "paint a picture",
+      "meaning_zh": "画一幅画",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/paint_a_picture.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/paint_a_picture_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/paint_a_picture.webp",
+      "covers_words": [
+        "paint",
+        "picture"
+      ]
+    },
+    {
+      "id": "a_big_flower",
+      "text": "a big flower",
+      "meaning_zh": "一朵大花",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/a_big_flower.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/a_big_flower_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/a_big_flower.webp",
+      "covers_words": [
+        "flower"
+      ]
+    },
+    {
+      "id": "wrong_color",
+      "text": "wrong color",
+      "meaning_zh": "颜色错了",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/wrong_color.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/wrong_color_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/wrong_color.webp",
+      "covers_words": [
+        "wrong",
+        "color"
+      ]
+    },
+    {
+      "id": "very_brilliant",
+      "text": "very brilliant",
+      "meaning_zh": "太棒了",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/very_brilliant.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/very_brilliant_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/very_brilliant.webp",
+      "covers_words": [
+        "brilliant"
+      ]
+    },
+    {
+      "id": "children_playing",
+      "text": "children playing",
+      "meaning_zh": "孩子们玩耍",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/children_playing.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/children_playing_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/children_playing.webp",
+      "covers_words": [
+        "children"
+      ]
+    },
+    {
+      "id": "make_a_circle",
+      "text": "make a circle",
+      "meaning_zh": "围成圆圈",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/make_a_circle.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/make_a_circle_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/make_a_circle.webp",
+      "covers_words": [
+        "circle"
+      ]
+    },
+    {
+      "id": "feel_proud",
+      "text": "feel proud",
+      "meaning_zh": "感到骄傲",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/feel_proud.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/feel_proud_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/feel_proud.webp",
+      "covers_words": [
+        "proud"
+      ]
+    },
+    {
+      "id": "next_time",
+      "text": "next time",
+      "meaning_zh": "下一次",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/next_time.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/next_time_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/next_time.webp",
+      "covers_words": [
+        "next",
+        "time"
+      ]
+    },
+    {
+      "id": "small_shape",
+      "text": "small shape",
+      "meaning_zh": "小形状",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/small_shape.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/small_shape_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/small_shape.webp",
+      "covers_words": [
+        "small",
+        "shape"
+      ]
+    },
+    {
+      "id": "go_forward",
+      "text": "go forward",
+      "meaning_zh": "向前走",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/go_forward.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/go_forward_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/go_forward.webp",
+      "covers_words": [
+        "forward",
+        "go"
+      ]
+    },
+    {
+      "id": "keep_picture",
+      "text": "keep the picture",
+      "meaning_zh": "留下图画",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/keep_picture.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/keep_picture_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/keep_picture.webp",
+      "covers_words": [
+        "keep",
+        "picture"
+      ]
+    },
+    {
+      "id": "pick_flower",
+      "text": "pick a flower",
+      "meaning_zh": "摘一朵花",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/pick_flower.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/pick_flower_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/pick_flower.webp",
+      "covers_words": [
+        "pick",
+        "flower"
+      ]
+    },
+    {
+      "id": "lovely_petals",
+      "text": "lovely petals",
+      "meaning_zh": "漂亮的花瓣",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/lovely_petals.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/lovely_petals_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/lovely_petals.webp",
+      "covers_words": [
+        "lovely",
+        "petal"
+      ]
+    },
+    {
+      "id": "maybe_wrong",
+      "text": "maybe wrong",
+      "meaning_zh": "也许错了",
+      "audio_tts": "assets/peppa-s01e06/chunks_audio_tts/maybe_wrong.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/chunks_audio_tts/maybe_wrong_slow.mp3",
+      "image": "assets/peppa-s01e06/chunks_images/maybe_wrong.webp",
+      "covers_words": [
+        "maybe",
+        "wrong"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Today George is going to the playgroup.",
+      "meaning_zh": "今天George要去幼儿园。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s01.webp",
+      "chunks": [
+        "the_playgroup"
+      ],
+      "key_words": [
+        "playgroup"
+      ],
+      "time_start": "00:00:33.440",
+      "time_end": "00:00:37.940"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "There are lots of children at playgroup.",
+      "meaning_zh": "幼儿园里有很多孩子。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s02.webp",
+      "chunks": [
+        "children_playing"
+      ],
+      "key_words": [
+        "children",
+        "playgroup"
+      ],
+      "time_start": "00:00:58.559",
+      "time_end": "00:01:03.059"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "The children are painting pictures.",
+      "meaning_zh": "孩子们在画画。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s03.webp",
+      "chunks": [
+        "paint_a_picture"
+      ],
+      "key_words": [
+        "paint",
+        "picture"
+      ],
+      "time_start": "00:04:18.639",
+      "time_end": "00:04:23.139"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "George paints a flower.",
+      "meaning_zh": "George画了一朵花。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s04.webp",
+      "chunks": [
+        "a_big_flower"
+      ],
+      "key_words": [
+        "paint",
+        "flower"
+      ],
+      "time_start": "00:02:48.879",
+      "time_end": "00:02:53.379"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Peppa thinks George has used the wrong color.",
+      "meaning_zh": "Peppa觉得George用错颜色了。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s05.webp",
+      "chunks": [
+        "wrong_color"
+      ],
+      "key_words": [
+        "wrong",
+        "color"
+      ],
+      "time_start": "00:03:08.040",
+      "time_end": "00:03:12.540"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "Madame Gazelle says it is brilliant.",
+      "meaning_zh": "Gazelle老师说这太棒了。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s06.webp",
+      "chunks": [
+        "very_brilliant"
+      ],
+      "key_words": [
+        "brilliant"
+      ],
+      "time_start": "00:02:29.680",
+      "time_end": "00:02:34.180"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "George is very proud of his picture.",
+      "meaning_zh": "George为自己的画很骄傲。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s07.webp",
+      "chunks": [
+        "feel_proud"
+      ],
+      "key_words": [
+        "proud",
+        "picture"
+      ],
+      "time_start": "00:04:18.639",
+      "time_end": "00:04:23.139"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "The children make a circle.",
+      "meaning_zh": "孩子们围成一个圆圈。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s08.webp",
+      "chunks": [
+        "make_a_circle"
+      ],
+      "key_words": [
+        "children",
+        "circle"
+      ],
+      "time_start": "00:00:58.559",
+      "time_end": "00:01:03.059"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Peppa shows George what to do.",
+      "meaning_zh": "Peppa给George示范怎么做。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s09.webp",
+      "chunks": [],
+      "key_words": [
+        "show"
+      ],
+      "time_start": "00:02:48.879",
+      "time_end": "00:02:53.379"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "George likes playgroup.",
+      "meaning_zh": "George喜欢幼儿园。",
+      "audio_tts": "assets/peppa-s01e06/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e06/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e06/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e06/sentences_images/s10.webp",
+      "chunks": [
+        "the_playgroup"
+      ],
+      "key_words": [
+        "playgroup"
+      ],
+      "time_start": "00:00:33.440",
+      "time_end": "00:00:37.940"
+    }
+  ],
+  "distractors": {
+    "paint": [
+      "picture",
+      "lovely",
+      "parent"
+    ],
+    "brilliant": [
+      "picture",
+      "keep",
+      "petal"
+    ],
+    "flower": [
+      "picture",
+      "paint",
+      "children"
+    ],
+    "picture": [
+      "wrong",
+      "pick",
+      "paint"
+    ],
+    "wrong": [
+      "petal",
+      "time",
+      "small"
+    ],
+    "group": [
+      "pick",
+      "playgroup",
+      "color"
+    ],
+    "playgroup": [
+      "picture",
+      "proud",
+      "next"
+    ],
+    "children": [
+      "next",
+      "flower",
+      "small"
+    ],
+    "proud": [
+      "children",
+      "forward",
+      "circle"
+    ],
+    "circle": [
+      "color",
+      "brilliant",
+      "pick"
+    ],
+    "color": [
+      "keep",
+      "petal",
+      "playgroup"
+    ],
+    "time": [
+      "proud",
+      "pick",
+      "shape"
+    ],
+    "maybe": [
+      "home",
+      "proud",
+      "lovely"
+    ],
+    "next": [
+      "small",
+      "proud",
+      "lovely"
+    ],
+    "lovely": [
+      "small",
+      "petal",
+      "color"
+    ],
+    "home": [
+      "children",
+      "brilliant",
+      "proud"
+    ],
+    "keep": [
+      "group",
+      "pick",
+      "shape"
+    ],
+    "pick": [
+      "wrong",
+      "playgroup",
+      "next"
+    ],
+    "petal": [
+      "forward",
+      "brilliant",
+      "lovely"
+    ],
+    "shape": [
+      "paint",
+      "parent",
+      "brilliant"
+    ],
+    "small": [
+      "playgroup",
+      "paint",
+      "parent"
+    ],
+    "forward": [
+      "circle",
+      "next",
+      "keep"
+    ],
+    "parent": [
+      "home",
+      "lovely",
+      "petal"
+    ]
+  }
+}

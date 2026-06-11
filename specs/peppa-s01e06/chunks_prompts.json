@@ -1,0 +1,149 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "the_playgroup",
+      "text": "the playgroup",
+      "subject": "a clear child-friendly illustration of the phrase 'the playgroup' meaning 幼儿园/游戏班, no written words, one simple action, expressive characters",
+      "meaning_zh": "幼儿园/游戏班",
+      "covers_words": [
+        "playgroup"
+      ]
+    },
+    {
+      "id": "paint_a_picture",
+      "text": "paint a picture",
+      "subject": "a clear child-friendly illustration of the phrase 'paint a picture' meaning 画一幅画, no written words, one simple action, expressive characters",
+      "meaning_zh": "画一幅画",
+      "covers_words": [
+        "paint",
+        "picture"
+      ]
+    },
+    {
+      "id": "a_big_flower",
+      "text": "a big flower",
+      "subject": "a clear child-friendly illustration of the phrase 'a big flower' meaning 一朵大花, no written words, one simple action, expressive characters",
+      "meaning_zh": "一朵大花",
+      "covers_words": [
+        "flower"
+      ]
+    },
+    {
+      "id": "wrong_color",
+      "text": "wrong color",
+      "subject": "a clear child-friendly illustration of the phrase 'wrong color' meaning 颜色错了, no written words, one simple action, expressive characters",
+      "meaning_zh": "颜色错了",
+      "covers_words": [
+        "wrong",
+        "color"
+      ]
+    },
+    {
+      "id": "very_brilliant",
+      "text": "very brilliant",
+      "subject": "a clear child-friendly illustration of the phrase 'very brilliant' meaning 太棒了, no written words, one simple action, expressive characters",
+      "meaning_zh": "太棒了",
+      "covers_words": [
+        "brilliant"
+      ]
+    },
+    {
+      "id": "children_playing",
+      "text": "children playing",
+      "subject": "a clear child-friendly illustration of the phrase 'children playing' meaning 孩子们玩耍, no written words, one simple action, expressive characters",
+      "meaning_zh": "孩子们玩耍",
+      "covers_words": [
+        "children"
+      ]
+    },
+    {
+      "id": "make_a_circle",
+      "text": "make a circle",
+      "subject": "a clear child-friendly illustration of the phrase 'make a circle' meaning 围成圆圈, no written words, one simple action, expressive characters",
+      "meaning_zh": "围成圆圈",
+      "covers_words": [
+        "circle"
+      ]
+    },
+    {
+      "id": "feel_proud",
+      "text": "feel proud",
+      "subject": "a clear child-friendly illustration of the phrase 'feel proud' meaning 感到骄傲, no written words, one simple action, expressive characters",
+      "meaning_zh": "感到骄傲",
+      "covers_words": [
+        "proud"
+      ]
+    },
+    {
+      "id": "next_time",
+      "text": "next time",
+      "meaning_zh": "下一次",
+      "subject": "a clear child-friendly illustration of the phrase 'next time' meaning 下一次, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "next",
+        "time"
+      ]
+    },
+    {
+      "id": "small_shape",
+      "text": "small shape",
+      "meaning_zh": "小形状",
+      "subject": "a clear child-friendly illustration of the phrase 'small shape' meaning 小形状, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "small",
+        "shape"
+      ]
+    },
+    {
+      "id": "go_forward",
+      "text": "go forward",
+      "meaning_zh": "向前走",
+      "subject": "a clear child-friendly illustration of the phrase 'go forward' meaning 向前走, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "forward",
+        "go"
+      ]
+    },
+    {
+      "id": "keep_picture",
+      "text": "keep the picture",
+      "meaning_zh": "留下图画",
+      "subject": "a clear child-friendly illustration of the phrase 'keep the picture' meaning 留下图画, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "keep",
+        "picture"
+      ]
+    },
+    {
+      "id": "pick_flower",
+      "text": "pick a flower",
+      "meaning_zh": "摘一朵花",
+      "subject": "a clear child-friendly illustration of the phrase 'pick a flower' meaning 摘一朵花, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "pick",
+        "flower"
+      ]
+    },
+    {
+      "id": "lovely_petals",
+      "text": "lovely petals",
+      "meaning_zh": "漂亮的花瓣",
+      "subject": "a clear child-friendly illustration of the phrase 'lovely petals' meaning 漂亮的花瓣, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "lovely",
+        "petal"
+      ]
+    },
+    {
+      "id": "maybe_wrong",
+      "text": "maybe wrong",
+      "meaning_zh": "也许错了",
+      "subject": "a clear child-friendly illustration of the phrase 'maybe wrong' meaning 也许错了, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "maybe",
+        "wrong"
+      ]
+    }
+  ]
+}

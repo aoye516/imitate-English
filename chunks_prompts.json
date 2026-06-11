@@ -1,0 +1,201 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "im_peppa",
+      "text": "I'm Peppa Pig",
+      "subject": "a cartoon girl piglet pointing to herself with one hand on chest, other hand waving hello, friendly self-introducing pose",
+      "meaning_zh": "我是Peppa（自我介绍）",
+      "covers_words": ["peppa", "pig"]
+    },
+    {
+      "id": "this_is",
+      "text": "this is X",
+      "subject": "a cartoon piglet extending one arm to the side gesturing toward another character, presentation pose, smiling, the introduced character is shown next to it",
+      "meaning_zh": "这是…（介绍他人）",
+      "covers_words": []
+    },
+    {
+      "id": "sorry_mommy",
+      "text": "sorry mommy",
+      "subject": "a small piglet with apologetic expression looking up at a larger mother pig figure, hands clasped, head slightly bowed",
+      "meaning_zh": "对不起妈妈",
+      "covers_words": ["sorry", "mummy"]
+    },
+    {
+      "id": "daddy_daddy",
+      "text": "daddy daddy",
+      "subject": "two excited piglets running toward a father pig with arms raised, shouting joyfully, motion lines",
+      "meaning_zh": "爸爸爸爸（兴奋呼喊）",
+      "covers_words": ["daddy"]
+    },
+    {
+      "id": "muddy_puddles",
+      "text": "muddy puddles",
+      "subject": "several brown muddy water puddles on green grass ground, glossy surface reflecting light, multiple sizes",
+      "meaning_zh": "泥水洼",
+      "covers_words": ["muddy", "puddle"]
+    },
+    {
+      "id": "jump_in_puddles",
+      "text": "jump in muddy puddles",
+      "subject": "a happy cartoon piglet mid-air jumping straight down into the center of a muddy brown puddle, big brown water splashes flying outward, motion lines",
+      "meaning_zh": "在泥水洼里跳",
+      "covers_words": ["jump", "muddy", "puddle"]
+    },
+    {
+      "id": "jump_up_down",
+      "text": "jump up and down",
+      "subject": "a piglet shown in three poses arranged vertically — jumping up, at peak, and landing down — on a brown puddle, spring-like motion lines on both sides",
+      "meaning_zh": "上下跳",
+      "covers_words": ["jump"]
+    },
+    {
+      "id": "jump_into",
+      "text": "jump into",
+      "subject": "a piglet leaping with a large arrow curving from outside into the center of a big brown puddle, the arrow is the focus, dynamic motion",
+      "meaning_zh": "跳进…里",
+      "covers_words": ["jump"]
+    },
+    {
+      "id": "wear_boots",
+      "text": "wear your boots",
+      "subject": "a pair of small piglet feet putting on bright yellow rain boots, the boots are halfway on, focus on the action of pulling them up",
+      "meaning_zh": "穿上你的雨靴",
+      "covers_words": ["wear", "boot"]
+    },
+    {
+      "id": "look_after",
+      "text": "look after george",
+      "subject": "an older sister piglet holding the hand of a smaller younger piglet protectively, walking together, caring expression",
+      "meaning_zh": "照顾弟弟",
+      "covers_words": ["look", "george"]
+    },
+    {
+      "id": "look_at_mess",
+      "text": "look at the mess",
+      "subject": "a cartoon pig pointing at a chaotic muddy room with disapproving expression, finger pointing toward the dirt, eyes wide",
+      "meaning_zh": "看看这一团糟",
+      "covers_words": ["look", "mess"]
+    },
+    {
+      "id": "all_right",
+      "text": "all right",
+      "subject": "a friendly father pig giving a big thumbs up with a wide smile, sparkles around the thumb, agreeable mood",
+      "meaning_zh": "好吧/好的",
+      "covers_words": ["right"]
+    },
+    {
+      "id": "come_on",
+      "text": "come on george",
+      "subject": "a piglet waving and beckoning to a smaller piglet with one arm, looking back over shoulder while walking forward, follow-me gesture",
+      "meaning_zh": "来吧/快来",
+      "covers_words": ["come", "george"]
+    },
+    {
+      "id": "run_along",
+      "text": "run along you two",
+      "subject": "two small piglets running away into the distance with their backs to viewer, shrinking in size, a waving father pig watching them go",
+      "meaning_zh": "你们俩去玩吧",
+      "covers_words": ["run", "two"]
+    },
+    {
+      "id": "let_me_think",
+      "text": "let me think",
+      "subject": "a cartoon father pig with one hand on chin, eyes looking up, a glowing thought bubble with a question mark above the head",
+      "meaning_zh": "让我想想",
+      "covers_words": ["think"]
+    },
+    {
+      "id": "guess_what",
+      "text": "guess what",
+      "subject": "a cartoon piglet with hands behind back hiding a surprise, mischievous smile, a giant question mark floating above the head",
+      "meaning_zh": "你猜怎么着",
+      "covers_words": ["guess"]
+    },
+    {
+      "id": "i_know",
+      "text": "I know",
+      "subject": "a cartoon father pig with one finger pointing up, a bright glowing yellow lightbulb above the head, knowing smile, eyes confident",
+      "meaning_zh": "我知道",
+      "covers_words": ["know"]
+    },
+    {
+      "id": "oh_goodness",
+      "text": "oh goodness me",
+      "subject": "a father pig with hands on cheeks in dramatic surprise, mouth open wide, looking at two small piglets completely covered in brown mud, both piglets grinning innocently",
+      "meaning_zh": "我的天啊",
+      "covers_words": ["goodness"]
+    },
+    {
+      "id": "lets",
+      "text": "let's go / let's play",
+      "subject": "a group of three piglets standing together with one hand raised forward in unified gesture, ready-to-go pose, sparkles of excitement around them",
+      "meaning_zh": "让我们…（提议）",
+      "covers_words": []
+    },
+    {
+      "id": "its_only",
+      "text": "it's only X",
+      "subject": "a cartoon piglet shrugging with both palms up, casual expression, a small brown mud puddle next to it labeled as harmless, downplay gesture",
+      "meaning_zh": "不过是…而已",
+      "covers_words": []
+    },
+    {
+      "id": "must_check",
+      "text": "must check",
+      "subject": "a cartoon piglet with index finger raised in a serious 'must do' gesture, holding a magnifying glass examining a puddle carefully, focused expression",
+      "meaning_zh": "必须检查",
+      "covers_words": ["check"]
+    },
+    {
+      "id": "cannot_play",
+      "text": "cannot play outside",
+      "subject": "a sad piglet looking out a rainy window from inside, raindrops on glass, a red prohibition sign in the corner, pleading eyes",
+      "meaning_zh": "不能出去玩",
+      "covers_words": ["cannot", "play", "outside"]
+    },
+    {
+      "id": "before_sees",
+      "text": "before mommy sees",
+      "subject": "two piglets quickly scrubbing the floor clean with mops, one looking nervously over shoulder at a closed door, hourglass with falling sand in upper corner indicating time pressure",
+      "meaning_zh": "在妈妈看见之前",
+      "covers_words": ["see"]
+    },
+    {
+      "id": "watch_tv",
+      "text": "watching television",
+      "subject": "two piglets sitting on a couch from behind, facing a glowing vintage television with a colorful cartoon scene playing, eyes fixed on screen",
+      "meaning_zh": "看电视",
+      "covers_words": ["watch", "television"]
+    },
+    {
+      "id": "weve_been_doing",
+      "text": "we've been doing",
+      "subject": "two muddy piglets standing side by side proudly, both pointing at themselves with both thumbs, surrounded by a swirling motion-trail of muddy puddle splashes behind them, telling-a-recent-adventure pose",
+      "meaning_zh": "我们一直在干（…）",
+      "covers_words": []
+    },
+    {
+      "id": "youve_just_had",
+      "text": "you've just had",
+      "subject": "a daddy pig pointing inquisitively at his child piglet, with a small floating thought bubble showing a steamy bathtub, asking-a-question pose, gentle suspicious smile",
+      "meaning_zh": "你刚刚（做了…）",
+      "covers_words": []
+    },
+    {
+      "id": "youre_in",
+      "text": "you're in",
+      "subject": "a mummy pig with hands on hips looking at her muddy daughter piglet who is covered head-to-toe in brown mud splashes, the daughter shrugging sheepishly, a yellow caution arrow pointing at the muddy mess",
+      "meaning_zh": "你（搞成）这副样子",
+      "covers_words": []
+    },
+    {
+      "id": "have_you_been",
+      "text": "have you been",
+      "subject": "a daddy pig leaning forward with one eyebrow raised, pointing a curious finger at two piglets, a question mark above his head, classic 'tell me what you did' parent-asking-child pose",
+      "meaning_zh": "你（一直）在…吗",
+      "covers_words": []
+    }
+  ]
+}

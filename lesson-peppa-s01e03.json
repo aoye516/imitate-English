@@ -1,0 +1,1197 @@
+{
+  "id": "peppa-s01e03",
+  "title": "Best Friend",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "susie",
+      "freq": 16,
+      "audio": "assets/audio/susie.mp3",
+      "audio_slow": "assets/audio/susie_slow.mp3",
+      "image": "assets/images/susie.webp",
+      "skip_image": false,
+      "meaning_zh": "苏西",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "friend",
+      "freq": 6,
+      "audio": "assets/audio/friend.mp3",
+      "audio_slow": "assets/audio/friend_slow.mp3",
+      "image": "assets/images/friend.webp",
+      "skip_image": false,
+      "meaning_zh": "朋友",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "best",
+      "freq": 6,
+      "audio": "assets/audio/best.mp3",
+      "audio_slow": "assets/audio/best_slow.mp3",
+      "image": "assets/images/best.webp",
+      "skip_image": false,
+      "meaning_zh": "最好的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "help",
+      "freq": 9,
+      "audio": "assets/audio/help.mp3",
+      "audio_slow": "assets/audio/help_slow.mp3",
+      "image": "assets/images/help.webp",
+      "skip_image": false,
+      "meaning_zh": "帮助",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "cookie",
+      "freq": 0,
+      "audio": "assets/audio/cookie.mp3",
+      "audio_slow": "assets/audio/cookie_slow.mp3",
+      "image": "assets/images/cookie.webp",
+      "skip_image": false,
+      "meaning_zh": "饼干",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "doctor",
+      "freq": 8,
+      "audio": "assets/audio/doctor.mp3",
+      "audio_slow": "assets/audio/doctor_slow.mp3",
+      "image": "assets/images/doctor.webp",
+      "skip_image": false,
+      "meaning_zh": "医生",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "nurse",
+      "freq": 6,
+      "audio": "assets/audio/nurse.mp3",
+      "audio_slow": "assets/audio/nurse_slow.mp3",
+      "image": "assets/images/nurse.webp",
+      "skip_image": false,
+      "meaning_zh": "护士",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "patient",
+      "freq": 6,
+      "audio": "assets/audio/patient.mp3",
+      "audio_slow": "assets/audio/patient_slow.mp3",
+      "image": "assets/images/patient.webp",
+      "skip_image": false,
+      "meaning_zh": "病人",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "need",
+      "freq": 7,
+      "audio": "assets/audio/need.mp3",
+      "audio_slow": "assets/audio/need_slow.mp3",
+      "image": "assets/images/need.webp",
+      "skip_image": false,
+      "meaning_zh": "需要",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sheep",
+      "freq": 6,
+      "audio": "assets/audio/sheep.mp3",
+      "audio_slow": "assets/audio/sheep_slow.mp3",
+      "image": "assets/images/sheep.webp",
+      "skip_image": false,
+      "meaning_zh": "羊",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "better",
+      "freq": 5,
+      "audio": "assets/audio/better.mp3",
+      "audio_slow": "assets/audio/better_slow.mp3",
+      "image": "assets/images/better.webp",
+      "skip_image": false,
+      "meaning_zh": "好转",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "make",
+      "freq": 7,
+      "audio": "assets/audio/make.mp3",
+      "audio_slow": "assets/audio/make_slow.mp3",
+      "image": "assets/images/make.webp",
+      "skip_image": false,
+      "meaning_zh": "做",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "take",
+      "freq": 4,
+      "audio": "assets/audio/take.mp3",
+      "audio_slow": "assets/audio/take_slow.mp3",
+      "image": "assets/images/take.webp",
+      "skip_image": false,
+      "meaning_zh": "拿/带走",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "feel",
+      "freq": 6,
+      "audio": "assets/audio/feel.mp3",
+      "audio_slow": "assets/audio/feel_slow.mp3",
+      "image": "assets/images/feel.webp",
+      "skip_image": false,
+      "meaning_zh": "感觉",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "own",
+      "freq": 7,
+      "audio": "assets/audio/own.mp3",
+      "audio_slow": "assets/audio/own_slow.mp3",
+      "image": "assets/images/own.webp",
+      "skip_image": false,
+      "meaning_zh": "自己的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "chocolate",
+      "freq": 3,
+      "audio": "assets/audio/chocolate.mp3",
+      "audio_slow": "assets/audio/chocolate_slow.mp3",
+      "image": "assets/images/chocolate.webp",
+      "skip_image": false,
+      "meaning_zh": "巧克力",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "listen",
+      "freq": 3,
+      "audio": "assets/audio/listen.mp3",
+      "audio_slow": "assets/audio/listen_slow.mp3",
+      "image": "assets/images/listen.webp",
+      "skip_image": false,
+      "meaning_zh": "听",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "medicine",
+      "freq": 3,
+      "audio": "assets/audio/medicine.mp3",
+      "audio_slow": "assets/audio/medicine_slow.mp3",
+      "image": "assets/images/medicine.webp",
+      "skip_image": false,
+      "meaning_zh": "药",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "sick",
+      "freq": 1,
+      "audio": "assets/audio/sick.mp3",
+      "audio_slow": "assets/audio/sick_slow.mp3",
+      "image": "assets/images/sick.webp",
+      "skip_image": false,
+      "meaning_zh": "生病",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hungry",
+      "freq": 3,
+      "audio": "assets/audio/hungry.mp3",
+      "audio_slow": "assets/audio/hungry_slow.mp3",
+      "image": "assets/images/hungry.webp",
+      "skip_image": false,
+      "meaning_zh": "饿",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hot",
+      "freq": 3,
+      "audio": "assets/audio/hot.mp3",
+      "audio_slow": "assets/audio/hot_slow.mp3",
+      "image": "assets/images/hot.webp",
+      "skip_image": false,
+      "meaning_zh": "热",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bit",
+      "freq": 5,
+      "audio": "assets/audio/bit.mp3",
+      "audio_slow": "assets/audio/bit_slow.mp3",
+      "image": "assets/images/bit.webp",
+      "skip_image": false,
+      "meaning_zh": "一点",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "one",
+      "freq": 0,
+      "audio": "assets/audio/one.mp3",
+      "audio_slow": "assets/audio/one_slow.mp3",
+      "image": "assets/images/one.webp",
+      "skip_image": false,
+      "meaning_zh": "一个",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "please",
+      "freq": 3,
+      "audio": "assets/audio/please.mp3",
+      "audio_slow": "assets/audio/please_slow.mp3",
+      "image": "assets/images/please.webp",
+      "skip_image": false,
+      "meaning_zh": "请",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "get",
+      "freq": 3,
+      "audio": "assets/audio/get.mp3",
+      "audio_slow": "assets/audio/get_slow.mp3",
+      "image": "assets/images/get.webp",
+      "skip_image": false,
+      "meaning_zh": "得到",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "open",
+      "freq": 3,
+      "audio": "assets/audio/open.mp3",
+      "audio_slow": "assets/audio/open_slow.mp3",
+      "image": "assets/images/open.webp",
+      "skip_image": false,
+      "meaning_zh": "打开",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "person",
+      "freq": 1,
+      "audio": "assets/audio/person.mp3",
+      "audio_slow": "assets/audio/person_slow.mp3",
+      "image": "assets/images/person.webp",
+      "skip_image": false,
+      "meaning_zh": "人",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "chest",
+      "freq": 3,
+      "audio": "assets/audio/chest.mp3",
+      "audio_slow": "assets/audio/chest_slow.mp3",
+      "image": "assets/images/chest.webp",
+      "skip_image": false,
+      "meaning_zh": "胸口",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "chip",
+      "freq": 3,
+      "audio": "assets/audio/chip.mp3",
+      "audio_slow": "assets/audio/chip_slow.mp3",
+      "image": "assets/images/chip.webp",
+      "skip_image": false,
+      "meaning_zh": "碎片/薯片",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "fairy",
+      "freq": 3,
+      "audio": "assets/audio/fairy.mp3",
+      "audio_slow": "assets/audio/fairy_slow.mp3",
+      "image": "assets/images/fairy.webp",
+      "skip_image": false,
+      "meaning_zh": "仙女",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "lonely",
+      "freq": 3,
+      "audio": "assets/audio/lonely.mp3",
+      "audio_slow": "assets/audio/lonely_slow.mp3",
+      "image": "assets/images/lonely.webp",
+      "skip_image": false,
+      "meaning_zh": "孤单",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "plaster",
+      "freq": 3,
+      "audio": "assets/audio/plaster.mp3",
+      "audio_slow": "assets/audio/plaster_slow.mp3",
+      "image": "assets/images/plaster.webp",
+      "skip_image": false,
+      "meaning_zh": "创可贴",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "temperature",
+      "freq": 3,
+      "audio": "assets/audio/temperature.mp3",
+      "audio_slow": "assets/audio/temperature_slow.mp3",
+      "image": "assets/images/temperature.webp",
+      "skip_image": false,
+      "meaning_zh": "体温",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "visitor",
+      "freq": 3,
+      "audio": "assets/audio/visitor.mp3",
+      "audio_slow": "assets/audio/visitor_slow.mp3",
+      "image": "assets/images/visitor.webp",
+      "skip_image": false,
+      "meaning_zh": "客人",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "best",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "最好的"
+    },
+    {
+      "lemma": "better",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "好转"
+    },
+    {
+      "lemma": "bit",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "一点"
+    },
+    {
+      "lemma": "chest",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "胸口"
+    },
+    {
+      "lemma": "chip",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "碎片/薯片"
+    },
+    {
+      "lemma": "chocolate",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "巧克力"
+    },
+    {
+      "lemma": "cookie",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "饼干"
+    },
+    {
+      "lemma": "doctor",
+      "freq": 8,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "医生"
+    },
+    {
+      "lemma": "fairy",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "仙女"
+    },
+    {
+      "lemma": "feel",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "感觉"
+    },
+    {
+      "lemma": "friend",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "朋友"
+    },
+    {
+      "lemma": "get",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "得到"
+    },
+    {
+      "lemma": "help",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "帮助"
+    },
+    {
+      "lemma": "hot",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "热"
+    },
+    {
+      "lemma": "hungry",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "饿"
+    },
+    {
+      "lemma": "listen",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "听"
+    },
+    {
+      "lemma": "lonely",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "孤单"
+    },
+    {
+      "lemma": "love",
+      "freq": 9,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "make",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "做"
+    },
+    {
+      "lemma": "medicine",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "药"
+    },
+    {
+      "lemma": "need",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "需要"
+    },
+    {
+      "lemma": "nurse",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "护士"
+    },
+    {
+      "lemma": "one",
+      "freq": 0,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "一个"
+    },
+    {
+      "lemma": "open",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "打开"
+    },
+    {
+      "lemma": "own",
+      "freq": 7,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "自己的"
+    },
+    {
+      "lemma": "patient",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "病人"
+    },
+    {
+      "lemma": "person",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "人"
+    },
+    {
+      "lemma": "plaster",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "创可贴"
+    },
+    {
+      "lemma": "play",
+      "freq": 29,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "please",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "请"
+    },
+    {
+      "lemma": "sheep",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "羊"
+    },
+    {
+      "lemma": "sick",
+      "freq": 1,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "生病"
+    },
+    {
+      "lemma": "susie",
+      "freq": 16,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "苏西"
+    },
+    {
+      "lemma": "take",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "拿/带走"
+    },
+    {
+      "lemma": "temperature",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "体温"
+    },
+    {
+      "lemma": "visitor",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "客人"
+    }
+  ],
+  "new_words": [
+    "best",
+    "better",
+    "bit",
+    "chest",
+    "chip",
+    "chocolate",
+    "cookie",
+    "doctor",
+    "fairy",
+    "feel",
+    "friend",
+    "get",
+    "help",
+    "hot",
+    "hungry",
+    "listen",
+    "lonely",
+    "make",
+    "medicine",
+    "need",
+    "nurse",
+    "one",
+    "open",
+    "own",
+    "patient",
+    "person",
+    "plaster",
+    "please",
+    "sheep",
+    "sick",
+    "susie",
+    "take",
+    "temperature",
+    "visitor"
+  ],
+  "reused_words": [
+    "love",
+    "play"
+  ],
+  "chunks": [
+    {
+      "id": "best_friend",
+      "text": "best friend",
+      "meaning_zh": "最好的朋友",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/best_friend.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/best_friend_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/best_friend.webp",
+      "covers_words": [
+        "best",
+        "friend"
+      ]
+    },
+    {
+      "id": "this_is_susie",
+      "text": "This is Susie Sheep",
+      "meaning_zh": "这是小羊Susie",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/this_is_susie.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/this_is_susie_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/this_is_susie.webp",
+      "covers_words": [
+        "susie",
+        "sheep"
+      ]
+    },
+    {
+      "id": "play_doctor",
+      "text": "play doctors and nurses",
+      "meaning_zh": "玩医生护士游戏",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/play_doctor.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/play_doctor_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/play_doctor.webp",
+      "covers_words": [
+        "doctor",
+        "nurse"
+      ]
+    },
+    {
+      "id": "need_help",
+      "text": "need some help",
+      "meaning_zh": "需要帮助",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/need_help.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/need_help_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/need_help.webp",
+      "covers_words": [
+        "need",
+        "help"
+      ]
+    },
+    {
+      "id": "feel_better",
+      "text": "feel better",
+      "meaning_zh": "感觉好些了",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/feel_better.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/feel_better_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/feel_better.webp",
+      "covers_words": [
+        "better"
+      ]
+    },
+    {
+      "id": "make_cookies",
+      "text": "make cookies",
+      "meaning_zh": "做饼干",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/make_cookies.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/make_cookies_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/make_cookies.webp",
+      "covers_words": [
+        "cookie"
+      ]
+    },
+    {
+      "id": "make_cookies_extra",
+      "text": "make cookies",
+      "meaning_zh": "做饼干",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/make_cookies_extra.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/make_cookies_extra_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/make_cookies_extra.webp",
+      "covers_words": [
+        "make",
+        "cookie"
+      ]
+    },
+    {
+      "id": "take_medicine",
+      "text": "take medicine",
+      "meaning_zh": "吃药",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/take_medicine.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/take_medicine_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/take_medicine.webp",
+      "covers_words": [
+        "take",
+        "medicine"
+      ]
+    },
+    {
+      "id": "feel_sick",
+      "text": "feel sick",
+      "meaning_zh": "感觉生病了",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/feel_sick.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/feel_sick_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/feel_sick.webp",
+      "covers_words": [
+        "feel",
+        "sick"
+      ]
+    },
+    {
+      "id": "open_the_box",
+      "text": "open the box",
+      "meaning_zh": "打开盒子",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/open_the_box.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/open_the_box_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/open_the_box.webp",
+      "covers_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "listen_carefully",
+      "text": "listen carefully",
+      "meaning_zh": "仔细听",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/listen_carefully.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/listen_carefully_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/listen_carefully.webp",
+      "covers_words": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a_bit_hungry",
+      "text": "a bit hungry",
+      "meaning_zh": "有点饿",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/a_bit_hungry.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/a_bit_hungry_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/a_bit_hungry.webp",
+      "covers_words": [
+        "bit",
+        "hungry"
+      ]
+    },
+    {
+      "id": "hot_chocolate",
+      "text": "hot chocolate",
+      "meaning_zh": "热巧克力",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/hot_chocolate.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/hot_chocolate_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/hot_chocolate.webp",
+      "covers_words": [
+        "hot",
+        "chocolate"
+      ]
+    },
+    {
+      "id": "lonely_patient",
+      "text": "lonely patient",
+      "meaning_zh": "孤单的病人",
+      "audio_tts": "assets/peppa-s01e03/chunks_audio_tts/lonely_patient.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/chunks_audio_tts/lonely_patient_slow.mp3",
+      "image": "assets/peppa-s01e03/chunks_images/lonely_patient.webp",
+      "covers_words": [
+        "lonely",
+        "patient"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "This is Peppa's best friend, Susie Sheep.",
+      "meaning_zh": "这是Peppa最好的朋友Susie羊。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s01.webp",
+      "chunks": [
+        "best_friend",
+        "this_is_susie"
+      ],
+      "key_words": [
+        "best",
+        "friend",
+        "susie",
+        "sheep"
+      ],
+      "time_start": "00:00:59.399",
+      "time_end": "00:01:03.899"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Peppa and Susie are best friends.",
+      "meaning_zh": "Peppa和Susie是最好的朋友。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s02.webp",
+      "chunks": [
+        "best_friend"
+      ],
+      "key_words": [
+        "best",
+        "friend"
+      ],
+      "time_start": "00:00:29.279",
+      "time_end": "00:00:33.779"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "They like to play together.",
+      "meaning_zh": "她们喜欢一起玩。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s03.webp",
+      "chunks": [],
+      "key_words": [
+        "play"
+      ],
+      "time_start": "00:01:25.880",
+      "time_end": "00:01:30.380"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "Peppa wants to play doctors and nurses.",
+      "meaning_zh": "Peppa想玩医生护士游戏。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s04.webp",
+      "chunks": [
+        "play_doctor"
+      ],
+      "key_words": [
+        "doctor",
+        "nurse"
+      ],
+      "time_start": "00:02:41.720",
+      "time_end": "00:02:46.220"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Susie is the nurse and Peppa is the doctor.",
+      "meaning_zh": "Susie当护士,Peppa当医生。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s05.webp",
+      "chunks": [
+        "play_doctor"
+      ],
+      "key_words": [
+        "susie",
+        "nurse",
+        "doctor"
+      ],
+      "time_start": "00:02:41.720",
+      "time_end": "00:02:46.220"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "George needs some help.",
+      "meaning_zh": "George需要帮助。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s06.webp",
+      "chunks": [
+        "need_help"
+      ],
+      "key_words": [
+        "need",
+        "help"
+      ],
+      "time_start": "00:02:17.440",
+      "time_end": "00:02:21.940"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "The patient is feeling much better.",
+      "meaning_zh": "病人感觉好多了。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s07.webp",
+      "chunks": [
+        "feel_better"
+      ],
+      "key_words": [
+        "patient",
+        "better"
+      ],
+      "time_start": "00:03:43.480",
+      "time_end": "00:03:47.980"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "Mummy Pig is making cookies.",
+      "meaning_zh": "猪妈妈正在做饼干。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s08.webp",
+      "chunks": [
+        "make_cookies"
+      ],
+      "key_words": [
+        "cookie"
+      ],
+      "time_start": "00:02:31.000",
+      "time_end": "00:02:35.500"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Peppa and Susie love cookies.",
+      "meaning_zh": "Peppa和Susie喜欢饼干。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s09.webp",
+      "chunks": [
+        "make_cookies"
+      ],
+      "key_words": [
+        "cookie",
+        "love"
+      ],
+      "time_start": "00:00:49.680",
+      "time_end": "00:00:54.180"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "Best friends can play nicely together.",
+      "meaning_zh": "好朋友可以一起开心地玩。",
+      "audio_tts": "assets/peppa-s01e03/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e03/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e03/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e03/sentences_images/s10.webp",
+      "chunks": [
+        "best_friend"
+      ],
+      "key_words": [
+        "best",
+        "friend",
+        "play"
+      ],
+      "time_start": "00:00:59.399",
+      "time_end": "00:01:03.899"
+    }
+  ],
+  "distractors": {
+    "susie": [
+      "fairy",
+      "medicine",
+      "chest"
+    ],
+    "friend": [
+      "chest",
+      "own",
+      "medicine"
+    ],
+    "best": [
+      "listen",
+      "cookie",
+      "please"
+    ],
+    "help": [
+      "chest",
+      "please",
+      "nurse"
+    ],
+    "cookie": [
+      "hot",
+      "friend",
+      "medicine"
+    ],
+    "doctor": [
+      "lonely",
+      "own",
+      "get"
+    ],
+    "nurse": [
+      "person",
+      "visitor",
+      "best"
+    ],
+    "patient": [
+      "friend",
+      "need",
+      "one"
+    ],
+    "need": [
+      "make",
+      "sheep",
+      "sick"
+    ],
+    "sheep": [
+      "own",
+      "cookie",
+      "bit"
+    ],
+    "better": [
+      "nurse",
+      "one",
+      "visitor"
+    ],
+    "make": [
+      "hungry",
+      "please",
+      "own"
+    ],
+    "take": [
+      "patient",
+      "lonely",
+      "one"
+    ],
+    "feel": [
+      "sheep",
+      "help",
+      "bit"
+    ],
+    "own": [
+      "open",
+      "help",
+      "fairy"
+    ],
+    "chocolate": [
+      "fairy",
+      "listen",
+      "please"
+    ],
+    "listen": [
+      "susie",
+      "lonely",
+      "hungry"
+    ],
+    "medicine": [
+      "help",
+      "plaster",
+      "listen"
+    ],
+    "sick": [
+      "chip",
+      "plaster",
+      "get"
+    ],
+    "hungry": [
+      "cookie",
+      "better",
+      "temperature"
+    ],
+    "hot": [
+      "sheep",
+      "better",
+      "one"
+    ],
+    "bit": [
+      "sick",
+      "fairy",
+      "chip"
+    ],
+    "one": [
+      "feel",
+      "chocolate",
+      "sick"
+    ],
+    "please": [
+      "own",
+      "patient",
+      "person"
+    ],
+    "get": [
+      "plaster",
+      "make",
+      "please"
+    ],
+    "open": [
+      "lonely",
+      "person",
+      "cookie"
+    ],
+    "person": [
+      "please",
+      "help",
+      "one"
+    ],
+    "chest": [
+      "best",
+      "chocolate",
+      "sheep"
+    ],
+    "chip": [
+      "visitor",
+      "feel",
+      "take"
+    ],
+    "fairy": [
+      "get",
+      "chocolate",
+      "chest"
+    ],
+    "lonely": [
+      "plaster",
+      "hungry",
+      "hot"
+    ],
+    "plaster": [
+      "chest",
+      "listen",
+      "medicine"
+    ],
+    "temperature": [
+      "fairy",
+      "person",
+      "visitor"
+    ],
+    "visitor": [
+      "person",
+      "nurse",
+      "fairy"
+    ]
+  }
+}

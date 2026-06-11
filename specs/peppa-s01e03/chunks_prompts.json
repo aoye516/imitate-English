@@ -1,0 +1,141 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "best_friend",
+      "text": "best friend",
+      "subject": "a clear child-friendly illustration of the phrase 'best friend' meaning 最好的朋友, no written words, one simple action, expressive characters",
+      "meaning_zh": "最好的朋友",
+      "covers_words": [
+        "best",
+        "friend"
+      ]
+    },
+    {
+      "id": "this_is_susie",
+      "text": "This is Susie Sheep",
+      "subject": "a clear child-friendly illustration of the phrase 'This is Susie Sheep' meaning 这是小羊Susie, no written words, one simple action, expressive characters",
+      "meaning_zh": "这是小羊Susie",
+      "covers_words": [
+        "susie",
+        "sheep"
+      ]
+    },
+    {
+      "id": "play_doctor",
+      "text": "play doctors and nurses",
+      "subject": "a clear child-friendly illustration of the phrase 'play doctors and nurses' meaning 玩医生护士游戏, no written words, one simple action, expressive characters",
+      "meaning_zh": "玩医生护士游戏",
+      "covers_words": [
+        "doctor",
+        "nurse"
+      ]
+    },
+    {
+      "id": "need_help",
+      "text": "need some help",
+      "subject": "a clear child-friendly illustration of the phrase 'need some help' meaning 需要帮助, no written words, one simple action, expressive characters",
+      "meaning_zh": "需要帮助",
+      "covers_words": [
+        "need",
+        "help"
+      ]
+    },
+    {
+      "id": "feel_better",
+      "text": "feel better",
+      "subject": "a clear child-friendly illustration of the phrase 'feel better' meaning 感觉好些了, no written words, one simple action, expressive characters",
+      "meaning_zh": "感觉好些了",
+      "covers_words": [
+        "better"
+      ]
+    },
+    {
+      "id": "make_cookies",
+      "text": "make cookies",
+      "subject": "a clear child-friendly illustration of the phrase 'make cookies' meaning 做饼干, no written words, one simple action, expressive characters",
+      "meaning_zh": "做饼干",
+      "covers_words": [
+        "cookie"
+      ]
+    },
+    {
+      "id": "make_cookies_extra",
+      "text": "make cookies",
+      "meaning_zh": "做饼干",
+      "subject": "a clear child-friendly illustration of the phrase 'make cookies' meaning 做饼干, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "make",
+        "cookie"
+      ]
+    },
+    {
+      "id": "take_medicine",
+      "text": "take medicine",
+      "meaning_zh": "吃药",
+      "subject": "a clear child-friendly illustration of the phrase 'take medicine' meaning 吃药, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "take",
+        "medicine"
+      ]
+    },
+    {
+      "id": "feel_sick",
+      "text": "feel sick",
+      "meaning_zh": "感觉生病了",
+      "subject": "a clear child-friendly illustration of the phrase 'feel sick' meaning 感觉生病了, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "feel",
+        "sick"
+      ]
+    },
+    {
+      "id": "open_the_box",
+      "text": "open the box",
+      "meaning_zh": "打开盒子",
+      "subject": "a clear child-friendly illustration of the phrase 'open the box' meaning 打开盒子, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "listen_carefully",
+      "text": "listen carefully",
+      "meaning_zh": "仔细听",
+      "subject": "a clear child-friendly illustration of the phrase 'listen carefully' meaning 仔细听, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "listen"
+      ]
+    },
+    {
+      "id": "a_bit_hungry",
+      "text": "a bit hungry",
+      "meaning_zh": "有点饿",
+      "subject": "a clear child-friendly illustration of the phrase 'a bit hungry' meaning 有点饿, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "bit",
+        "hungry"
+      ]
+    },
+    {
+      "id": "hot_chocolate",
+      "text": "hot chocolate",
+      "meaning_zh": "热巧克力",
+      "subject": "a clear child-friendly illustration of the phrase 'hot chocolate' meaning 热巧克力, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "hot",
+        "chocolate"
+      ]
+    },
+    {
+      "id": "lonely_patient",
+      "text": "lonely patient",
+      "meaning_zh": "孤单的病人",
+      "subject": "a clear child-friendly illustration of the phrase 'lonely patient' meaning 孤单的病人, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "lonely",
+        "patient"
+      ]
+    }
+  ]
+}

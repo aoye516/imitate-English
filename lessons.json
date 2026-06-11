@@ -1,0 +1,122 @@
+[
+  {
+    "id": "peppa-s01e01",
+    "title": "Muddy Puddles",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 1,
+    "duration_seconds": 300,
+    "youtube_id": "NkLk0WwwswY",
+    "file": "lesson-peppa-s01e01.json",
+    "thumb_color": "#f0883e",
+    "cover": "assets/images/puddle.webp"
+  },
+  {
+    "id": "peppa-s01e02",
+    "title": "Mr. Dinosaur is Lost",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 2,
+    "duration_seconds": 300,
+    "youtube_id": "6xJhCJI5Ixw",
+    "file": "lesson-peppa-s01e02.json",
+    "thumb_color": "#5fb877",
+    "cover": "assets/images/dinosaur.webp"
+  },
+  {
+    "id": "peppa-s01e03",
+    "title": "Best Friend",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 3,
+    "duration_seconds": 300,
+    "youtube_id": "U16FwFRBJY4",
+    "file": "lesson-peppa-s01e03.json",
+    "thumb_color": "#e28aa9",
+    "cover": "assets/images/friend.webp"
+  },
+  {
+    "id": "peppa-s01e04",
+    "title": "Polly Parrot",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 4,
+    "duration_seconds": 300,
+    "youtube_id": "AimZP13JBNE",
+    "file": "lesson-peppa-s01e04.json",
+    "thumb_color": "#66a7d8",
+    "cover": "assets/images/parrot.webp"
+  },
+  {
+    "id": "peppa-s01e05",
+    "title": "Hide and Seek",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 5,
+    "duration_seconds": 300,
+    "youtube_id": "fRhX7MhLDNg",
+    "file": "lesson-peppa-s01e05.json",
+    "thumb_color": "#9b83d6",
+    "cover": "assets/images/hide.webp"
+  },
+  {
+    "id": "peppa-s01e06",
+    "title": "The Playgroup",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 6,
+    "duration_seconds": 300,
+    "youtube_id": "q_N20RJMpzs",
+    "file": "lesson-peppa-s01e06.json",
+    "thumb_color": "#e0a33a",
+    "cover": "assets/images/paint.webp"
+  },
+  {
+    "id": "peppa-s01e07",
+    "title": "Mummy Pig at Work",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 7,
+    "duration_seconds": 300,
+    "youtube_id": "4th8lUmAuzs",
+    "file": "lesson-peppa-s01e07.json",
+    "thumb_color": "#6bb0a8",
+    "cover": "assets/images/computer.webp"
+  },
+  {
+    "id": "peppa-s01e08",
+    "title": "Piggy in the Middle",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 8,
+    "duration_seconds": 300,
+    "youtube_id": "bGe5Bmii-eg",
+    "file": "lesson-peppa-s01e08.json",
+    "thumb_color": "#e66c5d",
+    "cover": "assets/images/ball.webp"
+  },
+  {
+    "id": "peppa-s01e09",
+    "title": "Daddy Loses His Glasses",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 9,
+    "duration_seconds": 300,
+    "youtube_id": "QZKvCz8K7YA",
+    "file": "lesson-peppa-s01e09.json",
+    "thumb_color": "#7f8fa6",
+    "cover": "assets/images/glasses.webp"
+  },
+  {
+    "id": "peppa-s01e10",
+    "title": "Gardening",
+    "series": "Peppa Pig",
+    "season": 1,
+    "episode": 10,
+    "duration_seconds": 300,
+    "youtube_id": "V-4J_0vpszM",
+    "file": "lesson-peppa-s01e10.json",
+    "thumb_color": "#7abf66",
+    "cover": "assets/images/seed.webp"
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "architecture": "L1 单词为全局共享池：reuse=true 的词复用 E01 已有的 assets/images 与 assets/audio，不重新生成；其余为本集新词，需生图+TTS。前端按 lemma 跨集去重。",
+    "episode": "peppa-s01e02 Mr. Dinosaur is Lost",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "dinosaur",
+      "subject": "a small friendly green toy dinosaur plushie standing upright, cute rounded cartoon style, the kind a toddler hugs, soft fabric texture, gentle smile"
+    },
+    {
+      "lemma": "detective",
+      "subject": "a cartoon pig wearing a brown deerstalker detective hat, holding up a large round magnifying glass in front of one eye, classic clever sleuth pose, curious expression"
+    },
+    {
+      "lemma": "toy",
+      "subject": "a cheerful little pile of children's toys grouped together — a ball, a wooden block, and a small teddy — bright primary colors, playful arrangement"
+    },
+    {
+      "lemma": "bed",
+      "subject": "a cozy small child's bed with a soft pillow and a folded blanket, headboard visible, a tiny teddy resting on the pillow, side view"
+    },
+    {
+      "lemma": "night",
+      "subject": "a calm night sky with a glowing yellow crescent moon and several twinkling stars on a deep blue background, peaceful bedtime mood"
+    },
+    {
+      "lemma": "tree",
+      "subject": "a single big leafy green tree with a sturdy brown trunk standing on a small patch of grass, full round canopy, no characters"
+    },
+    {
+      "lemma": "throw",
+      "subject": "a cartoon pig swinging both arms upward launching a small green dinosaur toy into the air, upward motion arc and motion lines, energetic toss"
+    },
+    {
+      "lemma": "catch",
+      "subject": "a cartoon pig reaching both arms up with open hands to catch a small green dinosaur toy dropping into them, focused happy face, the toy just above the hands"
+    },
+    {
+      "lemma": "fall",
+      "subject": "a small green dinosaur toy tumbling downward through the air with clear downward motion lines and small arrows pointing down, sense of dropping"
+    },
+    {
+      "lemma": "high",
+      "subject": "a tiny green dinosaur toy way up near fluffy clouds at the top, and a very small pig far below on the ground looking up, strong sense of great height, vertical composition"
+    },
+    {
+      "lemma": "scare",
+      "subject": "a cartoon piglet thrusting a green dinosaur toy forward playfully while another small piglet jumps back startled with wide eyes and a small shock burst, friendly spooky fun"
+    },
+    {
+      "lemma": "supper",
+      "subject": "a warm dinner scene: a bowl of food with a spoon on a small table next to a baby high chair, cozy evening mealtime, steam rising from the bowl"
+    },
+    {
+      "lemma": "happy",
+      "subject": "a single baby piglet hugging a small green dinosaur toy tightly against its chest with a huge joyful smile and closed happy eyes, little hearts floating around"
+    },
+    {
+      "lemma": "lost",
+      "subject": "a sad baby piglet with empty open hands held out and tears in its eyes, looking around for something missing, a faint question mark above the head"
+    },
+    {
+      "lemma": "game",
+      "subject": "a wooden draughts/checkers board game seen from above with round red and black playing pieces arranged on the squares, two small stools beside it"
+    },
+    {
+      "lemma": "win",
+      "subject": "a cheerful piglet throwing both arms up in victory beside a small game board, a gold star bursting above the head, triumphant celebration"
+    },
+    {
+      "lemma": "george",
+      "reuse": true
+    },
+    {
+      "lemma": "daddy",
+      "reuse": true
+    },
+    {
+      "lemma": "pig",
+      "reuse": true
+    },
+    {
+      "lemma": "peppa",
+      "reuse": true
+    },
+    {
+      "lemma": "bath",
+      "reuse": true
+    },
+    {
+      "lemma": "garden",
+      "reuse": true
+    },
+    {
+      "lemma": "find",
+      "reuse": true
+    },
+    {
+      "lemma": "know",
+      "reuse": true
+    },
+    {
+      "lemma": "good",
+      "reuse": true
+    },
+    {
+      "lemma": "air",
+      "subject": "a swirl of fresh blue air with light curved motion lines, simple clean symbol, no text"
+    },
+    {
+      "lemma": "favorite",
+      "subject": "a child animal hugging one special toy with a heart above it while other toys sit nearby, favorite feeling, no text"
+    },
+    {
+      "lemma": "hard",
+      "subject": "a small animal trying hard to push a heavy round stone, effort expression, no text"
+    },
+    {
+      "lemma": "job",
+      "subject": "a simple clipboard with a task badge and a small tool beside it, clear job or task feeling, no text"
+    },
+    {
+      "lemma": "question",
+      "subject": "a curious child animal raising one hand with a large question bubble containing no letters, no text"
+    },
+    {
+      "lemma": "maybe",
+      "subject": "a child animal thinking between two possible paths with question bubbles, uncertain maybe feeling, no text"
+    },
+    {
+      "lemma": "thing",
+      "subject": "a small collection of everyday objects on a table, generic things, no text"
+    },
+    {
+      "lemma": "sit",
+      "subject": "a child animal sitting on a small chair with feet down, clear sitting pose, no text"
+    },
+    {
+      "lemma": "worry",
+      "subject": "a child animal with worried face holding hands near chest, small worry cloud above, no text"
+    },
+    {
+      "lemma": "scary",
+      "subject": "a toy dinosaur casting a playful shadow while a child animal looks startled, safe spooky feeling, no text"
+    },
+    {
+      "lemma": "idea",
+      "subject": "a child animal pointing up with a glowing lightbulb above the head, idea moment, no text"
+    },
+    {
+      "lemma": "sometimes",
+      "subject": "two small scenes side by side showing an action happening only sometimes, no text"
+    },
+    {
+      "lemma": "pardon",
+      "subject": "a polite adult animal leaning forward with one ear turned toward a speaker, asking to hear again, no text"
+    },
+    {
+      "lemma": "simple",
+      "subject": "a very simple one-piece puzzle fitting easily, clean simple feeling, no text"
+    },
+    {
+      "lemma": "share",
+      "subject": "two child animals happily sharing one toy between them, no text"
+    }
+  ]
+}

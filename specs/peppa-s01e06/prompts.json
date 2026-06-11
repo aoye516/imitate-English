@@ -1,0 +1,102 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e06",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "paint",
+      "subject": "a brush painting colorful strokes on paper, paint palette beside it, bright colors"
+    },
+    {
+      "lemma": "brilliant",
+      "subject": "a child animal proudly showing a sparkling picture, amazed happy reaction"
+    },
+    {
+      "lemma": "flower",
+      "subject": "a single bright flower with green leaves in a small patch of soil, centered"
+    },
+    {
+      "lemma": "picture",
+      "subject": "a colorful childlike painting on paper clipped to a board, no text"
+    },
+    {
+      "lemma": "wrong",
+      "subject": "a puzzled child animal looking at a mismatched picture piece, red cross symbol without text"
+    },
+    {
+      "lemma": "group",
+      "subject": "a small group of child animal classmates sitting together in a circle, friendly class mood"
+    },
+    {
+      "lemma": "playgroup",
+      "subject": "a cheerful classroom with toys, paint easel, and small chairs, preschool atmosphere"
+    },
+    {
+      "lemma": "children",
+      "subject": "a cheerful group of different child animal friends standing together"
+    },
+    {
+      "lemma": "proud",
+      "subject": "a child animal holding up a finished drawing with chest puffed proudly, happy smile"
+    },
+    {
+      "lemma": "circle",
+      "subject": "a simple colorful circle shape painted on paper, no text"
+    },
+    {
+      "lemma": "color",
+      "subject": "a painter palette with bright blobs of red, yellow, blue, green paint"
+    },
+    {
+      "lemma": "time",
+      "subject": "a round friendly clock with hands, simple time symbol, no numbers or text"
+    },
+    {
+      "lemma": "maybe",
+      "subject": "a child animal thinking with two possible paths in thought bubbles, uncertain maybe feeling, no text"
+    },
+    {
+      "lemma": "next",
+      "subject": "two simple stepping stones with an arrow from first to next, no text"
+    },
+    {
+      "lemma": "lovely",
+      "subject": "a beautiful flower with soft sparkles and warm pleasant feeling, no text"
+    },
+    {
+      "lemma": "home",
+      "subject": "a small cozy house with warm windows and a path, home feeling, no text"
+    },
+    {
+      "lemma": "keep",
+      "subject": "a child animal carefully holding onto a favorite drawing, keeping it safe, no text"
+    },
+    {
+      "lemma": "pick",
+      "subject": "a small hand picking a flower from a garden gently, no text"
+    },
+    {
+      "lemma": "petal",
+      "subject": "several soft colorful flower petals scattered on white background, no text"
+    },
+    {
+      "lemma": "shape",
+      "subject": "simple colorful geometric shapes arranged neatly, circle square triangle, no text"
+    },
+    {
+      "lemma": "small",
+      "subject": "a tiny toy beside a much larger toy, small one highlighted, no text"
+    },
+    {
+      "lemma": "forward",
+      "subject": "a child animal walking forward with motion lines and clear direction, no text"
+    },
+    {
+      "lemma": "parent",
+      "subject": "two caring parent animals standing beside a small child, family support, no text"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Today George is going to the playgroup.",
+      "meaning_zh": "今天George要去幼儿园。",
+      "subject": "a warm children's cartoon story scene showing: 今天George要去幼儿园。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:33.440",
+      "time_end": "00:00:37.940",
+      "chunks": [
+        "the_playgroup"
+      ],
+      "key_words": [
+        "playgroup"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "There are lots of children at playgroup.",
+      "meaning_zh": "幼儿园里有很多孩子。",
+      "subject": "a warm children's cartoon story scene showing: 幼儿园里有很多孩子。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:58.559",
+      "time_end": "00:01:03.059",
+      "chunks": [
+        "children_playing"
+      ],
+      "key_words": [
+        "children",
+        "playgroup"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "The children are painting pictures.",
+      "meaning_zh": "孩子们在画画。",
+      "subject": "a warm children's cartoon story scene showing: 孩子们在画画。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:04:18.639",
+      "time_end": "00:04:23.139",
+      "chunks": [
+        "paint_a_picture"
+      ],
+      "key_words": [
+        "paint",
+        "picture"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "George paints a flower.",
+      "meaning_zh": "George画了一朵花。",
+      "subject": "a warm children's cartoon story scene showing: George画了一朵花。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:48.879",
+      "time_end": "00:02:53.379",
+      "chunks": [
+        "a_big_flower"
+      ],
+      "key_words": [
+        "paint",
+        "flower"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "Peppa thinks George has used the wrong color.",
+      "meaning_zh": "Peppa觉得George用错颜色了。",
+      "subject": "a warm children's cartoon story scene showing: Peppa觉得George用错颜色了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:08.040",
+      "time_end": "00:03:12.540",
+      "chunks": [
+        "wrong_color"
+      ],
+      "key_words": [
+        "wrong",
+        "color"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "Madame Gazelle says it is brilliant.",
+      "meaning_zh": "Gazelle老师说这太棒了。",
+      "subject": "a warm children's cartoon story scene showing: Gazelle老师说这太棒了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:29.680",
+      "time_end": "00:02:34.180",
+      "chunks": [
+        "very_brilliant"
+      ],
+      "key_words": [
+        "brilliant"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "George is very proud of his picture.",
+      "meaning_zh": "George为自己的画很骄傲。",
+      "subject": "a warm children's cartoon story scene showing: George为自己的画很骄傲。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:04:18.639",
+      "time_end": "00:04:23.139",
+      "chunks": [
+        "feel_proud"
+      ],
+      "key_words": [
+        "proud",
+        "picture"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "The children make a circle.",
+      "meaning_zh": "孩子们围成一个圆圈。",
+      "subject": "a warm children's cartoon story scene showing: 孩子们围成一个圆圈。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:58.559",
+      "time_end": "00:01:03.059",
+      "chunks": [
+        "make_a_circle"
+      ],
+      "key_words": [
+        "children",
+        "circle"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "Peppa shows George what to do.",
+      "meaning_zh": "Peppa给George示范怎么做。",
+      "subject": "an older girl piglet gently showing a smaller boy piglet how to paint, both standing at a colorful easel, warm classroom scene, no text",
+      "time_start": "00:02:48.879",
+      "time_end": "00:02:53.379",
+      "chunks": [],
+      "key_words": [
+        "show"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "George likes playgroup.",
+      "meaning_zh": "George喜欢幼儿园。",
+      "subject": "a warm children's cartoon story scene showing: George喜欢幼儿园。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:33.440",
+      "time_end": "00:00:37.940",
+      "chunks": [
+        "the_playgroup"
+      ],
+      "key_words": [
+        "playgroup"
+      ]
+    }
+  ]
+}

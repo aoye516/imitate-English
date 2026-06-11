@@ -1,0 +1,150 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "hide_and_seek",
+      "text": "hide and seek",
+      "subject": "a clear child-friendly illustration of the phrase 'hide and seek' meaning 捉迷藏, no written words, one simple action, expressive characters",
+      "meaning_zh": "捉迷藏",
+      "covers_words": [
+        "hide",
+        "seek"
+      ]
+    },
+    {
+      "id": "your_turn",
+      "text": "your turn",
+      "subject": "a clear child-friendly illustration of the phrase 'your turn' meaning 轮到你了, no written words, one simple action, expressive characters",
+      "meaning_zh": "轮到你了",
+      "covers_words": [
+        "turn"
+      ]
+    },
+    {
+      "id": "count_to_ten",
+      "text": "count to ten",
+      "subject": "a clear child-friendly illustration of the phrase 'count to ten' meaning 数到十, no written words, one simple action, expressive characters",
+      "meaning_zh": "数到十",
+      "covers_words": [
+        "count"
+      ]
+    },
+    {
+      "id": "close_your_eyes",
+      "text": "close your eyes",
+      "subject": "a clear child-friendly illustration of the phrase 'close your eyes' meaning 闭上眼睛, no written words, one simple action, expressive characters",
+      "meaning_zh": "闭上眼睛",
+      "covers_words": [
+        "eye"
+      ]
+    },
+    {
+      "id": "are_you_ready",
+      "text": "Are you ready?",
+      "subject": "a clear child-friendly illustration of the phrase 'Are you ready?' meaning 你准备好了吗, no written words, one simple action, expressive characters",
+      "meaning_zh": "你准备好了吗",
+      "covers_words": [
+        "ready"
+      ]
+    },
+    {
+      "id": "behind_the_table",
+      "text": "behind the table",
+      "subject": "a clear child-friendly illustration of the phrase 'behind the table' meaning 在桌子后面, no written words, one simple action, expressive characters",
+      "meaning_zh": "在桌子后面",
+      "covers_words": [
+        "behind",
+        "table"
+      ]
+    },
+    {
+      "id": "in_the_basket",
+      "text": "in the basket",
+      "subject": "a clear child-friendly illustration of the phrase 'in the basket' meaning 在篮子里, no written words, one simple action, expressive characters",
+      "meaning_zh": "在篮子里",
+      "covers_words": [
+        "basket"
+      ]
+    },
+    {
+      "id": "behind_the_newspaper",
+      "text": "behind the newspaper",
+      "subject": "a clear child-friendly illustration of the phrase 'behind the newspaper' meaning 在报纸后面, no written words, one simple action, expressive characters",
+      "meaning_zh": "在报纸后面",
+      "covers_words": [
+        "behind",
+        "newspaper"
+      ]
+    },
+    {
+      "id": "hide_somewhere",
+      "text": "hide somewhere",
+      "meaning_zh": "藏在某个地方",
+      "subject": "a clear child-friendly illustration of the phrase 'hide somewhere' meaning 藏在某个地方, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "hide",
+        "somewhere"
+      ]
+    },
+    {
+      "id": "look_anywhere",
+      "text": "look anywhere",
+      "meaning_zh": "到处找",
+      "subject": "a clear child-friendly illustration of the phrase 'look anywhere' meaning 到处找, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "look",
+        "anywhere"
+      ]
+    },
+    {
+      "id": "close_eyes",
+      "text": "close your eyes",
+      "meaning_zh": "闭上眼睛",
+      "subject": "a clear child-friendly illustration of the phrase 'close your eyes' meaning 闭上眼睛, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "close",
+        "eye"
+      ]
+    },
+    {
+      "id": "start_counting",
+      "text": "start counting",
+      "meaning_zh": "开始数数",
+      "subject": "a clear child-friendly illustration of the phrase 'start counting' meaning 开始数数, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "start",
+        "count"
+      ]
+    },
+    {
+      "id": "go_upstairs",
+      "text": "go upstairs",
+      "meaning_zh": "去楼上",
+      "subject": "a clear child-friendly illustration of the phrase 'go upstairs' meaning 去楼上, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "upstairs",
+        "go"
+      ]
+    },
+    {
+      "id": "strange_place",
+      "text": "strange place",
+      "meaning_zh": "奇怪的地方",
+      "subject": "a clear child-friendly illustration of the phrase 'strange place' meaning 奇怪的地方, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "strange",
+        "place"
+      ]
+    },
+    {
+      "id": "always_ready",
+      "text": "always ready",
+      "meaning_zh": "总是准备好了",
+      "subject": "a clear child-friendly illustration of the phrase 'always ready' meaning 总是准备好了, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "always",
+        "ready"
+      ]
+    }
+  ]
+}

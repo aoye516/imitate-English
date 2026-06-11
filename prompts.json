@@ -1,0 +1,67 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "removed_words": {
+      "bobby": "VTT ASR 把 mummy 误识别为 bobby，本集实际无此词；2026-06-05 从词表移除"
+    }
+  },
+  "words": [
+    {"lemma": "puddle",     "subject": "a single round muddy brown puddle of water on green grass, glossy reflective surface, small ripples on top, no characters, viewed slightly from above"},
+    {"lemma": "jump",       "subject": "a cute cartoon pig character mid-air jumping joyfully with both feet off the ground, motion lines"},
+    {"lemma": "muddy",      "subject": "a happy cartoon pig completely covered in brown mud splatters from head to toe, mud dripping off the body, the pig is grinning"},
+    {"lemma": "daddy",      "subject": "a friendly cartoon father pig wearing glasses and a shirt, smiling, half-body portrait"},
+    {"lemma": "love",       "subject": "a glowing red heart shape with soft warm light, simple and iconic"},
+    {"lemma": "mummy",      "subject": "a friendly cartoon mother pig wearing a yellow dress, smiling warmly, half-body portrait"},
+    {"lemma": "pig",        "subject": "a cute pink cartoon pig standing, friendly smiling face, full body"},
+    {"lemma": "play",       "subject": "two cartoon piglet siblings laughing and playing together with a ball outside on grass"},
+    {"lemma": "boot",       "subject": "a pair of bright yellow children rain boots, side by side"},
+    {"lemma": "wear",       "subject": "a cartoon child pig putting on a red jacket, hands raised pulling sleeves on"},
+    {"lemma": "little",     "subject": "a tiny baby piglet next to a much larger adult pig for size contrast, the baby is highlighted"},
+    {"lemma": "look",       "subject": "a cartoon pig with one hand shading the eyes, looking forward with curiosity, head tilted"},
+    {"lemma": "brother",    "subject": "two piglet siblings standing side by side, an older sister piglet putting her arm around a smaller younger brother piglet"},
+    {"lemma": "mess",       "subject": "a chaotic muddy room with toys scattered, mud footprints on floor, brown dirt everywhere"},
+    {"lemma": "clean",      "subject": "a sparkling shiny clean kitchen floor with a yellow mop and bucket of soapy water, sparkle effects"},
+    {"lemma": "rain",       "subject": "heavy rain falling from grey clouds, blue raindrops streaking down, a small puddle forming below"},
+    {"lemma": "sorry",      "subject": "a sad cartoon pig with apologetic expression, head bowed slightly, hands clasped in front, tear in eye"},
+    {"lemma": "stop",       "subject": "a hand held up palm-out in a stop gesture, red octagonal stop sign next to it"},
+    {"lemma": "george",     "subject": "a small cartoon baby boy piglet wearing a blue shirt, holding a small green dinosaur toy, smiling"},
+    {"lemma": "peppa",      "subject": "a cartoon girl piglet character wearing a red dress, full body standing, anatomically correct (one head with one nose, two ears, two arms, two legs), friendly cheerful smile, simple clean illustration"},
+
+    {"lemma": "big",        "subject": "size contrast: one enormous brown puddle next to a tiny small puddle on the ground, the big one labeled visually larger, no text"},
+    {"lemma": "come",       "subject": "a cartoon pig waving and gesturing 'come here' with one hand, motion arc indicating beckoning, friendly smile"},
+    {"lemma": "found",      "subject": "a cartoon pig kneeling and pointing with delighted surprise at a discovered small object on the ground, exclamation sparkle above the head"},
+    {"lemma": "like",       "subject": "a cartoon pig with hearts floating above its head, hands clasped near cheek, eyes shining with affection toward an object"},
+    {"lemma": "mud",        "subject": "a pile of wet brown mud on the ground, glossy and sticky, a single splat shape, no characters"},
+    {"lemma": "safe",       "subject": "a green checkmark inside a glowing protective shield, a thumbs-up cartoon pig next to it, reassuring tone"},
+
+    {"lemma": "bath",       "subject": "a white claw-foot bathtub filled with foamy bubbles, rubber duck floating on top, steam rising, no characters"},
+    {"lemma": "cannot",     "subject": "a red circle with a diagonal red slash forbidden sign, no entry symbol, simple iconic"},
+    {"lemma": "check",      "subject": "a cartoon pig holding a magnifying glass examining the ground carefully, focused expression"},
+    {"lemma": "everyone",   "subject": "a cheerful group of four cartoon pigs (mummy daddy and two piglets) standing together side by side, all smiling, family lineup"},
+    {"lemma": "first",      "subject": "a large gold number 1 with a star burst behind it, simple iconic ranking symbol"},
+    {"lemma": "go",         "subject": "a cartoon pig walking forward with a determined stride, one foot raised mid-step, motion lines behind, heading right"},
+    {"lemma": "guess",      "subject": "a cartoon pig with a thinking pose, finger on chin, a question mark floating above the head, curious expression"},
+    {"lemma": "quickly",    "subject": "a cartoon pig running fast with a trail of speed lines behind, papers flying, motion blur effect"},
+    {"lemma": "see",        "subject": "a large cartoon eye with long lashes looking forward, a beam of vision lines extending out toward something"},
+    {"lemma": "television", "subject": "a vintage cartoon television set with antenna on top, a colorful cartoon scene playing on the screen, simple wooden frame"},
+    {"lemma": "think",      "subject": "a cartoon pig with hand on chin in thinking pose, a glowing yellow lightbulb above the head, eyes looking up"},
+    {"lemma": "watch",      "subject": "a cartoon pig sitting on a couch staring intently at a glowing television screen, back of the pig visible, eyes fixed on the TV"},
+
+    {"lemma": "bad",        "subject": "a brown muddy puddle with a red X mark over it, a thumbs-down cartoon pig with a worried frown next to it"},
+    {"lemma": "fun",        "subject": "two cartoon piglets laughing wildly with mouths wide open, confetti and stars bursting around them, pure joy"},
+    {"lemma": "goodness",   "subject": "a cartoon character with hands on cheeks (in a 'home alone' surprised pose), wide eyes, mouth in an O-shape, sparkles of shock around the head, bright surprised expression"},
+    {"lemma": "know",       "subject": "a cartoon pig with a glowing lightbulb above the head, eyes wide with realization, finger pointing up as if saying 'aha'"},
+    {"lemma": "lot",        "subject": "a huge pile of many many brown puddles scattered all over the ground, dozens of puddles, abundance"},
+    {"lemma": "want",       "subject": "a cartoon pig reaching out both hands eagerly toward a desired object (a muddy puddle) with longing eyes, hearts in eyes"},
+
+    {"lemma": "find",       "subject": "a cartoon pig with a magnifying glass searching the grass on tiptoes, looking left and right, exploration pose"},
+    {"lemma": "garden",     "subject": "a sunny backyard garden with green grass, colorful flowers, a small wooden fence, blue sky and trees in the background"},
+    {"lemma": "good",       "subject": "a cheerful cartoon pig giving a big thumbs up with both hands, wide smile, sparkle stars around the thumbs"},
+    {"lemma": "more",       "subject": "a stack of three brown puddles getting bigger and bigger, a plus sign next to them, growth indication"},
+    {"lemma": "outside",    "subject": "a cartoon pig stepping out through an open wooden door into a sunny green yard, contrast between indoor dark and outdoor bright"},
+    {"lemma": "right",      "subject": "a friendly cartoon adult pig giving a relaxed thumbs-up with a knowing smile, eyes half-closed in approval, the gesture saying 'all right, ok then', warm easygoing mood"},
+    {"lemma": "run",        "subject": "a cartoon pig sprinting fast forward with both legs in mid-stride, arms swinging, sweat drops and motion lines, dynamic action"},
+    {"lemma": "show",       "subject": "a cartoon pig holding up a drawing or object to display it to a family member who is looking at it with interest, presentation gesture"},
+    {"lemma": "two",        "subject": "the large numeral 2, painted in warm orange watercolor, with two small piglet silhouettes standing next to it"}
+  ]
+}

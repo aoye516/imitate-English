@@ -1,0 +1,78 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e08",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "ball",
+      "subject": "a bright red ball on grass, simple centered toy ball"
+    },
+    {
+      "lemma": "piggy",
+      "subject": "a small round pink piglet standing happily, playful childlike body"
+    },
+    {
+      "lemma": "middle",
+      "subject": "one small piglet standing between two other children, clearly in the center"
+    },
+    {
+      "lemma": "hooray",
+      "subject": "three child animals cheering with arms up, confetti and stars, joyful celebration"
+    },
+    {
+      "lemma": "try",
+      "subject": "a child animal attempting to catch a ball with focused effort, trying hard"
+    },
+    {
+      "lemma": "stand",
+      "subject": "a child animal standing upright with feet planted, simple full-body pose"
+    },
+    {
+      "lemma": "teach",
+      "subject": "an older child animal showing a younger one how to hold a ball, teaching gesture"
+    },
+    {
+      "lemma": "hand",
+      "subject": "two small hands reaching toward a ball, close-up of hands"
+    },
+    {
+      "lemma": "enough",
+      "subject": "a bowl filled just to the right amount with a green checkmark, enough quantity"
+    },
+    {
+      "lemma": "caught",
+      "subject": "a child animal successfully catching a red ball in both hands, proud smile"
+    },
+    {
+      "lemma": "back",
+      "subject": "a red ball bouncing back toward a child animal, return motion arrow, no text"
+    },
+    {
+      "lemma": "noise",
+      "subject": "sound waves coming from a bouncing ball, noisy playful feeling, no text"
+    },
+    {
+      "lemma": "cheeky",
+      "subject": "a child animal with mischievous smile hiding a ball behind back, no text"
+    },
+    {
+      "lemma": "anything",
+      "subject": "several different objects with a curious child looking at all of them, any object feeling, no text"
+    },
+    {
+      "lemma": "stuck",
+      "subject": "a red ball stuck in a small bush while a child animal tries to reach it, no text"
+    },
+    {
+      "lemma": "fair",
+      "subject": "two child animals each receiving the same size ball, balanced fair feeling, no text"
+    },
+    {
+      "lemma": "past",
+      "subject": "a ball flying past a child animal with motion trail, no text"
+    }
+  ]
+}

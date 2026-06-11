@@ -1,0 +1,858 @@
+{
+  "id": "peppa-s01e07",
+  "title": "Mummy Pig at Work",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "computer",
+      "freq": 30,
+      "audio": "assets/audio/computer.mp3",
+      "audio_slow": "assets/audio/computer_slow.mp3",
+      "image": "assets/images/computer.webp",
+      "skip_image": false,
+      "meaning_zh": "电脑",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "work",
+      "freq": 15,
+      "audio": "assets/audio/work.mp3",
+      "audio_slow": "assets/audio/work_slow.mp3",
+      "image": "assets/images/work.webp",
+      "skip_image": false,
+      "meaning_zh": "工作",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "chicken",
+      "freq": 9,
+      "audio": "assets/audio/chicken.mp3",
+      "audio_slow": "assets/audio/chicken_slow.mp3",
+      "image": "assets/images/chicken.webp",
+      "skip_image": false,
+      "meaning_zh": "小鸡",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "touch",
+      "freq": 6,
+      "audio": "assets/audio/touch.mp3",
+      "audio_slow": "assets/audio/touch_slow.mp3",
+      "image": "assets/images/touch.webp",
+      "skip_image": false,
+      "meaning_zh": "触碰",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "mend",
+      "freq": 6,
+      "audio": "assets/audio/mend.mp3",
+      "audio_slow": "assets/audio/mend_slow.mp3",
+      "image": "assets/images/mend.webp",
+      "skip_image": false,
+      "meaning_zh": "修理",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "important",
+      "freq": 5,
+      "audio": "assets/audio/important.mp3",
+      "audio_slow": "assets/audio/important_slow.mp3",
+      "image": "assets/images/important.webp",
+      "skip_image": false,
+      "meaning_zh": "重要",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "lunch",
+      "freq": 5,
+      "audio": "assets/audio/lunch.mp3",
+      "audio_slow": "assets/audio/lunch_slow.mp3",
+      "image": "assets/images/lunch.webp",
+      "skip_image": false,
+      "meaning_zh": "午餐",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "disturb",
+      "freq": 3,
+      "audio": "assets/audio/disturb.mp3",
+      "audio_slow": "assets/audio/disturb_slow.mp3",
+      "image": "assets/images/disturb.webp",
+      "skip_image": false,
+      "meaning_zh": "打扰",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "finish",
+      "freq": 3,
+      "audio": "assets/audio/finish.mp3",
+      "audio_slow": "assets/audio/finish_slow.mp3",
+      "image": "assets/images/finish.webp",
+      "skip_image": false,
+      "meaning_zh": "完成",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "ask",
+      "freq": 3,
+      "audio": "assets/audio/ask.mp3",
+      "audio_slow": "assets/audio/ask_slow.mp3",
+      "image": "assets/images/ask.webp",
+      "skip_image": false,
+      "meaning_zh": "问",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "later",
+      "freq": 6,
+      "audio": "assets/audio/later.mp3",
+      "audio_slow": "assets/audio/later_slow.mp3",
+      "image": "assets/images/later.webp",
+      "skip_image": false,
+      "meaning_zh": "稍后",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "long",
+      "freq": 3,
+      "audio": "assets/audio/long.mp3",
+      "audio_slow": "assets/audio/long_slow.mp3",
+      "image": "assets/images/long.webp",
+      "skip_image": false,
+      "meaning_zh": "长的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "thank",
+      "freq": 4,
+      "audio": "assets/audio/thank.mp3",
+      "audio_slow": "assets/audio/thank_slow.mp3",
+      "image": "assets/images/thank.webp",
+      "skip_image": false,
+      "meaning_zh": "谢谢",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "either",
+      "freq": 3,
+      "audio": "assets/audio/either.mp3",
+      "audio_slow": "assets/audio/either_slow.mp3",
+      "image": "assets/images/either.webp",
+      "skip_image": false,
+      "meaning_zh": "也不/任一",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "disc",
+      "freq": 3,
+      "audio": "assets/audio/disc.mp3",
+      "audio_slow": "assets/audio/disc_slow.mp3",
+      "image": "assets/images/disc.webp",
+      "skip_image": false,
+      "meaning_zh": "光盘",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "said",
+      "freq": 3,
+      "audio": "assets/audio/said.mp3",
+      "audio_slow": "assets/audio/said_slow.mp3",
+      "image": "assets/images/said.webp",
+      "skip_image": false,
+      "meaning_zh": "说过",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "switch",
+      "freq": 3,
+      "audio": "assets/audio/switch.mp3",
+      "audio_slow": "assets/audio/switch_slow.mp3",
+      "image": "assets/images/switch.webp",
+      "skip_image": false,
+      "meaning_zh": "开关",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "quietly",
+      "freq": 2,
+      "audio": "assets/audio/quietly.mp3",
+      "audio_slow": "assets/audio/quietly_slow.mp3",
+      "image": "assets/images/quietly.webp",
+      "skip_image": false,
+      "meaning_zh": "安静地",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "expert",
+      "freq": 2,
+      "audio": "assets/audio/expert.mp3",
+      "audio_slow": "assets/audio/expert_slow.mp3",
+      "image": "assets/images/expert.webp",
+      "skip_image": false,
+      "meaning_zh": "专家",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "ask",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "问"
+    },
+    {
+      "lemma": "chicken",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "小鸡"
+    },
+    {
+      "lemma": "computer",
+      "freq": 30,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "电脑"
+    },
+    {
+      "lemma": "disc",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "光盘"
+    },
+    {
+      "lemma": "disturb",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "打扰"
+    },
+    {
+      "lemma": "either",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "也不/任一"
+    },
+    {
+      "lemma": "expert",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "专家"
+    },
+    {
+      "lemma": "finish",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "完成"
+    },
+    {
+      "lemma": "game",
+      "freq": 6,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "happy",
+      "freq": 9,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "important",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "重要"
+    },
+    {
+      "lemma": "later",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "稍后"
+    },
+    {
+      "lemma": "long",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "长的"
+    },
+    {
+      "lemma": "lunch",
+      "freq": 5,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "午餐"
+    },
+    {
+      "lemma": "mend",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "修理"
+    },
+    {
+      "lemma": "mummy",
+      "freq": 32,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "quietly",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "安静地"
+    },
+    {
+      "lemma": "said",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "说过"
+    },
+    {
+      "lemma": "say",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "switch",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "开关"
+    },
+    {
+      "lemma": "thank",
+      "freq": 4,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "谢谢"
+    },
+    {
+      "lemma": "touch",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "触碰"
+    },
+    {
+      "lemma": "work",
+      "freq": 15,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "工作"
+    }
+  ],
+  "new_words": [
+    "ask",
+    "chicken",
+    "computer",
+    "disc",
+    "disturb",
+    "either",
+    "expert",
+    "finish",
+    "important",
+    "later",
+    "long",
+    "lunch",
+    "mend",
+    "quietly",
+    "said",
+    "switch",
+    "thank",
+    "touch",
+    "work"
+  ],
+  "reused_words": [
+    "game",
+    "happy",
+    "mummy",
+    "say"
+  ],
+  "chunks": [
+    {
+      "id": "at_work",
+      "text": "at work",
+      "meaning_zh": "在工作",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/at_work.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/at_work_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/at_work.webp",
+      "covers_words": [
+        "work"
+      ]
+    },
+    {
+      "id": "on_the_computer",
+      "text": "on the computer",
+      "meaning_zh": "在电脑上",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/on_the_computer.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/on_the_computer_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/on_the_computer.webp",
+      "covers_words": [
+        "computer"
+      ]
+    },
+    {
+      "id": "dont_touch",
+      "text": "don't touch",
+      "meaning_zh": "不要碰",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/dont_touch.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/dont_touch_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/dont_touch.webp",
+      "covers_words": [
+        "touch"
+      ]
+    },
+    {
+      "id": "very_important",
+      "text": "very important",
+      "meaning_zh": "非常重要",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/very_important.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/very_important_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/very_important.webp",
+      "covers_words": [
+        "important"
+      ]
+    },
+    {
+      "id": "mend_the_computer",
+      "text": "mend the computer",
+      "meaning_zh": "修电脑",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/mend_the_computer.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/mend_the_computer_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/mend_the_computer.webp",
+      "covers_words": [
+        "mend",
+        "computer"
+      ]
+    },
+    {
+      "id": "make_lunch",
+      "text": "make lunch",
+      "meaning_zh": "做午餐",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/make_lunch.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/make_lunch_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/make_lunch.webp",
+      "covers_words": [
+        "lunch"
+      ]
+    },
+    {
+      "id": "dont_disturb",
+      "text": "don't disturb",
+      "meaning_zh": "不要打扰",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/dont_disturb.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/dont_disturb_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/dont_disturb.webp",
+      "covers_words": [
+        "disturb"
+      ]
+    },
+    {
+      "id": "finish_work",
+      "text": "finish work",
+      "meaning_zh": "完成工作",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/finish_work.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/finish_work_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/finish_work.webp",
+      "covers_words": [
+        "finish",
+        "work"
+      ]
+    },
+    {
+      "id": "ask_later",
+      "text": "ask later",
+      "meaning_zh": "稍后再问",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/ask_later.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/ask_later_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/ask_later.webp",
+      "covers_words": [
+        "ask",
+        "later"
+      ]
+    },
+    {
+      "id": "quietly_work",
+      "text": "work quietly",
+      "meaning_zh": "安静地工作",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/quietly_work.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/quietly_work_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/quietly_work.webp",
+      "covers_words": [
+        "quietly",
+        "work"
+      ]
+    },
+    {
+      "id": "switch_on_computer",
+      "text": "switch on the computer",
+      "meaning_zh": "打开电脑",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/switch_on_computer.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/switch_on_computer_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/switch_on_computer.webp",
+      "covers_words": [
+        "switch",
+        "computer"
+      ]
+    },
+    {
+      "id": "computer_expert",
+      "text": "computer expert",
+      "meaning_zh": "电脑专家",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/computer_expert.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/computer_expert_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/computer_expert.webp",
+      "covers_words": [
+        "expert",
+        "computer"
+      ]
+    },
+    {
+      "id": "either_disc",
+      "text": "either disc",
+      "meaning_zh": "任意一张光盘",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/either_disc.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/either_disc_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/either_disc.webp",
+      "covers_words": [
+        "either",
+        "disc"
+      ]
+    },
+    {
+      "id": "say_thank_you",
+      "text": "say thank you",
+      "meaning_zh": "说谢谢",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/say_thank_you.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/say_thank_you_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/say_thank_you.webp",
+      "covers_words": [
+        "thank",
+        "say"
+      ]
+    },
+    {
+      "id": "long_lunch",
+      "text": "long lunch",
+      "meaning_zh": "很长的午餐",
+      "audio_tts": "assets/peppa-s01e07/chunks_audio_tts/long_lunch.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/chunks_audio_tts/long_lunch_slow.mp3",
+      "image": "assets/peppa-s01e07/chunks_images/long_lunch.webp",
+      "covers_words": [
+        "long",
+        "lunch"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Mummy Pig is working on her computer.",
+      "meaning_zh": "猪妈妈正在电脑上工作。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s01.webp",
+      "chunks": [
+        "at_work",
+        "on_the_computer"
+      ],
+      "key_words": [
+        "mummy",
+        "work",
+        "computer"
+      ],
+      "time_start": "00:01:31.159",
+      "time_end": "00:01:35.659"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Peppa and George must not touch the computer.",
+      "meaning_zh": "Peppa和George不能碰电脑。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s02.webp",
+      "chunks": [
+        "dont_touch"
+      ],
+      "key_words": [
+        "touch",
+        "computer"
+      ],
+      "time_start": "00:01:34.399",
+      "time_end": "00:01:38.899"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "Mummy Pig has some very important work to do.",
+      "meaning_zh": "猪妈妈有很重要的工作要做。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s03.webp",
+      "chunks": [
+        "very_important"
+      ],
+      "key_words": [
+        "important",
+        "work"
+      ],
+      "time_start": "00:00:50.680",
+      "time_end": "00:00:55.180"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "Peppa wants to play a computer game.",
+      "meaning_zh": "Peppa想玩电脑游戏。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s04.webp",
+      "chunks": [
+        "on_the_computer"
+      ],
+      "key_words": [
+        "computer",
+        "game"
+      ],
+      "time_start": "00:02:58.519",
+      "time_end": "00:03:03.019"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "The computer is not working.",
+      "meaning_zh": "电脑坏了。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s05.webp",
+      "chunks": [],
+      "key_words": [
+        "computer",
+        "work"
+      ],
+      "time_start": "00:01:31.159",
+      "time_end": "00:01:35.659"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "Daddy Pig can mend the computer.",
+      "meaning_zh": "猪爸爸会修电脑。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s06.webp",
+      "chunks": [
+        "mend_the_computer"
+      ],
+      "key_words": [
+        "mend",
+        "computer"
+      ],
+      "time_start": "00:02:10.520",
+      "time_end": "00:02:15.020"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Mummy Pig is making lunch.",
+      "meaning_zh": "猪妈妈在做午餐。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s07.webp",
+      "chunks": [
+        "make_lunch"
+      ],
+      "key_words": [
+        "lunch"
+      ],
+      "time_start": "00:02:07.360",
+      "time_end": "00:02:11.860"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "Please do not disturb Mummy Pig.",
+      "meaning_zh": "请不要打扰猪妈妈。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s08.webp",
+      "chunks": [
+        "dont_disturb"
+      ],
+      "key_words": [
+        "disturb"
+      ],
+      "time_start": "00:00:48.239",
+      "time_end": "00:00:52.739"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "Mummy Pig has finished her work.",
+      "meaning_zh": "猪妈妈完成了工作。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s09.webp",
+      "chunks": [
+        "finish_work"
+      ],
+      "key_words": [
+        "finish",
+        "work"
+      ],
+      "time_start": "00:01:06.240",
+      "time_end": "00:01:10.740"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "George likes the happy chicken game.",
+      "meaning_zh": "George喜欢开心小鸡游戏。",
+      "audio_tts": "assets/peppa-s01e07/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e07/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e07/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e07/sentences_images/s10.webp",
+      "chunks": [],
+      "key_words": [
+        "chicken",
+        "happy"
+      ],
+      "time_start": "00:02:58.519",
+      "time_end": "00:03:03.019"
+    }
+  ],
+  "distractors": {
+    "computer": [
+      "ask",
+      "finish",
+      "lunch"
+    ],
+    "work": [
+      "long",
+      "thank",
+      "either"
+    ],
+    "chicken": [
+      "either",
+      "important",
+      "finish"
+    ],
+    "touch": [
+      "expert",
+      "disturb",
+      "computer"
+    ],
+    "mend": [
+      "ask",
+      "disturb",
+      "touch"
+    ],
+    "important": [
+      "either",
+      "later",
+      "computer"
+    ],
+    "lunch": [
+      "long",
+      "work",
+      "mend"
+    ],
+    "disturb": [
+      "chicken",
+      "mend",
+      "said"
+    ],
+    "finish": [
+      "either",
+      "work",
+      "long"
+    ],
+    "ask": [
+      "mend",
+      "thank",
+      "finish"
+    ],
+    "later": [
+      "ask",
+      "work",
+      "long"
+    ],
+    "long": [
+      "computer",
+      "lunch",
+      "chicken"
+    ],
+    "thank": [
+      "touch",
+      "important",
+      "long"
+    ],
+    "either": [
+      "expert",
+      "computer",
+      "work"
+    ],
+    "disc": [
+      "work",
+      "long",
+      "thank"
+    ],
+    "said": [
+      "touch",
+      "ask",
+      "finish"
+    ],
+    "switch": [
+      "quietly",
+      "disc",
+      "thank"
+    ],
+    "quietly": [
+      "thank",
+      "touch",
+      "finish"
+    ],
+    "expert": [
+      "long",
+      "important",
+      "computer"
+    ]
+  }
+}

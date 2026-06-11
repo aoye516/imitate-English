@@ -1,0 +1,2017 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>文盲英语 · Muddy Puddles</title>
+<style>
+  :root {
+    --bg: #fff8f1;
+    --surface: #ffffff;
+    --primary: #f0883e;
+    --primary-dim: #fcd6b6;
+    --ink: #3a2c1e;
+    --muted: #9a8773;
+    --hairline: #efe3d4;
+    --good: #5fb877;
+    --bad: #e26565;
+    --shadow: 0 4px 12px rgba(160, 110, 60, 0.08);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+    background: var(--bg); color: var(--ink);
+    overscroll-behavior: none;
+    -webkit-user-select: none; user-select: none;
+  }
+  body {
+    display: flex; flex-direction: column;
+    height: 100vh; height: 100dvh;
+    max-width: 540px; margin: 0 auto;
+    padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+    overflow: hidden;
+  }
+
+  /* Top bar (56px) */
+  .topbar {
+    flex: 0 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 8px 14px; height: 56px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .topbar button {
+    border: none; background: transparent; color: var(--ink);
+    font-size: 22px; padding: 6px 10px; cursor: pointer;
+    line-height: 1;
+  }
+  .topbar .title { font-size: 15px; color: var(--muted); }
+
+  /* Main scroll area */
+  .view {
+    flex: 1; display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .view.scroll { overflow-y: auto; }
+
+  /* === ROUND VIEW === */
+  /* Compact play strip (70px) */
+  .play-strip {
+    flex: 0 0 auto;
+    display: flex; align-items: center;
+    padding: 10px 14px; gap: 12px;
+    border-bottom: 1px solid var(--hairline);
+    background: var(--surface);
+  }
+  .play-btn {
+    width: 50px; height: 50px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff; border: none;
+    font-size: 22px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 3px 8px rgba(240, 136, 62, 0.35);
+    transition: transform 0.1s, background 0.2s;
+  }
+  .play-btn:active { transform: scale(0.92); }
+  .play-btn.is-playing { background: var(--primary-dim); color: var(--primary); }
+  .strip-mid {
+    flex: 1;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .strip-hint { font-size: 13px; color: var(--muted); }
+  .strip-meta { font-size: 12px; color: var(--muted); }
+  .strip-meta b { color: var(--ink); font-weight: 600; }
+  .strip-actions {
+    display: flex; gap: 6px; flex-shrink: 0;
+  }
+  .icon-btn {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    border: 1.2px solid var(--hairline);
+    background: transparent;
+    color: var(--muted);
+    font-size: 13px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .icon-btn.active {
+    background: var(--primary); color: #fff; border-color: var(--primary);
+  }
+  .icon-btn:active { background: var(--primary-dim); }
+  .icon-btn .i { font-style: italic; font-family: serif; font-size: 16px; }
+
+  /* Choice grid (fills remaining space) */
+  .choices {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    min-height: 0;
+  }
+  .choice {
+    background: var(--surface);
+    border-radius: 16px;
+    border: 3px solid transparent;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    padding: 6px;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.1s, border-color 0.2s, opacity 0.2s;
+    min-height: 0;
+  }
+  .choice img { max-width: 100%; max-height: 100%; object-fit: contain; pointer-events: none; }
+  .choice:active { transform: scale(0.97); }
+  .choice.correct { border-color: var(--good); animation: pop 0.4s; }
+  .choice.wrong { border-color: var(--bad); animation: shake 0.3s; }
+  .choice.dimmed { opacity: 0.3; }
+  @keyframes pop { 0%,100% {transform:scale(1);} 50% {transform:scale(1.04);} }
+  @keyframes shake { 0%,100%{transform:translateX(0);} 25%{transform:translateX(-5px);} 75%{transform:translateX(5px);} }
+
+  /* === ROUND VIEW (i2a) === */
+  /* Top: small status strip (right side has speed + info, left = hint) */
+  .i2a-strip {
+    flex: 0 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 8px 14px; gap: 10px;
+    border-bottom: 1px solid var(--hairline);
+    background: var(--surface);
+  }
+  .i2a-strip .strip-mid { flex: 1; }
+
+  /* Big target image fills the remaining height */
+  .target-stage {
+    flex: 1;
+    display: flex; align-items: center; justify-content: center;
+    padding: 14px;
+    min-height: 0;
+  }
+  .target-stage img {
+    max-width: 100%; max-height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+
+  /* Audio cells: a row of 4 short cards at the bottom */
+  .audio-row {
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 8px 10px 0;
+  }
+  .audio-cell {
+    background: var(--surface);
+    border-radius: 14px;
+    border: 2.5px solid transparent;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 2px;
+    height: 76px;
+    transition: transform 0.1s, border-color 0.2s, opacity 0.2s, background 0.2s;
+    position: relative;
+  }
+  .audio-cell:active { transform: scale(0.95); }
+  .audio-cell.selected { border-color: var(--primary); background: #fff4e8; }
+  .audio-cell.correct { border-color: var(--good); animation: pop 0.4s; }
+  .audio-cell.wrong { border-color: var(--bad); animation: shake 0.3s; }
+  .audio-cell.dimmed { opacity: 0.35; }
+  .audio-cell .speaker {
+    font-size: 26px;
+    color: var(--primary);
+    line-height: 1;
+  }
+  .audio-cell.is-playing .speaker { color: var(--primary-dim); }
+  .audio-cell .label {
+    font-size: 14px; font-weight: 600; color: var(--muted);
+  }
+  .audio-cell.selected .label { color: var(--primary); }
+
+  .confirm-bar {
+    flex: 0 0 auto;
+    padding: 8px 10px 12px;
+  }
+  .confirm-bar button {
+    width: 100%;
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    padding: 13px;
+    font-size: 15px; font-weight: 600;
+    cursor: pointer;
+  }
+  .confirm-bar button:disabled {
+    background: var(--primary-dim);
+    cursor: default;
+  }
+
+  /* === HOME VIEW === */
+  .home { padding: 16px 14px 24px; display: flex; flex-direction: column; gap: 12px; }
+  .home-header {
+    padding: 4px 4px 8px;
+  }
+  .home-header h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; }
+  .home-header p { font-size: 13px; color: var(--muted); margin: 0; }
+  .episode-switch {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 10px 12px;
+    background: rgba(240, 136, 62, 0.06);
+    border: 1px solid var(--hairline);
+    border-radius: 14px;
+    font-size: 13px; color: var(--muted);
+  }
+  .episode-switch b { color: var(--ink); font-weight: 600; }
+  .episode-switch button {
+    flex-shrink: 0; border: none; background: transparent;
+    color: var(--primary); font-size: 13px; font-weight: 600;
+    padding: 4px 0; cursor: pointer;
+  }
+
+  .level-card {
+    background: var(--surface);
+    border-radius: 18px;
+    padding: 16px 16px 14px;
+    box-shadow: var(--shadow);
+    border: 2px solid transparent;
+    transition: border-color 0.2s, transform 0.1s;
+    cursor: pointer;
+    position: relative;
+  }
+  .level-card.recommended { border-color: var(--primary); }
+  .level-card.locked { opacity: 0.55; }
+  .level-card:active { transform: scale(0.99); }
+
+  .level-row {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 12px;
+  }
+  .level-badge {
+    width: 38px; height: 38px;
+    border-radius: 12px;
+    background: var(--bg);
+    color: var(--primary);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700;
+    flex-shrink: 0;
+  }
+  .level-card.recommended .level-badge {
+    background: var(--primary); color: #fff;
+  }
+  .level-info { flex: 1; min-width: 0; }
+  .level-name { font-size: 16px; font-weight: 600; line-height: 1.2; }
+  .level-desc { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .level-pill {
+    background: var(--primary); color: #fff;
+    font-size: 11px; padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .level-card:not(.recommended) .level-pill { display: none; }
+
+  .level-progress {
+    height: 6px;
+    background: var(--hairline);
+    border-radius: 3px;
+    margin: 0 0 10px;
+    overflow: hidden;
+    display: flex;
+  }
+  .level-progress .seg-mastered { background: var(--good); height: 100%; }
+  .level-progress .seg-learning { background: var(--primary); height: 100%; }
+
+  .level-stats {
+    display: flex; gap: 12px;
+    font-size: 12px; color: var(--muted);
+  }
+  .level-stats span b { color: var(--ink); font-weight: 600; }
+
+  .level-action {
+    margin-top: 10px;
+    width: 100%;
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 11px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .level-card:not(.recommended) .level-action {
+    background: transparent; color: var(--primary); border: 1.5px solid var(--primary-dim);
+  }
+
+  .section-title { font-size: 13px; color: var(--muted); margin: 16px 0 6px; padding-left: 4px; }
+
+  .batch-size {
+    display: flex; gap: 8px;
+  }
+  .batch-size button {
+    flex: 1;
+    background: var(--surface);
+    border: 2px solid var(--hairline);
+    border-radius: 12px;
+    padding: 10px 0;
+    font-size: 15px;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .batch-size button.active {
+    background: var(--primary); color: #fff; border-color: var(--primary);
+  }
+
+  .secondary-btn {
+    background: transparent;
+    color: var(--ink);
+    border: 1.5px solid var(--hairline);
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  /* === CHALLENGE CARD (home, after the 3 levels) === */
+  .challenge-card {
+    background: var(--surface);
+    border-radius: 18px;
+    padding: 18px 18px 16px;
+    box-shadow: var(--shadow);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.2s, transform 0.1s;
+    position: relative;
+  }
+  .challenge-card.recommended {
+    border-color: var(--good);
+    background: linear-gradient(135deg, #f8fffa 0%, var(--surface) 60%);
+  }
+  .challenge-card:active { transform: scale(0.99); }
+  .challenge-row {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 10px;
+  }
+  .challenge-icon {
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .challenge-card.recommended .challenge-icon {
+    background: var(--good); color: #fff;
+  }
+  .challenge-info { flex: 1; }
+  .challenge-name { font-size: 16px; font-weight: 600; }
+  .challenge-desc { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .challenge-pill {
+    background: var(--good); color: #fff;
+    font-size: 11px; padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .challenge-card:not(.recommended) .challenge-pill { display: none; }
+  .challenge-action {
+    width: 100%;
+    background: transparent;
+    color: var(--ink);
+    border: 1.5px solid var(--hairline);
+    border-radius: 12px;
+    padding: 11px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .challenge-card.recommended .challenge-action {
+    background: var(--good); color: #fff; border-color: var(--good); font-weight: 600;
+  }
+
+  /* === WATCH VIEW (full episode player) === */
+  .watch-view {
+    flex: 1;
+    background: #000;
+    display: flex; flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+  }
+  .watch-stage {
+    flex: 1;
+    display: flex; align-items: center; justify-content: center;
+    min-height: 0;
+    background: #000;
+  }
+  .watch-stage video {
+    width: 100%; height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    background: #000;
+  }
+  .watch-bottom {
+    flex: 0 0 auto;
+    background: rgba(0,0,0,0.85);
+    padding: 14px 14px env(safe-area-inset-bottom);
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .watch-toggles {
+    display: flex; gap: 8px; margin-bottom: 12px;
+  }
+  .watch-toggles button {
+    flex: 1;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    border: 1.5px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 10px 8px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .watch-toggles button.active {
+    background: var(--primary); color: #fff; border-color: var(--primary);
+  }
+  .watch-hint {
+    color: rgba(255,255,255,0.55);
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  /* Override topbar in watch mode for legibility */
+  body.watching .topbar {
+    background: rgba(0,0,0,0.85);
+    border-bottom-color: rgba(255,255,255,0.08);
+    color: #fff;
+  }
+  body.watching .topbar button { color: #fff; }
+  body.watching .topbar .title { color: rgba(255,255,255,0.7); }
+
+  /* === EPISODE PICKER === */
+  .picker { padding: 16px 14px 24px; display: flex; flex-direction: column; gap: 12px; }
+  .picker-header h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; }
+  .picker-header p { font-size: 13px; color: var(--muted); margin: 0; }
+  .ep-card {
+    background: var(--surface);
+    border-radius: 18px;
+    padding: 16px;
+    box-shadow: var(--shadow);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.15s, transform 0.1s;
+    display: flex; gap: 14px; align-items: center;
+  }
+  .ep-card:active { transform: scale(0.99); }
+  .ep-card.available { border-color: var(--hairline); }
+  .ep-card.coming-soon { opacity: 0.5; cursor: default; }
+  .ep-badge {
+    width: 60px; height: 60px;
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 700; color: #fff;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .ep-badge.has-cover {
+    background-size: cover; background-position: center;
+    background-color: var(--bg);
+    position: relative; align-items: flex-end;
+  }
+  .ep-badge.has-cover .ep-badge-ep {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45); color: #fff;
+    font-size: 10px; font-weight: 600; text-align: center;
+    padding: 2px 0;
+  }
+  .ep-info { flex: 1; min-width: 0; }
+  .ep-title { font-size: 15px; font-weight: 600; }
+  .ep-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .ep-progress-bar {
+    height: 4px; background: var(--hairline); border-radius: 2px;
+    margin-top: 8px; overflow: hidden; display: flex;
+  }
+  .ep-progress-bar .seg-m { background: var(--good); height: 100%; }
+  .ep-progress-bar .seg-l { background: var(--primary); height: 100%; }
+  .ep-arrow { font-size: 20px; color: var(--muted); flex-shrink: 0; }
+
+  /* === DONE BANNER === */
+  .done-screen {
+    flex: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 24px; text-align: center;
+  }
+  .done-screen h2 { font-size: 24px; margin: 0 0 6px; }
+  .done-screen p { color: var(--muted); margin: 0 0 24px; font-size: 15px; }
+  .done-screen .actions { display: flex; gap: 10px; width: 100%; max-width: 320px; }
+  .done-screen .actions button { flex: 1; }
+
+  /* === LIBRARY VIEW === */
+  .library { padding: 14px 14px 24px; }
+  .lib-levels {
+    display: flex; gap: 6px; margin-bottom: 10px;
+  }
+  .lib-levels button {
+    flex: 1;
+    background: var(--surface);
+    border: 1.5px solid var(--hairline);
+    border-radius: 12px;
+    padding: 9px 0;
+    font-size: 13px;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .lib-levels button.active {
+    background: var(--primary); color: #fff; border-color: var(--primary);
+    font-weight: 600;
+  }
+  .lib-tabs {
+    display: flex; gap: 6px;
+    background: var(--hairline);
+    padding: 3px; border-radius: 12px;
+    margin-bottom: 14px;
+  }
+  .lib-tabs button {
+    flex: 1;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 0;
+    font-size: 14px;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .lib-tabs button.active {
+    background: var(--surface); color: var(--ink); font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .lib-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .lib-cell {
+    background: var(--surface);
+    border-radius: 12px;
+    aspect-ratio: 1;
+    padding: 6px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .lib-cell img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .lib-cell .dot {
+    position: absolute; top: 6px; right: 6px;
+    width: 8px; height: 8px; border-radius: 50%;
+  }
+  .lib-cell .dot.mastered { background: var(--good); }
+  .lib-cell .dot.learning { background: var(--primary); }
+  .lib-cell .dot.unseen { background: var(--hairline); }
+  .lib-cell .tracks {
+    position: absolute; bottom: 5px; right: 6px; left: 6px;
+    display: flex; gap: 3px;
+  }
+  .lib-cell .track {
+    flex: 1; height: 3px; border-radius: 2px;
+    background: var(--hairline);
+  }
+  .lib-cell .track.done { background: var(--good); }
+  .lib-cell .track.partial { background: var(--primary); }
+  .lib-empty { color: var(--muted); text-align: center; padding: 40px 20px; font-size: 14px; }
+
+  /* Wider cells for chunks/sentences (text labels under image) */
+  .lib-list {
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .lib-row {
+    background: var(--surface);
+    border-radius: 14px;
+    padding: 10px;
+    display: flex; gap: 10px;
+    align-items: center;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    position: relative;
+  }
+  .lib-row .thumb {
+    width: 60px; height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+  }
+  .lib-row .thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .lib-row .meta { flex: 1; min-width: 0; }
+  .lib-row .meta .zh { font-size: 14px; color: var(--ink); font-weight: 500; }
+  .lib-row .meta .en { font-size: 12px; color: var(--muted); margin-top: 2px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lib-row .row-status {
+    display: flex; align-items: center; gap: 6px;
+    flex-shrink: 0;
+  }
+  .lib-row .row-status .tracks {
+    display: flex; flex-direction: column; gap: 3px;
+    width: 18px;
+  }
+  .lib-row .row-status .track { height: 3px; border-radius: 2px; background: var(--hairline); }
+  .lib-row .row-status .track.partial { background: var(--primary); }
+  .lib-row .row-status .track.done { background: var(--good); }
+  .lib-row .row-status .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+  }
+  .lib-row .row-status .dot.mastered { background: var(--good); }
+  .lib-row .row-status .dot.learning { background: var(--primary); }
+  .lib-row .row-status .dot.unseen { background: var(--hairline); }
+
+  /* === MODAL === */
+  .modal-bg {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 100; padding: 20px;
+  }
+  .modal {
+    background: var(--surface);
+    border-radius: 22px;
+    padding: 24px 22px;
+    max-width: 320px; width: 100%;
+    text-align: center;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.18);
+  }
+  .modal img {
+    width: 140px; height: 140px;
+    object-fit: contain;
+    margin: 0 auto 12px;
+    display: block;
+  }
+  .modal .spelling { font-size: 24px; font-weight: 600; margin-bottom: 4px; }
+  .modal .meaning { font-size: 16px; color: var(--muted); margin-bottom: 6px; }
+  .modal .badge {
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+  }
+  .modal .badge.mastered { background: rgba(95, 184, 119, 0.15); color: var(--good); }
+  .modal .badge.learning { background: rgba(240, 136, 62, 0.15); color: var(--primary); }
+  .modal .badge.unseen { background: var(--hairline); color: var(--muted); }
+  .modal .kinds {
+    display: flex; gap: 8px;
+    margin: 0 0 14px;
+    font-size: 13px;
+  }
+  .modal .kind {
+    flex: 1;
+    background: var(--bg);
+    border-radius: 10px;
+    padding: 8px 10px;
+    text-align: left;
+    color: var(--muted);
+  }
+  .modal .kind b { color: var(--ink); display: block; font-size: 14px; margin-bottom: 2px; font-weight: 600; }
+  .modal .kind .check { color: var(--good); font-weight: 600; }
+  .modal .kind .pending { color: var(--primary); font-weight: 600; }
+  .modal-actions { display: flex; gap: 8px; }
+  .modal-actions button {
+    flex: 1;
+    background: var(--primary); color: #fff;
+    border: none; border-radius: 12px;
+    padding: 11px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .modal-actions button.ghost {
+    background: transparent; color: var(--muted); border: 1.5px solid var(--hairline);
+  }
+
+  /* === STATUS / TOAST === */
+  .toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+    background: rgba(58, 44, 30, 0.92); color: #fff;
+    padding: 9px 16px; border-radius: 16px;
+    font-size: 13px; z-index: 200;
+    pointer-events: none;
+    opacity: 0; transition: opacity 0.2s;
+  }
+  .toast.show { opacity: 1; }
+
+  .loading {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 15px;
+  }
+
+  .hidden { display: none !important; }
+
+  /* === BOTTOM TAB BAR === */
+  .tabbar {
+    flex: 0 0 auto;
+    display: flex;
+    border-top: 1px solid var(--hairline);
+    background: var(--surface);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .tabbar button {
+    flex: 1; border: none; background: transparent;
+    padding: 7px 0 9px; cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    color: var(--muted); font-size: 11px;
+  }
+  .tabbar button .ico { font-size: 19px; line-height: 1; }
+  .tabbar button.active { color: var(--primary); font-weight: 600; }
+
+  /* === LIBRARY CONTEXT === */
+  .lib-context {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    color: var(--muted); font-size: 12px;
+    margin: 0 2px 12px;
+  }
+  .lib-context b { color: var(--ink); font-weight: 600; }
+  .lib-context button {
+    border: none; background: transparent; padding: 0;
+    color: var(--primary); font-size: 12px; font-weight: 600;
+    cursor: pointer; white-space: nowrap;
+  }
+  .lib-ep-label { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  /* "earned in earlier episode" marker on library cells/rows */
+  .lib-cell.prior::after, .lib-row.prior .prior-tag {
+    content: "往期";
+  }
+  .prior-tag {
+    font-size: 10px; color: var(--good);
+    background: rgba(95,184,119,0.14); border-radius: 6px;
+    padding: 1px 5px; margin-left: 6px;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <button id="back-btn" aria-label="返回">‹</button>
+  <div class="title" id="bar-title">Muddy Puddles</div>
+  <button id="library-btn" aria-label="词库">☰</button>
+</header>
+
+<main class="view scroll" id="view">
+  <div class="loading">加载中…</div>
+</main>
+
+<nav class="tabbar" id="tabbar">
+  <button data-tab="learn"><span class="ico">📖</span>学习</button>
+  <button data-tab="library"><span class="ico">🗂️</span>词库</button>
+</nav>
+
+<audio id="audio-el" preload="auto"></audio>
+<div class="toast" id="toast"></div>
+
+<script>
+'use strict';
+
+// ============ Constants ============
+const LESSONS_URL = 'lessons.json';
+const STATE_URL = '/api/state';
+const MASTERY_STREAK = 2;          // 连续答对 N 次算掌握
+const DEFAULT_BATCH_SIZE = 20;
+
+// ============ State ============
+const app = {
+  lessons: [],             // episodes list from lessons.json
+  lesson: null,            // currently loaded episode lesson data
+  currentEpisodeId: null,  // e.g. "peppa-s01e01"
+  // Each level has: pool (ordered list of items) + byId (id → item)
+  // item shape: { id, level, audio, audio_slow, audio_clip?, image, meaning_zh, spelling, freq }
+  levels: { L1: { pool: [], byId: {} }, L2: { pool: [], byId: {} }, L3: { pool: [], byId: {} } },
+  state: null,
+  view: 'picker',          // 'picker' | 'home' | 'round' | 'done' | 'library' | 'watch'
+  round: null,             // { level, items, queue, correct, wrong, answered, target }
+  speed: 'normal',
+  awaitingNext: false,
+  saveTimer: null,
+  advanceTimer: null,      // setTimeout handle for recordAnswer advance
+  syncing: false,
+  selectedLevel: 'L1',
+  libraryScope: 'episode',   // 'episode' | 'global'
+  globalLevels: null,        // lazily-merged cross-episode pools for global library
+};
+
+// Level metadata (used by home + round + library)
+// desc is a function so it can reflect the current episode's counts
+const LEVEL_META = {
+  L1: { domain: 'words',     name: 'L1 · 单词',   desc: () => `${poolOf('L1').length} 个核心词，建立"图—音—义"绑定`, badge: 'L1' },
+  L2: { domain: 'chunks',    name: 'L2 · 短语',   desc: () => `${poolOf('L2').length} 个短语，把词串成意群`, badge: 'L2' },
+  L3: { domain: 'sentences', name: 'L3 · 句子',   desc: () => `${poolOf('L3').length} 个核心句，结合原片切片`, badge: 'L3' },
+};
+function domainOf(level) { return LEVEL_META[level].domain; }
+
+// ============ Helpers ============
+function $(sel) { return document.querySelector(sel); }
+function el(tag, props = {}, children = []) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === 'class') e.className = v;
+    else if (k === 'html') e.innerHTML = v;
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2).toLowerCase(), v);
+    else e.setAttribute(k, v);
+  }
+  for (const c of [].concat(children)) {
+    if (c == null) continue;
+    e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  }
+  return e;
+}
+function toast(msg, ms = 1500) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => t.classList.remove('show'), ms);
+}
+function shuffleSeed(arr, seed) {
+  const a = arr.slice();
+  let s = seed;
+  for (let i = a.length - 1; i > 0; i--) {
+    s = (s * 9301 + 49297) % 233280;
+    const j = Math.floor((s / 233280) * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function shuffleRandom(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function hashCode(s) { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) | 0; return Math.abs(h); }
+
+// ============ Server state ============
+async function pullState() {
+  try {
+    const r = await fetch(STATE_URL, { cache: 'no-store' });
+    if (!r.ok) throw new Error('http ' + r.status);
+    const data = await r.json();
+    return normalizeState(data);
+  } catch (e) {
+    console.warn('pull state failed', e);
+    toast('网络问题，使用本地数据');
+    return normalizeState({});
+  }
+}
+function normalizeState(s) {
+  // Three sub-domains: words / chunks / sentences. Each maps id → progress entry.
+  let batchSize = s.batchSize || DEFAULT_BATCH_SIZE;
+  if (!s.uiVersion && batchSize === 10) batchSize = DEFAULT_BATCH_SIZE;
+  const out = {
+    progress: {
+      words: (s.progress && s.progress.words) || {},
+      chunks: (s.progress && s.progress.chunks) || {},
+      sentences: (s.progress && s.progress.sentences) || {},
+    },
+    batchSize,
+    uiVersion: s.uiVersion || 2,
+    totalRounds: s.totalRounds || 0,
+    lastUpdate: s.lastUpdate || 0,
+    lastEpisodeId: s.lastEpisodeId || null,
+  };
+
+  // Legacy migration: old shape was {progress: {lemma: {...}}}
+  // Any non-{words,chunks,sentences} keys at root of progress are old per-lemma entries.
+  if (s.progress && typeof s.progress === 'object') {
+    for (const k of Object.keys(s.progress)) {
+      if (k === 'words' || k === 'chunks' || k === 'sentences') continue;
+      const v = s.progress[k];
+      if (v && typeof v === 'object' && (v.streak_a2i !== undefined || v.streak !== undefined || v.seen !== undefined)) {
+        out.progress.words[k] = v;
+      }
+    }
+  }
+
+  // Normalize each entry across all domains
+  for (const domain of ['words', 'chunks', 'sentences']) {
+    const map = out.progress[domain];
+    for (const id of Object.keys(map)) {
+      const p = map[id];
+      if (p.streak !== undefined && p.streak_a2i === undefined) {
+        p.streak_a2i = p.streak; p.streak_i2a = 0; delete p.streak;
+      }
+      if (p.streak_a2i === undefined) p.streak_a2i = 0;
+      if (p.streak_i2a === undefined) p.streak_i2a = 0;
+      if (p.seen === undefined) p.seen = (p.correct || 0) + (p.wrong || 0);
+      if (p.correct === undefined) p.correct = 0;
+      if (p.wrong === undefined) p.wrong = 0;
+      if (p.lastAt === undefined) p.lastAt = 0;
+    }
+  }
+  return out;
+}
+function schedulePush(delay = 600) {
+  clearTimeout(app.saveTimer);
+  app.saveTimer = setTimeout(pushState, delay);
+}
+async function pushState() {
+  if (app.syncing) { schedulePush(800); return; }
+  app.syncing = true;
+  app.state.lastUpdate = Date.now();
+  try {
+    const r = await fetch(STATE_URL, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(app.state),
+    });
+    if (!r.ok) throw new Error('http ' + r.status);
+  } catch (e) {
+    console.warn('push state failed', e);
+    toast('保存失败，待会儿再试');
+  } finally {
+    app.syncing = false;
+  }
+}
+
+// ============ Word status ============
+function statusOf(level, id) {
+  const p = progressOf(level, id);
+  if (!p || !p.seen) return 'unseen';
+  if (p.streak_a2i >= MASTERY_STREAK && p.streak_i2a >= MASTERY_STREAK) return 'mastered';
+  return 'learning';
+}
+function nextKindFor(level, id) {
+  const p = progressOf(level, id);
+  if (!p) return 'a2i';
+  if (p.streak_a2i >= MASTERY_STREAK) return 'i2a';
+  if (p.streak_i2a >= MASTERY_STREAK) return 'a2i';
+  return p.streak_a2i <= p.streak_i2a ? 'a2i' : 'i2a';
+}
+function plannedKindsFor(level, id) {
+  const p = progressOf(level, id) || { streak_a2i: 0, streak_i2a: 0 };
+  const needsA = p.streak_a2i < MASTERY_STREAK;
+  const needsI = p.streak_i2a < MASTERY_STREAK;
+  if (needsA && needsI) {
+    return p.streak_a2i <= p.streak_i2a ? ['a2i', 'i2a'] : ['i2a', 'a2i'];
+  }
+  if (needsA) return ['a2i'];
+  if (needsI) return ['i2a'];
+  // Review mode: mastered items still get one balanced prompt.
+  return [nextKindFor(level, id)];
+}
+function statusLabel(s) {
+  return { unseen: '未学', learning: '学习中', mastered: '已掌握' }[s];
+}
+function countsAtLevel(level) {
+  const out = { unseen: 0, learning: 0, mastered: 0, total: poolOf(level).length };
+  for (const it of poolOf(level)) out[statusOf(level, it.id)]++;
+  return out;
+}
+function activeCountAtLevel(level) {
+  // For L1: items not yet globally mastered (still need learning in this episode)
+  // For L2/L3: same as total counts
+  if (level !== 'L1') return countsAtLevel(level);
+  const out = { unseen: 0, learning: 0, mastered: 0, total: poolOf(level).length };
+  for (const it of poolOf(level)) {
+    const s = statusOf(level, it.id);
+    if (s === 'mastered') out.mastered++;
+    else out[s]++;
+  }
+  return out;
+}
+
+// ============ Round building ============
+function pickBatch(level) {
+  const learning = [], unseen = [], mastered = [];
+  for (const it of poolOf(level)) {
+    const s = statusOf(level, it.id);
+    // L1: skip items already mastered globally (from any episode)
+    if (level === 'L1' && s === 'mastered') continue;
+    if (s === 'learning') learning.push(it);
+    else if (s === 'unseen') unseen.push(it);
+    else mastered.push(it);  // L2/L3 mastered still included for review
+  }
+  const active = [...learning, ...unseen];
+  if (active.length === 0 && mastered.length === 0) return null;
+  const desiredSize = Math.min(app.state.batchSize, active.length || mastered.length);
+  // prefer active (learning+unseen), fall back to mastered review only if nothing active
+  const pool = active.length > 0 ? active : mastered;
+  return shuffleRandom(pool).slice(0, desiredSize).map(it => it.id);
+}
+
+function startRound(level) {
+  const ids = pickBatch(level);
+  if (!ids) { toast('没有可学的内容了'); return; }
+  const queue = ids.flatMap(id => plannedKindsFor(level, id).map(kind => ({ id, kind, level })));
+  app.round = {
+    level,
+    items: ids,
+    queue,
+    correct: 0,
+    wrong: 0,
+    answered: 0,
+    target: queue.length,
+  };
+  navigate('round');
+}
+
+// ============ Question generation ============
+function buildQuestion(level, id) {
+  const item = app.levels[level].byId[id];
+  const distractorPool = poolOf(level).filter(x => x.id !== id);
+  const distractors = shuffleRandom(distractorPool).slice(0, 3);
+  const choices = shuffleSeed([item, ...distractors], hashCode(id + Date.now()));
+  return {
+    item, choices,
+    correctIndex: choices.findIndex(c => c.id === id),
+  };
+}
+
+// ============ Audio ============
+function playAudio(srcNormal, srcSlow, btn) {
+  const audio = $('#audio-el');
+  const src = app.speed === 'slow' ? srcSlow : srcNormal;
+  audio.pause();
+  audio.src = src;
+  audio.currentTime = 0;
+  if (btn) btn.classList.add('is-playing');
+  audio.onended = () => btn && btn.classList.remove('is-playing');
+  audio.play().catch(err => {
+    btn && btn.classList.remove('is-playing');
+    console.warn('play failed', err);
+  });
+}
+
+// ============ Views ============
+function navigate(view) {
+  if (view !== 'round') {
+    clearTimeout(app.advanceTimer);
+    app.awaitingNext = false;
+    $('#audio-el').pause();
+  }
+  app.view = view;
+  if (view === 'picker') location.hash = '#/';
+  else if (view === 'home') location.hash = '#/home';
+  else if (view === 'round') location.hash = '#/round';
+  else if (view === 'library') location.hash = '#/library';
+  else if (view === 'done') location.hash = '#/done';
+  else if (view === 'watch') location.hash = '#/watch';
+  render();
+}
+
+function render() {
+  const root = $('#view');
+  root.innerHTML = '';
+  const inWatch = (app.view === 'watch');
+  root.classList.toggle('scroll', app.view !== 'round' && app.view !== 'watch');
+  document.body.classList.toggle('watching', inWatch);
+  // Back button shows only inside flows and subpages; main tabs use the tab bar.
+  const showBack = (app.view === 'round' || app.view === 'done' || app.view === 'watch' || (app.view === 'picker' && !!app.currentEpisodeId));
+  $('#back-btn').style.visibility = showBack ? 'visible' : 'hidden';
+  $('#library-btn').style.visibility = 'hidden';
+  updateTabbar();
+  if (app.view === 'picker') renderPicker(root);
+  else if (app.view === 'home') renderHome(root);
+  else if (app.view === 'round') renderRound(root);
+  else if (app.view === 'done') renderDone(root);
+  else if (app.view === 'library') renderLibrary(root);
+  else if (app.view === 'watch') renderWatch(root);
+}
+
+function updateTabbar() {
+  const tb = $('#tabbar');
+  const activeTab = { picker: 'learn', home: 'learn', library: 'library' }[app.view];
+  if (!activeTab) { tb.classList.add('hidden'); return; }
+  tb.classList.remove('hidden');
+  for (const btn of tb.querySelectorAll('button')) {
+    btn.classList.toggle('active', btn.dataset.tab === activeTab);
+  }
+}
+
+// === Episode Picker ===
+function renderPicker(root) {
+  $('#bar-title').textContent = app.currentEpisodeId ? '换一集' : '文盲英语';
+  const wrap = el('div', { class: 'picker' });
+  wrap.append(
+    el('div', { class: 'picker-header' }, [
+      el('h1', {}, [app.currentEpisodeId ? '换一集学习' : '选一集开始']),
+      el('p', {}, ['学完一集，挑战盲听；已掌握的词下集自动跳过']),
+    ]),
+  );
+
+  for (const ep of app.lessons) {
+    const available = !!ep.file;
+    // Compute cross-episode progress for this episode's content
+    // We approximate using words pool if this ep is loaded, else just show badge
+    const isLoaded = ep.id === app.currentEpisodeId;
+    let progressBar = null;
+    if (isLoaded) {
+      let m = 0, l = 0, total = 0;
+      for (const lv of ['L1', 'L2', 'L3']) {
+        const c = countsAtLevel(lv);
+        m += c.mastered; l += c.learning; total += c.total;
+      }
+      const pct = total > 0 ? (m / total) * 100 : 0;
+      const lpct = total > 0 ? (l / total) * 100 : 0;
+      progressBar = el('div', { class: 'ep-progress-bar' }, [
+        el('div', { class: 'seg-m', style: `width:${pct}%` }),
+        el('div', { class: 'seg-l', style: `width:${lpct}%` }),
+      ]);
+    }
+
+    const card = el('div', { class: 'ep-card ' + (available ? 'available' : 'coming-soon') });
+    const epLabel = `S${ep.season}E${String(ep.episode).padStart(2, '0')}`;
+    const badge = ep.cover
+      ? el('div', { class: 'ep-badge has-cover', style: `background-image:url(${ep.cover})` }, [
+          el('span', { class: 'ep-badge-ep' }, [epLabel]),
+        ])
+      : el('div', { class: 'ep-badge', style: `background:${ep.thumb_color}` }, [epLabel]);
+    const info = el('div', { class: 'ep-info' }, [
+      el('div', { class: 'ep-title' }, [ep.title]),
+      el('div', { class: 'ep-sub' }, [available ? 'Peppa Pig · 点击开始学习' : '即将上线']),
+      ...(progressBar ? [progressBar] : []),
+    ]);
+    const arrow = el('div', { class: 'ep-arrow' }, [available ? '›' : '']);
+    card.append(badge, info, arrow);
+
+    if (available) {
+      card.addEventListener('click', () => loadEpisode(ep.id));
+    }
+    wrap.appendChild(card);
+  }
+  root.appendChild(wrap);
+}
+
+async function loadEpisode(episodeId) {
+  if (app.currentEpisodeId === episodeId) {
+    navigate('home');
+    return;
+  }
+  $('#view').innerHTML = '<div class="loading">加载中…</div>';
+  const ep = app.lessons.find(e => e.id === episodeId);
+  try {
+    const resp = await fetch(ep.file);
+    app.lesson = await resp.json();
+  } catch (e) {
+    $('#view').innerHTML = `<div class="loading">加载失败：${e.message}</div>`;
+    return;
+  }
+  app.currentEpisodeId = episodeId;
+  app.state.lastEpisodeId = episodeId;
+  schedulePush();
+  buildLevels(app.lesson);
+  app.selectedLevel = recommendedLevel();
+  navigate('home');
+}
+
+// === Home ===
+function renderHome(root) {
+  const ep = app.lessons.find(e => e.id === app.currentEpisodeId);
+  $('#bar-title').textContent = ep ? ep.title : 'Muddy Puddles';
+  const recommended = recommendedLevel();
+  const home = el('div', { class: 'home' });
+
+  home.append(el('div', { class: 'home-header' }, [
+    el('h1', {}, [ep ? ep.title : '']),
+    el('p', {}, [ep ? `Peppa Pig S${ep.season.toString().padStart(2,'0')}E${ep.episode.toString().padStart(2,'0')} · 三层学完听懂整集` : '']),
+  ]));
+
+  home.append(el('div', { class: 'episode-switch' }, [
+    el('span', {}, ['当前剧集：', el('b', {}, [ep ? `S${ep.season}E${String(ep.episode).padStart(2,'0')}` : '未选择'])]),
+    el('button', { onClick: () => navigate('picker') }, ['换一集']),
+  ]));
+
+  for (const lv of ['L1', 'L2', 'L3']) {
+    home.appendChild(renderLevelCard(lv, recommended));
+  }
+
+  home.appendChild(renderChallengeCard());
+
+  home.append(
+    el('div', { class: 'section-title' }, ['每批数量']),
+    renderBatchSize(),
+  );
+  root.appendChild(home);
+}
+
+function renderChallengeCard() {
+  // Recommended when L3 is fully mastered
+  const c3 = countsAtLevel('L3');
+  const ready = c3.total > 0 && c3.mastered === c3.total;
+  const everSeen = c3.mastered + c3.learning > 0;
+
+  const desc = ready
+    ? '盲听整集，看看能不能听懂剧情'
+    : (everSeen ? '边学边看也行，结尾验收一次完整理解' : '建议学完 L3 句子后再来');
+  const actionText = ready ? '开始挑战' : '现在看一下';
+
+  const card = el('div', {
+    class: 'challenge-card' + (ready ? ' recommended' : ''),
+    onClick: () => navigate('watch'),
+  });
+  card.append(
+    el('div', { class: 'challenge-row' }, [
+      el('div', { class: 'challenge-icon' }, ['🎬']),
+      el('div', { class: 'challenge-info' }, [
+        el('div', { class: 'challenge-name' }, ['挑战整集 · 5 分钟']),
+        el('div', { class: 'challenge-desc' }, [desc]),
+      ]),
+      el('span', { class: 'challenge-pill' }, ['可挑战']),
+    ]),
+    el('button', {
+      class: 'challenge-action',
+      onClick: (e) => { e.stopPropagation(); navigate('watch'); },
+    }, [actionText]),
+  );
+  return card;
+}
+
+function renderLevelCard(level, recommended) {
+  const meta = LEVEL_META[level];
+  const c = countsAtLevel(level);
+  const ac = activeCountAtLevel(level);
+  const masteredPct = c.total ? (c.mastered / c.total) * 100 : 0;
+  const learningPct = c.total ? (c.learning / c.total) * 100 : 0;
+  const isRec = (level === recommended);
+  const remaining = ac.unseen + ac.learning;
+  // L1: if all mastered globally, show that
+  const allMasteredGlobally = level === 'L1' && ac.mastered === c.total;
+  const actionText = c.total === 0
+    ? '加载中…'
+    : allMasteredGlobally
+      ? '全部掌握 · 词库可复习'
+      : (remaining === 0
+          ? '复习一遍'
+          : (ac.learning + c.mastered > 0 ? `继续学习 · ${Math.min(app.state.batchSize, remaining)} 个一批` : `开始 · ${Math.min(app.state.batchSize, remaining)} 个一批`));
+
+  const card = el('div', { class: 'level-card' + (isRec ? ' recommended' : '') });
+  card.append(
+    el('div', { class: 'level-row' }, [
+      el('div', { class: 'level-badge' }, [meta.badge]),
+      el('div', { class: 'level-info' }, [
+        el('div', { class: 'level-name' }, [meta.name]),
+        el('div', { class: 'level-desc' }, [typeof meta.desc === 'function' ? meta.desc() : meta.desc]),
+      ]),
+      el('span', { class: 'level-pill' }, ['推荐']),
+    ]),
+    el('div', { class: 'level-progress' }, [
+      el('div', { class: 'seg-mastered', style: `width: ${masteredPct}%` }),
+      el('div', { class: 'seg-learning', style: `width: ${learningPct}%` }),
+    ]),
+    el('div', { class: 'level-stats' }, [
+      el('span', {}, [el('b', {}, [String(c.mastered)]), ' 已掌握']),
+      el('span', {}, [el('b', {}, [String(c.learning)]), ' 学习中']),
+      el('span', {}, [el('b', {}, [String(c.unseen)]), ' 未学 · 共 ', el('b', {}, [String(c.total)])]),
+    ]),
+    el('button', {
+      class: 'level-action',
+      onClick: (e) => { e.stopPropagation(); startRound(level); },
+    }, [actionText]),
+  );
+  return card;
+}
+
+function renderBatchSize() {
+  const wrap = el('div', { class: 'batch-size' });
+  for (const n of [10, 15, 20]) {
+    const btn = el('button', {
+      class: app.state.batchSize === n ? 'active' : '',
+      onClick: () => {
+        app.state.batchSize = n;
+        schedulePush();
+        render();
+      },
+    }, [String(n)]);
+    wrap.appendChild(btn);
+  }
+  return wrap;
+}
+
+// === Round (dispatch by kind) ===
+function renderRound(root) {
+  const r = app.round;
+  if (!r || r.queue.length === 0) { finishRound(); return; }
+  const queueItem = r.queue[0];
+  $('#bar-title').textContent = `${LEVEL_META[r.level].badge} · ${r.answered + 1} / ${r.target}`;
+  if (queueItem.kind === 'a2i') renderRoundA2I(root, queueItem);
+  else renderRoundI2A(root, queueItem);
+}
+
+// === a2i: hear audio → pick image ===
+function renderRoundA2I(root, queueItem) {
+  const r = app.round;
+  const q = buildQuestion(r.level, queueItem.id);
+  const wrap = el('div', { class: 'view' });
+
+  const playBtn = el('button', { class: 'play-btn', 'aria-label': '播放' }, ['▶']);
+  playBtn.addEventListener('click', () => playAudio(q.item.audio, q.item.audio_slow, playBtn));
+
+  const speedBtn = el('button', {
+    class: 'icon-btn' + (app.speed === 'slow' ? ' active' : ''),
+  }, ['0.7×']);
+  speedBtn.addEventListener('click', () => {
+    app.speed = (app.speed === 'slow') ? 'normal' : 'slow';
+    speedBtn.classList.toggle('active', app.speed === 'slow');
+    playAudio(q.item.audio, q.item.audio_slow, playBtn);
+  });
+
+  const infoBtn = el('button', { class: 'icon-btn' }, [el('span', { class: 'i' }, ['i'])]);
+  infoBtn.addEventListener('click', () => showInfo(r.level, q.item, false));
+
+  const hint = r.level === 'L1' ? '听音选图' : (r.level === 'L2' ? '听短语选图' : '听整句选场景');
+  const strip = el('div', { class: 'play-strip' }, [
+    playBtn,
+    el('div', { class: 'strip-mid' }, [
+      el('div', { class: 'strip-hint' }, [hint]),
+      el('div', { class: 'strip-meta' }, [
+        el('b', {}, [String(r.answered)]), ' 答 · ',
+        el('b', {}, [String(r.correct)]), ' 对'
+      ]),
+    ]),
+    el('div', { class: 'strip-actions' }, [speedBtn, infoBtn]),
+  ]);
+
+  const grid = el('div', { class: 'choices' });
+  q.choices.forEach((c, i) => {
+    const cell = el('div', { class: 'choice', 'data-i': i }, [
+      el('img', { src: c.image, alt: '', loading: 'eager' }),
+    ]);
+    cell.addEventListener('click', () => onChoiceA2I(i, q, queueItem));
+    grid.appendChild(cell);
+  });
+
+  wrap.append(strip, grid);
+  root.appendChild(wrap);
+  setTimeout(() => playAudio(q.item.audio, q.item.audio_slow, playBtn), 80);
+}
+
+function onChoiceA2I(i, q, queueItem) {
+  if (app.awaitingNext) return;
+  app.awaitingNext = true;
+  const correct = (i === q.correctIndex);
+  document.querySelectorAll('.choice').forEach((el, idx) => {
+    if (idx === i) el.classList.add(correct ? 'correct' : 'wrong');
+    else if (idx === q.correctIndex && !correct) el.classList.add('correct');
+    else el.classList.add('dimmed');
+  });
+  if (!correct) {
+    setTimeout(() => playAudio(q.item.audio, q.item.audio_slow, document.querySelector('.play-btn')), 150);
+  }
+  recordAnswer(queueItem, correct, q.item, correct ? 650 : 1500);
+}
+
+// === i2a: see image → pick audio ===
+function renderRoundI2A(root, queueItem) {
+  const r = app.round;
+  const q = buildQuestion(r.level, queueItem.id);
+  const wrap = el('div', { class: 'view' });
+
+  const infoBtn = el('button', { class: 'icon-btn' }, [el('span', { class: 'i' }, ['i'])]);
+  infoBtn.addEventListener('click', () => showInfo(r.level, q.item, false));
+
+  const speedBtn = el('button', {
+    class: 'icon-btn' + (app.speed === 'slow' ? ' active' : ''),
+  }, ['0.7×']);
+  speedBtn.addEventListener('click', () => {
+    app.speed = (app.speed === 'slow') ? 'normal' : 'slow';
+    speedBtn.classList.toggle('active', app.speed === 'slow');
+  });
+
+  const hint = r.level === 'L1' ? '看图选音' : (r.level === 'L2' ? '看图选短语' : '看图选整句');
+  const strip = el('div', { class: 'i2a-strip' }, [
+    el('div', { class: 'strip-mid' }, [
+      el('div', { class: 'strip-hint' }, [hint]),
+      el('div', { class: 'strip-meta' }, [
+        el('b', {}, [String(r.answered)]), ' 答 · ',
+        el('b', {}, [String(r.correct)]), ' 对'
+      ]),
+    ]),
+    el('div', { class: 'strip-actions' }, [speedBtn, infoBtn]),
+  ]);
+
+  const stage = el('div', { class: 'target-stage' }, [
+    el('img', { src: q.item.image, alt: '' }),
+  ]);
+
+  const labels = ['A', 'B', 'C', 'D'];
+  const row = el('div', { class: 'audio-row' });
+  let selected = -1;
+
+  q.choices.forEach((c, i) => {
+    const cell = el('div', { class: 'audio-cell', 'data-i': i }, [
+      el('span', { class: 'speaker' }, ['🔊']),
+      el('span', { class: 'label' }, [labels[i]]),
+    ]);
+    cell.addEventListener('click', () => {
+      if (app.awaitingNext) return;
+      document.querySelectorAll('.audio-cell').forEach(c => c.classList.remove('selected', 'is-playing'));
+      cell.classList.add('selected', 'is-playing');
+      selected = i;
+      confirmBtn.disabled = false;
+      confirmBtn.textContent = `确认 ${labels[selected]}`;
+      const audio = $('#audio-el');
+      audio.pause();
+      audio.src = app.speed === 'slow' ? c.audio_slow : c.audio;
+      audio.currentTime = 0;
+      audio.onended = () => cell.classList.remove('is-playing');
+      audio.play().catch(err => cell.classList.remove('is-playing'));
+    });
+    row.appendChild(cell);
+  });
+
+  const confirmBtn = el('button', { disabled: 'disabled' }, ['先听四个，再选 A/B/C/D']);
+  confirmBtn.addEventListener('click', () => {
+    if (app.awaitingNext || selected < 0) return;
+    onChoiceI2A(selected, q, queueItem);
+  });
+
+  const bar = el('div', { class: 'confirm-bar' }, [confirmBtn]);
+
+  wrap.append(strip, stage, row, bar);
+  root.appendChild(wrap);
+}
+
+function onChoiceI2A(i, q, queueItem) {
+  if (app.awaitingNext) return;
+  app.awaitingNext = true;
+  const correct = (i === q.correctIndex);
+  document.querySelectorAll('.audio-cell').forEach((el, idx) => {
+    el.classList.remove('selected');
+    if (idx === i) el.classList.add(correct ? 'correct' : 'wrong');
+    else if (idx === q.correctIndex && !correct) el.classList.add('correct');
+    else el.classList.add('dimmed');
+  });
+  const correctItem = q.choices[q.correctIndex];
+  setTimeout(() => {
+    const targetCell = document.querySelector(`.audio-cell[data-i="${q.correctIndex}"]`);
+    targetCell && targetCell.classList.add('is-playing');
+    const audio = $('#audio-el');
+    audio.pause();
+    audio.src = app.speed === 'slow' ? correctItem.audio_slow : correctItem.audio;
+    audio.currentTime = 0;
+    audio.onended = () => targetCell && targetCell.classList.remove('is-playing');
+    audio.play().catch(() => {});
+  }, 200);
+  recordAnswer(queueItem, correct, q.item, correct ? 1100 : 1700);
+}
+
+// === shared answer recording ===
+function recordAnswer(queueItem, correct, item, advanceMs) {
+  const { id, kind, level } = queueItem;
+  const p = ensureProgress(level, id);
+  p.seen++; p.lastAt = Date.now();
+  const streakKey = kind === 'a2i' ? 'streak_a2i' : 'streak_i2a';
+  if (correct) {
+    p[streakKey]++; p.correct++;
+    app.round.correct++;
+  } else {
+    p[streakKey] = 0; p.wrong++;
+    app.round.wrong++;
+  }
+  schedulePush();
+
+  app.round.answered++;
+  app.round.queue.shift();
+  if (!correct) {
+    const insertAt = Math.min(3, app.round.queue.length);
+    app.round.queue.splice(insertAt, 0, { id, kind, level });
+    app.round.target++;
+  }
+
+  // L3 bonus: when a sentence question is answered (correct OR wrong) and the user just
+  // got past it (no remaining kinds queued for this id), play the original clip once.
+  // This exposes the user's ear to real BGM/intonation right after a clean reading.
+  let extraDelay = 0;
+  if (level === 'L3' && correct && item.audio_clip) {
+    const stillQueued = app.round.queue.some(q => q.id === id);
+    if (!stillQueued) {
+      extraDelay = 2400; // give time for clip
+      setTimeout(() => {
+        const audio = $('#audio-el');
+        audio.pause();
+        audio.src = item.audio_clip;
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
+        toast('原片片段', 1800);
+      }, advanceMs);
+    }
+  }
+
+  clearTimeout(app.advanceTimer);
+  app.advanceTimer = setTimeout(() => {
+    app.awaitingNext = false;
+    if (app.view !== 'round') return;
+    if (app.round.queue.length === 0) finishRound();
+    else render();
+  }, advanceMs + extraDelay);
+}
+
+function finishRound() {
+  app.state.totalRounds++;
+  schedulePush();
+  navigate('done');
+}
+
+function renderDone(root) {
+  $('#bar-title').textContent = '完成';
+  const r = app.round || { correct: 0, wrong: 0, answered: 0, items: [], level: 'L1' };
+  const masteredNow = (r.items || []).filter(id => statusOf(r.level, id) === 'mastered').length;
+  const accuracy = r.answered > 0 ? Math.round((r.correct / r.answered) * 100) : 0;
+  const wrap = el('div', { class: 'done-screen' });
+  const unitName = r.level === 'L1' ? '词' : (r.level === 'L2' ? '短语' : '句子');
+  wrap.append(
+    el('h2', {}, ['这一批搞定 🎉']),
+    el('p', {}, [`${LEVEL_META[r.level].badge} · 正确率 ${accuracy}% · 新晋掌握 ${masteredNow} ${unitName}`]),
+    el('div', { class: 'actions' }, [
+      el('button', {
+        class: 'level-action',
+        onClick: () => navigate('home'),
+      }, ['回首页']),
+      el('button', {
+        class: 'level-action',
+        onClick: () => startRound(r.level),
+      }, ['再来一批']),
+    ]),
+  );
+  root.appendChild(wrap);
+}
+
+// === Watch (full episode challenge) ===
+function watchAssets() {
+  if (app.currentEpisodeId && app.currentEpisodeId !== 'peppa-s01e01') {
+    return {
+      video: `assets/${app.currentEpisodeId}/video/episode.mp4`,
+      vtt: null,
+    };
+  }
+  return {
+    video: 'assets/video/episode.mp4',
+    vtt: 'assets/video/episode.en.vtt',
+  };
+}
+
+function renderWatch(root) {
+  $('#bar-title').textContent = '挑战整集';
+  const assets = watchAssets();
+  const wrap = el('div', { class: 'watch-view' });
+
+  const stage = el('div', { class: 'watch-stage' });
+  const video = el('video', {
+    id: 'watch-video',
+    src: assets.video,
+    playsinline: '',
+    'webkit-playsinline': '',
+    controls: '',
+    preload: 'metadata',
+  });
+  // Subtitle track (off by default)
+  if (assets.vtt) {
+    const track = el('track', {
+      kind: 'subtitles',
+      src: assets.vtt,
+      srclang: 'en',
+      label: 'English',
+    });
+    video.appendChild(track);
+  }
+  stage.appendChild(video);
+
+  // Subtitle toggle (default: off)
+  let subsOn = false;
+  const subsBtn = el('button', { class: '' }, [assets.vtt ? '字幕 关' : '字幕 暂无']);
+  if (!assets.vtt) subsBtn.disabled = true;
+  subsBtn.addEventListener('click', () => {
+    if (!assets.vtt) return;
+    subsOn = !subsOn;
+    subsBtn.classList.toggle('active', subsOn);
+    subsBtn.textContent = '字幕 ' + (subsOn ? '开' : '关');
+    // Toggle the text track at the JS level
+    const v = document.getElementById('watch-video');
+    if (v && v.textTracks && v.textTracks.length > 0) {
+      v.textTracks[0].mode = subsOn ? 'showing' : 'hidden';
+    }
+  });
+  // Force subtitles hidden initially (browsers sometimes default to showing)
+  setTimeout(() => {
+    if (video.textTracks && video.textTracks.length > 0) {
+      video.textTracks[0].mode = 'hidden';
+    }
+  }, 200);
+
+  // Speed toggle
+  const speeds = [1, 0.85, 0.7];
+  let speedIdx = 0;
+  const speedBtn = el('button', { class: '' }, ['速度 1.0×']);
+  speedBtn.addEventListener('click', () => {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    const s = speeds[speedIdx];
+    speedBtn.textContent = `速度 ${s.toFixed(2).replace(/0$/, '')}×`;
+    speedBtn.classList.toggle('active', s !== 1);
+    const v = document.getElementById('watch-video');
+    if (v) v.playbackRate = s;
+  });
+
+  // Restart
+  const restartBtn = el('button', {}, ['↺ 从头']);
+  restartBtn.addEventListener('click', () => {
+    const v = document.getElementById('watch-video');
+    if (v) { v.currentTime = 0; v.play().catch(() => {}); }
+  });
+
+  const toggles = el('div', { class: 'watch-toggles' }, [subsBtn, speedBtn, restartBtn]);
+  const hint = el('div', { class: 'watch-hint' }, [
+    '盲听一遍 → 听不懂的句子 → 回去复习对应的 chunk / 句子'
+  ]);
+
+  const bottom = el('div', { class: 'watch-bottom' }, [toggles, hint]);
+
+  wrap.append(stage, bottom);
+  root.appendChild(wrap);
+}
+
+// === Library ===
+let libraryTab = 'all';
+let libraryLevel = 'L1';
+function setLibraryScope(scope) {
+  app.libraryScope = scope;
+  render();
+  if (scope === 'global' && !app.globalLevels) {
+    loadGlobalLibrary().then(() => { if (app.view === 'library') render(); });
+  }
+}
+function renderLibrary(root) {
+  $('#bar-title').textContent = '词库';
+  const lib = el('div', { class: 'library' });
+
+  const ep = app.lessons.find(e => e.id === app.currentEpisodeId);
+  const scopeLabel = app.libraryScope === 'global'
+    ? '全局词库'
+    : `本集 · ${ep ? ep.title : ''}`;
+  const switchText = app.libraryScope === 'global' ? '看本集' : '看全局';
+  const nextScope = app.libraryScope === 'global' ? 'episode' : 'global';
+  lib.append(el('div', { class: 'lib-context' }, [
+    el('span', {}, ['范围：', el('b', {}, [scopeLabel])]),
+    el('button', { onClick: () => setLibraryScope(nextScope) }, [switchText]),
+  ]));
+
+  // Global scope still loading
+  if (app.libraryScope === 'global' && !app.globalLevels) {
+    lib.append(el('div', { class: 'loading' }, ['汇总各集词库…']));
+    root.appendChild(lib);
+    return;
+  }
+
+  const c = libCounts(libraryLevel);
+
+  // Level switcher
+  const levels = el('div', { class: 'lib-levels' });
+  for (const lv of ['L1', 'L2', 'L3']) {
+    levels.appendChild(el('button', {
+      class: libraryLevel === lv ? 'active' : '',
+      onClick: () => { libraryLevel = lv; render(); },
+    }, [LEVEL_META[lv].name]));
+  }
+
+  // Status tabs
+  const tabs = el('div', { class: 'lib-tabs' }, [
+    libTab('all', `全部 ${c.total}`),
+    libTab('learning', `学习中 ${c.learning}`),
+    libTab('mastered', `已掌握 ${c.mastered}`),
+    libTab('unseen', `未学 ${c.unseen}`),
+  ]);
+
+  let items = libPool(libraryLevel).slice();
+  if (libraryTab !== 'all') {
+    items = items.filter(it => statusOf(libraryLevel, it.id) === libraryTab);
+  }
+
+  let listWrap;
+  if (libraryLevel === 'L1') {
+    // Grid layout for words (square images, no English label needed)
+    listWrap = el('div', { class: 'lib-grid' });
+    if (items.length === 0) listWrap.appendChild(el('div', { class: 'lib-empty' }, ['这里还是空的']));
+    else for (const it of items) listWrap.appendChild(libGridCell(libraryLevel, it));
+  } else {
+    // Vertical row list for chunks/sentences (text label below image)
+    listWrap = el('div', { class: 'lib-list' });
+    if (items.length === 0) listWrap.appendChild(el('div', { class: 'lib-empty' }, ['这里还是空的']));
+    else for (const it of items) listWrap.appendChild(libListRow(libraryLevel, it));
+  }
+
+  lib.append(levels, tabs, listWrap);
+  root.appendChild(lib);
+}
+function libTab(key, label) {
+  const b = el('button', {
+    class: libraryTab === key ? 'active' : '',
+    onClick: () => { libraryTab = key; render(); },
+  }, [label]);
+  return b;
+}
+function libGridCell(level, item) {
+  const s = statusOf(level, item.id);
+  const p = progressOf(level, item.id) || { streak_a2i: 0, streak_i2a: 0 };
+  const trackA = p.streak_a2i >= MASTERY_STREAK ? 'done' : (p.streak_a2i > 0 ? 'partial' : '');
+  const trackI = p.streak_i2a >= MASTERY_STREAK ? 'done' : (p.streak_i2a > 0 ? 'partial' : '');
+  const cell = el('div', { class: 'lib-cell' }, [
+    el('img', { src: item.image, alt: '' }),
+    el('div', { class: 'dot ' + s }),
+    el('div', { class: 'tracks' }, [
+      el('div', { class: 'track ' + trackA }),
+      el('div', { class: 'track ' + trackI }),
+    ]),
+  ]);
+  cell.addEventListener('click', () => showInfo(level, item, true));
+  return cell;
+}
+function libListRow(level, item) {
+  const s = statusOf(level, item.id);
+  const p = progressOf(level, item.id) || { streak_a2i: 0, streak_i2a: 0 };
+  const trackA = p.streak_a2i >= MASTERY_STREAK ? 'done' : (p.streak_a2i > 0 ? 'partial' : '');
+  const trackI = p.streak_i2a >= MASTERY_STREAK ? 'done' : (p.streak_i2a > 0 ? 'partial' : '');
+  const row = el('div', { class: 'lib-row' }, [
+    el('div', { class: 'thumb' }, [el('img', { src: item.image, alt: '' })]),
+    el('div', { class: 'meta' }, [
+      el('div', { class: 'zh' }, [
+        item.meaning_zh || '',
+        (item._ep && item._ep !== app.currentEpisodeId)
+          ? el('span', { class: 'prior-tag' }, [item._epTitle || '往期'])
+          : null,
+      ]),
+      el('div', { class: 'en' }, [item.display_en || '']),
+    ]),
+    el('div', { class: 'row-status' }, [
+      el('div', { class: 'tracks' }, [
+        el('div', { class: 'track ' + trackA }),
+        el('div', { class: 'track ' + trackI }),
+      ]),
+      el('div', { class: 'dot ' + s }),
+    ]),
+  ]);
+  row.addEventListener('click', () => showInfo(level, item, true));
+  return row;
+}
+
+// ============ Info modal ============
+function showInfo(level, item, fullDetail) {
+  const status = statusOf(level, item.id);
+  const modal = el('div', { class: 'modal-bg' });
+  modal.addEventListener('click', () => modal.remove());
+  const inner = el('div', { class: 'modal' });
+  inner.addEventListener('click', (e) => e.stopPropagation());
+
+  if (fullDetail && item.image) {
+    inner.appendChild(el('img', { src: item.image, alt: '' }));
+  }
+  if (item.spelling) {
+    inner.appendChild(el('div', { class: 'spelling' }, [item.spelling]));
+  }
+  if (item.meaning_zh) {
+    inner.appendChild(el('div', { class: 'meaning' }, [item.meaning_zh]));
+  }
+  inner.appendChild(el('div', { class: 'badge ' + status }, [statusLabel(status)]));
+
+  if (fullDetail) {
+    const p = progressOf(level, item.id) || { streak_a2i: 0, streak_i2a: 0 };
+    const renderKind = (label, streak) => {
+      const stClass = streak >= MASTERY_STREAK ? 'check' : (streak > 0 ? 'pending' : '');
+      const text = streak >= MASTERY_STREAK ? '✓ 已通过' : (streak > 0 ? `进度 ${streak}/${MASTERY_STREAK}` : '未做');
+      return el('div', { class: 'kind' }, [
+        el('b', {}, [label]),
+        el('span', { class: stClass }, [text]),
+      ]);
+    };
+    const a2iLabel = level === 'L1' ? '听音选图' : (level === 'L2' ? '听短语选图' : '听整句选场景');
+    const i2aLabel = level === 'L1' ? '看图选音' : (level === 'L2' ? '看图选短语' : '看图选整句');
+    inner.appendChild(el('div', { class: 'kinds' }, [
+      renderKind(a2iLabel, p.streak_a2i || 0),
+      renderKind(i2aLabel, p.streak_i2a || 0),
+    ]));
+  }
+
+  const playClipBtn = item.audio_clip ? el('button', {
+    class: 'ghost',
+    onClick: () => playAudio(item.audio_clip, item.audio_clip, null),
+  }, ['🎬 原片']) : null;
+
+  const playTtsBtn = el('button', {
+    class: 'ghost',
+    onClick: () => playAudio(item.audio, item.audio_slow, null),
+  }, ['🔊 朗读']);
+
+  const closeBtn = el('button', { onClick: () => modal.remove() }, ['知道了']);
+
+  const actions = [playTtsBtn];
+  if (playClipBtn) actions.push(playClipBtn);
+  actions.push(closeBtn);
+
+  if (fullDetail) {
+    inner.appendChild(el('div', { class: 'modal-actions' }, actions));
+  } else {
+    inner.appendChild(el('div', { class: 'modal-actions' }, [closeBtn]));
+  }
+
+  modal.appendChild(inner);
+  document.body.appendChild(modal);
+}
+
+// ============ Top bar handlers ============
+$('#back-btn').addEventListener('click', () => {
+  if (app.view === 'round') {
+    if (confirm('退出这一批？答题进度会丢失（已掌握状态保留）')) navigate('home');
+  } else {
+    // done / watch → back to the current episode home
+    navigate('home');
+  }
+});
+$('#library-btn').addEventListener('click', () => navigate('library'));
+
+// Bottom tab bar navigation
+$('#tabbar').addEventListener('click', (e) => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  const tab = btn.dataset.tab;
+  if (tab === 'learn') {
+    if (app.currentEpisodeId) navigate('home');
+    else { toast('先从片单选一集'); navigate('picker'); }
+  } else if (tab === 'library') {
+    if (app.currentEpisodeId) navigate('library');
+    else { toast('先从片单选一集'); navigate('picker'); }
+  }
+});
+
+// ============ Init ============
+async function init() {
+  // Load lessons index
+  try {
+    const r = await fetch(LESSONS_URL);
+    app.lessons = await r.json();
+  } catch (e) {
+    $('#view').innerHTML = `<div class="loading">课程列表加载失败：${e.message}</div>`;
+    return;
+  }
+
+  // Pull saved state first so we know lastEpisode
+  app.state = await pullState();
+
+  // Auto-load last episode or first available
+  const lastId = app.state.lastEpisodeId;
+  const target = app.lessons.find(e => e.id === lastId && e.file)
+    || app.lessons.find(e => e.file);
+
+  if (target) {
+    try {
+      const r = await fetch(target.file);
+      app.lesson = await r.json();
+      app.currentEpisodeId = target.id;
+      buildLevels(app.lesson);
+    } catch (e) {
+      // lesson load failed, just show picker
+    }
+  }
+
+  app.selectedLevel = recommendedLevel();
+  // If we have a loaded episode go straight to home, else show picker
+  navigate(app.currentEpisodeId ? 'home' : 'picker');
+}
+
+function buildLevels(lesson) {
+  app.levels = extractLevels(lesson);
+}
+
+function extractLevels(lesson) {
+  // L1 words: only ones with images, ordered by freq desc
+  const wordPool = lesson.words
+    .filter(w => !w.skip_image && w.image)
+    .sort((a, b) => b.freq - a.freq)
+    .map(w => ({
+      id: w.lemma,
+      level: 'L1',
+      audio: w.audio,
+      audio_slow: w.audio_slow,
+      audio_clip: null,
+      image: w.image,
+      meaning_zh: w.meaning_zh,
+      spelling: w.spelling_visible !== false ? w.lemma : null,
+      display_en: w.lemma,
+      freq: w.freq,
+      reused_from_prior: !!w.reused_from_prior,
+    }));
+
+  // L2 chunks: all 24
+  const chunkPool = (lesson.chunks || []).map(c => ({
+    id: c.id,
+    level: 'L2',
+    audio: c.audio_tts,
+    audio_slow: c.audio_tts_slow,
+    audio_clip: null,
+    image: c.image,
+    meaning_zh: c.meaning_zh,
+    spelling: c.text,
+    display_en: c.text,
+    freq: 1,
+  }));
+
+  // L3 sentences: all 16
+  const sentPool = (lesson.sentences || []).map(s => ({
+    id: s.id,
+    level: 'L3',
+    audio: s.audio_tts,
+    audio_slow: s.audio_tts_slow,
+    audio_clip: s.audio_clip,
+    image: s.image,
+    meaning_zh: s.meaning_zh,
+    spelling: s.text_admin_only,
+    display_en: s.text_admin_only,
+    freq: 1,
+  }));
+
+  return {
+    L1: { pool: wordPool, byId: Object.fromEntries(wordPool.map(i => [i.id, i])) },
+    L2: { pool: chunkPool, byId: Object.fromEntries(chunkPool.map(i => [i.id, i])) },
+    L3: { pool: sentPool, byId: Object.fromEntries(sentPool.map(i => [i.id, i])) },
+  };
+}
+
+// === Global library (cross-episode merge) ===
+async function loadGlobalLibrary() {
+  if (app.globalLevels) return app.globalLevels;
+  const pools = { L1: [], L2: [], L3: [] };
+  const seen = { L1: new Set(), L2: new Set(), L3: new Set() };
+  for (const ep of app.lessons) {
+    if (!ep.file) continue;
+    let lesson;
+    try {
+      if (ep.id === app.currentEpisodeId && app.lesson) lesson = app.lesson;
+      else { const r = await fetch(ep.file); lesson = await r.json(); }
+    } catch (e) { continue; }
+    const lv = extractLevels(lesson);
+    for (const L of ['L1', 'L2', 'L3']) {
+      for (const it of lv[L].pool) {
+        // L1 is a true global pool and should be deduped by lemma. L2/L3 ids
+        // are only unique within an episode (s01/s02..., chunk ids can repeat),
+        // so global library must namespace them by episode.
+        const globalId = L === 'L1' ? it.id : `${ep.id}:${it.id}`;
+        if (seen[L].has(globalId)) continue;
+        seen[L].add(globalId);
+        pools[L].push({ ...it, id: globalId, rawId: it.id, _ep: ep.id, _epTitle: ep.title });
+      }
+    }
+  }
+  app.globalLevels = {
+    L1: { pool: pools.L1, byId: Object.fromEntries(pools.L1.map(i => [i.id, i])) },
+    L2: { pool: pools.L2, byId: Object.fromEntries(pools.L2.map(i => [i.id, i])) },
+    L3: { pool: pools.L3, byId: Object.fromEntries(pools.L3.map(i => [i.id, i])) },
+  };
+  return app.globalLevels;
+}
+
+function libLevels() {
+  return (app.libraryScope === 'global' && app.globalLevels) ? app.globalLevels : app.levels;
+}
+function libPool(level) {
+  if (app.libraryScope !== 'global') return poolOf(level);
+  return libLevels()[level].pool;
+}
+function libCounts(level) {
+  const out = { unseen: 0, learning: 0, mastered: 0, total: libPool(level).length };
+  for (const it of libPool(level)) out[statusOf(level, it.id)]++;
+  return out;
+}
+
+function shouldHideFromEpisode(level, item) {
+  // If a later episode includes a word only as a carry-over from an earlier episode,
+  // and the user already mastered it globally, it should not clutter this episode.
+  return level === 'L1'
+    && item.reused_from_prior
+    && statusOf(level, item.id) === 'mastered';
+}
+function poolOf(level) {
+  return app.levels[level].pool.filter(it => !shouldHideFromEpisode(level, it));
+}
+function progressOf(level, id) {
+  const rawId = String(id).includes(':') ? String(id).split(':').pop() : id;
+  return app.state.progress[domainOf(level)][rawId];
+}
+function ensureProgress(level, id) {
+  id = String(id).includes(':') ? String(id).split(':').pop() : id;
+  const map = app.state.progress[domainOf(level)];
+  if (!map[id]) map[id] = { streak_a2i: 0, streak_i2a: 0, seen: 0, correct: 0, wrong: 0, lastAt: 0 };
+  return map[id];
+}
+function recommendedLevel() {
+  for (const lv of ['L1', 'L2', 'L3']) {
+    const c = activeCountAtLevel(lv);
+    if (c.unseen + c.learning > 0) return lv;
+  }
+  return 'L1';
+}
+
+init();
+</script>
+</body>
+</html>

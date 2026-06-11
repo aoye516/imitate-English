@@ -1,0 +1,149 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "at_work",
+      "text": "at work",
+      "subject": "a clear child-friendly illustration of the phrase 'at work' meaning 在工作, no written words, one simple action, expressive characters",
+      "meaning_zh": "在工作",
+      "covers_words": [
+        "work"
+      ]
+    },
+    {
+      "id": "on_the_computer",
+      "text": "on the computer",
+      "subject": "a clear child-friendly illustration of the phrase 'on the computer' meaning 在电脑上, no written words, one simple action, expressive characters",
+      "meaning_zh": "在电脑上",
+      "covers_words": [
+        "computer"
+      ]
+    },
+    {
+      "id": "dont_touch",
+      "text": "don't touch",
+      "subject": "a clear child-friendly illustration of the phrase 'don't touch' meaning 不要碰, no written words, one simple action, expressive characters",
+      "meaning_zh": "不要碰",
+      "covers_words": [
+        "touch"
+      ]
+    },
+    {
+      "id": "very_important",
+      "text": "very important",
+      "subject": "a clear child-friendly illustration of the phrase 'very important' meaning 非常重要, no written words, one simple action, expressive characters",
+      "meaning_zh": "非常重要",
+      "covers_words": [
+        "important"
+      ]
+    },
+    {
+      "id": "mend_the_computer",
+      "text": "mend the computer",
+      "subject": "a clear child-friendly illustration of the phrase 'mend the computer' meaning 修电脑, no written words, one simple action, expressive characters",
+      "meaning_zh": "修电脑",
+      "covers_words": [
+        "mend",
+        "computer"
+      ]
+    },
+    {
+      "id": "make_lunch",
+      "text": "make lunch",
+      "subject": "a clear child-friendly illustration of the phrase 'make lunch' meaning 做午餐, no written words, one simple action, expressive characters",
+      "meaning_zh": "做午餐",
+      "covers_words": [
+        "lunch"
+      ]
+    },
+    {
+      "id": "dont_disturb",
+      "text": "don't disturb",
+      "subject": "a clear child-friendly illustration of the phrase 'don't disturb' meaning 不要打扰, no written words, one simple action, expressive characters",
+      "meaning_zh": "不要打扰",
+      "covers_words": [
+        "disturb"
+      ]
+    },
+    {
+      "id": "finish_work",
+      "text": "finish work",
+      "subject": "a clear child-friendly illustration of the phrase 'finish work' meaning 完成工作, no written words, one simple action, expressive characters",
+      "meaning_zh": "完成工作",
+      "covers_words": [
+        "finish",
+        "work"
+      ]
+    },
+    {
+      "id": "ask_later",
+      "text": "ask later",
+      "meaning_zh": "稍后再问",
+      "subject": "a clear child-friendly illustration of the phrase 'ask later' meaning 稍后再问, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "ask",
+        "later"
+      ]
+    },
+    {
+      "id": "quietly_work",
+      "text": "work quietly",
+      "meaning_zh": "安静地工作",
+      "subject": "a clear child-friendly illustration of the phrase 'work quietly' meaning 安静地工作, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "quietly",
+        "work"
+      ]
+    },
+    {
+      "id": "switch_on_computer",
+      "text": "switch on the computer",
+      "meaning_zh": "打开电脑",
+      "subject": "a clear child-friendly illustration of the phrase 'switch on the computer' meaning 打开电脑, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "switch",
+        "computer"
+      ]
+    },
+    {
+      "id": "computer_expert",
+      "text": "computer expert",
+      "meaning_zh": "电脑专家",
+      "subject": "a clear child-friendly illustration of the phrase 'computer expert' meaning 电脑专家, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "expert",
+        "computer"
+      ]
+    },
+    {
+      "id": "either_disc",
+      "text": "either disc",
+      "meaning_zh": "任意一张光盘",
+      "subject": "a clear child-friendly illustration of the phrase 'either disc' meaning 任意一张光盘, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "either",
+        "disc"
+      ]
+    },
+    {
+      "id": "say_thank_you",
+      "text": "say thank you",
+      "meaning_zh": "说谢谢",
+      "subject": "a clear child-friendly illustration of the phrase 'say thank you' meaning 说谢谢, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "thank",
+        "say"
+      ]
+    },
+    {
+      "id": "long_lunch",
+      "text": "long lunch",
+      "meaning_zh": "很长的午餐",
+      "subject": "a clear child-friendly illustration of the phrase 'long lunch' meaning 很长的午餐, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "long",
+        "lunch"
+      ]
+    }
+  ]
+}

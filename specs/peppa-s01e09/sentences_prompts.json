@@ -1,0 +1,151 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Daddy Pig wears glasses.",
+      "meaning_zh": "猪爸爸戴眼镜。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸戴眼镜。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:42.719",
+      "time_end": "00:00:47.219",
+      "chunks": [
+        "daddy_glasses"
+      ],
+      "key_words": [
+        "daddy",
+        "glasses"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "Daddy Pig cannot see clearly without his glasses.",
+      "meaning_zh": "猪爸爸没有眼镜就看不清楚。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸没有眼镜就看不清楚。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:00:42.719",
+      "time_end": "00:00:47.219",
+      "chunks": [
+        "without_glasses",
+        "look_clearly"
+      ],
+      "key_words": [
+        "clearly",
+        "without",
+        "glasses"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "Daddy Pig has lost his glasses.",
+      "meaning_zh": "猪爸爸把眼镜弄丢了。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸把眼镜弄丢了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:18.040",
+      "time_end": "00:01:22.540",
+      "chunks": [
+        "lost_glasses"
+      ],
+      "key_words": [
+        "lose",
+        "glasses"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "Peppa and George help Daddy Pig look for them.",
+      "meaning_zh": "Peppa和George帮爸爸找眼镜。",
+      "subject": "two small piglets helping their father search around a room for a missing pair of round glasses, no text",
+      "time_start": "00:00:58.600",
+      "time_end": "00:01:03.100",
+      "chunks": [],
+      "key_words": [
+        "help",
+        "look"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "Are they in the bathroom?",
+      "meaning_zh": "眼镜在浴室里吗？",
+      "subject": "a warm children's cartoon story scene showing: 眼镜在浴室里吗？, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:25.599",
+      "time_end": "00:03:30.099",
+      "chunks": [
+        "in_bathroom"
+      ],
+      "key_words": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "Are they in the bedroom?",
+      "meaning_zh": "眼镜在卧室里吗？",
+      "subject": "a warm children's cartoon story scene showing: 眼镜在卧室里吗？, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:44.599",
+      "time_end": "00:02:49.099",
+      "chunks": [
+        "in_bedroom"
+      ],
+      "key_words": [
+        "bedroom"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "Daddy Pig is getting grumpy.",
+      "meaning_zh": "猪爸爸有点烦躁了。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸有点烦躁了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:07.880",
+      "time_end": "00:02:12.380",
+      "chunks": [
+        "feels_grumpy"
+      ],
+      "key_words": [
+        "grumpy"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "Daddy Pig bumps into things without his glasses.",
+      "meaning_zh": "猪爸爸没戴眼镜会撞到东西。",
+      "subject": "a warm children's cartoon story scene showing: 猪爸爸没戴眼镜会撞到东西。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:33.360",
+      "time_end": "00:01:37.860",
+      "chunks": [
+        "without_glasses"
+      ],
+      "key_words": [
+        "bump",
+        "without",
+        "glasses"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "Be careful Daddy Pig.",
+      "meaning_zh": "小心点,猪爸爸。",
+      "subject": "a warm children's cartoon story scene showing: 小心点,猪爸爸。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:46.480",
+      "time_end": "00:02:50.980",
+      "chunks": [
+        "be_careful"
+      ],
+      "key_words": [
+        "careful"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Peppa has found Daddy's glasses.",
+      "meaning_zh": "Peppa找到了爸爸的眼镜。",
+      "subject": "a girl piglet happily holding up a pair of round glasses she has found, father pig smiling nearby, no text",
+      "time_start": "00:00:42.719",
+      "time_end": "00:00:47.219",
+      "chunks": [
+        "daddy_glasses"
+      ],
+      "key_words": [
+        "glasses"
+      ]
+    }
+  ]
+}

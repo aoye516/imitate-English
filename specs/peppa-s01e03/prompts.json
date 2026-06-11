@@ -1,0 +1,146 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单个物体/主体, 正方形, 无任何文字",
+  "_notes": {
+    "episode": "peppa-s01e03",
+    "generated_by": "make_specs_3_10.py",
+    "supplement": "Supplemented after reviewing omitted real content words."
+  },
+  "words": [
+    {
+      "lemma": "susie",
+      "subject": "a cute white sheep girl wearing a pink dress, friendly smile, full body, child character"
+    },
+    {
+      "lemma": "friend",
+      "subject": "two child animal friends holding hands and smiling at each other, warm friendship feeling"
+    },
+    {
+      "lemma": "best",
+      "subject": "a gold star medal with a big number one feeling, celebratory best-choice symbol, no text"
+    },
+    {
+      "lemma": "help",
+      "subject": "one small child animal helping another stand up gently, caring supportive gesture"
+    },
+    {
+      "lemma": "cookie",
+      "subject": "a round chocolate chip cookie on a small plate, warm baked texture, no crumbs spelling"
+    },
+    {
+      "lemma": "doctor",
+      "subject": "a friendly child doctor character with a toy stethoscope, clean medical bag, reassuring smile"
+    },
+    {
+      "lemma": "nurse",
+      "subject": "a friendly nurse character holding a small first-aid kit, gentle caring smile"
+    },
+    {
+      "lemma": "patient",
+      "subject": "a small child animal sitting in bed with a thermometer and blanket, being cared for"
+    },
+    {
+      "lemma": "need",
+      "subject": "a small child animal reaching toward a needed object with hopeful eyes, clear wanting gesture"
+    },
+    {
+      "lemma": "sheep",
+      "subject": "a cute fluffy white sheep standing on grass, round woolly body, gentle smile"
+    },
+    {
+      "lemma": "better",
+      "subject": "a sick child animal becoming healthy, sitting up in bed with a happy recovering smile"
+    },
+    {
+      "lemma": "make",
+      "subject": "two small hands making cookies on a table, mixing and shaping dough, no text"
+    },
+    {
+      "lemma": "take",
+      "subject": "a small animal gently taking an object from a table with one hand, clear taking action, no text"
+    },
+    {
+      "lemma": "feel",
+      "subject": "a child animal touching its chest with a thoughtful face, emotion bubbles around, no text"
+    },
+    {
+      "lemma": "own",
+      "subject": "a child animal proudly holding a toy close to chest, ownership feeling, no text"
+    },
+    {
+      "lemma": "chocolate",
+      "subject": "a small bar of chocolate with a few square pieces, centered, no text"
+    },
+    {
+      "lemma": "listen",
+      "subject": "a child animal cupping one ear and leaning toward a sound, listening carefully, no text"
+    },
+    {
+      "lemma": "medicine",
+      "subject": "a small medicine bottle and spoon on a bedside table, caring sick-day scene, no text"
+    },
+    {
+      "lemma": "sick",
+      "subject": "a child animal lying in bed with thermometer and blanket, sick but gentle, no text"
+    },
+    {
+      "lemma": "hungry",
+      "subject": "a child animal holding tummy and looking at a plate of food, hungry expression, no text"
+    },
+    {
+      "lemma": "hot",
+      "subject": "a red hot drink cup with steam and heat waves, warm temperature symbol, no text"
+    },
+    {
+      "lemma": "bit",
+      "subject": "a tiny small piece beside a larger whole object, little bit contrast, no text"
+    },
+    {
+      "lemma": "one",
+      "subject": "one single toy block standing alone, clear single object, no text"
+    },
+    {
+      "lemma": "please",
+      "subject": "a child animal asking politely with hands together and gentle smile, no text"
+    },
+    {
+      "lemma": "get",
+      "subject": "a child animal receiving a small object into both hands, happy receiving gesture, no text"
+    },
+    {
+      "lemma": "open",
+      "subject": "two small hands opening a box lid, clear opening action, no text"
+    },
+    {
+      "lemma": "person",
+      "subject": "a simple friendly adult character standing alone, full body, no text"
+    },
+    {
+      "lemma": "chest",
+      "subject": "a child animal touching its chest with one hand, close body-area gesture, no text"
+    },
+    {
+      "lemma": "chip",
+      "subject": "one small crispy chip on a plate, simple snack object, no text"
+    },
+    {
+      "lemma": "fairy",
+      "subject": "a tiny friendly fairy character with wings and a magic wand, soft sparkles, no text"
+    },
+    {
+      "lemma": "lonely",
+      "subject": "one small child animal sitting alone on a bench with empty space around, lonely mood, no text"
+    },
+    {
+      "lemma": "plaster",
+      "subject": "a small beige adhesive bandage on white background, first-aid object, no text"
+    },
+    {
+      "lemma": "temperature",
+      "subject": "a thermometer beside a warm blanket, sick-day temperature check, no text"
+    },
+    {
+      "lemma": "visitor",
+      "subject": "a friendly animal guest standing at an open front door waving hello, no text"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Grandpa Pig is gardening.",
+      "meaning_zh": "猪爷爷在园艺。",
+      "subject": "a warm children's cartoon story scene showing: 猪爷爷在园艺。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:07.840",
+      "time_end": "00:01:12.340",
+      "chunks": [],
+      "key_words": [
+        "garden"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "Peppa and George want to plant seeds.",
+      "meaning_zh": "Peppa和George想种种子。",
+      "subject": "two small piglets planting tiny seeds into garden soil with a friendly grandfather pig helping, sunny garden, no text",
+      "time_start": "00:00:59.359",
+      "time_end": "00:01:03.859",
+      "chunks": [
+        "plant_seeds"
+      ],
+      "key_words": [
+        "plant",
+        "seed"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "They choose some seeds.",
+      "meaning_zh": "他们选择了一些种子。",
+      "subject": "a warm children's cartoon story scene showing: 他们选择了一些种子。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:04:07.200",
+      "time_end": "00:04:11.700",
+      "chunks": [
+        "choose_seeds"
+      ],
+      "key_words": [
+        "choose",
+        "seed"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "The seeds are very tiny.",
+      "meaning_zh": "种子非常小。",
+      "subject": "a warm children's cartoon story scene showing: 种子非常小。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:18.080",
+      "time_end": "00:01:22.580",
+      "chunks": [
+        "tiny_seed"
+      ],
+      "key_words": [
+        "seed",
+        "tiny"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "Grandpa Pig digs a hole in the earth.",
+      "meaning_zh": "猪爷爷在泥土里挖了个洞。",
+      "subject": "a warm children's cartoon story scene showing: 猪爷爷在泥土里挖了个洞。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:10.319",
+      "time_end": "00:02:14.819",
+      "chunks": [
+        "dig_hole",
+        "in_the_earth"
+      ],
+      "key_words": [
+        "hole",
+        "earth"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "Peppa waters the seeds.",
+      "meaning_zh": "Peppa给种子浇水。",
+      "subject": "a warm children's cartoon story scene showing: Peppa给种子浇水。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:04.000",
+      "time_end": "00:01:08.500",
+      "chunks": [
+        "water_plants"
+      ],
+      "key_words": [
+        "water",
+        "seed"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "Now they must wait.",
+      "meaning_zh": "现在他们必须等待。",
+      "subject": "a warm children's cartoon story scene showing: 现在他们必须等待。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:42.800",
+      "time_end": "00:02:47.300",
+      "chunks": [
+        "wait_and_see"
+      ],
+      "key_words": [
+        "wait"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "The plants are growing bigger.",
+      "meaning_zh": "植物越长越大。",
+      "subject": "a warm children's cartoon story scene showing: 植物越长越大。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:23.920",
+      "time_end": "00:03:28.420",
+      "chunks": [
+        "grow_big"
+      ],
+      "key_words": [
+        "plant",
+        "grow",
+        "bigger"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "There are strawberries and carrots.",
+      "meaning_zh": "有草莓和胡萝卜。",
+      "subject": "a warm children's cartoon story scene showing: 有草莓和胡萝卜。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:42.800",
+      "time_end": "00:02:47.300",
+      "chunks": [],
+      "key_words": [
+        "strawberry",
+        "carrot"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "An apple tree grows from a seed.",
+      "meaning_zh": "苹果树从种子长出来。",
+      "subject": "a warm children's cartoon story scene showing: 苹果树从种子长出来。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:18.080",
+      "time_end": "00:01:22.580",
+      "chunks": [
+        "grow_big"
+      ],
+      "key_words": [
+        "apple",
+        "tree",
+        "grow",
+        "seed"
+      ]
+    }
+  ]
+}

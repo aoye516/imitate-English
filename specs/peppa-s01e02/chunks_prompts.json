@@ -1,0 +1,131 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "mr_dinosaur",
+      "text": "Mr Dinosaur",
+      "subject": "a baby piglet proudly holding up a small green toy dinosaur with both hands as if introducing a beloved friend, warm affectionate mood",
+      "meaning_zh": "恐龙先生（乔治的玩具）",
+      "covers_words": ["dinosaur"]
+    },
+    {
+      "id": "favorite_toy",
+      "text": "favorite toy",
+      "subject": "a baby piglet hugging one special green dinosaur toy tightly while other toys lie ignored on the ground nearby, a heart above the chosen toy",
+      "meaning_zh": "最爱的玩具",
+      "covers_words": ["toy"]
+    },
+    {
+      "id": "scare_peppa",
+      "text": "scare Peppa",
+      "subject": "a baby piglet pushing a green dinosaur toy forward playfully toward a girl piglet who jumps back with wide surprised eyes, a small startle burst between them",
+      "meaning_zh": "吓唬Peppa",
+      "covers_words": ["scare", "peppa"]
+    },
+    {
+      "id": "good_night",
+      "text": "good night",
+      "subject": "a sleepy baby piglet tucked under a blanket in bed hugging a green dinosaur toy, a crescent moon and stars in the window, peaceful bedtime",
+      "meaning_zh": "晚安",
+      "covers_words": ["good", "night"]
+    },
+    {
+      "id": "up_in_the_air",
+      "text": "up in the air",
+      "subject": "a small green dinosaur toy flying high up in the air above a piglet's raised hands, upward motion arc and motion lines, the toy near the top",
+      "meaning_zh": "在空中（抛起）",
+      "covers_words": ["throw", "high"]
+    },
+    {
+      "id": "falls_back_down",
+      "text": "falls back down",
+      "subject": "a green dinosaur toy dropping down from the sky into a piglet's open waiting arms below, downward motion lines and arrows, the catch about to happen",
+      "meaning_zh": "落回下来",
+      "covers_words": ["fall", "catch"]
+    },
+    {
+      "id": "george_has_lost",
+      "text": "George has lost Mr Dinosaur",
+      "subject": "a crying baby piglet with empty open hands and tears, a faint outline of a missing green dinosaur toy with a question mark, sense of loss",
+      "meaning_zh": "乔治把恐龙弄丢了",
+      "covers_words": ["george", "lost", "dinosaur"]
+    },
+    {
+      "id": "dont_worry",
+      "text": "don't worry",
+      "subject": "a kind father pig kneeling down with a reassuring hand on a small crying piglet's shoulder, gentle comforting smile, calming gesture",
+      "meaning_zh": "别担心",
+      "covers_words": []
+    },
+    {
+      "id": "well_find_it",
+      "text": "we'll find Mr Dinosaur",
+      "subject": "a father pig and a girl piglet looking forward with determined hopeful faces, the girl holding a magnifying glass, ready to search together",
+      "meaning_zh": "我们会把恐龙找到",
+      "covers_words": ["find", "dinosaur"]
+    },
+    {
+      "id": "job_for_detective",
+      "text": "a job for a detective",
+      "subject": "a girl piglet wearing a detective deerstalker hat holding a magnifying glass standing confidently, a spotlight on her, ready-for-the-case pose",
+      "meaning_zh": "这是侦探的活儿",
+      "covers_words": ["detective"]
+    },
+    {
+      "id": "good_at_finding",
+      "text": "good at finding things",
+      "subject": "a girl piglet with a magnifying glass happily spotting a hidden object on the ground, a sparkle of discovery, confident clever expression",
+      "meaning_zh": "擅长找东西",
+      "covers_words": ["good", "find"]
+    },
+    {
+      "id": "i_know_where",
+      "text": "I know where he is",
+      "subject": "a girl piglet with one finger pointing up and a bright glowing lightbulb above her head, eyes confident with a sudden idea, knowing smile",
+      "meaning_zh": "我知道他在哪",
+      "covers_words": ["know"]
+    },
+    {
+      "id": "in_the_bath",
+      "text": "in the bath",
+      "subject": "a green dinosaur toy floating among bubbles in a white bathtub, rubber duck nearby, steam rising, no characters",
+      "meaning_zh": "在浴缸里",
+      "covers_words": ["bath"]
+    },
+    {
+      "id": "in_his_bed",
+      "text": "in his bed",
+      "subject": "a green dinosaur toy resting on a pillow under a blanket in a small child's bed, cozy bedroom, no characters",
+      "meaning_zh": "在他床上",
+      "covers_words": ["bed"]
+    },
+    {
+      "id": "try_the_garden",
+      "text": "try the garden",
+      "subject": "a girl piglet detective with magnifying glass stepping into a sunny green garden with flowers and a tree, searching pose",
+      "meaning_zh": "去花园找找看",
+      "covers_words": ["garden"]
+    },
+    {
+      "id": "there_he_is",
+      "text": "there he is",
+      "subject": "a girl piglet pointing excitedly up at a green dinosaur toy stuck high in the branches of a leafy tree, eyes wide with discovery",
+      "meaning_zh": "他在那儿呢",
+      "covers_words": ["tree"]
+    },
+    {
+      "id": "well_done",
+      "text": "well done Peppa",
+      "subject": "a father pig giving a proud thumbs up to a happy girl piglet wearing a detective hat, sparkles of praise around them",
+      "meaning_zh": "干得好",
+      "covers_words": ["peppa"]
+    },
+    {
+      "id": "so_happy",
+      "text": "so happy to have him back",
+      "subject": "a baby piglet beaming with joy hugging a green dinosaur toy tightly, hearts and sparkles bursting around, reunited happiness",
+      "meaning_zh": "失而复得好开心",
+      "covers_words": ["happy"]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 完整剧情场景, 横向构图（4:3），无任何文字",
+  "sentences": [
+    {
+      "id": "s01",
+      "text": "Peppa and George are playing with a ball.",
+      "meaning_zh": "Peppa和George在玩球。",
+      "subject": "a warm children's cartoon story scene showing: Peppa和George在玩球。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659",
+      "chunks": [
+        "throw_the_ball"
+      ],
+      "key_words": [
+        "ball"
+      ]
+    },
+    {
+      "id": "s02",
+      "text": "Peppa throws the ball to George.",
+      "meaning_zh": "Peppa把球扔给George。",
+      "subject": "a warm children's cartoon story scene showing: Peppa把球扔给George。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659",
+      "chunks": [
+        "throw_the_ball"
+      ],
+      "key_words": [
+        "ball",
+        "throw"
+      ]
+    },
+    {
+      "id": "s03",
+      "text": "George tries to catch the ball.",
+      "meaning_zh": "George试着接球。",
+      "subject": "a warm children's cartoon story scene showing: George试着接球。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659",
+      "chunks": [
+        "catch_the_ball",
+        "try_again"
+      ],
+      "key_words": [
+        "try",
+        "ball",
+        "caught"
+      ]
+    },
+    {
+      "id": "s04",
+      "text": "George cannot catch the ball.",
+      "meaning_zh": "George接不到球。",
+      "subject": "a small boy piglet missing a red ball as it bounces past his open hands, playful garden scene, no text",
+      "time_start": "00:02:18.200",
+      "time_end": "00:02:22.700",
+      "chunks": [
+        "catch_the_ball"
+      ],
+      "key_words": [
+        "ball",
+        "caught"
+      ]
+    },
+    {
+      "id": "s05",
+      "text": "Mummy Pig teaches George how to catch.",
+      "meaning_zh": "猪妈妈教George怎么接球。",
+      "subject": "a warm children's cartoon story scene showing: 猪妈妈教George怎么接球。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:40.119",
+      "time_end": "00:01:44.619",
+      "chunks": [
+        "teach_george"
+      ],
+      "key_words": [
+        "teach",
+        "caught"
+      ]
+    },
+    {
+      "id": "s06",
+      "text": "George must stand in the middle.",
+      "meaning_zh": "George必须站在中间。",
+      "subject": "a warm children's cartoon story scene showing: George必须站在中间。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:01:53.880",
+      "time_end": "00:01:58.380",
+      "chunks": [
+        "stand_in_middle"
+      ],
+      "key_words": [
+        "stand",
+        "middle"
+      ]
+    },
+    {
+      "id": "s07",
+      "text": "Peppa and Daddy Pig throw the ball.",
+      "meaning_zh": "Peppa和猪爸爸扔球。",
+      "subject": "two friendly cartoon animals throwing a bright red ball back and forth in a sunny garden, simple playful motion, no text, pure white background",
+      "time_start": "00:02:00.159",
+      "time_end": "00:02:04.659",
+      "chunks": [
+        "throw_the_ball"
+      ],
+      "key_words": [
+        "ball",
+        "throw"
+      ]
+    },
+    {
+      "id": "s08",
+      "text": "George catches the ball.",
+      "meaning_zh": "George接住球了。",
+      "subject": "a warm children's cartoon story scene showing: George接住球了。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:18.200",
+      "time_end": "00:02:22.700",
+      "chunks": [
+        "catch_the_ball"
+      ],
+      "key_words": [
+        "caught",
+        "ball"
+      ]
+    },
+    {
+      "id": "s09",
+      "text": "Hooray for George!",
+      "meaning_zh": "George好耶！",
+      "subject": "a warm children's cartoon story scene showing: George好耶！, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:02:18.200",
+      "time_end": "00:02:22.700",
+      "chunks": [],
+      "key_words": [
+        "hooray"
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "Now George is piggy in the middle.",
+      "meaning_zh": "现在George是中间的小猪。",
+      "subject": "a warm children's cartoon story scene showing: 现在George是中间的小猪。, expressive animal characters, one clear moment, no written words, pure white background",
+      "time_start": "00:03:54.640",
+      "time_end": "00:03:59.140",
+      "chunks": [
+        "piggy_middle"
+      ],
+      "key_words": [
+        "piggy",
+        "middle"
+      ]
+    }
+  ]
+}

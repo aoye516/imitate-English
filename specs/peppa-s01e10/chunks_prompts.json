@@ -1,0 +1,153 @@
+{
+  "_style": "儿童 App UI 素材, painterly children book illustration, 温暖配色（赭石、琥珀、柔和粉橙）, 柔和阴影, ⚠️纯白色背景 pure white background, 居中构图, 单一动作场景, 正方形, 无任何文字",
+  "chunks": [
+    {
+      "id": "plant_seeds",
+      "text": "plant seeds",
+      "subject": "a clear child-friendly illustration of the phrase 'plant seeds' meaning 种种子, no written words, one simple action, expressive characters",
+      "meaning_zh": "种种子",
+      "covers_words": [
+        "plant",
+        "seed"
+      ]
+    },
+    {
+      "id": "grow_big",
+      "text": "grow big",
+      "subject": "a clear child-friendly illustration of the phrase 'grow big' meaning 长大, no written words, one simple action, expressive characters",
+      "meaning_zh": "长大",
+      "covers_words": [
+        "grow",
+        "bigger"
+      ]
+    },
+    {
+      "id": "water_plants",
+      "text": "water the plants",
+      "subject": "a clear child-friendly illustration of the phrase 'water the plants' meaning 给植物浇水, no written words, one simple action, expressive characters",
+      "meaning_zh": "给植物浇水",
+      "covers_words": [
+        "water",
+        "plant"
+      ]
+    },
+    {
+      "id": "dig_hole",
+      "text": "dig a hole",
+      "subject": "a clear child-friendly illustration of the phrase 'dig a hole' meaning 挖洞, no written words, one simple action, expressive characters",
+      "meaning_zh": "挖洞",
+      "covers_words": [
+        "hole"
+      ]
+    },
+    {
+      "id": "in_the_earth",
+      "text": "in the earth",
+      "subject": "a clear child-friendly illustration of the phrase 'in the earth' meaning 在泥土里, no written words, one simple action, expressive characters",
+      "meaning_zh": "在泥土里",
+      "covers_words": [
+        "earth"
+      ]
+    },
+    {
+      "id": "tiny_seed",
+      "text": "tiny seed",
+      "subject": "a clear child-friendly illustration of the phrase 'tiny seed' meaning 小小种子, no written words, one simple action, expressive characters",
+      "meaning_zh": "小小种子",
+      "covers_words": [
+        "tiny",
+        "seed"
+      ]
+    },
+    {
+      "id": "choose_seeds",
+      "text": "choose some seeds",
+      "subject": "a clear child-friendly illustration of the phrase 'choose some seeds' meaning 选择种子, no written words, one simple action, expressive characters",
+      "meaning_zh": "选择种子",
+      "covers_words": [
+        "choose",
+        "seed"
+      ]
+    },
+    {
+      "id": "wait_and_see",
+      "text": "wait and see",
+      "subject": "a clear child-friendly illustration of the phrase 'wait and see' meaning 等等看, no written words, one simple action, expressive characters",
+      "meaning_zh": "等等看",
+      "covers_words": [
+        "wait",
+        "see"
+      ]
+    },
+    {
+      "id": "cover_with_earth",
+      "text": "cover with earth",
+      "meaning_zh": "用泥土盖住",
+      "subject": "a clear child-friendly illustration of the phrase 'cover with earth' meaning 用泥土盖住, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "cover",
+        "earth"
+      ]
+    },
+    {
+      "id": "wait_all_day",
+      "text": "wait all day",
+      "meaning_zh": "等一整天",
+      "subject": "a clear child-friendly illustration of the phrase 'wait all day' meaning 等一整天, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "wait",
+        "day"
+      ]
+    },
+    {
+      "id": "grown_bigger",
+      "text": "grown bigger",
+      "meaning_zh": "长大了",
+      "subject": "a clear child-friendly illustration of the phrase 'grown bigger' meaning 长大了, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "grown",
+        "bigger"
+      ]
+    },
+    {
+      "id": "special_seed",
+      "text": "special seed",
+      "meaning_zh": "特别的种子",
+      "subject": "a clear child-friendly illustration of the phrase 'special seed' meaning 特别的种子, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "special",
+        "seed"
+      ]
+    },
+    {
+      "id": "exactly_right",
+      "text": "exactly right",
+      "meaning_zh": "正正好",
+      "subject": "a clear child-friendly illustration of the phrase 'exactly right' meaning 正正好, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "exactly",
+        "right"
+      ]
+    },
+    {
+      "id": "go_back_house",
+      "text": "go back to the house",
+      "meaning_zh": "回到房子里",
+      "subject": "a clear child-friendly illustration of the phrase 'go back to the house' meaning 回到房子里, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "back",
+        "house"
+      ]
+    },
+    {
+      "id": "say_bye",
+      "text": "say bye",
+      "meaning_zh": "说再见",
+      "subject": "a clear child-friendly illustration of the phrase 'say bye' meaning 说再见, one simple action, warm cartoon animals, no written words",
+      "covers_words": [
+        "bye",
+        "say"
+      ]
+    }
+  ]
+}

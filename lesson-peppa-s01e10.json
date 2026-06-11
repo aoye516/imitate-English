@@ -1,0 +1,928 @@
+{
+  "id": "peppa-s01e10",
+  "title": "Gardening",
+  "level": 1,
+  "duration_seconds": 300,
+  "words": [
+    {
+      "lemma": "grow",
+      "freq": 46,
+      "audio": "assets/audio/grow.mp3",
+      "audio_slow": "assets/audio/grow_slow.mp3",
+      "image": "assets/images/grow.webp",
+      "skip_image": false,
+      "meaning_zh": "生长",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "seed",
+      "freq": 41,
+      "audio": "assets/audio/seed.mp3",
+      "audio_slow": "assets/audio/seed_slow.mp3",
+      "image": "assets/images/seed.webp",
+      "skip_image": false,
+      "meaning_zh": "种子",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "plant",
+      "freq": 28,
+      "audio": "assets/audio/plant.mp3",
+      "audio_slow": "assets/audio/plant_slow.mp3",
+      "image": "assets/images/plant.webp",
+      "skip_image": false,
+      "meaning_zh": "种/植物",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "strawberry",
+      "freq": 20,
+      "audio": "assets/audio/strawberry.mp3",
+      "audio_slow": "assets/audio/strawberry_slow.mp3",
+      "image": "assets/images/strawberry.webp",
+      "skip_image": false,
+      "meaning_zh": "草莓",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "apple",
+      "freq": 17,
+      "audio": "assets/audio/apple.mp3",
+      "audio_slow": "assets/audio/apple_slow.mp3",
+      "image": "assets/images/apple.webp",
+      "skip_image": false,
+      "meaning_zh": "苹果",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "carrot",
+      "freq": 9,
+      "audio": "assets/audio/carrot.mp3",
+      "audio_slow": "assets/audio/carrot_slow.mp3",
+      "image": "assets/images/carrot.webp",
+      "skip_image": false,
+      "meaning_zh": "胡萝卜",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "choose",
+      "freq": 9,
+      "audio": "assets/audio/choose.mp3",
+      "audio_slow": "assets/audio/choose_slow.mp3",
+      "image": "assets/images/choose.webp",
+      "skip_image": false,
+      "meaning_zh": "选择",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "tiny",
+      "freq": 9,
+      "audio": "assets/audio/tiny.mp3",
+      "audio_slow": "assets/audio/tiny_slow.mp3",
+      "image": "assets/images/tiny.webp",
+      "skip_image": false,
+      "meaning_zh": "很小",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "water",
+      "freq": 9,
+      "audio": "assets/audio/water.mp3",
+      "audio_slow": "assets/audio/water_slow.mp3",
+      "image": "assets/images/water.webp",
+      "skip_image": false,
+      "meaning_zh": "浇水",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bigger",
+      "freq": 6,
+      "audio": "assets/audio/bigger.mp3",
+      "audio_slow": "assets/audio/bigger_slow.mp3",
+      "image": "assets/images/bigger.webp",
+      "skip_image": false,
+      "meaning_zh": "更大",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "earth",
+      "freq": 6,
+      "audio": "assets/audio/earth.mp3",
+      "audio_slow": "assets/audio/earth_slow.mp3",
+      "image": "assets/images/earth.webp",
+      "skip_image": false,
+      "meaning_zh": "泥土",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "hole",
+      "freq": 6,
+      "audio": "assets/audio/hole.mp3",
+      "audio_slow": "assets/audio/hole_slow.mp3",
+      "image": "assets/images/hole.webp",
+      "skip_image": false,
+      "meaning_zh": "洞",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "wait",
+      "freq": 6,
+      "audio": "assets/audio/wait.mp3",
+      "audio_slow": "assets/audio/wait_slow.mp3",
+      "image": "assets/images/wait.webp",
+      "skip_image": false,
+      "meaning_zh": "等待",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "day",
+      "freq": 12,
+      "audio": "assets/audio/day.mp3",
+      "audio_slow": "assets/audio/day_slow.mp3",
+      "image": "assets/images/day.webp",
+      "skip_image": false,
+      "meaning_zh": "一天",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "cover",
+      "freq": 6,
+      "audio": "assets/audio/cover.mp3",
+      "audio_slow": "assets/audio/cover_slow.mp3",
+      "image": "assets/images/cover.webp",
+      "skip_image": false,
+      "meaning_zh": "盖住",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "house",
+      "freq": 3,
+      "audio": "assets/audio/house.mp3",
+      "audio_slow": "assets/audio/house_slow.mp3",
+      "image": "assets/images/house.webp",
+      "skip_image": false,
+      "meaning_zh": "房子",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "even",
+      "freq": 3,
+      "audio": "assets/audio/even.mp3",
+      "audio_slow": "assets/audio/even_slow.mp3",
+      "image": "assets/images/even.webp",
+      "skip_image": false,
+      "meaning_zh": "甚至",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "exactly",
+      "freq": 3,
+      "audio": "assets/audio/exactly.mp3",
+      "audio_slow": "assets/audio/exactly_slow.mp3",
+      "image": "assets/images/exactly.webp",
+      "skip_image": false,
+      "meaning_zh": "正好",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "grown",
+      "freq": 3,
+      "audio": "assets/audio/grown.mp3",
+      "audio_slow": "assets/audio/grown_slow.mp3",
+      "image": "assets/images/grown.webp",
+      "skip_image": false,
+      "meaning_zh": "长成",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "special",
+      "freq": 3,
+      "audio": "assets/audio/special.mp3",
+      "audio_slow": "assets/audio/special_slow.mp3",
+      "image": "assets/images/special.webp",
+      "skip_image": false,
+      "meaning_zh": "特别的",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    },
+    {
+      "lemma": "bye",
+      "freq": 2,
+      "audio": "assets/audio/bye.mp3",
+      "audio_slow": "assets/audio/bye_slow.mp3",
+      "image": "assets/images/bye.webp",
+      "skip_image": false,
+      "meaning_zh": "再见",
+      "spelling_visible": true,
+      "reused_from_prior": false
+    }
+  ],
+  "episode_words": [
+    {
+      "lemma": "apple",
+      "freq": 17,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "苹果"
+    },
+    {
+      "lemma": "back",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "bigger",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "更大"
+    },
+    {
+      "lemma": "bye",
+      "freq": 2,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "再见"
+    },
+    {
+      "lemma": "carrot",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "胡萝卜"
+    },
+    {
+      "lemma": "choose",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "选择"
+    },
+    {
+      "lemma": "cover",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "盖住"
+    },
+    {
+      "lemma": "day",
+      "freq": 12,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "一天"
+    },
+    {
+      "lemma": "earth",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "泥土"
+    },
+    {
+      "lemma": "even",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "甚至"
+    },
+    {
+      "lemma": "exactly",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "正好"
+    },
+    {
+      "lemma": "garden",
+      "freq": 3,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "grow",
+      "freq": 46,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "生长"
+    },
+    {
+      "lemma": "grown",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "长成"
+    },
+    {
+      "lemma": "hole",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "洞"
+    },
+    {
+      "lemma": "house",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "房子"
+    },
+    {
+      "lemma": "plant",
+      "freq": 28,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "种/植物"
+    },
+    {
+      "lemma": "right",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "say",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "see",
+      "freq": 0,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "seed",
+      "freq": 41,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "种子"
+    },
+    {
+      "lemma": "special",
+      "freq": 3,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "特别的"
+    },
+    {
+      "lemma": "strawberry",
+      "freq": 20,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "草莓"
+    },
+    {
+      "lemma": "tiny",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "很小"
+    },
+    {
+      "lemma": "tree",
+      "freq": 19,
+      "is_new": false,
+      "has_card": false,
+      "meaning_zh": ""
+    },
+    {
+      "lemma": "wait",
+      "freq": 6,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "等待"
+    },
+    {
+      "lemma": "water",
+      "freq": 9,
+      "is_new": true,
+      "has_card": true,
+      "meaning_zh": "浇水"
+    }
+  ],
+  "new_words": [
+    "apple",
+    "bigger",
+    "bye",
+    "carrot",
+    "choose",
+    "cover",
+    "day",
+    "earth",
+    "even",
+    "exactly",
+    "grow",
+    "grown",
+    "hole",
+    "house",
+    "plant",
+    "seed",
+    "special",
+    "strawberry",
+    "tiny",
+    "wait",
+    "water"
+  ],
+  "reused_words": [
+    "back",
+    "garden",
+    "right",
+    "say",
+    "see",
+    "tree"
+  ],
+  "chunks": [
+    {
+      "id": "plant_seeds",
+      "text": "plant seeds",
+      "meaning_zh": "种种子",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/plant_seeds.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/plant_seeds_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/plant_seeds.webp",
+      "covers_words": [
+        "plant",
+        "seed"
+      ]
+    },
+    {
+      "id": "grow_big",
+      "text": "grow big",
+      "meaning_zh": "长大",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/grow_big.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/grow_big_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/grow_big.webp",
+      "covers_words": [
+        "grow",
+        "bigger"
+      ]
+    },
+    {
+      "id": "water_plants",
+      "text": "water the plants",
+      "meaning_zh": "给植物浇水",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/water_plants.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/water_plants_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/water_plants.webp",
+      "covers_words": [
+        "water",
+        "plant"
+      ]
+    },
+    {
+      "id": "dig_hole",
+      "text": "dig a hole",
+      "meaning_zh": "挖洞",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/dig_hole.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/dig_hole_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/dig_hole.webp",
+      "covers_words": [
+        "hole"
+      ]
+    },
+    {
+      "id": "in_the_earth",
+      "text": "in the earth",
+      "meaning_zh": "在泥土里",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/in_the_earth.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/in_the_earth_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/in_the_earth.webp",
+      "covers_words": [
+        "earth"
+      ]
+    },
+    {
+      "id": "tiny_seed",
+      "text": "tiny seed",
+      "meaning_zh": "小小种子",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/tiny_seed.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/tiny_seed_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/tiny_seed.webp",
+      "covers_words": [
+        "tiny",
+        "seed"
+      ]
+    },
+    {
+      "id": "choose_seeds",
+      "text": "choose some seeds",
+      "meaning_zh": "选择种子",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/choose_seeds.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/choose_seeds_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/choose_seeds.webp",
+      "covers_words": [
+        "choose",
+        "seed"
+      ]
+    },
+    {
+      "id": "wait_and_see",
+      "text": "wait and see",
+      "meaning_zh": "等等看",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/wait_and_see.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/wait_and_see_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/wait_and_see.webp",
+      "covers_words": [
+        "wait",
+        "see"
+      ]
+    },
+    {
+      "id": "cover_with_earth",
+      "text": "cover with earth",
+      "meaning_zh": "用泥土盖住",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/cover_with_earth.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/cover_with_earth_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/cover_with_earth.webp",
+      "covers_words": [
+        "cover",
+        "earth"
+      ]
+    },
+    {
+      "id": "wait_all_day",
+      "text": "wait all day",
+      "meaning_zh": "等一整天",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/wait_all_day.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/wait_all_day_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/wait_all_day.webp",
+      "covers_words": [
+        "wait",
+        "day"
+      ]
+    },
+    {
+      "id": "grown_bigger",
+      "text": "grown bigger",
+      "meaning_zh": "长大了",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/grown_bigger.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/grown_bigger_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/grown_bigger.webp",
+      "covers_words": [
+        "grown",
+        "bigger"
+      ]
+    },
+    {
+      "id": "special_seed",
+      "text": "special seed",
+      "meaning_zh": "特别的种子",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/special_seed.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/special_seed_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/special_seed.webp",
+      "covers_words": [
+        "special",
+        "seed"
+      ]
+    },
+    {
+      "id": "exactly_right",
+      "text": "exactly right",
+      "meaning_zh": "正正好",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/exactly_right.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/exactly_right_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/exactly_right.webp",
+      "covers_words": [
+        "exactly",
+        "right"
+      ]
+    },
+    {
+      "id": "go_back_house",
+      "text": "go back to the house",
+      "meaning_zh": "回到房子里",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/go_back_house.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/go_back_house_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/go_back_house.webp",
+      "covers_words": [
+        "back",
+        "house"
+      ]
+    },
+    {
+      "id": "say_bye",
+      "text": "say bye",
+      "meaning_zh": "说再见",
+      "audio_tts": "assets/peppa-s01e10/chunks_audio_tts/say_bye.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/chunks_audio_tts/say_bye_slow.mp3",
+      "image": "assets/peppa-s01e10/chunks_images/say_bye.webp",
+      "covers_words": [
+        "bye",
+        "say"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s01",
+      "text_admin_only": "Grandpa Pig is gardening.",
+      "meaning_zh": "猪爷爷在园艺。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s01.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s01_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s01.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s01.webp",
+      "chunks": [],
+      "key_words": [
+        "garden"
+      ],
+      "time_start": "00:01:07.840",
+      "time_end": "00:01:12.340"
+    },
+    {
+      "id": "s02",
+      "text_admin_only": "Peppa and George want to plant seeds.",
+      "meaning_zh": "Peppa和George想种种子。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s02.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s02_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s02.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s02.webp",
+      "chunks": [
+        "plant_seeds"
+      ],
+      "key_words": [
+        "plant",
+        "seed"
+      ],
+      "time_start": "00:00:59.359",
+      "time_end": "00:01:03.859"
+    },
+    {
+      "id": "s03",
+      "text_admin_only": "They choose some seeds.",
+      "meaning_zh": "他们选择了一些种子。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s03.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s03_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s03.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s03.webp",
+      "chunks": [
+        "choose_seeds"
+      ],
+      "key_words": [
+        "choose",
+        "seed"
+      ],
+      "time_start": "00:04:07.200",
+      "time_end": "00:04:11.700"
+    },
+    {
+      "id": "s04",
+      "text_admin_only": "The seeds are very tiny.",
+      "meaning_zh": "种子非常小。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s04.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s04_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s04.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s04.webp",
+      "chunks": [
+        "tiny_seed"
+      ],
+      "key_words": [
+        "seed",
+        "tiny"
+      ],
+      "time_start": "00:01:18.080",
+      "time_end": "00:01:22.580"
+    },
+    {
+      "id": "s05",
+      "text_admin_only": "Grandpa Pig digs a hole in the earth.",
+      "meaning_zh": "猪爷爷在泥土里挖了个洞。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s05.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s05_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s05.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s05.webp",
+      "chunks": [
+        "dig_hole",
+        "in_the_earth"
+      ],
+      "key_words": [
+        "hole",
+        "earth"
+      ],
+      "time_start": "00:02:10.319",
+      "time_end": "00:02:14.819"
+    },
+    {
+      "id": "s06",
+      "text_admin_only": "Peppa waters the seeds.",
+      "meaning_zh": "Peppa给种子浇水。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s06.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s06_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s06.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s06.webp",
+      "chunks": [
+        "water_plants"
+      ],
+      "key_words": [
+        "water",
+        "seed"
+      ],
+      "time_start": "00:01:04.000",
+      "time_end": "00:01:08.500"
+    },
+    {
+      "id": "s07",
+      "text_admin_only": "Now they must wait.",
+      "meaning_zh": "现在他们必须等待。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s07.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s07_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s07.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s07.webp",
+      "chunks": [
+        "wait_and_see"
+      ],
+      "key_words": [
+        "wait"
+      ],
+      "time_start": "00:02:42.800",
+      "time_end": "00:02:47.300"
+    },
+    {
+      "id": "s08",
+      "text_admin_only": "The plants are growing bigger.",
+      "meaning_zh": "植物越长越大。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s08.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s08_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s08.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s08.webp",
+      "chunks": [
+        "grow_big"
+      ],
+      "key_words": [
+        "plant",
+        "grow",
+        "bigger"
+      ],
+      "time_start": "00:03:23.920",
+      "time_end": "00:03:28.420"
+    },
+    {
+      "id": "s09",
+      "text_admin_only": "There are strawberries and carrots.",
+      "meaning_zh": "有草莓和胡萝卜。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s09.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s09_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s09.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s09.webp",
+      "chunks": [],
+      "key_words": [
+        "strawberry",
+        "carrot"
+      ],
+      "time_start": "00:02:42.800",
+      "time_end": "00:02:47.300"
+    },
+    {
+      "id": "s10",
+      "text_admin_only": "An apple tree grows from a seed.",
+      "meaning_zh": "苹果树从种子长出来。",
+      "audio_tts": "assets/peppa-s01e10/sentences_audio_tts/s10.mp3",
+      "audio_tts_slow": "assets/peppa-s01e10/sentences_audio_tts/s10_slow.mp3",
+      "audio_clip": "assets/peppa-s01e10/sentences_audio_clip/s10.mp3",
+      "image": "assets/peppa-s01e10/sentences_images/s10.webp",
+      "chunks": [
+        "grow_big"
+      ],
+      "key_words": [
+        "apple",
+        "tree",
+        "grow",
+        "seed"
+      ],
+      "time_start": "00:01:18.080",
+      "time_end": "00:01:22.580"
+    }
+  ],
+  "distractors": {
+    "grow": [
+      "exactly",
+      "water",
+      "tiny"
+    ],
+    "seed": [
+      "wait",
+      "strawberry",
+      "water"
+    ],
+    "plant": [
+      "hole",
+      "even",
+      "carrot"
+    ],
+    "strawberry": [
+      "hole",
+      "earth",
+      "seed"
+    ],
+    "apple": [
+      "grow",
+      "water",
+      "day"
+    ],
+    "carrot": [
+      "seed",
+      "wait",
+      "choose"
+    ],
+    "choose": [
+      "apple",
+      "cover",
+      "earth"
+    ],
+    "tiny": [
+      "exactly",
+      "day",
+      "seed"
+    ],
+    "water": [
+      "exactly",
+      "tiny",
+      "bigger"
+    ],
+    "bigger": [
+      "grown",
+      "wait",
+      "apple"
+    ],
+    "earth": [
+      "apple",
+      "day",
+      "exactly"
+    ],
+    "hole": [
+      "grown",
+      "choose",
+      "bigger"
+    ],
+    "wait": [
+      "strawberry",
+      "tiny",
+      "special"
+    ],
+    "day": [
+      "earth",
+      "water",
+      "special"
+    ],
+    "cover": [
+      "house",
+      "even",
+      "grown"
+    ],
+    "house": [
+      "grow",
+      "bigger",
+      "carrot"
+    ],
+    "even": [
+      "grow",
+      "day",
+      "choose"
+    ],
+    "exactly": [
+      "choose",
+      "apple",
+      "water"
+    ],
+    "grown": [
+      "water",
+      "house",
+      "plant"
+    ],
+    "special": [
+      "even",
+      "choose",
+      "wait"
+    ],
+    "bye": [
+      "plant",
+      "seed",
+      "day"
+    ]
+  }
+}
